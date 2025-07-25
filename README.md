@@ -8,5 +8,5 @@ Missing HDF5 with Fortran Support:
 
 ```bash
 sudo apt update
-sudo apt install libhdf5-dev libhdf5-fortran-dev
+sudo apt install libhdf5-dev libhdf5-fortran-102
 ```
