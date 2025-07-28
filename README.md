@@ -1,38 +1,25 @@
-# Installation of LMGC90
-
-### Download LMGC90
-https://lmgc90.pages-git-xen.lmgc.univ-montp2.fr/lmgc90_dev/downloads/lmgc90_user_2025.rc1.zip
-
-### Create Environment
-```bash
-conda env create -f environment.yml
-conda activate lmgc
-```
-### Build LMGC90
-```bash
-cd build
-cmake -DCMAKE_BUILD_TYPE=Release -DVENV_PATH=$CONDA_PREFIX ..
-make -j$(nproc)
-```
- 
-### Run Examples
-```bash
-export PYTHONPATH=/home/pv/brg/code_fortran/lmgc90_user_2025.rc1/build:$PYTHONPATH
-cd examples/compas
-python command.py
-```
-
-## Ubuntu
+# LMGC90 project: user version #
 
 
-<img width="1693" height="1281" alt="image" src="https://github.com/user-attachments/assets/9a4c4711-8879-4201-9a69-907ed89e0271" />
+# Downloading
 
-Missing HDF5 with Fortran Support:
+To get the project please check [here](https://git-xen.lmgc.univ-montp2.fr/lmgc90/lmgc90_user/wikis/home)
 
-```bash
-sudo apt update
-sudo apt install libhdf5-dev libhdf5-fortran-102
-cd build
-cmake ..
-make
-```
+# Contact us
+
+If you'd like to discuss a bad behavior during a simulation, to propose a non 
+regression test, to propose a new feature or any thing relative to the 
+development of LMGC90, please contact us via this mailing list:
+
+lmgc90-user@groupes.renater.fr
+
+To stay aware, you can subscribe to this mailing list by asking to:
+ - Dubois Frédéric : frederic.dubois@umontpellier.fr
+ - Rémy Mozul : remy.mozul@umontpellier.fr
+
+# How does it work
+
+To obtain up to date informations on how to download/install/use, please check the
+[wiki](https://git-xen.lmgc.univ-montp2.fr/lmgc90/lmgc90_user/wikis/home#how-does-it-work)
+
+

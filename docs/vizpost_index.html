@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Displaying and postprocessing results of LMGC90 &#8212; pylmgc90 2025.rc1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Input and Output files in LMGC90" href="restart_index.html" />
+    <link rel="prev" title="Kernel options" href="chipy_kernel.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="restart_index.html" title="Input and Output files in LMGC90"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="chipy_kernel.html" title="Kernel options"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylmgc90 2025.rc1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="chipy_index.html" accesskey="U">LMGC90 computation documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Displaying and postprocessing results of LMGC90</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="displaying-and-postprocessing-results-of-lmgc90">
+<h1>Displaying and postprocessing results of LMGC90<a class="headerlink" href="#displaying-and-postprocessing-results-of-lmgc90" title="Permalink to this headline">¶</a></h1>
+<section id="displaying">
+<h2>Displaying<a class="headerlink" href="#displaying" title="Permalink to this headline">¶</a></h2>
+<p>LMGC90 offers <em>functions</em> to generates <strong>vtk</strong> files. Such files can be displayed by paraview or visit.
+Check the jupyter notebook tutorial on basic visualization in the Tutorials to have a short overview
+on how to use paraview with these data.</p>
+<p>Generating <strong>vtk</strong> files is driven by some functions of the
+<strong>pylmgc90.chipy</strong> module</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># open some vtk files (pvd) and initialize some internal variables</span>
+<span class="n">chipy</span><span class="o">.</span><span class="n">OpenDisplayFiles</span><span class="p">()</span>
+
+<span class="c1"># Time loop</span>
+<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nb_steps</span><span class="p">):</span>
+
+  <span class="c1"># ...</span>
+
+  <span class="c1"># writes the vtk files</span>
+  <span class="n">chipy</span><span class="o">.</span><span class="n">WriteDisplayFiles</span><span class="p">()</span>
+
+<span class="c1"># close files</span>
+<span class="n">chipy</span><span class="o">.</span><span class="n">CloseDisplayFiles</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>See <a class="reference internal" href="chipy_macro.html#pylmgc90.chipy.macro.OpenDisplayFiles" title="pylmgc90.chipy.macro.OpenDisplayFiles"><code class="xref py py-func docutils literal notranslate"><span class="pre">OpenDisplayFiles()</span></code></a> for function optional arguments.
+In case of restart in an existing folder the value of
+argument <em>restart</em> will give ne number of the first file to write.</p>
+<p>See <a class="reference internal" href="chipy_macro.html#pylmgc90.chipy.macro.WriteDisplayFiles" title="pylmgc90.chipy.macro.WriteDisplayFiles"><code class="xref py py-func docutils literal notranslate"><span class="pre">WriteDisplayFiles()</span></code></a> for function optional arguments.</p>
+<p>Files are written in <strong>DISPLAY</strong> folder.  You will obtain sequence of vtmb
+(multi-block) files and pvd (xml) files which relates files to physical time.</p>
+<p>In the <strong>lmgc90_xx.vtmb</strong> files created (where <strong>xx</strong> is a file number)
+The following blocks are created :</p>
+<ul class="simple">
+<li><p><strong>mecafe</strong> : <em>MAILx</em> with <em>MECAx</em> model, the list of the nodal fields is:</p>
+<ul>
+<li><p><cite>Visible</cite>: is body visible (integer)</p></li>
+<li><p><cite>Disp</cite>   : displacement (double vector)</p></li>
+<li><p><cite>Reac</cite>   : contact reaction (double vector)</p></li>
+<li><p><cite>Velocy</cite> : velocity (double vector)</p></li>
+<li><p><cite>Ids</cite>    : body number (integer) (Fortran numbering)</p></li>
+<li><p><cite>Node Id</cite>: node number (integer) (Fortran numbering)</p></li>
+<li><p><cite>E</cite>      : strain (double tensor)</p></li>
+<li><p><cite>Evol</cite>   : volumic strain (double)</p></li>
+<li><p><cite>S</cite>      : stress (double tensor)</p></li>
+<li><p><cite>Svm</cite>    : von Mises stress (double)</p></li>
+<li><p><cite>Fdyn</cite>   : inertial force (double vector)</p></li>
+<li><p><cite>Fext</cite>   : external force (double vector)</p></li>
+<li><p><cite>Fint</cite>   : internal force (double vector)</p></li>
+<li><p><cite>Res</cite>    : residual (double vector)</p></li>
+</ul>
+</li>
+<li><p><strong>therfe</strong> : <em>MAILx</em> with <em>THERx</em> model, the list of nodal fields is:</p>
+<ul>
+<li><p><cite>Ids</cite>        : body number (integer) (Fortran numbering)</p></li>
+<li><p><cite>Node Id</cite>    : node number (integer) (Fortran numbering)</p></li>
+<li><p><cite>Temperature</cite>: temperature (double)</p></li>
+<li><p><cite>Grad</cite>       : gradient of temperature (double vector)</p></li>
+<li><p><cite>Flux</cite>       : flux (double)</p></li>
+</ul>
+</li>
+<li><p><strong>porofe</strong> : contains values attached to <em>MAILx</em> with <em>POROx</em> model</p>
+<ul>
+<li><p><cite>Visible</cite>      : is body visible (integer)</p></li>
+<li><p><cite>Disp</cite>         : displacement (double vector)</p></li>
+<li><p><cite>Velocity</cite>     : velocity (double vector)</p></li>
+<li><p><cite>Pressure</cite>     : pressure (double)</p></li>
+<li><p><cite>Ids</cite>          : body number (integer) (Fortran numbering)</p></li>
+<li><p><cite>Node Id</cite>      : node number (integer) (Fortran numbering)</p></li>
+<li><p><cite>Almani Strain</cite>: strain (double tensor)</p></li>
+<li><p><cite>Cauchy Stress</cite>: stress (double tensor)</p></li>
+<li><p><cite>Grad P</cite>       : gradient of pressure (double vector)</p></li>
+<li><p><cite>Darcy Flux</cite>   : fluid flux (double vector)</p></li>
+<li><p><cite>Fext</cite>         : external force (double vector)</p></li>
+<li><p><cite>Fint</cite>         : internal force (double vector)</p></li>
+<li><p><cite>Jacobien</cite>     : (integer)</p></li>
+</ul>
+</li>
+<li><p><strong>rigids</strong> : <em>RBDY2</em> or <em>RBDY3</em> models, the list of nodal fields is:</p>
+<ul>
+<li><p><cite>Visible</cite> : is body visible (integer)</p></li>
+<li><p><cite>Disp</cite>    : displacement (double vector)</p></li>
+<li><p><cite>Rot Z</cite>   : angular rotation Z (double) (2D only)</p></li>
+<li><p><cite>alpha</cite>   : first axis of inertia frame (double vector) (3D only)</p></li>
+<li><p><cite>beta</cite>    : second axis of inertia frame (double vector) (3D only)</p></li>
+<li><p><cite>gamma</cite>   : third axis of inertia frame (double vector) (3D only)</p></li>
+<li><p><cite>Velocy</cite>  : velocity (double vector)</p></li>
+<li><p><cite>Spin Z</cite>  : angular velocity around Z(double) (2D only)</p></li>
+<li><p><cite>Spin</cite>    : angular velocity (double vector) (3D only)</p></li>
+<li><p><cite>Reac</cite>    : contact reaction (double vector)</p></li>
+<li><p><cite>Torque Z</cite>: contact reaction moment around Z(double) (2D only)</p></li>
+<li><p><cite>Torque</cite>  : contact reaction moment (double vector) (3D only)</p></li>
+<li><p><cite>Ids</cite>     : body number (integer) (Fortran numbering)</p></li>
+<li><p><cite>Material</cite>: material id (integer)</p></li>
+<li><p><cite>Fext</cite>    : external force (double vector)</p></li>
+<li><p><cite>Mext Z</cite>  : external torque around Z (double) (2D only)</p></li>
+<li><p><cite>Mext</cite>    : external torque (double vector) (3D only)</p></li>
+</ul>
+</li>
+<li><p><strong>tacts</strong>  : contactors , the list of element fields is:</p>
+<ul>
+<li><p><cite>Visible</cite> : is body visible (integer)</p></li>
+<li><p><cite>Disp</cite>    : displacement (double vector)</p></li>
+<li><p><cite>Rot Z</cite>   : angular rotation Z (double) (2D only)</p></li>
+<li><p><cite>Velocy</cite>  : velocity (double vector)</p></li>
+<li><p><cite>Spin Z</cite>  : angular velocity around Z(double) (2D only)</p></li>
+<li><p><cite>Spin</cite>    : angular velocity (double vector) (3D only)</p></li>
+<li><p><cite>Reac</cite>    : contact reaction (double vector)</p></li>
+<li><p><cite>Torque Z</cite>: contact moment around Z (double) (2D only)</p></li>
+<li><p><cite>Torque</cite>  : contact moment (double vector) (3D only)</p></li>
+<li><p><cite>Ids</cite>     : body number (integer) (Fortran numbering)</p></li>
+<li><p><cite>Material</cite>: material id (integer)</p></li>
+<li><p><cite>Shape</cite>   : contactor id (integer)</p></li>
+</ul>
+</li>
+<li><p><strong>ptc</strong> : contacts points, the list of element fields is:</p>
+<ul>
+<li><p><cite>T</cite>     : first tangent vector (double vector)</p></li>
+<li><p><cite>N</cite>     : normal vector (double vector)</p></li>
+<li><p><cite>S</cite>     : second tangent vector (double vector) 3D only</p></li>
+<li><p><cite>R</cite>     : reaction (in global frame) (double vector)</p></li>
+<li><p><cite>inter</cite> : type id of interaction (integer)</p></li>
+<li><p><cite>icdan</cite> : id of interaction within <cite>inter</cite> numbering (integer) (Fortran numbering)</p></li>
+<li><p><cite>cdbdy</cite> : type of candidate body (integer)</p></li>
+<li><p><cite>icdbdy</cite>: id of candidate body (integer) (Fortran numbering)</p></li>
+<li><p><cite>anbdy</cite> : type of antagonist body (integer)</p></li>
+<li><p><cite>ianbdy</cite>: id of antagonist body (integer) (Fortran numbering)</p></li>
+<li><p><cite>behav</cite> : id of interaction law (integer) (Fortran numbering)</p></li>
+<li><p><cite>status</cite>: status of the contact (integer)</p></li>
+<li><p><cite>gap</cite>   : gap of the contact (double)</p></li>
+<li><p><cite>rlt</cite>   : local reaction, first tangent (double)</p></li>
+<li><p><cite>rln</cite>   : local reaction, normal (double)</p></li>
+<li><p><cite>rls</cite>   : local reaction, second tangent (double) 3D only</p></li>
+<li><p><cite>vlt</cite>   : local velocity, first tangent (double)</p></li>
+<li><p><cite>vln</cite>   : local velocity, normal (double)</p></li>
+<li><p><cite>vls</cite>   : local velocity, second tangent (double) 3D only</p></li>
+<li><p><cite>id</cite>    : id of interaction (integer) (Pyhon numbering)</p></li>
+</ul>
+</li>
+</ul>
+<p>It is possible to add some fields to the files. For example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># create an array to store a nodal field for each mesh</span>
+<span class="n">status</span><span class="o">=</span><span class="p">[]</span>
+<span class="c1"># here the nodal field is generated by a built-in function</span>
+<span class="n">status</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mecaMAILx_GetDofStatus</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+
+<span class="c1"># time loop</span>
+<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nb_steps</span><span class="p">):</span>
+
+  <span class="c1"># ...</span>
+
+  <span class="c1"># add a nodel field to mecafe files</span>
+  <span class="n">chipy</span><span class="o">.</span><span class="n">WriteDisplayFiles</span><span class="p">(</span><span class="n">freq</span><span class="o">=</span><span class="n">freq_display</span><span class="p">,</span><span class="n">DrvDof</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;mecafe&#39;</span><span class="p">,</span><span class="s1">&#39;node&#39;</span><span class="p">,</span><span class="n">status</span><span class="p">)</span> <span class="p">)</span>
+</pre></div>
+</div>
+<p>Some paraview macros are available in the <strong>src/addons/paraview</strong> directory
+allowing to extract block in the pipeline browser and do some usual settings.</p>
+</section>
+<section id="postprocessing">
+<h2>Postprocessing<a class="headerlink" href="#postprocessing" title="Permalink to this headline">¶</a></h2>
+<p>LMGC90 offers some builtin <em>functions</em> to analyze the results.</p>
+<p>Generating these files is driven by some functions of the
+<strong>pylmgc90.chipy</strong> module</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># open some postpro files and initialize some internal variables</span>
+<span class="n">chipy</span><span class="o">.</span><span class="n">OpenPostproFiles</span><span class="p">()</span>
+
+<span class="c1"># Time loop</span>
+
+  <span class="c1"># writes the vtk files</span>
+  <span class="n">chipy</span><span class="o">.</span><span class="n">WritePostproFiles</span><span class="p">()</span>
+
+<span class="c1"># close files</span>
+<span class="n">chipy</span><span class="o">.</span><span class="n">ClosePostproFiles</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>The <em>OpenPostproFiles()</em> function has an optional argument:
+<em>restart=0</em>. In case of restart in an existing folder the value of
+argument <em>restart</em> will give ne number of the first file to write.</p>
+<p>Files are created in <strong>POSTPRO</strong> folder.
+The postpro commands are declared during the pre-processing phase see
+<a class="reference internal" href="pre_post.html#pre-post-label"><span class="std std-ref">Managing POSTPRO</span></a> .
+The content of the files is described in <em>manuals/LMGC90_Postpro.pdf</em>.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Displaying and postprocessing results of LMGC90</a><ul>
+<li><a class="reference internal" href="#displaying">Displaying</a></li>
+<li><a class="reference internal" href="#postprocessing">Postprocessing</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="chipy_kernel.html"
+                        title="previous chapter">Kernel options</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="restart_index.html"
+                        title="next chapter">Input and Output files in LMGC90</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/vizpost_index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="restart_index.html" title="Input and Output files in LMGC90"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="chipy_kernel.html" title="Kernel options"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylmgc90 2025.rc1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="chipy_index.html" >LMGC90 computation documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Displaying and postprocessing results of LMGC90</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2025, CNRS, UM.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.2.
+    </div>
+  </body>
+</html>
