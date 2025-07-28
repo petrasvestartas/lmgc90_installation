@@ -1,0 +1,47 @@
+name: lmgc # conda env create -f environment.yml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core compilation tools
+  - python=3.10
+  - cmake
+  - gcc
+  - gxx
+  - gfortran
+  - liblapack
+  - swig
+  
+  # Core Python scientific packages
+  - numpy=1.26.4
+  - scipy
+  - matplotlib
+  - pandas
+  
+  # HDF5 support
+  - hdf5
+  - h5py
+  - h5utils
+  
+  # Visualization (ParaView via conda, VTK via pip to avoid conflicts)
+  - paraview=5.11.2
+  
+  # Jupyter notebook
+  - notebook
+  
+  # Documentation tools
+  - doxygen
+  - graphviz
+  - texlive-core  # equivalent to texlive-latex-extra
+  - imagemagick
+  
+  # Additional useful packages
+  - pip
+  
+  - pip:
+      - vtk==9.2.6  # Working version compatible with ParaView
+      - numpydoc
+      - compas
+      - compas_dem
+      - compas_viewer
+      - tessagon
