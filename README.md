@@ -1,5 +1,24 @@
 # Installation of LMGC90
 
+### 1. Create Environment
+```bash
+conda env create -f environment.yml
+conda activate lmgc
+```
+### 2. Build LMGC90
+```bash
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DVENV_PATH=$CONDA_PREFIX ..
+make -j$(nproc)
+```
+ 
+### 3. Run Examples
+```bash
+export PYTHONPATH=/home/pv/brg/code_fortran/lmgc90_user_2025.rc1/build:$PYTHONPATH
+cd examples/compas
+python command.py
+```
+
 ## Ubuntu
 
 
