@@ -1,0 +1,33 @@
+# Build directories
+build/
+build/*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Conda environment files (keep environment_final.yml)
+environment.yml.bak
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp

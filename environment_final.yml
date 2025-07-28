@@ -1,0 +1,42 @@
+name: lmgc # conda env create -f environment_final.yml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core compilation tools (macOS ARM64 compatible)
+  - python=3.11
+  - cmake
+  - clang_osx-arm64  # Use clang instead of gcc on macOS
+  - clangxx_osx-arm64  # Use clang++ instead of gxx on macOS
+  - gfortran
+  - liblapack
+  - swig
+  
+  # Core Python scientific packages
+  - numpy=1.26.4
+  - scipy
+  - matplotlib
+  - pandas
+  
+  # HDF5 support
+  - hdf5
+  - h5py
+  
+  # Jupyter notebook
+  - notebook
+  
+  # Documentation tools
+  - doxygen
+  - graphviz
+  - imagemagick
+  
+  # Additional useful packages
+  - pip
+  
+  - pip:
+      - vtk==9.3.0
+      - numpydoc
+      - compas
+      - compas_dem
+      - compas_viewer
+      - tessagon
