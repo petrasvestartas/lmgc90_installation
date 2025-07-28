@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__ExternalModels_8h" kind="file" language="C++">
+    <compoundname>wrap_ExternalModels.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__ExternalModels_8h_1a4d1d6e51d9da58aa503c2180ef7ac833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExternalModels_InitModels</definition>
+        <argsstring>(void)</argsstring>
+        <name>ExternalModels_InitModels</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initialize the external models (if any) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__ExternalModels_8h_1a4d1d6e51d9da58aa503c2180ef7ac833" kindref="member">ExternalModels_InitModels()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_ExternalModels.h" line="13" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_ExternalModels.h" declline="13" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__ExternalModels_8h_1a87c91af861fcf6d2cb0c95c518cf97ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExternalModels_StoreProperties</definition>
+        <argsstring>(void)</argsstring>
+        <name>ExternalModels_StoreProperties</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Store external models (if any) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__ExternalModels_8h_1a87c91af861fcf6d2cb0c95c518cf97ff" kindref="member">ExternalModels_StoreProperties()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_ExternalModels.h" line="23" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_ExternalModels.h" declline="23" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__ExternalModels_8h_1a2a160b99fc687129408f56390e8b2f39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExternalModels_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>ExternalModels_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within ExternalModels module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__ExternalModels_8h_1a2a160b99fc687129408f56390e8b2f39" kindref="member">ExternalModels_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_ExternalModels.h" line="34" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_ExternalModels.h" declline="34" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_ExternalModels_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_ExternalModels_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="wrap__ExternalModels_8h_1a4d1d6e51d9da58aa503c2180ef7ac833" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__ExternalModels_8h_1a4d1d6e51d9da58aa503c2180ef7ac833" kindref="member">ExternalModels_InitModels</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="wrap__ExternalModels_8h_1a87c91af861fcf6d2cb0c95c518cf97ff" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__ExternalModels_8h_1a87c91af861fcf6d2cb0c95c518cf97ff" kindref="member">ExternalModels_StoreProperties</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="wrap__ExternalModels_8h_1a2a160b99fc687129408f56390e8b2f39" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__ExternalModels_8h_1a2a160b99fc687129408f56390e8b2f39" kindref="member">ExternalModels_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_ExternalModels_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_ExternalModels.h"/>
+  </compounddef>
+</doxygen>

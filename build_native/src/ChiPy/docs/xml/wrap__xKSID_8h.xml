@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__xKSID_8h" kind="file" language="C++">
+    <compoundname>wrap_xKSID.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__xKSID_8h_1aa9ff9f26696b60e4417dd38b57d98260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_LoadTactors</definition>
+        <argsstring>()</argsstring>
+        <name>xKSID_LoadTactors</name>
+        <briefdescription>
+<para>load xKSID from RBDY2 and initialize existing_entites </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__xKSID_8h_1aa9ff9f26696b60e4417dd38b57d98260" kindref="member">xKSID_LoadTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="53" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="53" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a0464ab937096752381d3fbc084bcf5c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int xKSID_GetNbxKSID</definition>
+        <argsstring>(void)</argsstring>
+        <name>xKSID_GetNbxKSID</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of xKSID in the container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_diskx = <ref refid="wrap__xKSID_8h_1a0464ab937096752381d3fbc084bcf5c6" kindref="member">xKSID_GetNbxKSID()</ref></para>
+<para><simplesect kind="return"><para>nb_xKSID (integer) : the number of xKSID in container </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="70" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="70" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a3cdb8acddc9e92c1fe03c62a54ab5a9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_GetPtrxKSID2BDYTY</definition>
+        <argsstring>(int **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>xKSID_GetPtrxKSID2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+          <defname>dim</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return a pointer onto the map xksid2rbdy2 </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : xksid2rbdy2 = <ref refid="wrap__xKSID_8h_1a3cdb8acddc9e92c1fe03c62a54ab5a9b" kindref="member">xKSID_GetPtrxKSID2BDYTY()</ref></para>
+<para><simplesect kind="return"><para>xksid2rbdy2 (integer array) : reference on map between xksid rank and body/tact rank </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="88" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="88" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a9823c674faeb65fe68849a1215505b79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int xKSID_IsVisible</definition>
+        <argsstring>(int itact)</argsstring>
+        <name>xKSID_IsVisible</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <briefdescription>
+<para>return if a body visible </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : visible = xKSID_IsVisible(itact) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of xKSID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : 1 if body is visible, 0 else </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="105" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="105" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a972b054af2e158e087039d0734acde9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double xKSID_GetContactorRadius</definition>
+        <argsstring>(int itact)</argsstring>
+        <name>xKSID_GetContactorRadius</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <briefdescription>
+<para>Get the radius of a given xKSID. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : radius = xKSID_GetContactorRadius(itact) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of a xKSID (in the list of all the xKSID) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>radius (double) : the radius of the xKSID of rank itact </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="122" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="122" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1aa372d06ef929513694c0b0312bd8acc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_GetContactorCoor</definition>
+        <argsstring>(int itacty, double **r8_vector, int *r8_size)</argsstring>
+        <name>xKSID_GetContactorCoor</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>get coordinates of the center of a given xKSID </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : vector = xKSID_GetContactorCoor(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered contactor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (double array) : the desired vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="141" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="141" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a669dc01a31f6e2143d56628802be2c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_InitOutlines</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>xKSID_InitOutlines</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the outlines of all xKSID. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : outlines = <ref refid="wrap__xKSID_8h_1a669dc01a31f6e2143d56628802be2c38" kindref="member">xKSID_InitOutlines()</ref> <simplesect kind="return"><para>outlines (double array) : a reference on outlines_xKSID </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="159" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="159" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1af7c085bf6f2ef4be940b0bff69f8c62e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_InitScalarFields</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>xKSID_InitScalarFields</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the scalar fields of all xKSID. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : scalarfields = xKSID_InitScalarfields() <simplesect kind="return"><para>scalarfields (double array) : reference on scalarfields_xKSID array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="177" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="177" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a2fbc0b31d6b12bf0df810c37ae3ec0fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_UpdatePostdata</definition>
+        <argsstring>(void)</argsstring>
+        <name>xKSID_UpdatePostdata</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Update values of outlines_xKSID and scalarfields_xKSID pointers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : xKSID_UpdatePostdata </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="188" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="188" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1ae4a2f6874a2c94640f65a8ff84550cb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_GetNbPointOutlines</definition>
+        <argsstring>(int **pointer_out, int *length)</argsstring>
+        <name>xKSID_GetNbPointOutlines</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of cumulated outline points number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_pointOutlines = <ref refid="wrap__xKSID_8h_1ae4a2f6874a2c94640f65a8ff84550cb5" kindref="member">xKSID_GetNbPointOutlines()</ref> <simplesect kind="return"><para>nb_pointOutlines (integer array) : the cumulated number of outline points of the xKSID </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="205" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="205" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a9ba98a96426720ab2d0855dc552a44ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int xKSID_GetNbScalarFields</definition>
+        <argsstring>(void)</argsstring>
+        <name>xKSID_GetNbScalarFields</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of scalar fields of a xKSID. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_scalarfields = <ref refid="wrap__xKSID_8h_1a9ba98a96426720ab2d0855dc552a44ee" kindref="member">xKSID_GetNbScalarFields()</ref> <simplesect kind="return"><para>nb_scalarfields (integer) : the number of scalar fields of a xKSID </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="221" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="221" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a9912eceec307a25de3d2c70633f8d9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>xKSID_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within xKSID module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__xKSID_8h_1a9912eceec307a25de3d2c70633f8d9c3" kindref="member">xKSID_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="231" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="231" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a8842f1ba8ddec8033948bcb223ba1c53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_SetXdilation</definition>
+        <argsstring>(int itacty, double x)</argsstring>
+        <name>xKSID_SetXdilation</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>set increase of radius of a xKSID due to expansion </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : xKSID_SetXdilation(itacty,x)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered contactor</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) : increase of radius </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="250" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="250" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__xKSID_8h_1a45d706e8c8e5e92218241385dba3f20a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xKSID_SetVdilation</definition>
+        <argsstring>(int itacty, double v)</argsstring>
+        <name>xKSID_SetVdilation</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>set increase rate of radius of a xKSID due to expansion </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : xKSID_SetVdilation(itacty, v)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of contactor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) : radius increase rate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" line="269" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h" declline="269" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_xKSID_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_xKSID_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="wrap__xKSID_8h_1aa9ff9f26696b60e4417dd38b57d98260" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1aa9ff9f26696b60e4417dd38b57d98260" kindref="member">xKSID_LoadTactors</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="wrap__xKSID_8h_1a0464ab937096752381d3fbc084bcf5c6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a0464ab937096752381d3fbc084bcf5c6" kindref="member">xKSID_GetNbxKSID</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="88" refid="wrap__xKSID_8h_1a3cdb8acddc9e92c1fe03c62a54ab5a9b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a3cdb8acddc9e92c1fe03c62a54ab5a9b" kindref="member">xKSID_GetPtrxKSID2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="wrap__xKSID_8h_1a9823c674faeb65fe68849a1215505b79" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a9823c674faeb65fe68849a1215505b79" kindref="member">xKSID_IsVisible</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="wrap__xKSID_8h_1a972b054af2e158e087039d0734acde9c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a972b054af2e158e087039d0734acde9c" kindref="member">xKSID_GetContactorRadius</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="wrap__xKSID_8h_1aa372d06ef929513694c0b0312bd8acc3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1aa372d06ef929513694c0b0312bd8acc3" kindref="member">xKSID_GetContactorCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="wrap__xKSID_8h_1a669dc01a31f6e2143d56628802be2c38" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a669dc01a31f6e2143d56628802be2c38" kindref="member">xKSID_InitOutlines</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="wrap__xKSID_8h_1af7c085bf6f2ef4be940b0bff69f8c62e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1af7c085bf6f2ef4be940b0bff69f8c62e" kindref="member">xKSID_InitScalarFields</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="wrap__xKSID_8h_1a2fbc0b31d6b12bf0df810c37ae3ec0fe" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a2fbc0b31d6b12bf0df810c37ae3ec0fe" kindref="member">xKSID_UpdatePostdata</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="wrap__xKSID_8h_1ae4a2f6874a2c94640f65a8ff84550cb5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1ae4a2f6874a2c94640f65a8ff84550cb5" kindref="member">xKSID_GetNbPointOutlines</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>length);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="221" refid="wrap__xKSID_8h_1a9ba98a96426720ab2d0855dc552a44ee" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a9ba98a96426720ab2d0855dc552a44ee" kindref="member">xKSID_GetNbScalarFields</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="wrap__xKSID_8h_1a9912eceec307a25de3d2c70633f8d9c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a9912eceec307a25de3d2c70633f8d9c3" kindref="member">xKSID_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="wrap__xKSID_8h_1a8842f1ba8ddec8033948bcb223ba1c53" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a8842f1ba8ddec8033948bcb223ba1c53" kindref="member">xKSID_SetXdilation</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="wrap__xKSID_8h_1a45d706e8c8e5e92218241385dba3f20a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__xKSID_8h_1a45d706e8c8e5e92218241385dba3f20a" kindref="member">xKSID_SetVdilation</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_xKSID<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_xKSID.h"/>
+  </compounddef>
+</doxygen>

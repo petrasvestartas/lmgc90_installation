@@ -1,0 +1,1 @@
+/opt/homebrew/bin/g++-14  -fPIC -O3 -O3 -DNDEBUG -bundle -Wl,-headerpad_max_install_names -o ../../../../pylmgc90/ann/_ann_manh.so CMakeFiles/ann_manh.dir/CMakeFiles/ann_manh.dir/ann_manhPYTHON_wrap.cxx.o  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/libpython3.11.dylib ../../../../lib/libann_manhattan.a

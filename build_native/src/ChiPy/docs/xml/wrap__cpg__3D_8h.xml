@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__cpg__3D_8h" kind="file" language="C++">
+    <compoundname>wrap_cpg_3D.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1a0ab2b0603f54ef9e9eeba7e1c54a0893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_ExIter</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_ExIter</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Execute one CPG iteration over the contact loop. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg__3D_8h_1a0ab2b0603f54ef9e9eeba7e1c54a0893" kindref="member">cpg_3D_ExIter()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="53" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="53" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1a9387dcd2d05e731ee85b6df530b1ebc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_AfterIterCheck</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_AfterIterCheck</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Control CPG convergence. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg__3D_8h_1a9387dcd2d05e731ee85b6df530b1ebc8" kindref="member">cpg_3D_AfterIterCheck()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="63" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="63" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1a2329cf859b5218000b78700be5b39c8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_ExPost</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_ExPost</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Transfer local solution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg__3D_8h_1a2329cf859b5218000b78700be5b39c8e" kindref="member">cpg_3D_ExPost()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="73" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="73" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1a165b6027e2bdf98d3e7cd47e8d5b7097" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_ExPrep</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_ExPrep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>prepare the matrix and the RHS of the contact problem </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg__3D_8h_1a165b6027e2bdf98d3e7cd47e8d5b7097" kindref="member">cpg_3D_ExPrep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="83" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="83" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1ac66a3c073263a6cfe1d1102f8ab44d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_ScaleRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_ScaleRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>scale all local contact forces of a factor equal to 0.9 &lt; f &lt; 1.1 </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg__3D_8h_1ac66a3c073263a6cfe1d1102f8ab44d64" kindref="member">cpg_3D_ScaleRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="93" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="93" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1abd21b145f0f4fcf42439123de8232358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_SetDiagonalPrecond</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_SetDiagonalPrecond</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>active diagonal preconditioner </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg__3D_8h_1abd21b145f0f4fcf42439123de8232358" kindref="member">cpg_3D_SetDiagonalPrecond()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="103" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="103" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1ad9721018085e7b7fd70facd14fbd81b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_SetFrictionless</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_SetFrictionless</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>active frictionless solver </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg__3D_8h_1ad9721018085e7b7fd70facd14fbd81b7" kindref="member">cpg_3D_SetFrictionless()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="113" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="113" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1aff5df3e48d7a7c56f2837d88010d7fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_BimodalContactOrder</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_BimodalContactOrder</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>active bimodal list </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__cpg__3D_8h_1aff5df3e48d7a7c56f2837d88010d7fe6" kindref="member">cpg_3D_BimodalContactOrder()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="123" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="123" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1abadca0979fbc852de511107bdacffd62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_SetCheckType</definition>
+        <argsstring>(char *checktype_c, double tol, int idproj)</argsstring>
+        <name>cpg_3D_SetCheckType</name>
+        <param>
+          <type>char *</type>
+          <declname>checktype_c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idproj</declname>
+        </param>
+        <briefdescription>
+<para>define numerical convergence of the NLGS algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage cpg_3D_SetCheckType(checktype, tol, idproj) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">chekctype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char[5]) : type of convergence check </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : norm tolerance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">idproj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) :</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<linebreak/>
+ convergence check keywords:<linebreak/>
+ Quad : quadratic norm (faulty contacts are redeemed by accurate contacts; laxist norm)<linebreak/>
+ Maxm : maximum norm (faulty contacts must comply; severe norm)<linebreak/>
+ where Quad,Maxm,QM/16 are keywords for the check test, and the following real number is the tolerance value.<linebreak/>
+ The identifiant projection parameter corrsponds to :<linebreak/>
+ PYRAMIDAL APPROXIMATION (1) <linebreak/>
+ Efficient but no more isotropic friction<linebreak/>
+ NORMAL PROJECTION (2)<linebreak/>
+ The basic projection but not really efficient<linebreak/>
+ HYBRID CORRECTION (3)<linebreak/>
+ Efficient for sphere but not really sense for other bodies.<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="156" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="156" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1a4307f57540096fb153d83784eb7b5533" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_NormCheck</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_3D_NormCheck</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Active one step norm evolution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : cpg_3D_norm_check() </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="166" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="166" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg__3D_8h_1adfd906ede641655eba1ae3d405e29556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_3D_ExSolver</definition>
+        <argsstring>(char *checktype_c, double tol, int idproj, int nb_iter_check, int nb_block_iter)</argsstring>
+        <name>cpg_3D_ExSolver</name>
+        <param>
+          <type>char *</type>
+          <declname>checktype_c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idproj</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_iter_check</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_block_iter</declname>
+        </param>
+        <briefdescription>
+<para>Solve fully the local contact problem. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : cpg_3D_ExSolver(checktype, tol, idpoj, nb_iter_check, nb_block_iter) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">checktype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char[5]) : convergentce test keyword </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : tolerance value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">idproj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_iter_check</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of iteration between convergence test </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_block_iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of block iterations </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" line="189" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h" declline="189" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_cpg_3D_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_cpg_3D_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="wrap__cpg__3D_8h_1a0ab2b0603f54ef9e9eeba7e1c54a0893" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1a0ab2b0603f54ef9e9eeba7e1c54a0893" kindref="member">cpg_3D_ExIter</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="wrap__cpg__3D_8h_1a9387dcd2d05e731ee85b6df530b1ebc8" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1a9387dcd2d05e731ee85b6df530b1ebc8" kindref="member">cpg_3D_AfterIterCheck</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="wrap__cpg__3D_8h_1a2329cf859b5218000b78700be5b39c8e" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1a2329cf859b5218000b78700be5b39c8e" kindref="member">cpg_3D_ExPost</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="wrap__cpg__3D_8h_1a165b6027e2bdf98d3e7cd47e8d5b7097" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1a165b6027e2bdf98d3e7cd47e8d5b7097" kindref="member">cpg_3D_ExPrep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="wrap__cpg__3D_8h_1ac66a3c073263a6cfe1d1102f8ab44d64" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1ac66a3c073263a6cfe1d1102f8ab44d64" kindref="member">cpg_3D_ScaleRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="wrap__cpg__3D_8h_1abd21b145f0f4fcf42439123de8232358" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1abd21b145f0f4fcf42439123de8232358" kindref="member">cpg_3D_SetDiagonalPrecond</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="wrap__cpg__3D_8h_1ad9721018085e7b7fd70facd14fbd81b7" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1ad9721018085e7b7fd70facd14fbd81b7" kindref="member">cpg_3D_SetFrictionless</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="wrap__cpg__3D_8h_1aff5df3e48d7a7c56f2837d88010d7fe6" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1aff5df3e48d7a7c56f2837d88010d7fe6" kindref="member">cpg_3D_BimodalContactOrder</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="wrap__cpg__3D_8h_1abadca0979fbc852de511107bdacffd62" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1abadca0979fbc852de511107bdacffd62" kindref="member">cpg_3D_SetCheckType</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>checktype_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idproj);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="wrap__cpg__3D_8h_1a4307f57540096fb153d83784eb7b5533" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1a4307f57540096fb153d83784eb7b5533" kindref="member">cpg_3D_NormCheck</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="wrap__cpg__3D_8h_1adfd906ede641655eba1ae3d405e29556" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg__3D_8h_1adfd906ede641655eba1ae3d405e29556" kindref="member">cpg_3D_ExSolver</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>checktype_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idproj,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_iter_check,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_block_iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_cpg_3D_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg_3D.h"/>
+  </compounddef>
+</doxygen>

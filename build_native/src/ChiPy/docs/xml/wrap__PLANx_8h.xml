@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__PLANx_8h" kind="file" language="C++">
+    <compoundname>wrap_PLANx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__PLANx_8h_1a34cd909b49d954df85b4abd9dd97f154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLANx_LoadTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLANx_LoadTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>load PLANx from RBDY3 and initialize existing_entites </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PLANx_8h_1a34cd909b49d954df85b4abd9dd97f154" kindref="member">PLANx_LoadTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="52" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="52" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1ae9c17646bcde4f5eca96321b4146bdcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PLANx_GetNbPLANx</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLANx_GetNbPLANx</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of PLANx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_PLANx = <ref refid="wrap__PLANx_8h_1ae9c17646bcde4f5eca96321b4146bdcf" kindref="member">PLANx_GetNbPLANx()</ref></para>
+<para><simplesect kind="return"><para>nb_PLANx (integer) : the number of PLANx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="69" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="69" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1af5607262169d5e020031fbea93b4aea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PLANx_IsVisible</definition>
+        <argsstring>(int itacty)</argsstring>
+        <name>PLANx_IsVisible</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <briefdescription>
+<para>return if a given contactor is attached to a visible body </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : visible = PLANx_IsVisible(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the contactor we want visibility </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visible (integer) : 1 if body is visible, 0 else </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="86" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="86" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1aae7605e3018844980bc55929eedc26c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLANx_GetPtrPLANx2BDYTY</definition>
+        <argsstring>(int **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>PLANx_GetPtrPLANx2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+          <defname>dim</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return a pointer onto the map planx2bdyty </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : planx2bdyty = <ref refid="wrap__PLANx_8h_1aae7605e3018844980bc55929eedc26c3" kindref="member">PLANx_GetPtrPLANx2BDYTY()</ref></para>
+<para><simplesect kind="return"><para>planx2bdyty (integer array) : reference on map between planx rank and body rank </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="106" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="106" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1aab75ebbcde57b0ffb36d61f5d7249bdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLANx_InitOutlines</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>PLANx_InitOutlines</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the outlines of all PLANx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : outlines = <ref refid="wrap__PLANx_8h_1aab75ebbcde57b0ffb36d61f5d7249bdc" kindref="member">PLANx_InitOutlines()</ref> <simplesect kind="return"><para>outlines (double array) : a reference on outlines_PLANx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="124" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="124" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1a5b90725530456d7b121b73d19ed0e677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLANx_InitScalarFields</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>PLANx_InitScalarFields</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the scalar fields of all PLANx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : scalarfields = PLANx_InitScalarfields() <simplesect kind="return"><para>scalarfields (double array) : reference on scalarfields_PLANx array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="142" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="142" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1aef312ddaddfb8638b40341e38a56a513" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLANx_UpdatePostdata</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLANx_UpdatePostdata</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Update values of outlines_PLANx and scalarfields_PLANx pointers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : PLANx_UpdatePostdata </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="153" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="153" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1a15973ed72bcd6620e7910c3a03e9773a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLANx_GetNbPointOutlines</definition>
+        <argsstring>(int **pointer_out, int *length)</argsstring>
+        <name>PLANx_GetNbPointOutlines</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of cumulated outline points number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_pointOutlines = <ref refid="wrap__PLANx_8h_1a15973ed72bcd6620e7910c3a03e9773a" kindref="member">PLANx_GetNbPointOutlines()</ref> <simplesect kind="return"><para>nb_pointOutlines (integer array) : the cumulated number of outline points of the PLANx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="170" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="170" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1a88cf4778502e70315a5f47096d73cce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PLANx_GetNbScalarFields</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLANx_GetNbScalarFields</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of scalar fields of a PLANx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_scalarfields = <ref refid="wrap__PLANx_8h_1a88cf4778502e70315a5f47096d73cce7" kindref="member">PLANx_GetNbScalarFields()</ref> <simplesect kind="return"><para>nb_scalarfields (integer) : the number of scalar fields of a PLANx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="186" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="186" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1a212a9103e71e8ed586941a0a94d845e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLANx_GetPtrAllConnectivities</definition>
+        <argsstring>(int **pointer_out, int *length)</argsstring>
+        <name>PLANx_GetPtrAllConnectivities</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+          <defname>i4_vector</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+          <defname>i4_size</defname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the connectivities of all PLANx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : connec = <ref refid="wrap__PLANx_8h_1a212a9103e71e8ed586941a0a94d845e7" kindref="member">PLANx_GetPtrAllConnectivities()</ref> <simplesect kind="return"><para>connec (integer array) : a reference on all_connectivities </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="203" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="203" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLANx_8h_1adfd2483f1c9d4b6c06eb34a306c93a93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLANx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLANx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within PLANx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PLANx_8h_1adfd2483f1c9d4b6c06eb34a306c93a93" kindref="member">PLANx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" line="213" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h" declline="213" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_PLANx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_PLANx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="wrap__PLANx_8h_1a34cd909b49d954df85b4abd9dd97f154" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1a34cd909b49d954df85b4abd9dd97f154" kindref="member">PLANx_LoadTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/></highlight><highlight class="comment">//--vt--</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="wrap__PLANx_8h_1ae9c17646bcde4f5eca96321b4146bdcf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1ae9c17646bcde4f5eca96321b4146bdcf" kindref="member">PLANx_GetNbPLANx</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="wrap__PLANx_8h_1af5607262169d5e020031fbea93b4aea8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1af5607262169d5e020031fbea93b4aea8" kindref="member">PLANx_IsVisible</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>external<sp/>vtk<sp/>visu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="wrap__PLANx_8h_1aae7605e3018844980bc55929eedc26c3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1aae7605e3018844980bc55929eedc26c3" kindref="member">PLANx_GetPtrPLANx2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="wrap__PLANx_8h_1aab75ebbcde57b0ffb36d61f5d7249bdc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1aab75ebbcde57b0ffb36d61f5d7249bdc" kindref="member">PLANx_InitOutlines</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="wrap__PLANx_8h_1a5b90725530456d7b121b73d19ed0e677" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1a5b90725530456d7b121b73d19ed0e677" kindref="member">PLANx_InitScalarFields</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="wrap__PLANx_8h_1aef312ddaddfb8638b40341e38a56a513" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1aef312ddaddfb8638b40341e38a56a513" kindref="member">PLANx_UpdatePostdata</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="wrap__PLANx_8h_1a15973ed72bcd6620e7910c3a03e9773a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1a15973ed72bcd6620e7910c3a03e9773a" kindref="member">PLANx_GetNbPointOutlines</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>length);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="186" refid="wrap__PLANx_8h_1a88cf4778502e70315a5f47096d73cce7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1a88cf4778502e70315a5f47096d73cce7" kindref="member">PLANx_GetNbScalarFields</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="203" refid="wrap__PLANx_8h_1a212a9103e71e8ed586941a0a94d845e7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1a212a9103e71e8ed586941a0a94d845e7" kindref="member">PLANx_GetPtrAllConnectivities</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>length);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="wrap__PLANx_8h_1adfd2483f1c9d4b6c06eb34a306c93a93" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLANx_8h_1adfd2483f1c9d4b6c06eb34a306c93a93" kindref="member">PLANx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_PLANx<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_PLANx.h"/>
+  </compounddef>
+</doxygen>

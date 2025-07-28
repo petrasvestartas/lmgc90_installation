@@ -1,0 +1,794 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__nlgs_8h" kind="file" language="C++">
+    <compoundname>wrap_nlgs.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__nlgs_8h_1a167b89197c1f7d532fae87e6f524cfc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_ExPrep</definition>
+        <argsstring>(char *cvalue1_c)</argsstring>
+        <name>nlgs_ExPrep</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <briefdescription>
+<para>Prepare matrix storage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nlgs_ExPrep(storage) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">sotrage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char[30]) : matrix storage</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<linebreak/>
+ prepare the matrix and the RHS of the contact problem in regards of the selected matrix storage:<linebreak/>
+<itemizedlist>
+<listitem><para>Exchange_Local_Global (the standard case) only the diagonal blocks are computed and stored.<linebreak/>
+</para>
+</listitem><listitem><para>Stored_Delassus_Loops (faster but memory expensive) the complete Delassus matrix is computed.<linebreak/>
+ </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="64" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="64" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a03207596baa031012462e093df2ede79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_ExIter</definition>
+        <argsstring>(int nb_iter)</argsstring>
+        <name>nlgs_ExIter</name>
+        <param>
+          <type>int</type>
+          <declname>nb_iter</declname>
+        </param>
+        <briefdescription>
+<para>Execute NLGS iterations over the contact loop. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nlgs_ExIter(nb_iter) param[in] nb_iter (integer) : number of iterations to do </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="79" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="79" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a5b2eb8e85785d90fd15a7c5b8c9270c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_ExPost</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_ExPost</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Run a jacobi iteration with the solution obtained with the NLGS algorithm. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a5b2eb8e85785d90fd15a7c5b8c9270c6" kindref="member">nlgs_ExPost()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="89" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="89" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a252ab72d1c771758c6e91901904ff6bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nlgs_AfterIterCheck</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_AfterIterCheck</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Control NLGS convergence. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : convergence = <ref refid="wrap__nlgs_8h_1a252ab72d1c771758c6e91901904ff6bb" kindref="member">nlgs_AfterIterCheck()</ref> <simplesect kind="return"><para>convergence (integer) : </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="104" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="104" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a078ee5f3bb2b1cde1259c43c67b65274" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_DisplayAfterIterCheck</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_DisplayAfterIterCheck</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Display NLGS convergence results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a078ee5f3bb2b1cde1259c43c67b65274" kindref="member">nlgs_DisplayAfterIterCheck()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="114" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="114" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1abaa33d5b16acfebe09dd16791ffc2c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_NormCheck</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_NormCheck</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Active one step norm evolution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1abaa33d5b16acfebe09dd16791ffc2c4a" kindref="member">nlgs_NormCheck()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="124" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="124" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a2bb1ca3640c746a56e288da9b6c4d2b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_UpdateTactBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_UpdateTactBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Update internal parameters of contact lawz for each contact. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a2bb1ca3640c746a56e288da9b6c4d2b1" kindref="member">nlgs_UpdateTactBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="134" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="134" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a84d1a7c8f21aa977d678a85ee18dc31e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_SetCheckType</definition>
+        <argsstring>(char *cvalue1_c, double rvalue1, double rvalue2)</argsstring>
+        <name>nlgs_SetCheckType</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue2</declname>
+        </param>
+        <briefdescription>
+<para>Define numerical convergence of the NLGS algorithm. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nlgs_SetCheckType(check_type, tolerance, relaxation) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">check_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char[5]) : type of convergence check </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tolerance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : norm tolerance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">relaxation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : relaxation factor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<linebreak/>
+ convergence check keywords:<linebreak/>
+ Quad : quadratic norm (faulty contacts are redeemed by accurate contacts; laxist norm)<linebreak/>
+ Maxm : maximum norm (faulty contacts must comply; severe norm)<linebreak/>
+ QM/16 : maximum of Quad and Maxm/16 norms (a compromise). For large dense collections Quad ranges usually around 1/16 Maxm<linebreak/>
+ where Quad,Maxm,QM/16 are keywords for the check test, and the following real number is the tolerance value.<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="162" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="162" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a3f628ab969c40849585c7c019bf6ff7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_ScrambleContactOrder</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_ScrambleContactOrder</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Random renumbering of the contact list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a3f628ab969c40849585c7c019bf6ff7e" kindref="member">nlgs_ScrambleContactOrder()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="172" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="172" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1acb9bb6d8f21b66ec963cccc5d261950a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_QuickScrambleContactOrder</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_QuickScrambleContactOrder</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Random renumbering of the contact list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1acb9bb6d8f21b66ec963cccc5d261950a" kindref="member">nlgs_QuickScrambleContactOrder()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="182" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="182" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a41c71429c8c8f2eaca9d10d7dff27eb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_SetWithQuickScramble</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_SetWithQuickScramble</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>active quick scramble in macro function ExSolver </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a41c71429c8c8f2eaca9d10d7dff27eb3" kindref="member">nlgs_SetWithQuickScramble()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="192" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="192" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1afe1879c058b78fa62367910ee468907f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_ReverseContactOrder</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_ReverseContactOrder</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Reverse the numbering of the contact list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1afe1879c058b78fa62367910ee468907f" kindref="member">nlgs_ReverseContactOrder()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="202" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="202" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a181873e803e385861713d58ba1573d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_BimodalContactOrder</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_BimodalContactOrder</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Renumbering of the contact list using the definition of weak and strong network in granular assemblies. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a181873e803e385861713d58ba1573d2b" kindref="member">nlgs_BimodalContactOrder()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="213" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="213" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a73b2c8356ef8a0133b550317fd4dd346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_ScaleRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_ScaleRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Scale all local contact forces of a factor equal to * 0.9 &lt; f &lt; 1.1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a73b2c8356ef8a0133b550317fd4dd346" kindref="member">nlgs_ScaleRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="223" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="223" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a5dae2bba0578e0380871851cb701a480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_ComputeRnod</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_ComputeRnod</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>mapping from local contact forces to global ones </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a5dae2bba0578e0380871851cb701a480" kindref="member">nlgs_ComputeRnod()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="233" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="233" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a33116852821a6ac18229f9ff182d4844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_DisplayRlocNSum</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_DisplayRlocNSum</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Display the sum of normal contact forces. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1a33116852821a6ac18229f9ff182d4844" kindref="member">nlgs_DisplayRlocNSum()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="243" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="243" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1af444ed945f59be23a3cbbee8ab785d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_ExSolver</definition>
+        <argsstring>(char *cvalue1_c, char *cvalue2_c, double rvalue1, double rvalue2, int ivalue1, int ivalue2)</argsstring>
+        <name>nlgs_ExSolver</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>cvalue2_c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <briefdescription>
+<para>Solve fully the local contact problem. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nlgs_ExSolver(storage, checktype, tol, relax, nb_iter_check, nb_block_iter) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">storage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char[30]) : matrix storage (cf nlgs_ExPrep) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">checktype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char[5]) : convergentce test keyword </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tolerance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : tolerance value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">relaxation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : relaxation number </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_iter_check</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of iteration between convergence test </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_block_iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of block iterations </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="268" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="268" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1ae8b73d24cbb434d735438efe825d6526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_UpdateCohesiveBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_UpdateCohesiveBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>update internal parameters of contact laws for each contact </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1ae8b73d24cbb434d735438efe825d6526" kindref="member">nlgs_UpdateCohesiveBehav(void)</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="278" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="278" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1aba028010bab387e27ec88a45f150ab24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_UpdateFrictionalBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>nlgs_UpdateFrictionalBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>update internal parameters of contact laws for each contact </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__nlgs_8h_1aba028010bab387e27ec88a45f150ab24" kindref="member">nlgs_UpdateFrictionalBehav(void)</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="288" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="288" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1af85a030afebf9e584d36c3f3e556499d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_GetAllThis</definition>
+        <argsstring>(double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>nlgs_GetAllThis</name>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get all interactions in &quot;this&quot; array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Each interaction has (in this order): coor, tuc, nuc, rlt, rln, vlt, vln</para>
+<para>usage : interactions = <ref refid="wrap__nlgs_8h_1af85a030afebf9e584d36c3f3e556499d" kindref="member">nlgs_GetAllThis()</ref> <simplesect kind="return"><para>interactions (double 2D-array) : the interactions </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="306" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="306" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a8dd5169bf10df801aef4882a9f4950ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_UseJacobiSolver</definition>
+        <argsstring>(bool jacobi)</argsstring>
+        <name>nlgs_UseJacobiSolver</name>
+        <param>
+          <type>bool</type>
+          <declname>jacobi</declname>
+        </param>
+        <briefdescription>
+<para>Use a Jacobi solver instead of Gauss Seidel solver. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : nlgs_UseJacobiSolver(True) or nlgs_UseJacobiSolver(False) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="320" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="320" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1aec35f424244c2e7b9681fbe2be4d98c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_UseRegularization</definition>
+        <argsstring>(double rvalue1=1e14, double rvalue2=1e14)</argsstring>
+        <name>nlgs_UseRegularization</name>
+        <param>
+          <type>double</type>
+          <declname>rvalue1</declname>
+          <defval>1e14</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue2</declname>
+          <defval>1e14</defval>
+        </param>
+        <briefdescription>
+<para>use some regularization heuristics on interaction laws </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nlgs_UseRegularization(krn, krt) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">krn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : normal penality (default 1e14) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">krt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : tangential penality (default 1e14) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="332" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="332" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a262cb57057c24d3080653693e6a9a7f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_SetTemporaryVariable</definition>
+        <argsstring>(int ivalue1, int ivalue2, double rvalue1)</argsstring>
+        <name>nlgs_SetTemporaryVariable</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue1</declname>
+        </param>
+        <briefdescription>
+<para>set temporary variables used in nlgs ; ivalue2 == 3 gives access to post crack pressure </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nlgs_SetTemporaryVariable(icdan,id,val) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int) : interaction rank </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int) : value rank </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="346" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="346" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1abb0ea8145532d4c6c4e2fcbf06db8120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nlgs_GetTemporaryVariable</definition>
+        <argsstring>(int ivalue1, int ivalue2)</argsstring>
+        <name>nlgs_GetTemporaryVariable</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <briefdescription>
+<para>get temporary variables used in nlgs ; ivalue2 == 3 gives access to post crack pressure </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : val = nlgs_GetTemporaryVariable(icdan,id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int) : interaction rank </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int) : value rank </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="359" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="359" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__nlgs_8h_1a5fd96d2823f8008dc5a0713bd749b5d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nlgs_IsInitialized</definition>
+        <argsstring>(int is_init=1)</argsstring>
+        <name>nlgs_IsInitialized</name>
+        <param>
+          <type>int</type>
+          <declname>is_init</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>In case of restart say that nlgs is initialized or reset it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nlgs_IsInitialized(is_init=1) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" line="369" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h" declline="369" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_nlgs_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_nlgs_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="64" refid="wrap__nlgs_8h_1a167b89197c1f7d532fae87e6f524cfc8" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a167b89197c1f7d532fae87e6f524cfc8" kindref="member">nlgs_ExPrep</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="wrap__nlgs_8h_1a03207596baa031012462e093df2ede79" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a03207596baa031012462e093df2ede79" kindref="member">nlgs_ExIter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_iter);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="wrap__nlgs_8h_1a5b2eb8e85785d90fd15a7c5b8c9270c6" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a5b2eb8e85785d90fd15a7c5b8c9270c6" kindref="member">nlgs_ExPost</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="wrap__nlgs_8h_1a252ab72d1c771758c6e91901904ff6bb" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a252ab72d1c771758c6e91901904ff6bb" kindref="member">nlgs_AfterIterCheck</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="wrap__nlgs_8h_1a078ee5f3bb2b1cde1259c43c67b65274" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a078ee5f3bb2b1cde1259c43c67b65274" kindref="member">nlgs_DisplayAfterIterCheck</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="wrap__nlgs_8h_1abaa33d5b16acfebe09dd16791ffc2c4a" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1abaa33d5b16acfebe09dd16791ffc2c4a" kindref="member">nlgs_NormCheck</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="wrap__nlgs_8h_1a2bb1ca3640c746a56e288da9b6c4d2b1" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a2bb1ca3640c746a56e288da9b6c4d2b1" kindref="member">nlgs_UpdateTactBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="wrap__nlgs_8h_1a84d1a7c8f21aa977d678a85ee18dc31e" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a84d1a7c8f21aa977d678a85ee18dc31e" kindref="member">nlgs_SetCheckType</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue2);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="wrap__nlgs_8h_1a3f628ab969c40849585c7c019bf6ff7e" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a3f628ab969c40849585c7c019bf6ff7e" kindref="member">nlgs_ScrambleContactOrder</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="wrap__nlgs_8h_1acb9bb6d8f21b66ec963cccc5d261950a" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1acb9bb6d8f21b66ec963cccc5d261950a" kindref="member">nlgs_QuickScrambleContactOrder</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="wrap__nlgs_8h_1a41c71429c8c8f2eaca9d10d7dff27eb3" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a41c71429c8c8f2eaca9d10d7dff27eb3" kindref="member">nlgs_SetWithQuickScramble</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="wrap__nlgs_8h_1afe1879c058b78fa62367910ee468907f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1afe1879c058b78fa62367910ee468907f" kindref="member">nlgs_ReverseContactOrder</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="wrap__nlgs_8h_1a181873e803e385861713d58ba1573d2b" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a181873e803e385861713d58ba1573d2b" kindref="member">nlgs_BimodalContactOrder</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="wrap__nlgs_8h_1a73b2c8356ef8a0133b550317fd4dd346" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a73b2c8356ef8a0133b550317fd4dd346" kindref="member">nlgs_ScaleRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="wrap__nlgs_8h_1a5dae2bba0578e0380871851cb701a480" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a5dae2bba0578e0380871851cb701a480" kindref="member">nlgs_ComputeRnod</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="wrap__nlgs_8h_1a33116852821a6ac18229f9ff182d4844" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a33116852821a6ac18229f9ff182d4844" kindref="member">nlgs_DisplayRlocNSum</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="wrap__nlgs_8h_1af444ed945f59be23a3cbbee8ab785d5f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1af444ed945f59be23a3cbbee8ab785d5f" kindref="member">nlgs_ExSolver</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue2_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="wrap__nlgs_8h_1ae8b73d24cbb434d735438efe825d6526" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1ae8b73d24cbb434d735438efe825d6526" kindref="member">nlgs_UpdateCohesiveBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="wrap__nlgs_8h_1aba028010bab387e27ec88a45f150ab24" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1aba028010bab387e27ec88a45f150ab24" kindref="member">nlgs_UpdateFrictionalBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="wrap__nlgs_8h_1af85a030afebf9e584d36c3f3e556499d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1af85a030afebf9e584d36c3f3e556499d" kindref="member">nlgs_GetAllThis</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="wrap__nlgs_8h_1a8dd5169bf10df801aef4882a9f4950ff" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a8dd5169bf10df801aef4882a9f4950ff" kindref="member">nlgs_UseJacobiSolver</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>jacobi);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="wrap__nlgs_8h_1aec35f424244c2e7b9681fbe2be4d98c7" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1aec35f424244c2e7b9681fbe2be4d98c7" kindref="member">nlgs_UseRegularization</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue1=1e14,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue2=1e14);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="wrap__nlgs_8h_1a262cb57057c24d3080653693e6a9a7f2" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a262cb57057c24d3080653693e6a9a7f2" kindref="member">nlgs_SetTemporaryVariable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue1);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="wrap__nlgs_8h_1abb0ea8145532d4c6c4e2fcbf06db8120" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1abb0ea8145532d4c6c4e2fcbf06db8120" kindref="member">nlgs_GetTemporaryVariable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="wrap__nlgs_8h_1a5fd96d2823f8008dc5a0713bd749b5d3" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__nlgs_8h_1a5fd96d2823f8008dc5a0713bd749b5d3" kindref="member">nlgs_IsInitialized</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>is_init=1);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_nlgs<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_nlgs.h"/>
+  </compounddef>
+</doxygen>

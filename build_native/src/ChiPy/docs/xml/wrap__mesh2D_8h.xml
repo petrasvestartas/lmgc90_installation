@@ -1,0 +1,1269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__mesh2D_8h" kind="file" language="C++">
+    <compoundname>wrap_mesh2D.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__mesh2D_8h_1ae9094f81ec986090ef500b886d45bafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_GetIndicesMeshQ4</definition>
+        <argsstring>(int n, int *ires, int *ires2)</argsstring>
+        <name>mesh2D_GetIndicesMeshQ4</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires</declname>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires2</declname>
+          <defname>j</defname>
+        </param>
+        <briefdescription>
+<para>this function gives the couple (i, j) of indices coresponding to a given node n </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="warning"><para>python call: [i, j]=mesh2D_GetIndicesMeshQ4(n) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): the given node </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): index in the u direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">j</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): index in the v direction </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="18" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="18" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mesh2D_8h_1a252f036827653238ccec49752e0631f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_SizeMeshQ4</definition>
+        <argsstring>(int nb_elem_x, int nb_elem_y, int *ires, int *ires2, int *ires3)</argsstring>
+        <name>mesh2D_SizeMeshQ4</name>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_y</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires</declname>
+          <defname>size_coor</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires2</declname>
+          <defname>size_nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires3</declname>
+          <defname>size_conn</defname>
+        </param>
+        <briefdescription>
+<para>this function computes the sizes of vectors used to store a mesh made of Q4 in the following generic format:<linebreak/>
+</para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] consider the following little mesh:<linebreak/>
+ 2 4 6<linebreak/>
+ <emphasis><mdash/></emphasis><mdash/>*<linebreak/>
+ | 1 | 2 |<linebreak/>
+ <emphasis><mdash/></emphasis><mdash/>*<linebreak/>
+ 1 3 5<linebreak/>
+the vectors for this mesh read:</para>
+</listitem><listitem><para>coor = [x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6]</para>
+</listitem><listitem><para>nb_node_per_ele = [4, 4]</para>
+</listitem><listitem><para>conn = [1, 3, 4, 2, 3, 5, 6, 4] <simplesect kind="warning"><para>python call: [size_coor, size_nb_node_per_ele, size_conn]=mesh2D_SizeMeshQ4(nb_elem_x, nb_elem_y) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements in the horizontal direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements in the vertical direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of coor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of nb_node_per_ele </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of conn </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="51" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="51" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mesh2D_8h_1a4a4daf58fab176f96fe294469df5babb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_SizeMesh2T3</definition>
+        <argsstring>(int nb_elem_x, int nb_elem_y, int *ires, int *ires2, int *ires3)</argsstring>
+        <name>mesh2D_SizeMesh2T3</name>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_y</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires</declname>
+          <defname>size_coor</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires2</declname>
+          <defname>size_nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires3</declname>
+          <defname>size_conn</defname>
+        </param>
+        <briefdescription>
+<para>this function computes the sizes of vectors used to store a mesh made of T3 <mdash/> obtained by splitting a Q4 in two T3 <mdash/> in the following generic format:<linebreak/>
+</para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] consider the following little mesh:<linebreak/>
+ 2 4<linebreak/>
+ <emphasis>-<mdash/></emphasis><linebreak/>
+ | 1 /|<linebreak/>
+ | / |<linebreak/>
+ | / |<linebreak/>
+ |/ 2 |<linebreak/>
+ <emphasis>-<mdash/></emphasis><linebreak/>
+ 1 3<linebreak/>
+the vectors for this mesh read:</para>
+</listitem><listitem><para>coor = [x1, y1, x2, y2, x3, y3, x4, y4]</para>
+</listitem><listitem><para>nb_node_per_ele = [3, 3]</para>
+</listitem><listitem><para>conn = [1, 3, 4, 2, 1, 4] <simplesect kind="warning"><para>python call: [size_coor, size_nb_node_per_ele, size_conn]=mesh2D_SizeMesh2T3(nb_elem_x, nb_elem_y) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the horizontal direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the vertical direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of coor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of nb_node_per_ele </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of conn </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="90" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="90" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mesh2D_8h_1ae28ed31659710e7c1ae41e7d5b9d8975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_SizeMesh4T3</definition>
+        <argsstring>(int nb_elem_x, int nb_elem_y, int *ires, int *ires2, int *ires3)</argsstring>
+        <name>mesh2D_SizeMesh4T3</name>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_y</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires</declname>
+          <defname>size_coor</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires2</declname>
+          <defname>size_nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires3</declname>
+          <defname>size_conn</defname>
+        </param>
+        <briefdescription>
+<para>this function computes the sizes of vectors used to store a mesh made of T3 <mdash/> obtained by splitting a Q4 in four T3 <mdash/> in the following generic format:<linebreak/>
+</para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] consider the following little mesh:<linebreak/>
+ 2 4<linebreak/>
+ <emphasis>--<mdash/></emphasis><linebreak/>
+ |\ 4 /|<linebreak/>
+ | \ / |<linebreak/>
+ |1 5 3|<linebreak/>
+ | / \ |<linebreak/>
+ |/ 2 |<linebreak/>
+ <emphasis>--<mdash/></emphasis><linebreak/>
+ 1 3<linebreak/>
+the vectors for this mesh read:</para>
+</listitem><listitem><para>coor = [x1, y1, x2, y2, x3, y3, x4, y4, x5, y5]</para>
+</listitem><listitem><para>nb_node_per_ele = [3, 3, 3, 3]</para>
+</listitem><listitem><para>conn = [1, 5, 2, 1, 3, 5, 3, 4, 5, 2, 5, 4] <simplesect kind="warning"><para>python call: [size_coor, size_nb_node_per_ele, size_conn]=mesh2D_SizeMesh4T3(nb_elem_x, nb_elem_y) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the horizontal direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the vertical direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of coor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of nb_node_per_ele </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of conn </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="130" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="130" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mesh2D_8h_1aff91cdb403b4d8d0904224e0cd6e117b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_SizeMeshQ8</definition>
+        <argsstring>(int nb_elem_x, int nb_elem_y, int *ires, int *ires2, int *ires3)</argsstring>
+        <name>mesh2D_SizeMeshQ8</name>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_y</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires</declname>
+          <defname>size_coor</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires2</declname>
+          <defname>size_nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires3</declname>
+          <defname>size_conn</defname>
+        </param>
+        <briefdescription>
+<para>this function computes the sizes of vectors used to store a mesh made of Q8 following generic format:<linebreak/>
+</para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] consider the following little mesh:<linebreak/>
+ 3 7 3<linebreak/>
+ <emphasis><mdash/></emphasis><mdash/>*<linebreak/>
+ | |<linebreak/>
+ | |<linebreak/>
+ 8 * 1 * 6<linebreak/>
+ | |<linebreak/>
+ | |<linebreak/>
+ <emphasis><mdash/></emphasis><mdash/>*<linebreak/>
+ 1 5 2<linebreak/>
+the vectors for this mesh read:</para>
+</listitem><listitem><para>coor = [x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6, x7, y7, x8, y8]</para>
+</listitem><listitem><para>nb_node_per_ele = [8]</para>
+</listitem><listitem><para>conn = [1, 2, 3, 4, 5, 6, 7, 8] <simplesect kind="warning"><para>python call: [size_coor, size_nb_node_per_ele, size_conn]=mesh2D_SizeMesh4T3(nb_elem_x, nb_elem_y) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the horizontal direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the vertical direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of coor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of nb_node_per_ele </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">size_conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): size of conn </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="170" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="170" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mesh2D_8h_1a840ede64ffe72ce86804e93dfd4db022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_MeshQ4</definition>
+        <argsstring>(double x0, double y0, double lx, double ly, int nb_elem_x, int nb_elem_y, double *rvector_out, int rlength_out, int *ivector_out, int ilength_out, int *ivector_out2, int ilength_out2)</argsstring>
+        <name>mesh2D_MeshQ4</name>
+        <param>
+          <type>double</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ly</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_out</declname>
+          <defname>coor</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_out</declname>
+          <defname>size_coor</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_out</declname>
+          <defname>nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_out</declname>
+          <defname>size_nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_out2</declname>
+          <defname>conn</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_out2</declname>
+          <defname>size_conn</defname>
+        </param>
+        <briefdescription>
+<para>this function computes and returns a mesh made of Q4 in the following generic format:<linebreak/>
+</para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] consider the following little mesh:<linebreak/>
+ 2 4 6<linebreak/>
+ <emphasis><mdash/></emphasis><mdash/>*<linebreak/>
+ | 1 | 2 |<linebreak/>
+ <emphasis><mdash/></emphasis><mdash/>*<linebreak/>
+ 1 3 5<linebreak/>
+the vectors for this mesh read:</para>
+</listitem><listitem><para>coor = [x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6]</para>
+</listitem><listitem><para>nb_node_per_ele = [4, 4]</para>
+</listitem><listitem><para>conn = [1, 3, 4, 2, 3, 5, 6, 4] <simplesect kind="warning"><para>python call: [coor, nb_node_per_ele, conn]=mesh2D_MeshQ4(x0, y0, lx, ly, 
+   nb_elem_x, nb_elem_y, size_coor, size_nb_node_per_ele, size_conn) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">x0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): abscissa of the lower left corner of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">y0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): ordinate of the lower left corner of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">lx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): length of the mesh, following the axis (Ox) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): length of the mesh, following the axis (Oy) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements in the horizontal direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements in the vertical direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of coor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of nb_node_per_ele </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of conn </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double *): vector of coordinates of the nodes [x1, y1, x2, y2, ...] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="216" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="216" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mesh2D_8h_1a408b3fc43f7e80788a5ae0395ad41ea1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_Mesh2T3</definition>
+        <argsstring>(double x0, double y0, double lx, double ly, int nb_elem_x, int nb_elem_y, double *rvector_out, int rlength_out, int *ivector_out, int ilength_out, int *ivector_out2, int ilength_out2)</argsstring>
+        <name>mesh2D_Mesh2T3</name>
+        <param>
+          <type>double</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ly</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_out</declname>
+          <defname>coor</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_out</declname>
+          <defname>size_coor</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_out</declname>
+          <defname>nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_out</declname>
+          <defname>size_nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_out2</declname>
+          <defname>conn</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_out2</declname>
+          <defname>size_conn</defname>
+        </param>
+        <briefdescription>
+<para>this function computes an returns a mesh made of T3 <mdash/> obtained by splitting a Q4 in two T3 <mdash/> in the following generic format:<linebreak/>
+</para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] consider the following little mesh:<linebreak/>
+ 2 4<linebreak/>
+ <emphasis>-<mdash/></emphasis><linebreak/>
+ | 1 /|<linebreak/>
+ | / |<linebreak/>
+ | / |<linebreak/>
+ |/ 2 |<linebreak/>
+ <emphasis>-<mdash/></emphasis><linebreak/>
+ 1 3<linebreak/>
+the vectors for this mesh read:</para>
+</listitem><listitem><para>coor = [x1, y1, x2, y2, x3, y3, x4, y4]</para>
+</listitem><listitem><para>nb_node_per_ele = [3, 3]</para>
+</listitem><listitem><para>conn = [1, 3, 4, 2, 1, 4]</para>
+</listitem><listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] <simplesect kind="warning"><para>python call: [coor, nb_node_per_ele, conn]=mesh2D_Mesh2T3(x0, y0, lx, ly, 
+   nb_elem_x, nb_elem_y, size_coor, size_nb_node_per_ele, size_conn) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">x0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): abscissa of the lower left corner of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">y0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): ordinate of the lower left corner of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">lx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): length of the mesh, following the axis (Ox) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): length of the mesh, following the axis (Oy) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the horizontal direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the vertical direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of coor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of nb_node_per_ele </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of conn </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double *): vector of coordinates of the nodes [x1, y1, x2, y2, ...] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="274" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="274" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mesh2D_8h_1a44c13abc8c3dab8d138a2b5a008ec4f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_Mesh4T3</definition>
+        <argsstring>(double x0, double y0, double lx, double ly, int nb_elem_x, int nb_elem_y, double *rvector_out, int rlength_out, int *ivector_out, int ilength_out, int *ivector_out2, int ilength_out2)</argsstring>
+        <name>mesh2D_Mesh4T3</name>
+        <param>
+          <type>double</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ly</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_out</declname>
+          <defname>coor</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_out</declname>
+          <defname>size_coor</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_out</declname>
+          <defname>nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_out</declname>
+          <defname>size_nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_out2</declname>
+          <defname>conn</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_out2</declname>
+          <defname>size_conn</defname>
+        </param>
+        <briefdescription>
+<para>this function computes and return a mesh made of T3 <mdash/> obtained by splitting a Q4 in four T3 <mdash/> in the following generic format:<linebreak/>
+</para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] consider the following little mesh:<linebreak/>
+ 2 4<linebreak/>
+ <emphasis>--<mdash/></emphasis><linebreak/>
+ |\ 4 /|<linebreak/>
+ | \ / |<linebreak/>
+ |1 5 3|<linebreak/>
+ | / \ |<linebreak/>
+ |/ 2 |<linebreak/>
+ <emphasis>--<mdash/></emphasis><linebreak/>
+ 1 3<linebreak/>
+the vectors for this mesh read:</para>
+</listitem><listitem><para>coor = [x1, y1, x2, y2, x3, y3, x4, y4, x5, y5]</para>
+</listitem><listitem><para>nb_node_per_ele = [3, 3, 3, 3]</para>
+</listitem><listitem><para>conn = [1, 5, 2, 1, 3, 5, 3, 4, 5, 2, 5, 4] <simplesect kind="warning"><para>python call: [coor, nb_node_per_ele, conn]=mesh2D_Mesh4T3(x0, y0, lx, ly, 
+   nb_elem_x, nb_elem_y, size_coor, size_nb_node_per_ele, size_conn) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">x0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): abscissa of the lower left corner of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">y0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): ordinate of the lower left corner of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">lx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): length of the mesh, following the axis (Ox) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): length of the mesh, following the axis (Oy) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the horizontal direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the vertical direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of coor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of nb_node_per_ele </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of conn </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double *): vector of coordinates of the nodes [x1, y1, x2, y2, ...] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="327" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="327" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mesh2D_8h_1a1e19eba1196b0088eb4832cd2c31766b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mesh2D_MeshQ8</definition>
+        <argsstring>(double x0, double y0, double lx, double ly, int nb_elem_x, int nb_elem_y, double *rvector_out, int rlength_out, int *ivector_out, int ilength_out, int *ivector_out2, int ilength_out2)</argsstring>
+        <name>mesh2D_MeshQ8</name>
+        <param>
+          <type>double</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ly</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_elem_y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_out</declname>
+          <defname>coor</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_out</declname>
+          <defname>size_coor</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_out</declname>
+          <defname>nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_out</declname>
+          <defname>size_nb_node_per_ele</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_out2</declname>
+          <defname>conn</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_out2</declname>
+          <defname>size_conn</defname>
+        </param>
+        <briefdescription>
+<para>this function computes and returns a mesh made of Q8 in the following generic format:<linebreak/>
+</para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>coor: vector of coordinates of the nodes [x1, y1, x2, y2, ...]</para>
+</listitem><listitem><para>nb_node_per_ele: nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements]</para>
+</listitem><listitem><para>conn: vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] consider the following little mesh:<linebreak/>
+ 3 7 3<linebreak/>
+ <emphasis><mdash/></emphasis><mdash/>*<linebreak/>
+ | |<linebreak/>
+ | |<linebreak/>
+ 8 * 1 * 6<linebreak/>
+ | |<linebreak/>
+ | |<linebreak/>
+ <emphasis><mdash/></emphasis><mdash/>*<linebreak/>
+ 1 5 2<linebreak/>
+the vectors for this mesh read:</para>
+</listitem><listitem><para>coor = [x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6, x7, y7, x8, y8]</para>
+</listitem><listitem><para>nb_node_per_ele = [8]</para>
+</listitem><listitem><para>conn = [1, 2, 3, 4, 5, 6, 7, 8] <simplesect kind="warning"><para>python call: [coor, nb_node_per_ele, conn]=mesh2D_MeshQ8(x0, y0, lx, ly, 
+   nb_elem_x, nb_elem_y, size_coor, size_nb_node_per_ele, size_conn) </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">x0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): abscissa of the lower left corner of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">y0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): ordinate of the lower left corner of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">lx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): length of the mesh, following the axis (Ox) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): length of the mesh, following the axis (Oy) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the horizontal direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_elem_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): number of elements Q4 in the vertical direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of coor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of nb_node_per_ele </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size_conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int): size of conn </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">coor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double *): vector of coordinates of the nodes [x1, y1, x2, y2, ...] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">nb_node_per_ele</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): nb_node_per_ele(i) contains the number of nodes for element i, i in [1, number of elements] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">conn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int *): vector storing the connectivity of the elements [n11, n12n n13, n21, n22, n23, n24, ...] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" line="379" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h" declline="379" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>fichier<sp/>d&apos;entête<sp/>C++<sp/>associe<sp/>au<sp/>fichier<sp/>wrap_mesh2D.f90:</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>acces<sp/>en<sp/>C++<sp/>aux<sp/>fonction<sp/>du<sp/>modules<sp/>wrap_mesh2D<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_mesh2D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_mesh2D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>les<sp/>indices<sp/>correspondant<sp/>a<sp/>un<sp/>noeud,<sp/>pour<sp/>un</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>maillage<sp/>en<sp/>Q4<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="wrap__mesh2D_8h_1ae9094f81ec986090ef500b886d45bafa" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1ae9094f81ec986090ef500b886d45bafa" kindref="member">mesh2D_GetIndicesMeshQ4</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires2);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>les<sp/>tailles<sp/>des<sp/>vecteurs<sp/>pour<sp/>stocker<sp/>un<sp/>nouveau</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>maillage<sp/>en<sp/>Q4<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="wrap__mesh2D_8h_1a252f036827653238ccec49752e0631f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1a252f036827653238ccec49752e0631f0" kindref="member">mesh2D_SizeMeshQ4</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_y,<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires3);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>les<sp/>tailles<sp/>des<sp/>vecteurs<sp/>pour<sp/>stocker<sp/>un<sp/>nouveau</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>maillage<sp/>en<sp/>Q4,<sp/>splitte<sp/>en<sp/>2<sp/>T3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="wrap__mesh2D_8h_1a4a4daf58fab176f96fe294469df5babb" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1a4a4daf58fab176f96fe294469df5babb" kindref="member">mesh2D_SizeMesh2T3</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_y,<sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires3);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>les<sp/>tailles<sp/>des<sp/>vecteurs<sp/>pour<sp/>stocker<sp/>un<sp/>nouveau</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>maillage<sp/>en<sp/>Q4,<sp/>splitte<sp/>en<sp/>4<sp/>T3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="wrap__mesh2D_8h_1ae28ed31659710e7c1ae41e7d5b9d8975" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1ae28ed31659710e7c1ae41e7d5b9d8975" kindref="member">mesh2D_SizeMesh4T3</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_y,<sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires3);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>les<sp/>tailles<sp/>des<sp/>vecteurs<sp/>pour<sp/>stocker<sp/>un<sp/>nouveau</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>maillage<sp/>en<sp/>Q8<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="wrap__mesh2D_8h_1aff91cdb403b4d8d0904224e0cd6e117b" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1aff91cdb403b4d8d0904224e0cd6e117b" kindref="member">mesh2D_SizeMeshQ8</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_y,<sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ires3);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>un<sp/>nouveau<sp/>maillage<sp/>en<sp/>Q4<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="wrap__mesh2D_8h_1a840ede64ffe72ce86804e93dfd4db022" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1a840ede64ffe72ce86804e93dfd4db022" kindref="member">mesh2D_MeshQ4</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ly,<sp/></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_out,<sp/></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_out2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_out2);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>un<sp/>nouveau<sp/>maillage<sp/>en<sp/>T3,<sp/>obtenus<sp/>en<sp/>coupant<sp/>en<sp/></highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>deux<sp/>des<sp/>Q4<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="wrap__mesh2D_8h_1a408b3fc43f7e80788a5ae0395ad41ea1" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1a408b3fc43f7e80788a5ae0395ad41ea1" kindref="member">mesh2D_Mesh2T3</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ly,<sp/></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_out,<sp/></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*ivector_out2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_out2);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>un<sp/>nouveau<sp/>maillage<sp/>en<sp/>T3,<sp/>obtenus<sp/>en<sp/>coupant<sp/>en<sp/></highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>quatre<sp/>des<sp/>Q4<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="wrap__mesh2D_8h_1a44c13abc8c3dab8d138a2b5a008ec4f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1a44c13abc8c3dab8d138a2b5a008ec4f3" kindref="member">mesh2D_Mesh4T3</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ly,<sp/></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_out,<sp/></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_out2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_out2);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>calcule<sp/>un<sp/>nouveau<sp/>maillage<sp/>en<sp/>Q8<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379" refid="wrap__mesh2D_8h_1a1e19eba1196b0088eb4832cd2c31766b" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mesh2D_8h_1a1e19eba1196b0088eb4832cd2c31766b" kindref="member">mesh2D_MeshQ8</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ly,<sp/></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_elem_y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_out,<sp/></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_out2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_out2);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_mesh2D.h"/>
+  </compounddef>
+</doxygen>

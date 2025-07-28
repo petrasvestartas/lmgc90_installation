@@ -1,0 +1,977 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__parameters_8h" kind="file" language="C++">
+    <compoundname>wrap_parameters.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__parameters_8h_1affef8952289539860ac88735c2ae9dd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getPhysicTypeId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getPhysicTypeId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a body type from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getPhysicTypeId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): body type name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : body type parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="59" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="59" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a351052528dc1ddfaeb84b36bbac6be76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getPhysicTypeNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getPhysicTypeNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of body types. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getPhysicTypeName() <simplesect kind="return"><para>bodyName (string array) : body type names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="76" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="76" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a697d92240203481b2a3e527095424a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getBodyModelId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getBodyModelId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a body model from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getBodyModelId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): body model name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : body model parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="93" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="93" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a8532f8c87a14d22153d66a8e72f251e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getBodyModelNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getBodyModelNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of body types. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getBodyModelName() <simplesect kind="return"><para>bodyName (string array) : body model names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="110" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="110" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a88795ca805e20df697a62b6e7d74b685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getContactorId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getContactorId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a contactor from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getContactorId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): contactor name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : contactor parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="127" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="127" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a758432a80ddbdf923c5147b9493eebf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getContactorNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getContactorNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of contactors. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getContactorName() <simplesect kind="return"><para>bodyName (string array) : contactor names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="144" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="144" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a736a2c96fe36903686923941ba06ff6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getInteractionId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getInteractionId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a interaction from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getInteractionId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): interaction name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : interaction parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="161" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="161" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a207f77ebdab46fbe56ab9dfb55827154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getInteractionNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getInteractionNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of interactions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getInteractionName() <simplesect kind="return"><para>bodyName (string array) : interaction names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="178" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="178" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1af0e4090b68fa8fd6c8554dc4638e3387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getMatrixStorageId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getMatrixStorageId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a matrix storage from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getMatrixStorageId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): matrix storage name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : matrix storage parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="195" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="195" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1af30bb8c3af6324525d4125af7a865caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getMatrixStorageNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getMatrixStorageNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of matrix storages. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getMatrixStorageName() <simplesect kind="return"><para>bodyName (string array) : matrix storage names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="212" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="212" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a633c1a0e9ddaaa14c5fa84dee63d0a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getMatrixShapeId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getMatrixShapeId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a matrix shape from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getMatrixShapeId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): matrix shape name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : matrix shape parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="229" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="229" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a1223a27dcbdcd18a87c771fa17389c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getMatrixShapeNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getMatrixShapeNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of matrix shapes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getMatrixShapeName() <simplesect kind="return"><para>bodyName (string array) : matrix shape names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="246" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="246" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1ad78be96b62193c95efa61766b1934337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getGeneralizedCoordinatesId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getGeneralizedCoordinatesId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a generalized coordinates from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getGeneralizedCoordinatesId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): generalized coordinates name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : generalized coordinates parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="263" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="263" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1aca0cf7b58c0aa22e586291b14009e734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getGeneralizedCoordinatesNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getGeneralizedCoordinatesNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of generalized coordinatess. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getGeneralizedCoordinatesName() <simplesect kind="return"><para>bodyName (string array) : generalized coordinates names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="280" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="280" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a2ff6d56ce52ceb1f5f86930bd07b160a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getSurfaceEnergyStatusId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getSurfaceEnergyStatusId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a surface energy status from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getSurfaceEnergyStatusId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): surface energy status name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : surface energy status parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="297" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="297" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a222f977a0e9bc6fce78457e840681f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getSurfaceEnergyStatusNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getSurfaceEnergyStatusNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of surface energy statuss. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getSurfaceEnergyStatusName() <simplesect kind="return"><para>bodyName (string array) : surface energy status names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="314" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="314" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1ab6191c7e669130856329438b06ffb779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getInterLawId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getInterLawId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a inter law from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getInterLawId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): inter law name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : inter law parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="331" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="331" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a600879ed75760508e8005cdb2487eed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getInterLawNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getInterLawNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of inter laws. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getInterLawName() <simplesect kind="return"><para>bodyName (string array) : inter law names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="348" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="348" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1afbdf2009ad4b56e4bf290dcd0bd45b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getIntegratorId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getIntegratorId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a integrator from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getIntegratorId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): integrator name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : integrator parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="365" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="365" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a3ed914620b76c447db6360e71306ad79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getIntegratorNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getIntegratorNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of integrators. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getIntegratorName() <simplesect kind="return"><para>bodyName (string array) : integrator names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="382" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="382" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a07f25217a4fe60d13889e71633242c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getNodeId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getNodeId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a node from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getNodeId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): node name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : node parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="399" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="399" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a733c8f264e64dc420173c2b1c7738aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getNodeNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getNodeNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of nodes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getNodeName() <simplesect kind="return"><para>bodyName (string array) : node names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="416" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="416" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a5d6a16e34dbe6bb32c63cdaad4c83890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getDimeModeId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getDimeModeId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a dime mode from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getDimeModeId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): dime mode name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : dime mode parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="433" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="433" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1aa414246bc346c8da3c102a986a90ef9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getDimeModeNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getDimeModeNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of dime modes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getDimeModeName() <simplesect kind="return"><para>bodyName (string array) : dime mode names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="450" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="450" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1ac823a6abb93738a2338731872e20b07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getBodyVectorId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getBodyVectorId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a body vector from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getBodyVectorId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): body vector name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : body vector parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="467" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="467" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1ad12407e35c2972515c9e883f7595bc75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getBodyVectorNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getBodyVectorNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of body vectors. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getBodyVectorName() <simplesect kind="return"><para>bodyName (string array) : body vector names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="484" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="484" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a5d207e3587f35b9b5ced5debe1dd86ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int parameters_getContactStatusId</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>parameters_getContactStatusId</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+          <defname>string_in</defname>
+        </param>
+        <briefdescription>
+<para>Get the id a contact status from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage i_param = parameters_getContactStatusId(bodyName) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bodyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string): contact status name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>i_param (int) : contact status parameter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="501" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="501" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1aea288a471686ccf250c3e19044beba3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_getContactStatusNames</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size)</argsstring>
+        <name>parameters_getContactStatusNames</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of contact statuss. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage bodyNames = parameters_getContactStatusName() <simplesect kind="return"><para>bodyName (string array) : contact status names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="518" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="518" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__parameters_8h_1a4cb3278f7c52cecaf1739fa6214c675a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parameters_checkAll</definition>
+        <argsstring>(void)</argsstring>
+        <name>parameters_checkAll</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Check the consistency of all parameters id and name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage <ref refid="wrap__parameters_8h_1a4cb3278f7c52cecaf1739fa6214c675a" kindref="member">parameters_checkAll()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" line="529" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h" declline="529" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*===========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_PARAM_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_PARAM_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="wrap__parameters_8h_1affef8952289539860ac88735c2ae9dd0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1affef8952289539860ac88735c2ae9dd0" kindref="member">parameters_getPhysicTypeId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="wrap__parameters_8h_1a351052528dc1ddfaeb84b36bbac6be76" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a351052528dc1ddfaeb84b36bbac6be76" kindref="member">parameters_getPhysicTypeNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="wrap__parameters_8h_1a697d92240203481b2a3e527095424a16" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a697d92240203481b2a3e527095424a16" kindref="member">parameters_getBodyModelId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="wrap__parameters_8h_1a8532f8c87a14d22153d66a8e72f251e2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a8532f8c87a14d22153d66a8e72f251e2" kindref="member">parameters_getBodyModelNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="wrap__parameters_8h_1a88795ca805e20df697a62b6e7d74b685" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a88795ca805e20df697a62b6e7d74b685" kindref="member">parameters_getContactorId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="wrap__parameters_8h_1a758432a80ddbdf923c5147b9493eebf2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a758432a80ddbdf923c5147b9493eebf2" kindref="member">parameters_getContactorNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="wrap__parameters_8h_1a736a2c96fe36903686923941ba06ff6e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a736a2c96fe36903686923941ba06ff6e" kindref="member">parameters_getInteractionId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="wrap__parameters_8h_1a207f77ebdab46fbe56ab9dfb55827154" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a207f77ebdab46fbe56ab9dfb55827154" kindref="member">parameters_getInteractionNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="wrap__parameters_8h_1af0e4090b68fa8fd6c8554dc4638e3387" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1af0e4090b68fa8fd6c8554dc4638e3387" kindref="member">parameters_getMatrixStorageId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="wrap__parameters_8h_1af30bb8c3af6324525d4125af7a865caf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1af30bb8c3af6324525d4125af7a865caf" kindref="member">parameters_getMatrixStorageNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="wrap__parameters_8h_1a633c1a0e9ddaaa14c5fa84dee63d0a54" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a633c1a0e9ddaaa14c5fa84dee63d0a54" kindref="member">parameters_getMatrixShapeId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="wrap__parameters_8h_1a1223a27dcbdcd18a87c771fa17389c76" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a1223a27dcbdcd18a87c771fa17389c76" kindref="member">parameters_getMatrixShapeNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="wrap__parameters_8h_1ad78be96b62193c95efa61766b1934337" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1ad78be96b62193c95efa61766b1934337" kindref="member">parameters_getGeneralizedCoordinatesId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="wrap__parameters_8h_1aca0cf7b58c0aa22e586291b14009e734" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1aca0cf7b58c0aa22e586291b14009e734" kindref="member">parameters_getGeneralizedCoordinatesNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="wrap__parameters_8h_1a2ff6d56ce52ceb1f5f86930bd07b160a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a2ff6d56ce52ceb1f5f86930bd07b160a" kindref="member">parameters_getSurfaceEnergyStatusId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="wrap__parameters_8h_1a222f977a0e9bc6fce78457e840681f2f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a222f977a0e9bc6fce78457e840681f2f" kindref="member">parameters_getSurfaceEnergyStatusNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="wrap__parameters_8h_1ab6191c7e669130856329438b06ffb779" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1ab6191c7e669130856329438b06ffb779" kindref="member">parameters_getInterLawId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="wrap__parameters_8h_1a600879ed75760508e8005cdb2487eed7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a600879ed75760508e8005cdb2487eed7" kindref="member">parameters_getInterLawNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365" refid="wrap__parameters_8h_1afbdf2009ad4b56e4bf290dcd0bd45b2b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1afbdf2009ad4b56e4bf290dcd0bd45b2b" kindref="member">parameters_getIntegratorId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382" refid="wrap__parameters_8h_1a3ed914620b76c447db6360e71306ad79" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a3ed914620b76c447db6360e71306ad79" kindref="member">parameters_getIntegratorNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399" refid="wrap__parameters_8h_1a07f25217a4fe60d13889e71633242c1e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a07f25217a4fe60d13889e71633242c1e" kindref="member">parameters_getNodeId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416" refid="wrap__parameters_8h_1a733c8f264e64dc420173c2b1c7738aa8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a733c8f264e64dc420173c2b1c7738aa8" kindref="member">parameters_getNodeNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="433" refid="wrap__parameters_8h_1a5d6a16e34dbe6bb32c63cdaad4c83890" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a5d6a16e34dbe6bb32c63cdaad4c83890" kindref="member">parameters_getDimeModeId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="450" refid="wrap__parameters_8h_1aa414246bc346c8da3c102a986a90ef9e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1aa414246bc346c8da3c102a986a90ef9e" kindref="member">parameters_getDimeModeNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"></highlight></codeline>
+<codeline lineno="467" refid="wrap__parameters_8h_1ac823a6abb93738a2338731872e20b07c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1ac823a6abb93738a2338731872e20b07c" kindref="member">parameters_getBodyVectorId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"></highlight></codeline>
+<codeline lineno="484" refid="wrap__parameters_8h_1ad12407e35c2972515c9e883f7595bc75" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1ad12407e35c2972515c9e883f7595bc75" kindref="member">parameters_getBodyVectorNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight></codeline>
+<codeline lineno="501" refid="wrap__parameters_8h_1a5d207e3587f35b9b5ced5debe1dd86ea" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a5d207e3587f35b9b5ced5debe1dd86ea" kindref="member">parameters_getContactStatusId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"></highlight></codeline>
+<codeline lineno="518" refid="wrap__parameters_8h_1aea288a471686ccf250c3e19044beba3e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1aea288a471686ccf250c3e19044beba3e" kindref="member">parameters_getContactStatusNames</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size);</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"></highlight></codeline>
+<codeline lineno="520"><highlight class="normal"></highlight></codeline>
+<codeline lineno="529" refid="wrap__parameters_8h_1a4cb3278f7c52cecaf1739fa6214c675a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__parameters_8h_1a4cb3278f7c52cecaf1739fa6214c675a" kindref="member">parameters_checkAll</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"></highlight></codeline>
+<codeline lineno="531"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_PARAM<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="532"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_parameters.h"/>
+  </compounddef>
+</doxygen>

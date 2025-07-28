@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__DKDKx_8h" kind="file" language="C++">
+    <compoundname>wrap_DKDKx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a2faab51d12df9212fa82f486cb1acf20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_SelectProxTactors</definition>
+        <argsstring>(int reset=0)</argsstring>
+        <name>DKDKx_SelectProxTactors</name>
+        <param>
+          <type>int</type>
+          <declname>reset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>contact detection between CLxxx and JCxxx tactors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>First recup coordinate prediction, then proceed to a box selection to found rough contact list and finally compute the final contact list.</para>
+<para>python usage : DKDKx_SelectProxTactors(reset=0)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">reset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : if not 0, detection is skipped but the boxes will be computed anew at next call </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="57" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="57" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1aa29412187ce7bdb69822ad08f7167492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_SmoothForceComputation</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_SmoothForceComputation</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>explicit computation of contact forces </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1aa29412187ce7bdb69822ad08f7167492" kindref="member">DKDKx_SmoothForceComputation()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="67" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="67" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a8b1bc8082781107ad4485c1054f27ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_UseVaVDetection</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>DKDKx_UseVaVDetection</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>allow to increase the number of contact for a pair cd/an. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : DKDKx_UseVaVDetection(nb)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of contact points for a couple (cd,an) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="83" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="83" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a3abf89b2674e8ea4104f1b88619929c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_WriteLastVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_WriteLastVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write last local values of all DKDKx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values written are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1a3abf89b2674e8ea4104f1b88619929c2" kindref="member">DKDKx_WriteLastVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="95" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="95" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a3b3d5007b8a98db71b578eb898e70440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_WriteOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_WriteOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write local values of all DKDKx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values written are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1a3b3d5007b8a98db71b578eb898e70440" kindref="member">DKDKx_WriteOutVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="107" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="107" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1ae9fe6c72695e99bd156cd962a1d87283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_DisplayOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_DisplayOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display local values of all DKDKx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values displayed are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1ae9fe6c72695e99bd156cd962a1d87283" kindref="member">DKDKx_DisplayOutVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="119" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="119" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1ab87840bdd1b412f3eb5c53869a8bf7e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_DisplayProxTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_DisplayProxTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1ab87840bdd1b412f3eb5c53869a8bf7e7" kindref="member">DKDKx_DisplayProxTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="129" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="129" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a2177117496d9f0a0e7902f12a942923a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_ReadIniVlocRloc</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>DKDKx_ReadIniVlocRloc</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read VlocRloc file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>If num &lt;= 0 : DATBOX/VlocRloc.INI file is read</para>
+</listitem><listitem><para>Else : OUTBOX/VlocRloc.OUT.num is read, num being<itemizedlist>
+<listitem><para>the parameter used in TimeEvolution_ReadIniVlocRloc last call</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para>python usage : DKDKx_ReadIniVlocRloc(num=0)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which VlocRloc file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="150" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="150" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a7d5c019839f7278a24f07b9b923193f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_SetPeriodicCondition</definition>
+        <argsstring>(double period)</argsstring>
+        <name>DKDKx_SetPeriodicCondition</name>
+        <param>
+          <type>double</type>
+          <declname>period</declname>
+        </param>
+        <briefdescription>
+<para>initialize data for simulation using periodic condition </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : DKDKx_SetPeriodicCondition(period)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">period</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value of the period </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="166" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="166" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a4d1ffde7cdf8adace984f31b49a3e8f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_SetFrictionModel</definition>
+        <argsstring>(char *cflag)</argsstring>
+        <name>DKDKx_SetFrictionModel</name>
+        <param>
+          <type>char *</type>
+          <declname>cflag</declname>
+        </param>
+        <briefdescription>
+<para>initialize data for simulation using evolutive local friction </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : DKDKx_SetFrictionModel(cflag) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cflag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char) : model to use (&apos;min&apos;, &apos;max&apos; or &apos;ave&apos;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="181" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="181" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a19e093351a207b654e7204a06d029b4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_SetSurfaceSectors</definition>
+        <argsstring>(int nbsect)</argsstring>
+        <name>DKDKx_SetSurfaceSectors</name>
+        <param>
+          <type>int</type>
+          <declname>nbsect</declname>
+        </param>
+        <briefdescription>
+<para>Set the number of angular sectors of the surface of contactors. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : DKDKx_SetSurfaceSectors(nbsect)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nbsect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of sectors </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="197" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="197" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a2da9d831ea5da05b2399e90758146800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_UpdateSurfaceEnergySector</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_UpdateSurfaceEnergySector</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>update surface energy sector </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1a2da9d831ea5da05b2399e90758146800" kindref="member">DKDKx_UpdateSurfaceEnergySector()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="212" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="212" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a95229100937f9c1d71e744466f3f827e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_ComputeStress</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_ComputeStress</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>update surface energy sector </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1a95229100937f9c1d71e744466f3f827e" kindref="member">DKDKx_ComputeStress()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="227" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="227" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a6b54a831183329713b3eeb04e94f23bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_ComputeBetai</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_ComputeBetai</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute equivalent damage parameter </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1a6b54a831183329713b3eeb04e94f23bd" kindref="member">DKDKx_ComputeBetai()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="242" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="242" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a6e809915e1d6fcf70ab07a580a238e5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_ComputeCZMEnergy</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_ComputeCZMEnergy</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute and decompose local contact energy with CZM law </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1a6e809915e1d6fcf70ab07a580a238e5d" kindref="member">DKDKx_ComputeCZMEnergy()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="257" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="257" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1a9c938c2740f75cdc3b8bf13cf2c82059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>DKDKx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within DKDKx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DKDKx_8h_1a9c938c2740f75cdc3b8bf13cf2c82059" kindref="member">DKDKx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="267" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="267" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DKDKx_8h_1ac27eac7d4042360ee8d4ae40445cde86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DKDKx_GetCZMEnergy</definition>
+        <argsstring>(int icdan, double *energy)</argsstring>
+        <name>DKDKx_GetCZMEnergy</name>
+        <param>
+          <type>int</type>
+          <declname>icdan</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>energy</declname>
+        </param>
+        <briefdescription>
+<para>Get the CZM energy of a given contact. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : energy = DKDKx_GetCZMEnergy(icdan)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan(int)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: index of the DKDKx contact</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>energy(double[4]) : energy value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" line="281" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h" declline="281" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_DKDKx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_DKDKx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="wrap__DKDKx_8h_1a2faab51d12df9212fa82f486cb1acf20" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a2faab51d12df9212fa82f486cb1acf20" kindref="member">DKDKx_SelectProxTactors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reset=0);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="wrap__DKDKx_8h_1aa29412187ce7bdb69822ad08f7167492" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1aa29412187ce7bdb69822ad08f7167492" kindref="member">DKDKx_SmoothForceComputation</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="wrap__DKDKx_8h_1a8b1bc8082781107ad4485c1054f27ead" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a8b1bc8082781107ad4485c1054f27ead" kindref="member">DKDKx_UseVaVDetection</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="wrap__DKDKx_8h_1a3abf89b2674e8ea4104f1b88619929c2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a3abf89b2674e8ea4104f1b88619929c2" kindref="member">DKDKx_WriteLastVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="wrap__DKDKx_8h_1a3b3d5007b8a98db71b578eb898e70440" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a3b3d5007b8a98db71b578eb898e70440" kindref="member">DKDKx_WriteOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="wrap__DKDKx_8h_1ae9fe6c72695e99bd156cd962a1d87283" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1ae9fe6c72695e99bd156cd962a1d87283" kindref="member">DKDKx_DisplayOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="wrap__DKDKx_8h_1ab87840bdd1b412f3eb5c53869a8bf7e7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1ab87840bdd1b412f3eb5c53869a8bf7e7" kindref="member">DKDKx_DisplayProxTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="wrap__DKDKx_8h_1a2177117496d9f0a0e7902f12a942923a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a2177117496d9f0a0e7902f12a942923a" kindref="member">DKDKx_ReadIniVlocRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="wrap__DKDKx_8h_1a7d5c019839f7278a24f07b9b923193f0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a7d5c019839f7278a24f07b9b923193f0" kindref="member">DKDKx_SetPeriodicCondition</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>period);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="wrap__DKDKx_8h_1a4d1ffde7cdf8adace984f31b49a3e8f4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a4d1ffde7cdf8adace984f31b49a3e8f4" kindref="member">DKDKx_SetFrictionModel</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cflag);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="wrap__DKDKx_8h_1a19e093351a207b654e7204a06d029b4f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a19e093351a207b654e7204a06d029b4f" kindref="member">DKDKx_SetSurfaceSectors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbsect);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="wrap__DKDKx_8h_1a2da9d831ea5da05b2399e90758146800" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a2da9d831ea5da05b2399e90758146800" kindref="member">DKDKx_UpdateSurfaceEnergySector</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="wrap__DKDKx_8h_1a95229100937f9c1d71e744466f3f827e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a95229100937f9c1d71e744466f3f827e" kindref="member">DKDKx_ComputeStress</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="wrap__DKDKx_8h_1a6b54a831183329713b3eeb04e94f23bd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a6b54a831183329713b3eeb04e94f23bd" kindref="member">DKDKx_ComputeBetai</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="wrap__DKDKx_8h_1a6e809915e1d6fcf70ab07a580a238e5d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a6e809915e1d6fcf70ab07a580a238e5d" kindref="member">DKDKx_ComputeCZMEnergy</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="wrap__DKDKx_8h_1a9c938c2740f75cdc3b8bf13cf2c82059" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1a9c938c2740f75cdc3b8bf13cf2c82059" kindref="member">DKDKx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="wrap__DKDKx_8h_1ac27eac7d4042360ee8d4ae40445cde86" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DKDKx_8h_1ac27eac7d4042360ee8d4ae40445cde86" kindref="member">DKDKx_GetCZMEnergy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdan,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>energy);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_DKDKx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_DKDKx.h"/>
+  </compounddef>
+</doxygen>

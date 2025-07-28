@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__mbs2D_8h" kind="file" language="C++">
+    <compoundname>wrap_mbs2D.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__mbs2D_8h_1a8928ec114616c714c09a258a73145844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_setNb</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>MBS2D_setNb</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Set the number of MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MBS2D_setNb(nb) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : set the number of MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="57" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="57" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1ac9d8a0c065a1cf26bae74d660706139d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MBS2D_getNb</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS2D_getNb</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb = <ref refid="wrap__mbs2D_8h_1ac9d8a0c065a1cf26bae74d660706139d" kindref="member">MBS2D_getNb()</ref> <simplesect kind="return"><para>nb (integer) : the number of MBS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="72" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="72" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1abb932f5271a4cbeb8e822e6636e58a24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_setNbNodes</definition>
+        <argsstring>(int ibdyty, int nb)</argsstring>
+        <name>MBS2D_setNbNodes</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Set the number of nodes of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MBS2D_setNbNodes(ibdyty, nb) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: id of the MBS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the number of nodes of the MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="89" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="89" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1aa3ffc5d2df3f474ee71272cff5de6dee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_setNbTactors</definition>
+        <argsstring>(int ibdyty, int nb)</argsstring>
+        <name>MBS2D_setNbTactors</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Set the number contactors of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MBS2D_setNbTactors(ibdyty, nb) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: id of the MBS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the number of contactor of the MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="106" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="106" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1a53071478cc4909d97c96609afb8b85d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_getPtrCoor</definition>
+        <argsstring>(int ibdyty, double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>MBS2D_getPtrCoor</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a pointer on the coor of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : coor = MBS2D_getPtrCoor(ibdyty)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered MBS</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>coor (double 2D-array) : reference on the coordinates of the nodes </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="127" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="127" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1a56a873ba5a3e83c41ec0e81ed6d56669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_getPtrCoorTT</definition>
+        <argsstring>(int ibdyty, double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>MBS2D_getPtrCoorTT</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Set the array of coordinates of nodes of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : coorTT = MBS2D_GetPtrCoorTT(ibdyty)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: id of the MBS</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>coorTT (double array) : coordinates of nodes of a MBS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="148" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="148" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1a4723b4d5f8c53ca3f3436266bbd6891d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_addContactor</definition>
+        <argsstring>(int ibdyty, int inodty, int itacty, char *tactype, char *color, double *rvector_in, int rlength_in, int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>MBS2D_addContactor</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inodty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>tactype</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Add a new contactor to a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Available contactor types are :<itemizedlist>
+<listitem><para>JONCx: inputs are:<itemizedlist>
+<listitem><para>rdata must hold [axe_x, axe_y]</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>POLYR: inputs are:<itemizedlist>
+<listitem><para>rdata must hold the coordinates of the vertices [x_1, y_1, ... x_n, y_n]</para>
+</listitem><listitem><para>idata must hold the number of vertices</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para>python usage : MBS2D_addContactor(ibdyty, inodty, itacty, tacttype, color, rdata, idata=None) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the MBS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">inodty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the node of the MBS the contactor is tied to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the contactor of MBS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tactype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string [5]) : the type of contactor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string [5]) : the color of the contactor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rdata</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the new value of the vector </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">idata</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer array) : the new value of the vector </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="185" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="185" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1a8562eef878a69b1e663f99d3d7e5b44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_initialize</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS2D_initialize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initialize MBS module once loading is done. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs2D_8h_1a8562eef878a69b1e663f99d3d7e5b44d" kindref="member">MBS2D_initialize()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="196" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="196" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1ab9abeed0c96dccb5a7a2ed3bbca5bc76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_finalize</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS2D_finalize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Finalize MBS module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs2D_8h_1ab9abeed0c96dccb5a7a2ed3bbca5bc76" kindref="member">MBS2D_finalize()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="207" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="207" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1abfd1e437bbc50291d8551b74557fc3c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_IncrementStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS2D_IncrementStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute the current velocity and displacement </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs2D_8h_1abfd1e437bbc50291d8551b74557fc3c1" kindref="member">MBS2D_IncrementStep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="218" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="218" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1a3cd6851dc30c2aa7eb5419cd9620883f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_ComputeFreeVelocity</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS2D_ComputeFreeVelocity</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute free velocity </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs2D_8h_1a3cd6851dc30c2aa7eb5419cd9620883f" kindref="member">MBS2D_ComputeFreeVelocity()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="230" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="230" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1abad08111a1a2d22344e5411132c8363a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_ComputeDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS2D_ComputeDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>update current position and velocity </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs2D_8h_1abad08111a1a2d22344e5411132c8363a" kindref="member">MBS2D_ComputeDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="241" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="241" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs2D_8h_1a84eff1ee013c6f856b083417c12ea15a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS2D_UpdateDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS2D_UpdateDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>save d.o.f. of the end of the time step to d.o.f. of the begining of the next one </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs2D_8h_1a84eff1ee013c6f856b083417c12ea15a" kindref="member">MBS2D_UpdateDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" line="251" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h" declline="251" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_MBS2D_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_MBS2D_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="wrap__mbs2D_8h_1a8928ec114616c714c09a258a73145844" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1a8928ec114616c714c09a258a73145844" kindref="member">MBS2D_setNb</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="wrap__mbs2D_8h_1ac9d8a0c065a1cf26bae74d660706139d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1ac9d8a0c065a1cf26bae74d660706139d" kindref="member">MBS2D_getNb</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="wrap__mbs2D_8h_1abb932f5271a4cbeb8e822e6636e58a24" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1abb932f5271a4cbeb8e822e6636e58a24" kindref="member">MBS2D_setNbNodes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="wrap__mbs2D_8h_1aa3ffc5d2df3f474ee71272cff5de6dee" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1aa3ffc5d2df3f474ee71272cff5de6dee" kindref="member">MBS2D_setNbTactors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="wrap__mbs2D_8h_1a53071478cc4909d97c96609afb8b85d5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1a53071478cc4909d97c96609afb8b85d5" kindref="member">MBS2D_getPtrCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="wrap__mbs2D_8h_1a56a873ba5a3e83c41ec0e81ed6d56669" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1a56a873ba5a3e83c41ec0e81ed6d56669" kindref="member">MBS2D_getPtrCoorTT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="wrap__mbs2D_8h_1a4723b4d5f8c53ca3f3436266bbd6891d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1a4723b4d5f8c53ca3f3436266bbd6891d" kindref="member">MBS2D_addContactor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inodty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>tactype,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>color,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="wrap__mbs2D_8h_1a8562eef878a69b1e663f99d3d7e5b44d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1a8562eef878a69b1e663f99d3d7e5b44d" kindref="member">MBS2D_initialize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="wrap__mbs2D_8h_1ab9abeed0c96dccb5a7a2ed3bbca5bc76" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1ab9abeed0c96dccb5a7a2ed3bbca5bc76" kindref="member">MBS2D_finalize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="wrap__mbs2D_8h_1abfd1e437bbc50291d8551b74557fc3c1" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1abfd1e437bbc50291d8551b74557fc3c1" kindref="member">MBS2D_IncrementStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="wrap__mbs2D_8h_1a3cd6851dc30c2aa7eb5419cd9620883f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1a3cd6851dc30c2aa7eb5419cd9620883f" kindref="member">MBS2D_ComputeFreeVelocity</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="wrap__mbs2D_8h_1abad08111a1a2d22344e5411132c8363a" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1abad08111a1a2d22344e5411132c8363a" kindref="member">MBS2D_ComputeDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="wrap__mbs2D_8h_1a84eff1ee013c6f856b083417c12ea15a" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs2D_8h_1a84eff1ee013c6f856b083417c12ea15a" kindref="member">MBS2D_UpdateDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_MBS2D_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs2D.h"/>
+  </compounddef>
+</doxygen>

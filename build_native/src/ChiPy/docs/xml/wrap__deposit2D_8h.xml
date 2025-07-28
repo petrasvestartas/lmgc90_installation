@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__deposit2D_8h" kind="file" language="C++">
+    <compoundname>wrap_deposit2D.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__deposit2D_8h_1a8970083f718537f514dff91c821764bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void deposit2D_Potential</definition>
+        <argsstring>(double *rvector_in, int rlength_in, double lx, int potential, double **matrix_out, int *dim1, int *dim2, double *rvector_in2=NULL, int rlength_in2=0, double *matrix_in=NULL, int idim1=0, int idim2=0)</argsstring>
+        <name>deposit2D_Potential</name>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>potential</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in2</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in2</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idim1</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idim2</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Computes a new deposit under potential with or without big particles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python call: coor = deposit2D_Potential(in_radii, lx, potential[, dradii, dcoor]) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">in_radii</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array): given radii list (i.e. granulometry) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">lx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): width of the box in which to deposit </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">potential</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer): for deposit (1-&gt;gravity, 2-&gt;wall, 3-&gt;big_particles) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">dradii</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) (optional) : a list of already deposited radii </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">dcoor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) (optional) : a list of already deposited coor (must be of size [nb_dradii,3]) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>coor (double array): coordinates of deposited radii (shape [nb_radii,2]) PYDOC </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_deposit2D.h" line="26" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_deposit2D.h" declline="26" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>fichier<sp/>d&apos;entête<sp/>C++<sp/>associe<sp/>au<sp/>fichier<sp/>wrap_deposit2D.f90:</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>acces<sp/>en<sp/>C++<sp/>aux<sp/>fonction<sp/>du<sp/>modules<sp/>wrap_deposit2D<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_deposit2D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_deposit2D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="wrap__deposit2D_8h_1a8970083f718537f514dff91c821764bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__deposit2D_8h_1a8970083f718537f514dff91c821764bc" kindref="member">deposit2D_Potential</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>potential,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dim2,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rvector_in2=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in2=0,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*matrix_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>idim1=0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idim2=0</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_deposit2D.h"/>
+  </compounddef>
+</doxygen>

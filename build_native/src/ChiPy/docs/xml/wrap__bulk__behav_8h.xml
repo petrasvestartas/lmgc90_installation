@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__bulk__behav_8h" kind="file" language="C++">
+    <compoundname>wrap_bulk_behav.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a85095daa06ab93098f1de9819c0a2727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_ReadBehaviours</definition>
+        <argsstring>(void)</argsstring>
+        <name>bulk_behav_ReadBehaviours</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>read gravity and behaviors from DATBOX/BULK_BEHAV.DAT file </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__bulk__behav_8h_1a85095daa06ab93098f1de9819c0a2727" kindref="member">bulk_behav_ReadBehaviours()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="52" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="52" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1af9fcae52cde90e1af6e146d669aa53e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_WriteBehaviours</definition>
+        <argsstring>(void)</argsstring>
+        <name>bulk_behav_WriteBehaviours</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write gravity and behaviors to OUTBOX/BULK_BEHAV.OUT file </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__bulk__behav_8h_1af9fcae52cde90e1af6e146d669aa53e8" kindref="member">bulk_behav_WriteBehaviours()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="62" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="62" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a80045813bd15205c496eec6ccf505a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_CollectOutBulkBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>bulk_behav_CollectOutBulkBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>read gravity and behaviors from OUTBOX/BULK_BEHAV.OUT file </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__bulk__behav_8h_1a80045813bd15205c496eec6ccf505a5b" kindref="member">bulk_behav_CollectOutBulkBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="72" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="72" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1ab32d7e4a12ceede77733e4ea55df43ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_CleanOutBulkBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>bulk_behav_CleanOutBulkBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write (replacing) gravity and behaviors to OUTBOX/BULK_BEHAV.OUT file </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__bulk__behav_8h_1ab32d7e4a12ceede77733e4ea55df43ab" kindref="member">bulk_behav_CleanOutBulkBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="82" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="82" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1ae63d8bb4bf5258474bfc46f7a5d735fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_AppendOutBulkBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>bulk_behav_AppendOutBulkBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write (appending) gravity and behaviors to OUTBOX/BULK_BEHAV.OUT file </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__bulk__behav_8h_1ae63d8bb4bf5258474bfc46f7a5d735fa" kindref="member">bulk_behav_AppendOutBulkBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="92" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="92" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a3c61f5b14a751fc600eab18e6eed786f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_RebuildInBulkBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>bulk_behav_RebuildInBulkBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write (replace) gravity and behaviors to DATBOX/BULK_BEHAV.DAT file </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__bulk__behav_8h_1a3c61f5b14a751fc600eab18e6eed786f" kindref="member">bulk_behav_RebuildInBulkBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="102" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="102" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a2068656298a4915a210a319c81476eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_GetGravity</definition>
+        <argsstring>(double **r8_vector, int *r8_size)</argsstring>
+        <name>bulk_behav_GetGravity</name>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>get the gravity acceleration used </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : gravity = <ref refid="wrap__bulk__behav_8h_1a2068656298a4915a210a319c81476eba" kindref="member">bulk_behav_GetGravity()</ref> <simplesect kind="return"><para>gravity (double array) : gravity vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="119" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="119" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1acce2a7208f447cce1c1546710f006cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_SetGravity</definition>
+        <argsstring>(double *rvector_in, int rlength_in)</argsstring>
+        <name>bulk_behav_SetGravity</name>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>set the gravity acceleration to be used </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : bulk_behav_SetGravity(gravity) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">gravity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : gravity vector (size 3) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="136" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="136" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a2120a8de64e05ec233e045a54d86048b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_SetConductivity</definition>
+        <argsstring>(char *cvalue1_c, int ivalue, double rvalue)</argsstring>
+        <name>bulk_behav_SetConductivity</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue</declname>
+        </param>
+        <briefdescription>
+<para>set the conductivity parameter to be used </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : bulk_behav_SetConductivity(cvalue ,ivalue, rvalue) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : nickname of bulk behaviour </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of parameter: 0 = constant, 1 = field </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : conductivity value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="156" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="156" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a6482076a771bd046bd91da560c212bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_SetCapacity</definition>
+        <argsstring>(char *cvalue1_c, int ivalue, double rvalue)</argsstring>
+        <name>bulk_behav_SetCapacity</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue</declname>
+        </param>
+        <briefdescription>
+<para>set the Capacity parameter to be used </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : bulk_behav_SetCapacity(cvalue ,ivalue, rvalue) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : nickname of bulk behaviour </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of parameter: 0 = constant, 1 = field </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : Capacity value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="176" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="176" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a99eeadc8e58e8af9c08f28566c97927e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_SetBiot</definition>
+        <argsstring>(char *cvalue1_c, int ivalue, double rvalue)</argsstring>
+        <name>bulk_behav_SetBiot</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue</declname>
+        </param>
+        <briefdescription>
+<para>set the Biot parameter to be used </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : bulk_behav_SetBiot(cvalue ,ivalue, rvalue) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : nickname of bulk behaviour </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of parameter: 0 = constant, 1 = field </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : Biot value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="196" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="196" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1adc32e0438e6b937f938ff95b38951f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_SetExternalFlux</definition>
+        <argsstring>(char *cvalue1_c, int ivalue, double rvalue)</argsstring>
+        <name>bulk_behav_SetExternalFlux</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue</declname>
+        </param>
+        <briefdescription>
+<para>set the External Flux parameter to be used </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : bulk_behav_SetExternalFlux(cvalue ,ivalue, rvalue) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : nickname of bulk behaviour </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of parameter: 0 = constant, 1 = field </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : External Flux value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="216" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="216" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a24858896e5996b2f6ce3da8f1c2f2ad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_SetDensity</definition>
+        <argsstring>(char *cvalue1_c, double rvalue)</argsstring>
+        <name>bulk_behav_SetDensity</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue</declname>
+        </param>
+        <briefdescription>
+<para>set the Density parameter to be used </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : bulk_behav_SetDensity(cvalue , rvalue) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : nickname of bulk behaviour </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : Density value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="234" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="234" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1a52ef907777567baac90ce14b4f2487a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int bulk_behav_GetNbBulkBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>bulk_behav_GetNbBulkBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>get the number of bulk laws </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_bulk_behav = <ref refid="wrap__bulk__behav_8h_1a52ef907777567baac90ce14b4f2487a1" kindref="member">bulk_behav_GetNbBulkBehav()</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">nb_bulk_behav</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of bulk behaviour in lmgc90 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="249" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="249" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1ae9fc0085d53f1417c21fc717b8161503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_GetBulkBehav</definition>
+        <argsstring>(int i_bb, char **string_out, int *string_size, int *real_size, char **c5)</argsstring>
+        <name>bulk_behav_GetBulkBehav</name>
+        <param>
+          <type>int</type>
+          <declname>i_bb</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>string_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>real_size</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>c5</declname>
+        </param>
+        <briefdescription>
+<para>get a given bulk law </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : lawty, behav = bulk_behav_GetBulkBehav(i_bb) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_bb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : index of the desired bulk_behav </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">lawty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : type of the bulk law </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">behav</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : name of the bulk law </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real vector) : parameters of the law </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="271" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="271" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__bulk__behav_8h_1ac68d48276b64801ded790fefa5955087" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulk_behav_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>bulk_behav_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within bulk_behav module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__bulk__behav_8h_1ac68d48276b64801ded790fefa5955087" kindref="member">bulk_behav_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" line="281" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h" declline="281" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*==========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_bulk_behav_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_bulk_behav_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="wrap__bulk__behav_8h_1a85095daa06ab93098f1de9819c0a2727" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a85095daa06ab93098f1de9819c0a2727" kindref="member">bulk_behav_ReadBehaviours</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="wrap__bulk__behav_8h_1af9fcae52cde90e1af6e146d669aa53e8" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1af9fcae52cde90e1af6e146d669aa53e8" kindref="member">bulk_behav_WriteBehaviours</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="wrap__bulk__behav_8h_1a80045813bd15205c496eec6ccf505a5b" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a80045813bd15205c496eec6ccf505a5b" kindref="member">bulk_behav_CollectOutBulkBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="wrap__bulk__behav_8h_1ab32d7e4a12ceede77733e4ea55df43ab" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1ab32d7e4a12ceede77733e4ea55df43ab" kindref="member">bulk_behav_CleanOutBulkBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="wrap__bulk__behav_8h_1ae63d8bb4bf5258474bfc46f7a5d735fa" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1ae63d8bb4bf5258474bfc46f7a5d735fa" kindref="member">bulk_behav_AppendOutBulkBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="wrap__bulk__behav_8h_1a3c61f5b14a751fc600eab18e6eed786f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a3c61f5b14a751fc600eab18e6eed786f" kindref="member">bulk_behav_RebuildInBulkBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="wrap__bulk__behav_8h_1a2068656298a4915a210a319c81476eba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a2068656298a4915a210a319c81476eba" kindref="member">bulk_behav_GetGravity</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="wrap__bulk__behav_8h_1acce2a7208f447cce1c1546710f006cbe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1acce2a7208f447cce1c1546710f006cbe" kindref="member">bulk_behav_SetGravity</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="wrap__bulk__behav_8h_1a2120a8de64e05ec233e045a54d86048b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a2120a8de64e05ec233e045a54d86048b" kindref="member">bulk_behav_SetConductivity</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="wrap__bulk__behav_8h_1a6482076a771bd046bd91da560c212bea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a6482076a771bd046bd91da560c212bea" kindref="member">bulk_behav_SetCapacity</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="wrap__bulk__behav_8h_1a99eeadc8e58e8af9c08f28566c97927e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a99eeadc8e58e8af9c08f28566c97927e" kindref="member">bulk_behav_SetBiot</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="wrap__bulk__behav_8h_1adc32e0438e6b937f938ff95b38951f59" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1adc32e0438e6b937f938ff95b38951f59" kindref="member">bulk_behav_SetExternalFlux</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="wrap__bulk__behav_8h_1a24858896e5996b2f6ce3da8f1c2f2ad4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a24858896e5996b2f6ce3da8f1c2f2ad4" kindref="member">bulk_behav_SetDensity</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="wrap__bulk__behav_8h_1a52ef907777567baac90ce14b4f2487a1" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1a52ef907777567baac90ce14b4f2487a1" kindref="member">bulk_behav_GetNbBulkBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="wrap__bulk__behav_8h_1ae9fc0085d53f1417c21fc717b8161503" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1ae9fc0085d53f1417c21fc717b8161503" kindref="member">bulk_behav_GetBulkBehav</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_bb,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>real_size,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>c5);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="wrap__bulk__behav_8h_1ac68d48276b64801ded790fefa5955087" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__bulk__behav_8h_1ac68d48276b64801ded790fefa5955087" kindref="member">bulk_behav_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>bulk_behav_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_bulk_behav.h"/>
+  </compounddef>
+</doxygen>

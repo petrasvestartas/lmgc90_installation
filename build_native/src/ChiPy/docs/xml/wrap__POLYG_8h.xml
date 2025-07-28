@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__POLYG_8h" kind="file" language="C++">
+    <compoundname>wrap_POLYG.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__POLYG_8h_1ae3ec301b455fb8d66ed66777c39759f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_LoadTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>POLYG_LoadTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>load POLYG from RBDY2 and initialize existing_entites </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__POLYG_8h_1ae3ec301b455fb8d66ed66777c39759f0" kindref="member">POLYG_LoadTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="52" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="52" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a1de142565a28d6eca37145f6f257d292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double POLYG_GetMinRadius</definition>
+        <argsstring>(void)</argsstring>
+        <name>POLYG_GetMinRadius</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>give min radius used during detection </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__POLYG_8h_1a1de142565a28d6eca37145f6f257d292" kindref="member">POLYG_GetMinRadius()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="73" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="73" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a4ef9ba76a09d5ed2f7075bb54db3eb95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double POLYG_GetMaxRadius</definition>
+        <argsstring>(void)</argsstring>
+        <name>POLYG_GetMaxRadius</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>give max radius used during detection </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__POLYG_8h_1a4ef9ba76a09d5ed2f7075bb54db3eb95" kindref="member">POLYG_GetMaxRadius()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="82" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="82" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a180dbd73c60ad138c9e0cc3ce315e4f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int POLYG_GetNbPOLYG</definition>
+        <argsstring>(void)</argsstring>
+        <name>POLYG_GetNbPOLYG</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of POLYG in container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_polyg = <ref refid="wrap__POLYG_8h_1a180dbd73c60ad138c9e0cc3ce315e4f5" kindref="member">POLYG_GetNbPOLYG()</ref></para>
+<para><simplesect kind="return"><para>nb_polyg (integer) : the number of POLYG in container </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="108" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="108" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a55ae10904b433cec7a1eca3639ea9084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_GetPOLYG2BDYTY</definition>
+        <argsstring>(int **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>POLYG_GetPOLYG2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a copy of map POLYG2bdyty. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : polyr2bdyty = <ref refid="wrap__POLYG_8h_1a55ae10904b433cec7a1eca3639ea9084" kindref="member">POLYG_GetPOLYG2BDYTY()</ref> <simplesect kind="return"><para>polyr2bdyty (integer 2D-array) : the polyr2bdyty map </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="142" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="142" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a9e256ddcde7c97407ff8066455a3fc1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_GetPtrPOLYG2BDYTY</definition>
+        <argsstring>(int **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>POLYG_GetPtrPOLYG2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+          <defname>dim</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return a pointer onto the map polyg2rbdy2 </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : polyg2rbdy2 = <ref refid="wrap__POLYG_8h_1a9e256ddcde7c97407ff8066455a3fc1a" kindref="member">POLYG_GetPtrPOLYG2BDYTY()</ref></para>
+<para><simplesect kind="return"><para>polyg2rbdy2 (integer array) : reference on map between polyg rank and body/tactor rank </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="160" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="160" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1afd6311b19aca181e564b3d65c70139b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int POLYG_IsVisible</definition>
+        <argsstring>(int itact)</argsstring>
+        <name>POLYG_IsVisible</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <briefdescription>
+<para>return if a body visible </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : visible = POLYG_IsVisible(itact) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of POLYG </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : 1 if body is visible, 0 else </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="178" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="178" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a642291e40b881581b74c088c19328770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double POLYG_GetContactorRadius</definition>
+        <argsstring>(int itact)</argsstring>
+        <name>POLYG_GetContactorRadius</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <briefdescription>
+<para>Get the radius of a given POLYG. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : radius = POLYG_GetContactorRadius(itact) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of a POLYG </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>radius (double) : the radius of the POLYG of rank itact </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="195" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="195" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a091609516e8a875affab15c4d1f38557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int POLYG_GetNbVertices</definition>
+        <argsstring>(int ibdyty)</argsstring>
+        <name>POLYG_GetNbVertices</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of vertices of the first POLYG of a body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_vertices = POLYG_GetNbVertices(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of a body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_vertices (integer) : the number of vertices of the first POLYG of the body </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="213" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="213" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1acf45a31c978c29f71dab25c82f76902b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_GetVertices</definition>
+        <argsstring>(int ivalue1, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>POLYG_GetVertices</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get the coordinates of the vertices of the first POLYG of a body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : vertices = POLYG_GetVertices(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vertices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double 2D-array) : the coordinates of the vertices </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="232" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="232" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1aa16a867b8dd18e845632ce8c43559538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int POLYG_GetNbVertex</definition>
+        <argsstring>(int itacty)</argsstring>
+        <name>POLYG_GetNbVertex</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of vertices of a POLYG. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : nb_vertex = POLYG_GetNpVertex(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the POLYG contactor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_vertex (int) : the number of vertices of the POLYG </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="249" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="249" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a5fc70339d825d7f3b90d23935df61ba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_GetVertex</definition>
+        <argsstring>(int itacty, double *rvector_out, int rlength_out)</argsstring>
+        <name>POLYG_GetVertex</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_out</declname>
+        </param>
+        <briefdescription>
+<para>Get the outline of a POLYG. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : vertex = POLYG_GetVertex(itacty, length) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : 2 * number of vertices </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vertex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the coordinates of the vertices </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="268" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="268" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a73c81035757c83ae61f31865e4e53005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int POLYG_GetBodyId</definition>
+        <argsstring>(int itacty)</argsstring>
+        <name>POLYG_GetBodyId</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <briefdescription>
+<para>Get the id of the body which the tactor belongs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : id = POLYG_GetBodyId(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of a POLYG contactor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>id (integer) : the id of the body </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="284" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="284" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1ac0079a0e7cfdbb9fd6855f25aadc89d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_InitOutlines</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>POLYG_InitOutlines</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the outlines of all POLYG. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : outlines = <ref refid="wrap__POLYG_8h_1ac0079a0e7cfdbb9fd6855f25aadc89d4" kindref="member">POLYG_InitOutlines()</ref> <simplesect kind="return"><para>outlines (double array) : a reference on outlines_POLYG </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="303" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="303" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a02dad349016422d3bb896a5fe25e6827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_InitScalarFields</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>POLYG_InitScalarFields</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the scalar fields of all POLYG. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : scalarfields = POLYG_InitScalarfields() <simplesect kind="return"><para>scalarfields (double array) : reference on scalarfields_POLYG array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="321" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="321" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a68959fae3132177d999687bf878eda64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_UpdatePostdata</definition>
+        <argsstring>(void)</argsstring>
+        <name>POLYG_UpdatePostdata</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Update values of outlines_POLYG and scalarfields_POLYG pointers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : POLYG_UpdatePostdata </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="332" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="332" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1aff6df7544be4b8b949f328ae8f2fdc5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_GetNbPointOutlines</definition>
+        <argsstring>(int **pointer_out, int *length)</argsstring>
+        <name>POLYG_GetNbPointOutlines</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of cumulated outline points number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_pointOutlines = <ref refid="wrap__POLYG_8h_1aff6df7544be4b8b949f328ae8f2fdc5d" kindref="member">POLYG_GetNbPointOutlines()</ref> <simplesect kind="return"><para>nb_pointOutlines (integer array) : the cumulated number of outline points of the POLYG </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="349" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="349" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1ae158adbd929302d75e7b9235d5df77d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int POLYG_GetNbScalarFields</definition>
+        <argsstring>(void)</argsstring>
+        <name>POLYG_GetNbScalarFields</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of scalar fields of a POLYG. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_scalarfields = <ref refid="wrap__POLYG_8h_1ae158adbd929302d75e7b9235d5df77d3" kindref="member">POLYG_GetNbScalarFields()</ref></para>
+<para><simplesect kind="return"><para>nb_scalarfields (integer) : the number of scalar fields of a POLYG </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="366" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="366" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1a2c929f83a1e2c7c91e616c88e2d43fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_SetXdilation</definition>
+        <argsstring>(int itacty, int ivertex, double *rvector_in, int rlength_in=2)</argsstring>
+        <name>POLYG_SetXdilation</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivertex</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="386" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="386" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1aeb9894fd1816be0ce50aa7ea3fe3ba6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_SetVdilation</definition>
+        <argsstring>(int itacty, int ivertex, double *rvector_in, int rlength_in=2)</argsstring>
+        <name>POLYG_SetVdilation</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivertex</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="405" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="405" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__POLYG_8h_1abe710330682f21916a96c75ffc43b9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void POLYG_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>POLYG_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within POLYG module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__POLYG_8h_1abe710330682f21916a96c75ffc43b9f8" kindref="member">POLYG_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" line="415" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h" declline="415" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_POLYG_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_POLYG_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="wrap__POLYG_8h_1ae3ec301b455fb8d66ed66777c39759f0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1ae3ec301b455fb8d66ed66777c39759f0" kindref="member">POLYG_LoadTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>B.o.B.o.R</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>/**</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>@fn<sp/>void<sp/>POLYG_UpdateRadii(void)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>@brief<sp/>Update<sp/>radii<sp/>(mean,radius,<sp/>max,<sp/>min)<sp/>for<sp/>detection</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>@cond<sp/>PYDOC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>python<sp/>usage<sp/>:<sp/>POLYG_UpdateRadii()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>@endcond</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>extern<sp/>&quot;C&quot;<sp/>void<sp/>POLYG_UpdateRadii(void);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="wrap__POLYG_8h_1a1de142565a28d6eca37145f6f257d292" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a1de142565a28d6eca37145f6f257d292" kindref="member">POLYG_GetMinRadius</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82" refid="wrap__POLYG_8h_1a4ef9ba76a09d5ed2f7075bb54db3eb95" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a4ef9ba76a09d5ed2f7075bb54db3eb95" kindref="member">POLYG_GetMaxRadius</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>@fn<sp/>void<sp/>POLYG_UpdateNormalsRef(void)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>@brief<sp/>Update<sp/>normals<sp/>taken<sp/>into<sp/>account<sp/>dilation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>@cond<sp/>PYDOC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>python<sp/>usage<sp/>:<sp/>POLYG_UpdateNormalsRef()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*<sp/>@endcond</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>extern<sp/>&quot;C&quot;<sp/>void<sp/>POLYG_UpdateNormalsRef(void);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="wrap__POLYG_8h_1a180dbd73c60ad138c9e0cc3ce315e4f5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a180dbd73c60ad138c9e0cc3ce315e4f5" kindref="member">POLYG_GetNbPOLYG</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/>/\**<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@fn<sp/>void<sp/>POLYG_GetPOLYG2RBDY2(int**<sp/>i4_vector,<sp/>int*<sp/>i4_size)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@brief<sp/>return<sp/>the<sp/>map<sp/>polyg2rbdy2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>PYDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>python<sp/>usage<sp/>:<sp/>polyg2rbdy2<sp/>=<sp/>POLYG_GetPOLYG2RBDY2()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@return<sp/><sp/><sp/><sp/>polyg2rbdy2<sp/>(integer<sp/>array)<sp/>:<sp/>map<sp/>between<sp/>polyg<sp/>rank<sp/>and<sp/>body<sp/>rank<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>CDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@param[out]<sp/>i4_vector<sp/>(int**)<sp/>:<sp/>map<sp/>between<sp/>polyg<sp/>rank<sp/>and<sp/>body<sp/>rank<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@param[out]<sp/>i4_size<sp/>(int*)<sp/><sp/><sp/><sp/>:<sp/>the<sp/>size<sp/>of<sp/>i4_vector<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*\/<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>extern<sp/>&quot;C&quot;<sp/>void<sp/>POLYG_GetPOLYG2RBDY2(int**<sp/>i4_vector,<sp/>int*<sp/>i4_size);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="wrap__POLYG_8h_1a55ae10904b433cec7a1eca3639ea9084" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a55ae10904b433cec7a1eca3639ea9084" kindref="member">POLYG_GetPOLYG2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="wrap__POLYG_8h_1a9e256ddcde7c97407ff8066455a3fc1a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a9e256ddcde7c97407ff8066455a3fc1a" kindref="member">POLYG_GetPtrPOLYG2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="wrap__POLYG_8h_1afd6311b19aca181e564b3d65c70139b2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1afd6311b19aca181e564b3d65c70139b2" kindref="member">POLYG_IsVisible</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="wrap__POLYG_8h_1a642291e40b881581b74c088c19328770" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a642291e40b881581b74c088c19328770" kindref="member">POLYG_GetContactorRadius</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="213" refid="wrap__POLYG_8h_1a091609516e8a875affab15c4d1f38557" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a091609516e8a875affab15c4d1f38557" kindref="member">POLYG_GetNbVertices</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="wrap__POLYG_8h_1acf45a31c978c29f71dab25c82f76902b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1acf45a31c978c29f71dab25c82f76902b" kindref="member">POLYG_GetVertices</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="wrap__POLYG_8h_1aa16a867b8dd18e845632ce8c43559538" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1aa16a867b8dd18e845632ce8c43559538" kindref="member">POLYG_GetNbVertex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="268" refid="wrap__POLYG_8h_1a5fc70339d825d7f3b90d23935df61ba5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a5fc70339d825d7f3b90d23935df61ba5" kindref="member">POLYG_GetVertex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_out);</highlight></codeline>
+<codeline lineno="284" refid="wrap__POLYG_8h_1a73c81035757c83ae61f31865e4e53005" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a73c81035757c83ae61f31865e4e53005" kindref="member">POLYG_GetBodyId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="wrap__POLYG_8h_1ac0079a0e7cfdbb9fd6855f25aadc89d4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1ac0079a0e7cfdbb9fd6855f25aadc89d4" kindref="member">POLYG_InitOutlines</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="wrap__POLYG_8h_1a02dad349016422d3bb896a5fe25e6827" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a02dad349016422d3bb896a5fe25e6827" kindref="member">POLYG_InitScalarFields</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="wrap__POLYG_8h_1a68959fae3132177d999687bf878eda64" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a68959fae3132177d999687bf878eda64" kindref="member">POLYG_UpdatePostdata</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="wrap__POLYG_8h_1aff6df7544be4b8b949f328ae8f2fdc5d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1aff6df7544be4b8b949f328ae8f2fdc5d" kindref="member">POLYG_GetNbPointOutlines</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>length);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="366" refid="wrap__POLYG_8h_1ae158adbd929302d75e7b9235d5df77d3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1ae158adbd929302d75e7b9235d5df77d3" kindref="member">POLYG_GetNbScalarFields</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386" refid="wrap__POLYG_8h_1a2c929f83a1e2c7c91e616c88e2d43fb0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1a2c929f83a1e2c7c91e616c88e2d43fb0" kindref="member">POLYG_SetXdilation</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivertex<sp/>,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in=2);</highlight></codeline>
+<codeline lineno="405" refid="wrap__POLYG_8h_1aeb9894fd1816be0ce50aa7ea3fe3ba6a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1aeb9894fd1816be0ce50aa7ea3fe3ba6a" kindref="member">POLYG_SetVdilation</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivertex,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in=2);</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415" refid="wrap__POLYG_8h_1abe710330682f21916a96c75ffc43b9f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__POLYG_8h_1abe710330682f21916a96c75ffc43b9f8" kindref="member">POLYG_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_POLYG<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_POLYG.h"/>
+  </compounddef>
+</doxygen>

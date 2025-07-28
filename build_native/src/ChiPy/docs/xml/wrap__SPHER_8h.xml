@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__SPHER_8h" kind="file" language="C++">
+    <compoundname>wrap_SPHER.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__SPHER_8h_1a4132f9c970bda8a9c0f44a8fbb561379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_LoadTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPHER_LoadTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>load SPHER from RBDY3 and initialize existing_entites </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPHER_8h_1a4132f9c970bda8a9c0f44a8fbb561379" kindref="member">SPHER_LoadTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="52" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="52" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1a7fa8e31b9abe24882b9832c4ef8c2518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_SetRadiusCorrection</definition>
+        <argsstring>(double corr)</argsstring>
+        <name>SPHER_SetRadiusCorrection</name>
+        <param>
+          <type>double</type>
+          <declname>corr</declname>
+        </param>
+        <briefdescription>
+<para>set a radius correction </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : SPHER_SetRadiusCorrection(corr) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">corr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="67" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="67" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1af75068f88dc2699e7638c2c4a4e18fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SPHER_GetNbSPHER</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPHER_GetNbSPHER</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of SPHER. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_SPHER = <ref refid="wrap__SPHER_8h_1af75068f88dc2699e7638c2c4a4e18fa3" kindref="member">SPHER_GetNbSPHER()</ref></para>
+<para><simplesect kind="return"><para>nb_SPHER (integer) : the number of SPHER </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="84" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="84" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1a0424bfdefd59ac9a2c880c5def35f5a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_GetSPHER2BDYTY</definition>
+        <argsstring>(int **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>SPHER_GetSPHER2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a copy of map SPHER2bdyty. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : polyr2bdyty = <ref refid="wrap__SPHER_8h_1a0424bfdefd59ac9a2c880c5def35f5a8" kindref="member">SPHER_GetSPHER2BDYTY()</ref> <simplesect kind="return"><para>polyr2bdyty (integer 2D-array) : the polyr2bdyty map </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="112" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="112" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1a2fb804456be35459d05cc6fd68226926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_GetPtrSPHER2BDYTY</definition>
+        <argsstring>(int **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>SPHER_GetPtrSPHER2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+          <defname>dim</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return a pointer onto the map spher2bdyty </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : spher2bdyty = <ref refid="wrap__SPHER_8h_1a2fb804456be35459d05cc6fd68226926" kindref="member">SPHER_GetPtrSPHER2BDYTY()</ref></para>
+<para><simplesect kind="return"><para>spher2bdyty (integer array) : reference on map between spher rank and body rank </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="130" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="130" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1aa53edf74137c997f3b8d75b642a17ad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SPHER_GetContactorRadius</definition>
+        <argsstring>(int itact)</argsstring>
+        <name>SPHER_GetContactorRadius</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <briefdescription>
+<para>Get the radius of a SPHER contactor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : radius = SPHER_GetContactorRadius(itact) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of a SPHER </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>radius (double) : the radius of the SPHER number itact </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="148" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="148" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1a7cea36a5ce54d71da0c16d17eedbabe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_GetContactorCoor</definition>
+        <argsstring>(int itacty, double **r8_vector, int *r8_size)</argsstring>
+        <name>SPHER_GetContactorCoor</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>get coordinates of the center of a given SPHER </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : vector = SPHER_GetContactorCoor(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered contactor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (double array) : the desired vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="167" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="167" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1af54326b816aa7266ba74efbbb9da17f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_GetContactorCoorb</definition>
+        <argsstring>(int itacty, double **r8_vector, int *r8_size)</argsstring>
+        <name>SPHER_GetContactorCoorb</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>get coordinates at the begin of the time step of the center of a given SPHER </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : vector = SPHER_GetContactorCoorb(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered contactor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (double array) : the desired vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="186" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="186" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1ae025b9875141753c8b2464c6766ab243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SPHER_IsVisible</definition>
+        <argsstring>(int itacty)</argsstring>
+        <name>SPHER_IsVisible</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <briefdescription>
+<para>return if a given contactor is attached to a visible body </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : visible = SPHER_IsVisible(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the contactor we want visibility </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visible (integer) : 1 if body is visible, 0 else </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="203" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="203" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1ad52eb6b6bae37b92f6b8da2c5c3b92b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_InitOutlines</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>SPHER_InitOutlines</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the outlines of all SPHER. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : outlines = <ref refid="wrap__SPHER_8h_1ad52eb6b6bae37b92f6b8da2c5c3b92b6" kindref="member">SPHER_InitOutlines()</ref> <simplesect kind="return"><para>outlines (double array) : a reference on outlines_SPHER </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="224" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="224" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1ab8fe2e1a9ec1ce88ad669c8599c322d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_InitScalarFields</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>SPHER_InitScalarFields</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the scalar fields of all SPHER. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : scalarfields = SPHER_InitScalarfields() <simplesect kind="return"><para>scalarfields (double array) : reference on scalarfields_SPHER array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="242" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="242" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1a4c8b1a3835497fb165990d4adee5d077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_UpdatePostdata</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPHER_UpdatePostdata</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Update values of outlines_SPHER and scalarfields_SPHER pointers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : SPHER_UpdatePostdata </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="253" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="253" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1aa67d3f864d88d02d53a3a7e1d595e2c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_GetNbPointOutlines</definition>
+        <argsstring>(int **pointer_out, int *length)</argsstring>
+        <name>SPHER_GetNbPointOutlines</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of cumulated outline points number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_pointOutlines = <ref refid="wrap__SPHER_8h_1aa67d3f864d88d02d53a3a7e1d595e2c3" kindref="member">SPHER_GetNbPointOutlines()</ref> <simplesect kind="return"><para>nb_pointOutlines (integer array) : the cumulated number of outline points of the SPHER </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="270" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="270" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1add72883e0c88eba4f653748486fae01c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SPHER_GetNbScalarFields</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPHER_GetNbScalarFields</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of scalar fields of a SPHER. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_scalarfields = <ref refid="wrap__SPHER_8h_1add72883e0c88eba4f653748486fae01c" kindref="member">SPHER_GetNbScalarFields()</ref> <simplesect kind="return"><para>nb_scalarfields (integer) : the number of scalar fields of a SPHER </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="286" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="286" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1a1b8be42cef045db5272694d7b0a0560e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_GetPtrAllConnectivities</definition>
+        <argsstring>(int **pointer_out, int *length)</argsstring>
+        <name>SPHER_GetPtrAllConnectivities</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+          <defname>i4_vector</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+          <defname>i4_size</defname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the connectivities of all SPHER. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : connec = <ref refid="wrap__SPHER_8h_1a1b8be42cef045db5272694d7b0a0560e" kindref="member">SPHER_GetPtrAllConnectivities()</ref> <simplesect kind="return"><para>connec (integer array) : a reference on all_connectivities </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="303" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="303" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPHER_8h_1a13d6f200ddfef660a72ad95000cd151a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPHER_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPHER_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within SPHER module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPHER_8h_1a13d6f200ddfef660a72ad95000cd151a" kindref="member">SPHER_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" line="313" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h" declline="313" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_SPHER_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_SPHER_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="wrap__SPHER_8h_1a4132f9c970bda8a9c0f44a8fbb561379" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1a4132f9c970bda8a9c0f44a8fbb561379" kindref="member">SPHER_LoadTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="wrap__SPHER_8h_1a7fa8e31b9abe24882b9832c4ef8c2518" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1a7fa8e31b9abe24882b9832c4ef8c2518" kindref="member">SPHER_SetRadiusCorrection</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>corr);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/></highlight><highlight class="comment">//--vt--</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="wrap__SPHER_8h_1af75068f88dc2699e7638c2c4a4e18fa3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1af75068f88dc2699e7638c2c4a4e18fa3" kindref="member">SPHER_GetNbSPHER</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>/\**<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>*<sp/>@fn<sp/>void<sp/>SPHER_GetSPHER2BDYTY(int<sp/>*<sp/>vecteur_in,<sp/>int<sp/>length)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>*<sp/>@brief<sp/>return<sp/>the<sp/>table<sp/>spher2bdyty<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>*<sp/>spher2bdyty<sp/>gives<sp/>for<sp/>a<sp/>SPHER<sp/>itact<sp/>the<sp/>corresponding<sp/>body<sp/>in<sp/>BDYTY:<sp/>spher2bdyty(itact)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>*<sp/>@param[inout]<sp/>vecteur_in<sp/>(int[length])<sp/>:<sp/>an<sp/>array<sp/>that<sp/>will<sp/>be<sp/>filled<sp/>with<sp/>spher2bdyty<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>*<sp/>@param[in]<sp/><sp/><sp/><sp/>length<sp/><sp/><sp/><sp/><sp/>(int)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>the<sp/>size<sp/>of<sp/>vecteur_in,<sp/>must<sp/>be<sp/>the<sp/>number<sp/>of<sp/>SPHER<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>*\/<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>void<sp/>SPHER_GetSPHER2BDYTY(int<sp/>*<sp/>vecteur_in,<sp/>int<sp/>length);*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="wrap__SPHER_8h_1a0424bfdefd59ac9a2c880c5def35f5a8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1a0424bfdefd59ac9a2c880c5def35f5a8" kindref="member">SPHER_GetSPHER2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="wrap__SPHER_8h_1a2fb804456be35459d05cc6fd68226926" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1a2fb804456be35459d05cc6fd68226926" kindref="member">SPHER_GetPtrSPHER2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="wrap__SPHER_8h_1aa53edf74137c997f3b8d75b642a17ad2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1aa53edf74137c997f3b8d75b642a17ad2" kindref="member">SPHER_GetContactorRadius</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="wrap__SPHER_8h_1a7cea36a5ce54d71da0c16d17eedbabe4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1a7cea36a5ce54d71da0c16d17eedbabe4" kindref="member">SPHER_GetContactorCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="wrap__SPHER_8h_1af54326b816aa7266ba74efbbb9da17f9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1af54326b816aa7266ba74efbbb9da17f9" kindref="member">SPHER_GetContactorCoorb</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="wrap__SPHER_8h_1ae025b9875141753c8b2464c6766ab243" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1ae025b9875141753c8b2464c6766ab243" kindref="member">SPHER_IsVisible</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>external<sp/>vtk<sp/>visu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="wrap__SPHER_8h_1ad52eb6b6bae37b92f6b8da2c5c3b92b6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1ad52eb6b6bae37b92f6b8da2c5c3b92b6" kindref="member">SPHER_InitOutlines</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="wrap__SPHER_8h_1ab8fe2e1a9ec1ce88ad669c8599c322d3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1ab8fe2e1a9ec1ce88ad669c8599c322d3" kindref="member">SPHER_InitScalarFields</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="wrap__SPHER_8h_1a4c8b1a3835497fb165990d4adee5d077" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1a4c8b1a3835497fb165990d4adee5d077" kindref="member">SPHER_UpdatePostdata</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="wrap__SPHER_8h_1aa67d3f864d88d02d53a3a7e1d595e2c3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1aa67d3f864d88d02d53a3a7e1d595e2c3" kindref="member">SPHER_GetNbPointOutlines</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>length);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="286" refid="wrap__SPHER_8h_1add72883e0c88eba4f653748486fae01c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1add72883e0c88eba4f653748486fae01c" kindref="member">SPHER_GetNbScalarFields</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="303" refid="wrap__SPHER_8h_1a1b8be42cef045db5272694d7b0a0560e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1a1b8be42cef045db5272694d7b0a0560e" kindref="member">SPHER_GetPtrAllConnectivities</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>length);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="wrap__SPHER_8h_1a13d6f200ddfef660a72ad95000cd151a" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPHER_8h_1a13d6f200ddfef660a72ad95000cd151a" kindref="member">SPHER_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_SPHER*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_3D/wrap_SPHER.h"/>
+  </compounddef>
+</doxygen>

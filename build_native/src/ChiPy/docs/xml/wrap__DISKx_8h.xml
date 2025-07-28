@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__DISKx_8h" kind="file" language="C++">
+    <compoundname>wrap_DISKx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__DISKx_8h_1ae1c64e9dcd3772f82fa48e53d92595a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_LoadTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>DISKx_LoadTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>load DISKx from RBDY2 file and initialize existing_entites </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DISKx_8h_1ae1c64e9dcd3772f82fa48e53d92595a8" kindref="member">DISKx_LoadTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="53" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="53" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a55c9c42afc673ace6ffcfde5fb30071d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DISKx_GetNbDISKx</definition>
+        <argsstring>(void)</argsstring>
+        <name>DISKx_GetNbDISKx</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of DISKx in the container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_diskx = <ref refid="wrap__DISKx_8h_1a55c9c42afc673ace6ffcfde5fb30071d" kindref="member">DISKx_GetNbDISKx()</ref></para>
+<para><simplesect kind="return"><para>nb_DISKx (integer) : the number of DISKx in container </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="70" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="70" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1ab375098d4370d163515b91d8c5acbe04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_GetDISKx2BDYTY</definition>
+        <argsstring>(int **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>DISKx_GetDISKx2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a copy of map DISKx2bdyty. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : polyr2bdyty = <ref refid="wrap__DISKx_8h_1ab375098d4370d163515b91d8c5acbe04" kindref="member">DISKx_GetDISKx2BDYTY()</ref> <simplesect kind="return"><para>polyr2bdyty (integer 2D-array) : the polyr2bdyty map </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="104" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="104" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a4d9908af56d862c7a0006a3808181449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_GetPtrDISKx2BDYTY</definition>
+        <argsstring>(int **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>DISKx_GetPtrDISKx2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+          <defname>dim</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return a pointer onto the map diskx2rbdy2 </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : diskx2bdyty = <ref refid="wrap__DISKx_8h_1a4d9908af56d862c7a0006a3808181449" kindref="member">DISKx_GetPtrDISKx2BDYTY()</ref></para>
+<para><simplesect kind="return"><para>diskx2bdyty (integer array) : reference on map between diskx rank and body rank </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="122" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="122" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1afda95ade82d061298b46c452636a33d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DISKx_IsVisible</definition>
+        <argsstring>(int itact)</argsstring>
+        <name>DISKx_IsVisible</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <briefdescription>
+<para>return if a body visible </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : visible = DISKx_IsVisible(itact)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of DISKx</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : 1 if body is visible, 0 else </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="141" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="141" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a20edef1f820b5230b637f4d0802172fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DISKx_GetContactorRadius</definition>
+        <argsstring>(int itact)</argsstring>
+        <name>DISKx_GetContactorRadius</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <briefdescription>
+<para>Get the radius of a given DISKx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : radius = DISKx_GetContactorRadius(itact)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of a DISKx (in the list of all the DISKx)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>radius (double) : the radius of the DISKx of rank itact </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="160" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="160" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1ad6fe7c0aaac3b8676126c8f4baa652da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DISKx_GetMeanRadius</definition>
+        <argsstring>(void)</argsstring>
+        <name>DISKx_GetMeanRadius</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the mean radius of DISKx in the container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : radius = <ref refid="wrap__DISKx_8h_1ad6fe7c0aaac3b8676126c8f4baa652da" kindref="member">DISKx_GetMeanRadius()</ref></para>
+<para><simplesect kind="return"><para>radius (double) : the mean radius of DISKx in the container </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="176" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="176" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1af7a5883093789ceba0ca5db6c856fb2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DISKx_GetMaxRadius</definition>
+        <argsstring>(void)</argsstring>
+        <name>DISKx_GetMaxRadius</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the max radius of DISKx in the container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : radius = <ref refid="wrap__DISKx_8h_1af7a5883093789ceba0ca5db6c856fb2e" kindref="member">DISKx_GetMaxRadius()</ref></para>
+<para><simplesect kind="return"><para>radius (double) : the max radius of DISKx in the contactor </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="192" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="192" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a498aba8971d692352928f3997e54c932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DISKx_GetMinRadius</definition>
+        <argsstring>(void)</argsstring>
+        <name>DISKx_GetMinRadius</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the min radius of DISKx in the container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : radius = <ref refid="wrap__DISKx_8h_1a498aba8971d692352928f3997e54c932" kindref="member">DISKx_GetMinRadius()</ref></para>
+<para><simplesect kind="return"><para>radius (double) : the min radius of DISKx in the container </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="208" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="208" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1af9e52f214ce0f0ff846e6b9b7af8f9af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_GetContactorColor</definition>
+        <argsstring>(int itact, char **c5)</argsstring>
+        <name>DISKx_GetContactorColor</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>c5</declname>
+        </param>
+        <briefdescription>
+<para>Get the color of a given DISKx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : color = DISKx_GetContactorColor(itact)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of a DISKx</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>color (string) : the color of the DISKx itact </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="227" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="227" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1ab808bf7613e23f53d724ca39abfbc5b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DISKx_GetRadius</definition>
+        <argsstring>(int itacty)</argsstring>
+        <name>DISKx_GetRadius</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <briefdescription>
+<para>get radius of a DISKx </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : radius = DISKx_GetRadius(itacty)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of DISKx</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>radius (double) : the radius of DISKx of body ibdyty </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="265" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="265" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a6a4f4f0ccddbb53851fab9c51e5c241a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_GetContactorCoor</definition>
+        <argsstring>(int itacty, double **r8_vector, int *r8_size)</argsstring>
+        <name>DISKx_GetContactorCoor</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>get coordinates of the center of a given DISKx </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : vector = DISKx_GetContactorCoor(itacty)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered contactor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (double array) : the desired vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="286" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="286" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a608d9a639ec228ef621043102372ac70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_InitOutlines</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>DISKx_InitOutlines</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the outlines of all DISKx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : outlines = <ref refid="wrap__DISKx_8h_1a608d9a639ec228ef621043102372ac70" kindref="member">DISKx_InitOutlines()</ref></para>
+<para><simplesect kind="return"><para>outlines (double array) : a reference on outlines_DISKx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="305" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="305" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a1d6756cdd833e0073b9e9fab8ba91137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_InitScalarFields</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>DISKx_InitScalarFields</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the scalar fields of all DISKx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : scalarfields = DISKx_InitScalarfields()</para>
+<para><simplesect kind="return"><para>scalarfields (double array) : reference on scalarfields_DISKx array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="324" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="324" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1ac9519759b0b7cb1659ec85030ded5b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_UpdatePostdata</definition>
+        <argsstring>(void)</argsstring>
+        <name>DISKx_UpdatePostdata</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Update values of outlines_DISKx and scalarfields_DISKx pointers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DISKx_8h_1ac9519759b0b7cb1659ec85030ded5b69" kindref="member">DISKx_UpdatePostdata()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="335" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="335" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a94c4dea1d14c4467f2bc5e1366ef5bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_GetNbPointOutlines</definition>
+        <argsstring>(int **pointer_out, int *length)</argsstring>
+        <name>DISKx_GetNbPointOutlines</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of cumulated outline points number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_pointOutlines = <ref refid="wrap__DISKx_8h_1a94c4dea1d14c4467f2bc5e1366ef5bd2" kindref="member">DISKx_GetNbPointOutlines()</ref></para>
+<para><simplesect kind="return"><para>nb_pointOutlines (integer array) : the cumulated number of outline points of the DISKx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="352" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="352" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a6ecb5a782cc4caa07f548390504d4ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DISKx_GetNbScalarFields</definition>
+        <argsstring>(void)</argsstring>
+        <name>DISKx_GetNbScalarFields</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of scalar fields of a DISKx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_scalarfields = <ref refid="wrap__DISKx_8h_1a6ecb5a782cc4caa07f548390504d4ded" kindref="member">DISKx_GetNbScalarFields()</ref></para>
+<para><simplesect kind="return"><para>nb_scalarfields (integer) : the number of scalar fields of a DISKx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="368" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="368" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1acab99b64a755978137ffe6727f249118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>DISKx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within DISKx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__DISKx_8h_1acab99b64a755978137ffe6727f249118" kindref="member">DISKx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="378" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="378" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a2357fdfce449c58194bf054357c68ce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_SetXdilation</definition>
+        <argsstring>(int itacty, double x)</argsstring>
+        <name>DISKx_SetXdilation</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>set increase of radius of a DISKx due to expansion </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : DISKx_SetXdilation(itacty,x)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered contactor</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) : increase of radius </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="397" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="397" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__DISKx_8h_1a83acf52819a48b7488b6c2e9b1699882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DISKx_SetVdilation</definition>
+        <argsstring>(int itacty, double v)</argsstring>
+        <name>DISKx_SetVdilation</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>set increase rate of radius of a DISKx due to expansion </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : DISKx_SetVdilation(itacty, v)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of contactor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) : radius increase rate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" line="416" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h" declline="416" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_DISKx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_DISKx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="wrap__DISKx_8h_1ae1c64e9dcd3772f82fa48e53d92595a8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1ae1c64e9dcd3772f82fa48e53d92595a8" kindref="member">DISKx_LoadTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="wrap__DISKx_8h_1a55c9c42afc673ace6ffcfde5fb30071d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a55c9c42afc673ace6ffcfde5fb30071d" kindref="member">DISKx_GetNbDISKx</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/>/\**<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@fn<sp/>void<sp/>DISKx_GetDISKx2RBDY2(int**<sp/>i4_vector,<sp/>int*<sp/>i4_size)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@brief<sp/>return<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>map<sp/>diskx2rbdy2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>PYDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>python<sp/>usage<sp/>:<sp/>diskx2rbdy2<sp/>=<sp/>DISKx_GetDISKx2RBDY2()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@return<sp/>diskx2rbdy2<sp/>(integer<sp/>array)<sp/>:<sp/>map<sp/>between<sp/>diskx<sp/>rank<sp/>and<sp/>body<sp/>rank<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>CDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@param[out]<sp/>i4_vector<sp/>(int**)<sp/>:<sp/>reference<sp/>on<sp/>diskx2rbdy2<sp/>integer<sp/>array<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@param[out]<sp/>i4_size<sp/>(int*)<sp/><sp/><sp/><sp/>:<sp/>the<sp/>size<sp/>of<sp/>i4_vector<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*\/<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>extern<sp/>&quot;C&quot;<sp/>void<sp/>DISKx_GetDISKx2RBDY2(int**<sp/>i4_vector,<sp/>int*<sp/>i4_size);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="wrap__DISKx_8h_1ab375098d4370d163515b91d8c5acbe04" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1ab375098d4370d163515b91d8c5acbe04" kindref="member">DISKx_GetDISKx2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="wrap__DISKx_8h_1a4d9908af56d862c7a0006a3808181449" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a4d9908af56d862c7a0006a3808181449" kindref="member">DISKx_GetPtrDISKx2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="wrap__DISKx_8h_1afda95ade82d061298b46c452636a33d6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1afda95ade82d061298b46c452636a33d6" kindref="member">DISKx_IsVisible</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="wrap__DISKx_8h_1a20edef1f820b5230b637f4d0802172fa" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a20edef1f820b5230b637f4d0802172fa" kindref="member">DISKx_GetContactorRadius</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="wrap__DISKx_8h_1ad6fe7c0aaac3b8676126c8f4baa652da" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1ad6fe7c0aaac3b8676126c8f4baa652da" kindref="member">DISKx_GetMeanRadius</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="wrap__DISKx_8h_1af7a5883093789ceba0ca5db6c856fb2e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1af7a5883093789ceba0ca5db6c856fb2e" kindref="member">DISKx_GetMaxRadius</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="wrap__DISKx_8h_1a498aba8971d692352928f3997e54c932" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a498aba8971d692352928f3997e54c932" kindref="member">DISKx_GetMinRadius</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="wrap__DISKx_8h_1af9e52f214ce0f0ff846e6b9b7af8f9af" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1af9e52f214ce0f0ff846e6b9b7af8f9af" kindref="member">DISKx_GetContactorColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>c5);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/>/\**<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@fn<sp/>double<sp/>DISKx_GetRadius(int<sp/>ibdyty)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@brief<sp/>get<sp/>radius<sp/>of<sp/>the<sp/>DISKx<sp/>owned<sp/>by<sp/>body<sp/>ibdyty<sp/>(0<sp/>if<sp/>doesn&apos;t<sp/>exist).<sp/>Doesn&apos;t<sp/>work<sp/>properly<sp/>with<sp/>clusters<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>PYDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>python<sp/>usage<sp/>:<sp/>radius<sp/>=<sp/>DISKx_GetRadius(ibdyty)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@param[in]<sp/>ibdyty<sp/>(integer)<sp/>:<sp/>rank<sp/>of<sp/>body<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@return<sp/>radius<sp/>(double)<sp/><sp/><sp/><sp/><sp/>:<sp/>the<sp/>radius<sp/>of<sp/>DISKx<sp/>of<sp/>body<sp/>ibdyty<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>CDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@param[in]<sp/>ibdyty<sp/>(int)<sp/>:<sp/>rank<sp/>of<sp/>a<sp/>body<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@return<sp/>(double)<sp/>:<sp/>the<sp/>raidus<sp/>of<sp/>DISKx<sp/>of<sp/>body<sp/>ibdyty<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>*\/<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/>extern<sp/>&quot;C&quot;<sp/>double<sp/>DISKx_GetRadius(int<sp/>ibdyty);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="wrap__DISKx_8h_1ab808bf7613e23f53d724ca39abfbc5b6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1ab808bf7613e23f53d724ca39abfbc5b6" kindref="member">DISKx_GetRadius</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="wrap__DISKx_8h_1a6a4f4f0ccddbb53851fab9c51e5c241a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a6a4f4f0ccddbb53851fab9c51e5c241a" kindref="member">DISKx_GetContactorCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="wrap__DISKx_8h_1a608d9a639ec228ef621043102372ac70" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a608d9a639ec228ef621043102372ac70" kindref="member">DISKx_InitOutlines</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324" refid="wrap__DISKx_8h_1a1d6756cdd833e0073b9e9fab8ba91137" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a1d6756cdd833e0073b9e9fab8ba91137" kindref="member">DISKx_InitScalarFields</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="wrap__DISKx_8h_1ac9519759b0b7cb1659ec85030ded5b69" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1ac9519759b0b7cb1659ec85030ded5b69" kindref="member">DISKx_UpdatePostdata</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352" refid="wrap__DISKx_8h_1a94c4dea1d14c4467f2bc5e1366ef5bd2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a94c4dea1d14c4467f2bc5e1366ef5bd2" kindref="member">DISKx_GetNbPointOutlines</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>length);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="368" refid="wrap__DISKx_8h_1a6ecb5a782cc4caa07f548390504d4ded" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a6ecb5a782cc4caa07f548390504d4ded" kindref="member">DISKx_GetNbScalarFields</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378" refid="wrap__DISKx_8h_1acab99b64a755978137ffe6727f249118" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1acab99b64a755978137ffe6727f249118" kindref="member">DISKx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="397" refid="wrap__DISKx_8h_1a2357fdfce449c58194bf054357c68ce5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a2357fdfce449c58194bf054357c68ce5" kindref="member">DISKx_SetXdilation</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416" refid="wrap__DISKx_8h_1a83acf52819a48b7488b6c2e9b1699882" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__DISKx_8h_1a83acf52819a48b7488b6c2e9b1699882" kindref="member">DISKx_SetVdilation</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_DISKx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_DISKx.h"/>
+  </compounddef>
+</doxygen>

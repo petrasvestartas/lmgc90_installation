@@ -1,0 +1,1732 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__overall_8h" kind="file" language="C++">
+    <compoundname>wrap_overall.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__overall_8h_1a85c64b3bd561cfec5775639a85c74791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_Initialize</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_Initialize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initialize LMGC90. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a85c64b3bd561cfec5775639a85c74791" kindref="member">overall_Initialize()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="56" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="56" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a6974c6af606308fa58984ac447cec4e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_Finalize</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_Finalize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Finalize LMGC90. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a6974c6af606308fa58984ac447cec4e7" kindref="member">overall_Finalize()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="66" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="66" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a837b97050cfa12881d94a13f3f7a6fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_InitEntityList</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_InitEntityList</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initialize entity list : must be done after LoadTactors. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a837b97050cfa12881d94a13f3f7a6fce" kindref="member">overall_InitEntityList()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="76" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="76" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aa1554a90e6ac17d6da0a838bddd99cc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_SetTimeStep</definition>
+        <argsstring>(double value)</argsstring>
+        <name>TimeEvolution_SetTimeStep</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set value of the time step. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : TimeEvolution_SetTimeStep(dt) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value of time step </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="91" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="91" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1ae777ff4c9ae9008e71fd59e9e30f61e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_IncrementStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_IncrementStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Increment curent time, time step and eventually initialize NR loop counter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__overall_8h_1ae777ff4c9ae9008e71fd59e9e30f61e8" kindref="member">TimeEvolution_IncrementStep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="101" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="101" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a8f1d27dd054ea15870fd6494a616b65b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_UpdateStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_UpdateStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>update the initial time to the current time </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a8f1d27dd054ea15870fd6494a616b65b" kindref="member">TimeEvolution_UpdateStep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="111" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="111" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aff0430d81b8c04387fffced0d545e637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_DisplayStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_DisplayStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Display time evolution step informations. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__overall_8h_1aff0430d81b8c04387fffced0d545e637" kindref="member">TimeEvolution_DisplayStep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="121" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="121" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1af2444acd8a51e1c731310b2f15c78717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_SetInitialStep</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>TimeEvolution_SetInitialStep</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>Set the rank of the first time step. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : TimeEvolution_SetInitialStep(first_step) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">first_step</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the first time step </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="136" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="136" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aaeead7eb7e6c6e0a6193f9ac5dc710fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_SetInitialTime</definition>
+        <argsstring>(double value)</argsstring>
+        <name>TimeEvolution_SetInitialTime</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set initial time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : TimeEvolution_SetInitialTime(t_init) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">t_init</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : initial time </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="151" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="151" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a00c2c53dae38850d9fa8d5fa48951508" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double TimeEvolution_GetTime</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_GetTime</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>get current time </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : time = <ref refid="wrap__overall_8h_1a00c2c53dae38850d9fa8d5fa48951508" kindref="member">TimeEvolution_GetTime()</ref> <simplesect kind="return"><para>time (double) : current time </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="166" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="166" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a7abca7bb5f42264ca2815affa2fa6391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double TimeEvolution_GetTimeStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_GetTimeStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>get current time step </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : dt = <ref refid="wrap__overall_8h_1a7abca7bb5f42264ca2815affa2fa6391" kindref="member">TimeEvolution_GetTimeStep()</ref> <simplesect kind="return"><para>dt (double) : time step </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="181" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="181" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a1f9a70e75a12309f36991aebca0e9aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TimeEvolution_GetStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_GetStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>get current step number </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : it = <ref refid="wrap__overall_8h_1a1f9a70e75a12309f36991aebca0e9aea" kindref="member">TimeEvolution_GetStep()</ref> <simplesect kind="return"><para>it (int) : current step number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="196" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="196" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aa0bf682b683713721bb03afa51e9e04b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteLastDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_WriteLastDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1aa0bf682b683713721bb03afa51e9e04b" kindref="member">TimeEvolution_WriteLastDof()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="206" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="206" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a0cc429ac8320a5e6e8bc307b99969ad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteOutDof</definition>
+        <argsstring>(int Nstep_writeDof=1)</argsstring>
+        <name>TimeEvolution_WriteOutDof</name>
+        <param>
+          <type>int</type>
+          <declname>Nstep_writeDof</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>python usage : TimeEvolution_WriteOutDof(Nstep_writeDof) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">Nstep_writeDof</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : periodicity of DOF write </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="221" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="221" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aabb536d24b7047fd11b9873acf4fed5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_DisplayOutDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_DisplayOutDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1aabb536d24b7047fd11b9873acf4fed5f" kindref="member">TimeEvolution_DisplayOutDof()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="231" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="231" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a9524525dc1483c34e7b20f35abc6b49b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteLastRnod</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_WriteLastRnod</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a9524525dc1483c34e7b20f35abc6b49b" kindref="member">TimeEvolution_WriteLastRnod()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="241" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="241" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a40ffeb1e5bb32bd66d0627dd2c4a2b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteOutRnod</definition>
+        <argsstring>(int entier)</argsstring>
+        <name>TimeEvolution_WriteOutRnod</name>
+        <param>
+          <type>int</type>
+          <declname>entier</declname>
+        </param>
+        <briefdescription>
+<para>python usage : TimeEvolution_WriteOutRnod(nstep) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nstep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : a freq of writing </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="257" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="257" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a96ba1c47234f40cc6ac4709111560467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_DisplayOutRnod</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_DisplayOutRnod</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a96ba1c47234f40cc6ac4709111560467" kindref="member">TimeEvolution_DisplayOutRnod()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="267" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="267" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a40c0b45cb067769a3a75c507133b79e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteLastVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_WriteLastVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a40c0b45cb067769a3a75c507133b79e0" kindref="member">TimeEvolution_WriteLastVlocRloc()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="277" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="277" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1ad049d0d323d03c443d01e075847002d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteOutVlocRloc</definition>
+        <argsstring>(int Nstep_writeVlocRloc=1)</argsstring>
+        <name>TimeEvolution_WriteOutVlocRloc</name>
+        <param>
+          <type>int</type>
+          <declname>Nstep_writeVlocRloc</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>python usage : TimeEvolution_WriteOutVlocRloc(nstep) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nstep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : a freq of writing </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="292" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="292" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a4eb0e01d410af978e9757a53aa1db16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_DisplayOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_DisplayOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a4eb0e01d410af978e9757a53aa1db16d" kindref="member">TimeEvolution_DisplayOutVlocRloc()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="302" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="302" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a950a3c0226a123cad45a332f249b2adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteLastGPV</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_WriteLastGPV</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a950a3c0226a123cad45a332f249b2adb" kindref="member">TimeEvolution_WriteLastGPV()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="312" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="312" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a785adc77b2219dae41e06953f5d629cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteOutGPV</definition>
+        <argsstring>(int entier)</argsstring>
+        <name>TimeEvolution_WriteOutGPV</name>
+        <param>
+          <type>int</type>
+          <declname>entier</declname>
+        </param>
+        <briefdescription>
+<para>python usage : TimeEvolution_WriteOutGPV(nstep) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nstep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : a freq of writing </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="327" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="327" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a80c398e515a35856cb916573c271a377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_ReadIniDof</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>TimeEvolution_ReadIniDof</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read header of a DOF file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : TimeEvolution_ReadIniDof(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : num of file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="343" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="343" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a3eb3b11c2cf0f0916f26e89a7947bbd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_ReadIniVlocRloc</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>TimeEvolution_ReadIniVlocRloc</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read header of a VlocRloc file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : TimeEvolution_ReadIniVlocRloc(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : num of file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="359" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="359" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a76bcbefd362c3a1ff3a6d92271eb44d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_ReadIniGPV</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>TimeEvolution_ReadIniGPV</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read header of a GPV file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : TimeEvolution_ReadIniGPV(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : num of file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="375" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="375" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a52b0a97dbdc1a8216f0c0c92a00af037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewtonRaphson_Initialize</definition>
+        <argsstring>(double value)</argsstring>
+        <name>NewtonRaphson_Initialize</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+          <defname>tol</defname>
+        </param>
+        <briefdescription>
+<para>initialize Newton Raphson Loop </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : NewtonRaphson_Initialize(tol) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : tolerance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="396" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="396" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a0da5ff9fb39d755b6e025928b4a44398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int NewtonRaphson_CheckConvergence</definition>
+        <argsstring>(double value)</argsstring>
+        <name>NewtonRaphson_CheckConvergence</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+          <defname>norm</defname>
+        </param>
+        <briefdescription>
+<para>check if Newton Raphson loop converges </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : iconv = NewtonRaphson_CheckConvergence(norm) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">norm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value to check </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>iconv (integer) : convergence status</para>
+</simplesect>
+<itemizedlist>
+<listitem><para>iconv = 0 : converges <linebreak/>
+</para>
+</listitem><listitem><para>iconv = 1 : unknown <linebreak/>
+</para>
+</listitem><listitem><para>iconv = 2 : diverges </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="416" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="416" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a09f3e80121f4c98b291108b4193de68c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int NewtonRaphson_ComputeTimeStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>NewtonRaphson_ComputeTimeStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>manages time step evolution depending on newton raphson convergence </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : itodo = <ref refid="wrap__overall_8h_1a09f3e80121f4c98b291108b4193de68c" kindref="member">NewtonRaphson_ComputeTimeStep()</ref></para>
+<para><simplesect kind="return"><para>itodo (integer) : what to do now</para>
+</simplesect>
+<itemizedlist>
+<listitem><para>itodo = 0 : just keep going (time step may have been modified)</para>
+</listitem><listitem><para>itodo = 1 : redo time step (time step has been decreased)</para>
+</listitem><listitem><para>itodo = 2 : it&apos;s hopeless just stop where you are </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="436" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="436" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1ad7e4cfa50c3e64181b3e649aa7131ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewtonRaphson_SetMinTimeStep</definition>
+        <argsstring>(double value)</argsstring>
+        <name>NewtonRaphson_SetMinTimeStep</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set value of the mininum possible time step. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : NewtonRaphson_SetMinTimeStep(dt) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : minimum value of time step</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<linebreak/>
+ Needed only if adaptive time step feature is used<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="453" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="453" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1ad7dbdcb5dacb72dbeccc158024343735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewtonRaphson_SetMaxTimeStep</definition>
+        <argsstring>(double value)</argsstring>
+        <name>NewtonRaphson_SetMaxTimeStep</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set value of the maximum possible time step. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : NewtonRaphson_SetMaxTimeStep(dt) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : maximum value of time step</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<linebreak/>
+ Needed only if adaptive time step feature is used<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="470" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="470" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a3e98021fa82cc5bf6abcd3f88c43d3d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewtonRaphson_SetFinalTime</definition>
+        <argsstring>(double value)</argsstring>
+        <name>NewtonRaphson_SetFinalTime</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set final time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : NewtonRaphson_SetFinalTime(t_final) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">t_final</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : final time </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="485" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="485" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a9317943020b981d5a4a958d20300c4ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewtonRaphson_SetMaxIter</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>NewtonRaphson_SetMaxIter</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>Max number of iterations - default is 50. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : NewtonRaphson_SetMaxIter(max_iter) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">max_iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="500" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="500" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a346c0e56e51230b6b12d7ebcbce1ec4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewtonRaphson_SetGoodIter</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>NewtonRaphson_SetGoodIter</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+<para>Set the max number of iterations for good convergence - default is 10. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : NewtonRaphson_SetGoodIter(good_iter) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">good_iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="515" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="515" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a044caea9b06c697cf1736ea6c3579d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewtonRaphson_SetBadIter</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>NewtonRaphson_SetBadIter</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+<para>Set the max number of iterations for bad convergence - default is 30. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : NewtonRaphson_SetBadIter(bad_iter) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bad_iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="530" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="530" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1af1ce2ec3ecda7fbac63043cb2c8dbbfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewtonRaphson_SetIncPatience</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>NewtonRaphson_SetIncPatience</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+<para>Set the number of increments to adapt the time step when successive good convergence (increase time step) or bad convergence (decrease time step) - default is 3. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : NewtonRaphson_SetIncPatience(patience) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">patience</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="545" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="545" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1ad92c6fad124552bb6debb2f2986a4522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_SelectProxTactors</definition>
+        <argsstring>(int Nstep_rough_seek=1)</argsstring>
+        <name>overall_SelectProxTactors</name>
+        <param>
+          <type>int</type>
+          <declname>Nstep_rough_seek</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Prepare contact detection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : overall_SelectProxTactors(Nstep_rough_seek) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">Nstep_rough_seek</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : periodicity of rough detection </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="564" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="564" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a2231aaff3d2269f81b2da9eea9dfeb9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_DisplayProxTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_DisplayProxTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a2231aaff3d2269f81b2da9eea9dfeb9d" kindref="member">overall_DisplayProxTactors()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="574" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="574" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a0e5c16f9bf47a9f039a69af87d63c419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_DIME</definition>
+        <argsstring>(int idim, int imod)</argsstring>
+        <name>overall_DIME</name>
+        <param>
+          <type>int</type>
+          <declname>idim</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>imod</declname>
+        </param>
+        <briefdescription>
+<para>set space dimension and in 2D the modelling assumption </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : overall_DIME(idim, imod) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">idim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : dimension (2 or 3) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">imod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : kind of model (2D only)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<itemizedlist>
+<listitem><para>imod = 1 =&gt; plane strain</para>
+</listitem><listitem><para>imod = 2 =&gt; plane stress</para>
+</listitem><listitem><para>imod = 3 =&gt; axisymmetric </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="597" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="597" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a9aecccb7393fa07c0410a8e53d11bee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Integrator_InitTheta</definition>
+        <argsstring>(double value)</argsstring>
+        <name>Integrator_InitTheta</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>python usage : Integrator_InitTheta(theta) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">theta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value of theta in integrator </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="616" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="616" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a3f0485aeaac5e0baceb9338bbde4f00d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Integrator_InitQS</definition>
+        <argsstring>(void)</argsstring>
+        <name>Integrator_InitQS</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a3f0485aeaac5e0baceb9338bbde4f00d" kindref="member">Integrator_InitQS()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="629" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="629" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a6500bc7610c3cc363f23411eed33e1bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Integrator_InitCrankNickolson</definition>
+        <argsstring>(double value)</argsstring>
+        <name>Integrator_InitCrankNickolson</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>python usage : Integrator_InitCrankNickolson(theta) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">theta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value of theta in integrator </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="644" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="644" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a18292a6df04c8b12c3a9228efc4996d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Integrator_InitGear</definition>
+        <argsstring>(void)</argsstring>
+        <name>Integrator_InitGear</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a18292a6df04c8b12c3a9228efc4996d7" kindref="member">Integrator_InitGear()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="654" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="654" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a51965418ea51f95234b0577f6ec4d169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Integrator_InitVerlet</definition>
+        <argsstring>(void)</argsstring>
+        <name>Integrator_InitVerlet</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a51965418ea51f95234b0577f6ec4d169" kindref="member">Integrator_InitVerlet()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="664" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="664" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a893686fcde63b758b90dafa0e3951560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Integrator_InitBeta2</definition>
+        <argsstring>(double value)</argsstring>
+        <name>Integrator_InitBeta2</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>python usage : Integrator_InitBeta2(value) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : numeric diffusion ([0.5,1] and 0.5 is conservative) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="680" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="680" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a782c292601161766b207661483924510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Integrator_SetContactDetectionConfiguration</definition>
+        <argsstring>(double alpha_b, double alpha_e)</argsstring>
+        <name>Integrator_SetContactDetectionConfiguration</name>
+        <param>
+          <type>double</type>
+          <declname>alpha_b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha_e</declname>
+        </param>
+        <briefdescription>
+<para>set the parameters necessary to define the contact detection configuration (default: 1-theta, 0.) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : Integrator_SetContactDetectionConfiguration(alpha_b,alpha_e) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">alpha_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value of the V_begin weight </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">alpha_e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value of the V weight </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="697" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="697" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a7717146fa3f8cca9899aa53acac5ba24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_RequireXxlComputation</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_RequireXxlComputation</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a7717146fa3f8cca9899aa53acac5ba24" kindref="member">overall_RequireXxlComputation()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="709" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="709" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aa828faf366a4b129c92c07f8042c1310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_UpdatePostData</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_UpdatePostData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1aa828faf366a4b129c92c07f8042c1310" kindref="member">overall_UpdatePostData()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="719" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="719" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1ab3a2feb5e2f74893e44a052c7701ff0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_InitPostData</definition>
+        <argsstring>(int ifirst, int ilast)</argsstring>
+        <name>overall_InitPostData</name>
+        <param>
+          <type>int</type>
+          <declname>ifirst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilast</declname>
+        </param>
+        <briefdescription>
+<para>python usage : overall_InitPostData(ifirst, ilast) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ifirst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ilast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="736" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="736" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aa061fd6b9d38db6cfb662736bec2de3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_SetWorkingDirectory</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>overall_SetWorkingDirectory</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+        </param>
+        <briefdescription>
+<para>python usage : overall_SetWorkingDirectory(path) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : set path to DATBOX directory </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="751" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="751" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aeceb2492a355dcf966b4c9a661a56a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_GetWorkingDirectory</definition>
+        <argsstring>(char **string_out, int *string_size, int *real_size)</argsstring>
+        <name>overall_GetWorkingDirectory</name>
+        <param>
+          <type>char **</type>
+          <declname>string_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>real_size</declname>
+        </param>
+        <briefdescription>
+<para>python usage : path = <ref refid="wrap__overall_8h_1aeceb2492a355dcf966b4c9a661a56a56" kindref="member">overall_GetWorkingDirectory()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>path (string) : working directory </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="769" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="769" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a433fc8e56a81b49f33844892bcc7050f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_WriteDrivenDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_WriteDrivenDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a433fc8e56a81b49f33844892bcc7050f" kindref="member">overall_WriteDrivenDof()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="783" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="783" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a3dce6111f9ac538f5a7973ed61e31be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_WriteOutDisplayFile</definition>
+        <argsstring>(int freq_display=0)</argsstring>
+        <name>overall_WriteOutDisplayFile</name>
+        <param>
+          <type>int</type>
+          <declname>freq_display</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>python usage : overall_WriteOutDisplayFile(freq_display) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">freq_display</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : periodicity of display write </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="798" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="798" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1ad48a1883602141f85ca4c422bf2fa0a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_ReadIniMpValues</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>TimeEvolution_ReadIniMpValues</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read header of a MP_VALUES file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : TimeEvolution_ReadIniMpValues(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : num of file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="814" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="814" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a8b3770d56fcc54e72ae87b874e2d7bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteOutMpValues</definition>
+        <argsstring>(int entier=1)</argsstring>
+        <name>TimeEvolution_WriteOutMpValues</name>
+        <param>
+          <type>int</type>
+          <declname>entier</declname>
+          <defname>nstep</defname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>python usage : TimeEvolution_WriteOutMpValues(nstep) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nstep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : a freq of writing </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="829" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="829" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a8c692d7cb2d06057bde3208d29df5ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeEvolution_WriteLastMpValues</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimeEvolution_WriteLastMpValues</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a8c692d7cb2d06057bde3208d29df5ebe" kindref="member">TimeEvolution_WriteLastMpValues()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="839" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="839" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a6cc4db91101990fef04ff784a726e1af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_WriteBodies</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_WriteBodies</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a6cc4db91101990fef04ff784a726e1af" kindref="member">overall_WriteBodies()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="849" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="849" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a7ae54a597242f4de09f18bb7ee311bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_CleanOutBodies</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_CleanOutBodies</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a7ae54a597242f4de09f18bb7ee311bbc" kindref="member">overall_CleanOutBodies()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="859" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="859" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a091a366e4d06e0c42855dd15c1aa8d3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_RebuildInBodies</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_RebuildInBodies</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a091a366e4d06e0c42855dd15c1aa8d3d" kindref="member">overall_RebuildInBodies()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="869" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="869" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1ae01f13af8ade3ee1893a70a79c11d3f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_CleanWriteOutFlags</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_CleanWriteOutFlags</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__overall_8h_1ae01f13af8ade3ee1893a70a79c11d3f6" kindref="member">overall_CleanWriteOutFlags()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="879" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="879" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a2407a0411369f32d5483bcc1a2e007ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_UseExperimentalDev</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_UseExperimentalDev</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Activate some unstable devs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__overall_8h_1a2407a0411369f32d5483bcc1a2e007ab" kindref="member">overall_UseExperimentalDev()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="897" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="897" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1aee7fe8683578f3cc7686c48ce4db2465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void overall_UseExternalFem</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_UseExternalFem</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Allow to use the externalFem library instead of lmgc90 Fem lib. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__overall_8h_1aee7fe8683578f3cc7686c48ce4db2465" kindref="member">overall_UseExternalFem()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="907" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="907" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__overall_8h_1a82ffbe1ebfea37065f2559f443e7e7f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int overall_GetMaxInternalTact</definition>
+        <argsstring>(void)</argsstring>
+        <name>overall_GetMaxInternalTact</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>get max of internal for tact </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb = <ref refid="wrap__overall_8h_1a82ffbe1ebfea37065f2559f443e7e7f2" kindref="member">overall_GetMaxInternalTact()</ref> <simplesect kind="return"><para>nb (integer) : maximum number of internal for interactions </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" line="922" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h" declline="922" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*===========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*===========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_overall_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_overall_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">Time<sp/>evolution<sp/>policy</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="wrap__overall_8h_1a85c64b3bd561cfec5775639a85c74791" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a85c64b3bd561cfec5775639a85c74791" kindref="member">overall_Initialize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="wrap__overall_8h_1a6974c6af606308fa58984ac447cec4e7" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a6974c6af606308fa58984ac447cec4e7" kindref="member">overall_Finalize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="wrap__overall_8h_1a837b97050cfa12881d94a13f3f7a6fce" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a837b97050cfa12881d94a13f3f7a6fce" kindref="member">overall_InitEntityList</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="wrap__overall_8h_1aa1554a90e6ac17d6da0a838bddd99cc6" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aa1554a90e6ac17d6da0a838bddd99cc6" kindref="member">TimeEvolution_SetTimeStep</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="wrap__overall_8h_1ae777ff4c9ae9008e71fd59e9e30f61e8" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1ae777ff4c9ae9008e71fd59e9e30f61e8" kindref="member">TimeEvolution_IncrementStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="wrap__overall_8h_1a8f1d27dd054ea15870fd6494a616b65b" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a8f1d27dd054ea15870fd6494a616b65b" kindref="member">TimeEvolution_UpdateStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="wrap__overall_8h_1aff0430d81b8c04387fffced0d545e637" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aff0430d81b8c04387fffced0d545e637" kindref="member">TimeEvolution_DisplayStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="wrap__overall_8h_1af2444acd8a51e1c731310b2f15c78717" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1af2444acd8a51e1c731310b2f15c78717" kindref="member">TimeEvolution_SetInitialStep</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="wrap__overall_8h_1aaeead7eb7e6c6e0a6193f9ac5dc710fc" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aaeead7eb7e6c6e0a6193f9ac5dc710fc" kindref="member">TimeEvolution_SetInitialTime</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="wrap__overall_8h_1a00c2c53dae38850d9fa8d5fa48951508" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a00c2c53dae38850d9fa8d5fa48951508" kindref="member">TimeEvolution_GetTime</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="wrap__overall_8h_1a7abca7bb5f42264ca2815affa2fa6391" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a7abca7bb5f42264ca2815affa2fa6391" kindref="member">TimeEvolution_GetTimeStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="wrap__overall_8h_1a1f9a70e75a12309f36991aebca0e9aea" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a1f9a70e75a12309f36991aebca0e9aea" kindref="member">TimeEvolution_GetStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="wrap__overall_8h_1aa0bf682b683713721bb03afa51e9e04b" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aa0bf682b683713721bb03afa51e9e04b" kindref="member">TimeEvolution_WriteLastDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="wrap__overall_8h_1a0cc429ac8320a5e6e8bc307b99969ad7" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a0cc429ac8320a5e6e8bc307b99969ad7" kindref="member">TimeEvolution_WriteOutDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Nstep_writeDof=1);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="wrap__overall_8h_1aabb536d24b7047fd11b9873acf4fed5f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aabb536d24b7047fd11b9873acf4fed5f" kindref="member">TimeEvolution_DisplayOutDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="wrap__overall_8h_1a9524525dc1483c34e7b20f35abc6b49b" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a9524525dc1483c34e7b20f35abc6b49b" kindref="member">TimeEvolution_WriteLastRnod</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="wrap__overall_8h_1a40ffeb1e5bb32bd66d0627dd2c4a2b75" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a40ffeb1e5bb32bd66d0627dd2c4a2b75" kindref="member">TimeEvolution_WriteOutRnod</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>entier);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="wrap__overall_8h_1a96ba1c47234f40cc6ac4709111560467" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a96ba1c47234f40cc6ac4709111560467" kindref="member">TimeEvolution_DisplayOutRnod</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="wrap__overall_8h_1a40c0b45cb067769a3a75c507133b79e0" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a40c0b45cb067769a3a75c507133b79e0" kindref="member">TimeEvolution_WriteLastVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="wrap__overall_8h_1ad049d0d323d03c443d01e075847002d4" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1ad049d0d323d03c443d01e075847002d4" kindref="member">TimeEvolution_WriteOutVlocRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Nstep_writeVlocRloc=1);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="wrap__overall_8h_1a4eb0e01d410af978e9757a53aa1db16d" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a4eb0e01d410af978e9757a53aa1db16d" kindref="member">TimeEvolution_DisplayOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="wrap__overall_8h_1a950a3c0226a123cad45a332f249b2adb" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a950a3c0226a123cad45a332f249b2adb" kindref="member">TimeEvolution_WriteLastGPV</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="wrap__overall_8h_1a785adc77b2219dae41e06953f5d629cf" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a785adc77b2219dae41e06953f5d629cf" kindref="member">TimeEvolution_WriteOutGPV</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>entier);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="wrap__overall_8h_1a80c398e515a35856cb916573c271a377" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a80c398e515a35856cb916573c271a377" kindref="member">TimeEvolution_ReadIniDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="wrap__overall_8h_1a3eb3b11c2cf0f0916f26e89a7947bbd2" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a3eb3b11c2cf0f0916f26e89a7947bbd2" kindref="member">TimeEvolution_ReadIniVlocRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375" refid="wrap__overall_8h_1a76bcbefd362c3a1ff3a6d92271eb44d7" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a76bcbefd362c3a1ff3a6d92271eb44d7" kindref="member">TimeEvolution_ReadIniGPV</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="379"><highlight class="comment">Newton<sp/>Raphson<sp/>policy</highlight></codeline>
+<codeline lineno="380"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396" refid="wrap__overall_8h_1a52b0a97dbdc1a8216f0c0c92a00af037" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a52b0a97dbdc1a8216f0c0c92a00af037" kindref="member">NewtonRaphson_Initialize</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416" refid="wrap__overall_8h_1a0da5ff9fb39d755b6e025928b4a44398" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a0da5ff9fb39d755b6e025928b4a44398" kindref="member">NewtonRaphson_CheckConvergence</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="436" refid="wrap__overall_8h_1a09f3e80121f4c98b291108b4193de68c" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a09f3e80121f4c98b291108b4193de68c" kindref="member">NewtonRaphson_ComputeTimeStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"></highlight></codeline>
+<codeline lineno="453" refid="wrap__overall_8h_1ad7e4cfa50c3e64181b3e649aa7131ae5" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1ad7e4cfa50c3e64181b3e649aa7131ae5" kindref="member">NewtonRaphson_SetMinTimeStep</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="454"><highlight class="normal"></highlight></codeline>
+<codeline lineno="470" refid="wrap__overall_8h_1ad7dbdcb5dacb72dbeccc158024343735" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1ad7dbdcb5dacb72dbeccc158024343735" kindref="member">NewtonRaphson_SetMaxTimeStep</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight></codeline>
+<codeline lineno="485" refid="wrap__overall_8h_1a3e98021fa82cc5bf6abcd3f88c43d3d0" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a3e98021fa82cc5bf6abcd3f88c43d3d0" kindref="member">NewtonRaphson_SetFinalTime</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"></highlight></codeline>
+<codeline lineno="500" refid="wrap__overall_8h_1a9317943020b981d5a4a958d20300c4ca" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a9317943020b981d5a4a958d20300c4ca" kindref="member">NewtonRaphson_SetMaxIter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight></codeline>
+<codeline lineno="515" refid="wrap__overall_8h_1a346c0e56e51230b6b12d7ebcbce1ec4e" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a346c0e56e51230b6b12d7ebcbce1ec4e" kindref="member">NewtonRaphson_SetGoodIter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight></codeline>
+<codeline lineno="530" refid="wrap__overall_8h_1a044caea9b06c697cf1736ea6c3579d36" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a044caea9b06c697cf1736ea6c3579d36" kindref="member">NewtonRaphson_SetBadIter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"></highlight></codeline>
+<codeline lineno="545" refid="wrap__overall_8h_1af1ce2ec3ecda7fbac63043cb2c8dbbfc" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1af1ce2ec3ecda7fbac63043cb2c8dbbfc" kindref="member">NewtonRaphson_SetIncPatience</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="546"><highlight class="normal"></highlight></codeline>
+<codeline lineno="547"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="548"><highlight class="comment">Contact<sp/>detection</highlight></codeline>
+<codeline lineno="549"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="550"><highlight class="normal"></highlight></codeline>
+<codeline lineno="564" refid="wrap__overall_8h_1ad92c6fad124552bb6debb2f2986a4522" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1ad92c6fad124552bb6debb2f2986a4522" kindref="member">overall_SelectProxTactors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Nstep_rough_seek=1);</highlight></codeline>
+<codeline lineno="565"><highlight class="normal"></highlight></codeline>
+<codeline lineno="574" refid="wrap__overall_8h_1a2231aaff3d2269f81b2da9eea9dfeb9d" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a2231aaff3d2269f81b2da9eea9dfeb9d" kindref="member">overall_DisplayProxTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="575"><highlight class="normal"></highlight></codeline>
+<codeline lineno="576"><highlight class="normal"></highlight></codeline>
+<codeline lineno="577"><highlight class="normal"></highlight></codeline>
+<codeline lineno="597" refid="wrap__overall_8h_1a0e5c16f9bf47a9f039a69af87d63c419" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a0e5c16f9bf47a9f039a69af87d63c419" kindref="member">overall_DIME</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idim,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>imod);</highlight></codeline>
+<codeline lineno="598"><highlight class="normal"></highlight></codeline>
+<codeline lineno="599"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="600"><highlight class="comment">Integrator<sp/>policy</highlight></codeline>
+<codeline lineno="601"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="602"><highlight class="normal"></highlight></codeline>
+<codeline lineno="616" refid="wrap__overall_8h_1a9aecccb7393fa07c0410a8e53d11bee9" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a9aecccb7393fa07c0410a8e53d11bee9" kindref="member">Integrator_InitTheta</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="617"><highlight class="normal"></highlight></codeline>
+<codeline lineno="629" refid="wrap__overall_8h_1a3f0485aeaac5e0baceb9338bbde4f00d" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a3f0485aeaac5e0baceb9338bbde4f00d" kindref="member">Integrator_InitQS</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="630"><highlight class="normal"></highlight></codeline>
+<codeline lineno="644" refid="wrap__overall_8h_1a6500bc7610c3cc363f23411eed33e1bb" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a6500bc7610c3cc363f23411eed33e1bb" kindref="member">Integrator_InitCrankNickolson</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"></highlight></codeline>
+<codeline lineno="654" refid="wrap__overall_8h_1a18292a6df04c8b12c3a9228efc4996d7" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a18292a6df04c8b12c3a9228efc4996d7" kindref="member">Integrator_InitGear</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="655"><highlight class="normal"></highlight></codeline>
+<codeline lineno="664" refid="wrap__overall_8h_1a51965418ea51f95234b0577f6ec4d169" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a51965418ea51f95234b0577f6ec4d169" kindref="member">Integrator_InitVerlet</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="665"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="680" refid="wrap__overall_8h_1a893686fcde63b758b90dafa0e3951560" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a893686fcde63b758b90dafa0e3951560" kindref="member">Integrator_InitBeta2</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="681"><highlight class="normal"></highlight></codeline>
+<codeline lineno="697" refid="wrap__overall_8h_1a782c292601161766b207661483924510" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a782c292601161766b207661483924510" kindref="member">Integrator_SetContactDetectionConfiguration</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha_b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha_e);</highlight></codeline>
+<codeline lineno="698"><highlight class="normal"></highlight></codeline>
+<codeline lineno="699"><highlight class="normal"></highlight></codeline>
+<codeline lineno="700"><highlight class="normal"></highlight></codeline>
+<codeline lineno="709" refid="wrap__overall_8h_1a7717146fa3f8cca9899aa53acac5ba24" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a7717146fa3f8cca9899aa53acac5ba24" kindref="member">overall_RequireXxlComputation</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="710"><highlight class="normal"></highlight></codeline>
+<codeline lineno="719" refid="wrap__overall_8h_1aa828faf366a4b129c92c07f8042c1310" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aa828faf366a4b129c92c07f8042c1310" kindref="member">overall_UpdatePostData</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="720"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="736" refid="wrap__overall_8h_1ab3a2feb5e2f74893e44a052c7701ff0f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1ab3a2feb5e2f74893e44a052c7701ff0f" kindref="member">overall_InitPostData</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ifirst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilast);</highlight></codeline>
+<codeline lineno="737"><highlight class="normal"></highlight></codeline>
+<codeline lineno="751" refid="wrap__overall_8h_1aa061fd6b9d38db6cfb662736bec2de3f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aa061fd6b9d38db6cfb662736bec2de3f" kindref="member">overall_SetWorkingDirectory</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="752"><highlight class="normal"></highlight></codeline>
+<codeline lineno="769" refid="wrap__overall_8h_1aeceb2492a355dcf966b4c9a661a56a56" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aeceb2492a355dcf966b4c9a661a56a56" kindref="member">overall_GetWorkingDirectory</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>real_size);</highlight></codeline>
+<codeline lineno="770"><highlight class="normal"></highlight></codeline>
+<codeline lineno="771"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="772"><highlight class="comment">Writes</highlight></codeline>
+<codeline lineno="773"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="774"><highlight class="normal"></highlight></codeline>
+<codeline lineno="783" refid="wrap__overall_8h_1a433fc8e56a81b49f33844892bcc7050f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a433fc8e56a81b49f33844892bcc7050f" kindref="member">overall_WriteDrivenDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="784"><highlight class="normal"></highlight></codeline>
+<codeline lineno="798" refid="wrap__overall_8h_1a3dce6111f9ac538f5a7973ed61e31be2" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a3dce6111f9ac538f5a7973ed61e31be2" kindref="member">overall_WriteOutDisplayFile</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>freq_display=0);</highlight></codeline>
+<codeline lineno="799"><highlight class="normal"></highlight></codeline>
+<codeline lineno="814" refid="wrap__overall_8h_1ad48a1883602141f85ca4c422bf2fa0a5" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1ad48a1883602141f85ca4c422bf2fa0a5" kindref="member">TimeEvolution_ReadIniMpValues</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="815"><highlight class="normal"></highlight></codeline>
+<codeline lineno="829" refid="wrap__overall_8h_1a8b3770d56fcc54e72ae87b874e2d7bca" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a8b3770d56fcc54e72ae87b874e2d7bca" kindref="member">TimeEvolution_WriteOutMpValues</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>entier=1);</highlight></codeline>
+<codeline lineno="830"><highlight class="normal"></highlight></codeline>
+<codeline lineno="839" refid="wrap__overall_8h_1a8c692d7cb2d06057bde3208d29df5ebe" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a8c692d7cb2d06057bde3208d29df5ebe" kindref="member">TimeEvolution_WriteLastMpValues</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="840"><highlight class="normal"></highlight></codeline>
+<codeline lineno="849" refid="wrap__overall_8h_1a6cc4db91101990fef04ff784a726e1af" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a6cc4db91101990fef04ff784a726e1af" kindref="member">overall_WriteBodies</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="850"><highlight class="normal"></highlight></codeline>
+<codeline lineno="859" refid="wrap__overall_8h_1a7ae54a597242f4de09f18bb7ee311bbc" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a7ae54a597242f4de09f18bb7ee311bbc" kindref="member">overall_CleanOutBodies</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="860"><highlight class="normal"></highlight></codeline>
+<codeline lineno="869" refid="wrap__overall_8h_1a091a366e4d06e0c42855dd15c1aa8d3d" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a091a366e4d06e0c42855dd15c1aa8d3d" kindref="member">overall_RebuildInBodies</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="870"><highlight class="normal"></highlight></codeline>
+<codeline lineno="879" refid="wrap__overall_8h_1ae01f13af8ade3ee1893a70a79c11d3f6" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1ae01f13af8ade3ee1893a70a79c11d3f6" kindref="member">overall_CleanWriteOutFlags</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="880"><highlight class="normal"></highlight></codeline>
+<codeline lineno="881"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="882"><highlight class="comment">reads</highlight></codeline>
+<codeline lineno="883"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="884"><highlight class="normal"></highlight></codeline>
+<codeline lineno="885"><highlight class="normal"></highlight></codeline>
+<codeline lineno="886"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="887"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="888"><highlight class="normal"></highlight></codeline>
+<codeline lineno="897" refid="wrap__overall_8h_1a2407a0411369f32d5483bcc1a2e007ab" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a2407a0411369f32d5483bcc1a2e007ab" kindref="member">overall_UseExperimentalDev</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="898"><highlight class="normal"></highlight></codeline>
+<codeline lineno="907" refid="wrap__overall_8h_1aee7fe8683578f3cc7686c48ce4db2465" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1aee7fe8683578f3cc7686c48ce4db2465" kindref="member">overall_UseExternalFem</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="908"><highlight class="normal"></highlight></codeline>
+<codeline lineno="922" refid="wrap__overall_8h_1a82ffbe1ebfea37065f2559f443e7e7f2" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__overall_8h_1a82ffbe1ebfea37065f2559f443e7e7f2" kindref="member">overall_GetMaxInternalTact</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="923"><highlight class="normal"></highlight></codeline>
+<codeline lineno="924"><highlight class="normal"></highlight></codeline>
+<codeline lineno="925"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_overall_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_overall.h"/>
+  </compounddef>
+</doxygen>

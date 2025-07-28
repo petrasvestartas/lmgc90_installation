@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__JONCx_8h" kind="file" language="C++">
+    <compoundname>wrap_JONCx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__JONCx_8h_1a5f82bedc960ee75e9d4538a952dfd881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_LoadTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>JONCx_LoadTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>load JONCx from RBDY2 and initialize existing_entites </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__JONCx_8h_1a5f82bedc960ee75e9d4538a952dfd881" kindref="member">JONCx_LoadTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="52" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="52" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1a0bbdf8043b4941b86c481cce2f93f5b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JONCx_GetNbJONCx</definition>
+        <argsstring>(void)</argsstring>
+        <name>JONCx_GetNbJONCx</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of JONCx in container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_joncx = <ref refid="wrap__JONCx_8h_1a0bbdf8043b4941b86c481cce2f93f5b2" kindref="member">JONCx_GetNbJONCx()</ref></para>
+<para><simplesect kind="return"><para>nb_joncx (integer) : the number of JONCx in container </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="68" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="68" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1a0dc99bc45c9109478b8eab90c5dff176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JONCx_GetBodyId</definition>
+        <argsstring>(int itacty)</argsstring>
+        <name>JONCx_GetBodyId</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <briefdescription>
+<para>Get the body rank of a given JONCx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : ibdyty = JONCx_GetBodyId(itacty)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : JONCx rank </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ibdyty (integer) : body rank </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="86" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="86" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1af1a27309667ea43ca9c66a1ff807cac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_GetShape</definition>
+        <argsstring>(int itacty, double **r8_vector, int *r8_size)</argsstring>
+        <name>JONCx_GetShape</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the shape of a JONCx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : shape = JONCx_GetShape(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of JONCx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>shape (double array) : axis length of the JONCx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="105" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="105" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1a12639e8488759ea4d623ab51f21b8454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_GetCoor</definition>
+        <argsstring>(int itacty, double **r8_vector, int *r8_size)</argsstring>
+        <name>JONCx_GetCoor</name>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the coor of a JONCx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : coor = JONCx_GetCoor(itacty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of JONCx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>coor (double array) : coordinates of the JONCx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="123" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="123" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1a90ddd530338b058a2d3d88e3bc6880f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_GetPtrJONCx2BDYTY</definition>
+        <argsstring>(int **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>JONCx_GetPtrJONCx2BDYTY</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return a pointer onto the map joncx2rbdy2 </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : joncx2rbdy2 = <ref refid="wrap__JONCx_8h_1a90ddd530338b058a2d3d88e3bc6880f8" kindref="member">JONCx_GetPtrJONCx2BDYTY()</ref></para>
+<para><simplesect kind="return"><para>joncx2rbdy2 (integer array) : reference on map between joncx rank and body/tact rank </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="141" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="141" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1a81a4ef115dfee6fe0a8871aab96514d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JONCx_IsVisible</definition>
+        <argsstring>(int itact)</argsstring>
+        <name>JONCx_IsVisible</name>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <briefdescription>
+<para>return if a body visible </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : visible = JONCx_IsVisible(itact) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of JONCx </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : 1 if body is visible, 0 else </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="158" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="158" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1aafa34fa347d4ec44acfef9dfc6dc8366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_InitOutlines</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>JONCx_InitOutlines</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the outlines of all JONCx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : outlines = <ref refid="wrap__JONCx_8h_1aafa34fa347d4ec44acfef9dfc6dc8366" kindref="member">JONCx_InitOutlines()</ref> <simplesect kind="return"><para>outlines (double array) : a reference on outlines_JONCx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="176" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="176" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1ac09ee8b0d20285f0176bb18af240dc33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_InitScalarFields</definition>
+        <argsstring>(double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>JONCx_InitScalarFields</name>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a reference on the scalar fields of all JONCx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : scalarfields = JONCx_InitScalarfields() <simplesect kind="return"><para>scalarfields (double array) : reference on scalarfields_JONCx array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="194" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="194" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1ada998df65af835b8017146f35047f7ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_UpdatePostdata</definition>
+        <argsstring>(void)</argsstring>
+        <name>JONCx_UpdatePostdata</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Update values of outlines_JONCx and scalarfields_JONCx pointers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : <ref refid="wrap__JONCx_8h_1ada998df65af835b8017146f35047f7ec" kindref="member">JONCx_UpdatePostdata()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="205" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="205" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1a1a08ba7ec7b3560d620f94e9b58e4985" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_GetNbPointOutlines</definition>
+        <argsstring>(int **pointer_out, int *length)</argsstring>
+        <name>JONCx_GetNbPointOutlines</name>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of cumulated outline points number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_pointOutlines = <ref refid="wrap__JONCx_8h_1a1a08ba7ec7b3560d620f94e9b58e4985" kindref="member">JONCx_GetNbPointOutlines()</ref> <simplesect kind="return"><para>nb_pointOutlines (integer array) : the cumulated number of outline points of the JONCx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="222" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="222" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1a2cfc56c00755d45fe78e23e71d1d9aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JONCx_GetNbScalarFields</definition>
+        <argsstring>(void)</argsstring>
+        <name>JONCx_GetNbScalarFields</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of scalar fields of a JONCx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_scalarfields = <ref refid="wrap__JONCx_8h_1a2cfc56c00755d45fe78e23e71d1d9aec" kindref="member">JONCx_GetNbScalarFields()</ref> <simplesect kind="return"><para>nb_scalarfields (integer) : the number of scalar fields of a JONCx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="238" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="238" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__JONCx_8h_1af6b548fd0d7ee63c1590acf2b8cb8b88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JONCx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>JONCx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within JONCx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__JONCx_8h_1af6b548fd0d7ee63c1590acf2b8cb8b88" kindref="member">JONCx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" line="248" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h" declline="248" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_JONCx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_JONCx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="wrap__JONCx_8h_1a5f82bedc960ee75e9d4538a952dfd881" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1a5f82bedc960ee75e9d4538a952dfd881" kindref="member">JONCx_LoadTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="wrap__JONCx_8h_1a0bbdf8043b4941b86c481cce2f93f5b2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1a0bbdf8043b4941b86c481cce2f93f5b2" kindref="member">JONCx_GetNbJONCx</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="wrap__JONCx_8h_1a0dc99bc45c9109478b8eab90c5dff176" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1a0dc99bc45c9109478b8eab90c5dff176" kindref="member">JONCx_GetBodyId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="wrap__JONCx_8h_1af1a27309667ea43ca9c66a1ff807cac6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1af1a27309667ea43ca9c66a1ff807cac6" kindref="member">JONCx_GetShape</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="wrap__JONCx_8h_1a12639e8488759ea4d623ab51f21b8454" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1a12639e8488759ea4d623ab51f21b8454" kindref="member">JONCx_GetCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="wrap__JONCx_8h_1a90ddd530338b058a2d3d88e3bc6880f8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1a90ddd530338b058a2d3d88e3bc6880f8" kindref="member">JONCx_GetPtrJONCx2BDYTY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="wrap__JONCx_8h_1a81a4ef115dfee6fe0a8871aab96514d8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1a81a4ef115dfee6fe0a8871aab96514d8" kindref="member">JONCx_IsVisible</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="wrap__JONCx_8h_1aafa34fa347d4ec44acfef9dfc6dc8366" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1aafa34fa347d4ec44acfef9dfc6dc8366" kindref="member">JONCx_InitOutlines</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="wrap__JONCx_8h_1ac09ee8b0d20285f0176bb18af240dc33" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1ac09ee8b0d20285f0176bb18af240dc33" kindref="member">JONCx_InitScalarFields</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="wrap__JONCx_8h_1ada998df65af835b8017146f35047f7ec" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1ada998df65af835b8017146f35047f7ec" kindref="member">JONCx_UpdatePostdata</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="wrap__JONCx_8h_1a1a08ba7ec7b3560d620f94e9b58e4985" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1a1a08ba7ec7b3560d620f94e9b58e4985" kindref="member">JONCx_GetNbPointOutlines</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>length);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="238" refid="wrap__JONCx_8h_1a2cfc56c00755d45fe78e23e71d1d9aec" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1a2cfc56c00755d45fe78e23e71d1d9aec" kindref="member">JONCx_GetNbScalarFields</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="wrap__JONCx_8h_1af6b548fd0d7ee63c1590acf2b8cb8b88" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__JONCx_8h_1af6b548fd0d7ee63c1590acf2b8cb8b88" kindref="member">JONCx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_JONCx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/rigid_2D/wrap_JONCx.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__mbs3D_8h" kind="file" language="C++">
+    <compoundname>wrap_mbs3D.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a7974d4a4240a64b2d6b8a027e45d9672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_setNb</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>MBS3D_setNb</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Set the number of MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MBS3D_setNb(nb) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : set the number of MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="57" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="57" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a597edf3f4d124b415fd842e8a5f6606f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MBS3D_getNb</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS3D_getNb</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb = <ref refid="wrap__mbs3D_8h_1a597edf3f4d124b415fd842e8a5f6606f" kindref="member">MBS3D_getNb()</ref> <simplesect kind="return"><para>nb (integer) : the number of MBS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="72" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="72" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a81914b58fbd35c4142c98be5f0e34c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_setNbNodes</definition>
+        <argsstring>(int ibdyty, int nb)</argsstring>
+        <name>MBS3D_setNbNodes</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Set the number of nodes of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MBS3D_setNbNodes(ibdyty, nb) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: id of the MBS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the number of nodes of the MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="89" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="89" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a1d57f2655be996d862f9fcb9191a1bba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_setNbTactors</definition>
+        <argsstring>(int ibdyty, int nb)</argsstring>
+        <name>MBS3D_setNbTactors</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Set the number contactors of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MBS3D_setNbTactors(ibdyty, nb) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: id of the MBS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the number of contactor of the MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="106" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="106" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a76be1cf5d04d294a04bd72bc3f1c5827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_getPtrCoor</definition>
+        <argsstring>(int ibdyty, double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>MBS3D_getPtrCoor</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a pointer on the coor of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : coor = MBS3D_GetPtrCoor(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>coor (double 2D-array) : reference on the coordinates of the nodes </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="125" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="125" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a6175c4350b48d1cc5029b993bb19a1af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_getPtrCoorTT</definition>
+        <argsstring>(int ibdyty, double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>MBS3D_getPtrCoorTT</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Set the array of coordinates of nodes of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : coor = MBS3D_getPtrCoorTT(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: id of the MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>coor (double array) : coordinates of nodes of a MBS (in contact configuration) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="144" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="144" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1afb2dcb455c74d21053177d6c2051b831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_getPtrLocalFrame</definition>
+        <argsstring>(int ibdyty, double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>MBS3D_getPtrLocalFrame</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a pointer on the coor of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : frame = MBS3D_GetPtrLocalFrame(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>frame (double 2D-array) : local frame </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="163" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="163" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1ac367d32e412a98caefac6edc06ae01b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_getPtrLocalFrameTT</definition>
+        <argsstring>(int ibdyty, double **pointer_out, int *dim1, int *dim2)</argsstring>
+        <name>MBS3D_getPtrLocalFrameTT</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Set the array of coordinates of nodes of a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : frameTT = MBS3D_GetPtrLocalFrameTT(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: id of the MBS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>frameTT (double array) : local frame (in contact configuration) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="182" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="182" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1ac1058f52ef25e51e67fecf910b8bf504" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_addContactor</definition>
+        <argsstring>(int ibdyty, int inodty, int itacty, char *tactype, char *color, double *rvector_in, int rlength_in, int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>MBS3D_addContactor</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inodty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>itacty</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>tactype</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Add a new contactor to a MBS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Available contactor types are :</para>
+<para><itemizedlist>
+<listitem><para>PLANx: inputs are:<itemizedlist>
+<listitem><para>rdata must hold [axe_x, axe_y, axe_z]</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>POLYR: inputs are:<itemizedlist>
+<listitem><para>rdata must hold the coordinates of the vertices [x_1, y_1, z_1, ... x_n, y_n, z_n]</para>
+</listitem><listitem><para>idata must hold the connecivity of each triangle defining the surface</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para>python usage : MBS3D_addContactor(ibdyty, inodty, itacty, tacttype, color, rdata, idata=None) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the MBS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">inodty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the node of the MBS the contactor is tied to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">itacty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the contactor of MBS </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tactype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string [5]) : the type of contactor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string [5]) : the color of the contactor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rdata</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the new value of the vector </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">idata</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer array) : the new value of the vector </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="219" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="219" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a887a788798a4deb3054e0dcbca3dd6be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_initialize</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS3D_initialize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initialize MBS module once loading is done. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs3D_8h_1a887a788798a4deb3054e0dcbca3dd6be" kindref="member">MBS3D_initialize()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="230" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="230" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a6e4dfe73d7bb8a6b134af28b327f6141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_finalize</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS3D_finalize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Finalize MBS module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs3D_8h_1a6e4dfe73d7bb8a6b134af28b327f6141" kindref="member">MBS3D_finalize()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="241" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="241" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1a2d36d8fcee266c6f2fa7d73e064d9f90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_IncrementStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS3D_IncrementStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute the current velocity and displacement </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs3D_8h_1a2d36d8fcee266c6f2fa7d73e064d9f90" kindref="member">MBS3D_IncrementStep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="252" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="252" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1aa96c420fbb79639f49b13fbd7e085fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_ComputeFreeVelocity</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS3D_ComputeFreeVelocity</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute free velocity </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs3D_8h_1aa96c420fbb79639f49b13fbd7e085fa0" kindref="member">MBS3D_ComputeFreeVelocity()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="264" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="264" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1acde7f831e285b79cd55cb547b43ae5ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_ComputeDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS3D_ComputeDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>update current position and velocity </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs3D_8h_1acde7f831e285b79cd55cb547b43ae5ad" kindref="member">MBS3D_ComputeDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="275" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="275" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mbs3D_8h_1aff1e8d1131195223c45e59cdcb449a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MBS3D_UpdateDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>MBS3D_UpdateDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>save d.o.f. of the end of the time step to d.o.f. of the begining of the next one </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__mbs3D_8h_1aff1e8d1131195223c45e59cdcb449a0d" kindref="member">MBS3D_UpdateDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" line="285" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h" declline="285" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_MBS3D_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_MBS3D_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="wrap__mbs3D_8h_1a7974d4a4240a64b2d6b8a027e45d9672" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a7974d4a4240a64b2d6b8a027e45d9672" kindref="member">MBS3D_setNb</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="wrap__mbs3D_8h_1a597edf3f4d124b415fd842e8a5f6606f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a597edf3f4d124b415fd842e8a5f6606f" kindref="member">MBS3D_getNb</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="wrap__mbs3D_8h_1a81914b58fbd35c4142c98be5f0e34c0a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a81914b58fbd35c4142c98be5f0e34c0a" kindref="member">MBS3D_setNbNodes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="wrap__mbs3D_8h_1a1d57f2655be996d862f9fcb9191a1bba" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a1d57f2655be996d862f9fcb9191a1bba" kindref="member">MBS3D_setNbTactors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="wrap__mbs3D_8h_1a76be1cf5d04d294a04bd72bc3f1c5827" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a76be1cf5d04d294a04bd72bc3f1c5827" kindref="member">MBS3D_getPtrCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="wrap__mbs3D_8h_1a6175c4350b48d1cc5029b993bb19a1af" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a6175c4350b48d1cc5029b993bb19a1af" kindref="member">MBS3D_getPtrCoorTT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="wrap__mbs3D_8h_1afb2dcb455c74d21053177d6c2051b831" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1afb2dcb455c74d21053177d6c2051b831" kindref="member">MBS3D_getPtrLocalFrame</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="wrap__mbs3D_8h_1ac367d32e412a98caefac6edc06ae01b5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1ac367d32e412a98caefac6edc06ae01b5" kindref="member">MBS3D_getPtrLocalFrameTT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="wrap__mbs3D_8h_1ac1058f52ef25e51e67fecf910b8bf504" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1ac1058f52ef25e51e67fecf910b8bf504" kindref="member">MBS3D_addContactor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inodty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itacty,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>tactype,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>color,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="wrap__mbs3D_8h_1a887a788798a4deb3054e0dcbca3dd6be" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a887a788798a4deb3054e0dcbca3dd6be" kindref="member">MBS3D_initialize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="wrap__mbs3D_8h_1a6e4dfe73d7bb8a6b134af28b327f6141" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a6e4dfe73d7bb8a6b134af28b327f6141" kindref="member">MBS3D_finalize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="wrap__mbs3D_8h_1a2d36d8fcee266c6f2fa7d73e064d9f90" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1a2d36d8fcee266c6f2fa7d73e064d9f90" kindref="member">MBS3D_IncrementStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="wrap__mbs3D_8h_1aa96c420fbb79639f49b13fbd7e085fa0" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1aa96c420fbb79639f49b13fbd7e085fa0" kindref="member">MBS3D_ComputeFreeVelocity</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="wrap__mbs3D_8h_1acde7f831e285b79cd55cb547b43ae5ad" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1acde7f831e285b79cd55cb547b43ae5ad" kindref="member">MBS3D_ComputeDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="wrap__mbs3D_8h_1aff1e8d1131195223c45e59cdcb449a0d" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mbs3D_8h_1aff1e8d1131195223c45e59cdcb449a0d" kindref="member">MBS3D_UpdateDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_MBS3D_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mbs/wrap_mbs3D.h"/>
+  </compounddef>
+</doxygen>

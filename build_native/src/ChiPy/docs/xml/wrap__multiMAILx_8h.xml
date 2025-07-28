@@ -1,0 +1,2075 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__multiMAILx_8h" kind="file" language="C++">
+    <compoundname>wrap_multiMAILx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ac8e295a2647c94da270775818171b3b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_UsePicardScheme</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_UsePicardScheme</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use Picard scheme (fixed point method) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1ac8e295a2647c94da270775818171b3b4" kindref="member">multiMAILx_UsePicardScheme()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="52" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="52" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a0ba720b0669da6b36663678d3143cde4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_UseNewtonScheme</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_UseNewtonScheme</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use Newton scheme </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a0ba720b0669da6b36663678d3143cde4" kindref="member">multiMAILx_UseNewtonScheme()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="62" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="62" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a4dd21ed863b3b3628be4bdca4e0218e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_WithoutRenumbering</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_WithoutRenumbering</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>skip renumbering of the unknowns using a rcc method </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a4dd21ed863b3b3628be4bdca4e0218e8" kindref="member">multiMAILx_WithoutRenumbering()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="72" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="72" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a2d87e639c13e841e6cf6145dd94f2c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_BandStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_BandStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use band matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a2d87e639c13e841e6cf6145dd94f2c0c" kindref="member">multiMAILx_BandStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="82" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="82" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a7e0f8cca2753caac77a8fbb91d11c297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_SparseStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_SparseStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use sparse matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a7e0f8cca2753caac77a8fbb91d11c297" kindref="member">multiMAILx_SparseStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="92" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="92" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a92b4c8312e1ec10c71b4626c9416c704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_ExplodedStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_ExplodedStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use element by element matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a92b4c8312e1ec10c71b4626c9416c704" kindref="member">multiMAILx_ExplodedStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="102" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="102" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a2865a977814246ace2d71407116fcb84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_DiagonalStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_DiagonalStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use diagonal matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a2865a977814246ace2d71407116fcb84" kindref="member">multiMAILx_DiagonalStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="112" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="112" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1aaf3572f773adfb9d3c38501d42105b8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_SkylineStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_SkylineStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use skyline matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1aaf3572f773adfb9d3c38501d42105b8e" kindref="member">multiMAILx_SkylineStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="122" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="122" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a90ee58707f63ce3e64ae6c7a7451f855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_FullStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_FullStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use full matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a90ee58707f63ce3e64ae6c7a7451f855" kindref="member">multiMAILx_FullStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="132" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="132" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1acd129bb2830585d7904ab45e1621faba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_SymmetricShape</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_SymmetricShape</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>assume matrix is symmetrical </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1acd129bb2830585d7904ab45e1621faba" kindref="member">multiMAILx_SymmetricShape()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="142" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="142" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a9c226d45b0b7d649d1b4aca0e7ef4117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_UnspecifiedShape</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_UnspecifiedShape</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>does not assume any thing on matrix shape </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a9c226d45b0b7d649d1b4aca0e7ef4117" kindref="member">multiMAILx_UnspecifiedShape()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="152" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="152" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1af7b07f012223219d021a55d74825cb31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_GetNb</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_GetNb</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of multiMAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_multiMAILx = <ref refid="wrap__multiMAILx_8h_1af7b07f012223219d021a55d74825cb31" kindref="member">multiMAILx_GetNb()</ref></para>
+<para><simplesect kind="return"><para>nb_multiMAILx (integer) : number of multiMAILx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="168" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="168" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a6debd97f83d09a2747c67d9e80004025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_GetNbNodes</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>multiMAILx_GetNbNodes</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of nodes of a multiMAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_nodes = multiMAILx_GetNbNodes(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the multiMAILx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_nodes (integer) : number of nodes of a multiMAILx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="184" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="184" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1aff9e43088d50ad581e345e2e3a49cf2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_GetNbElements</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>multiMAILx_GetNbElements</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of elements of a multiMAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_elements = multiMAILx_GetNbElements(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the multiMAILx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_nodes (integer) : number of elements of a multiMAILx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="200" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="200" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1aeb0992b6d8f65a8d4b00a3844ea15a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_IsVisible</definition>
+        <argsstring>(int idbdy)</argsstring>
+        <name>multiMAILx_IsVisible</name>
+        <param>
+          <type>int</type>
+          <declname>idbdy</declname>
+        </param>
+        <briefdescription>
+<para>return if a given body visible </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : visible = multiMAILx_IsVisible(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">idbdy(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: id of the body we want visibility </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visible (integer) : 1 if body is visible, 0 else </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="217" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="217" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a38cc1c88aa51f62c77a98e96ae21c04b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetBodyVector</definition>
+        <argsstring>(char *cvalue1_c, int ivalue1, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>multiMAILx_GetBodyVector</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a copy of a vector of a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Possible values for datatype field are:<itemizedlist>
+<listitem><para>&quot;Coor0&quot;: reference coordinates</para>
+</listitem><listitem><para>&quot;X____&quot;: cumulated displacements over time in computed configuration</para>
+</listitem><listitem><para>&quot;Xbeg_&quot;: cumulated displacements over time at beginning of time step</para>
+</listitem><listitem><para>&quot;V____&quot;: velocity in computed configuration</para>
+</listitem><listitem><para>&quot;Vbeg_&quot;: velocity at beginning of time step</para>
+</listitem><listitem><para>&quot;Pcbeg&quot;: pressure of 1st fluid at beginning of time step</para>
+</listitem><listitem><para>&quot;Pc___&quot;: pressure of 1st fluid in computed configuration</para>
+</listitem><listitem><para>&quot;Pnbeg&quot;: pressure of 2nd fluid at beginning of time step</para>
+</listitem><listitem><para>&quot;Pn___&quot;: pressure of 2nd fluid in computed configuration</para>
+</listitem><listitem><para>&quot;U_Fex&quot;: external forces</para>
+</listitem><listitem><para>&quot;PcFex&quot;: external pressure for 1st fluid</para>
+</listitem><listitem><para>&quot;PnFex&quot;: external pressure for 2nd fluid</para>
+</listitem><listitem><para>&quot;U_Fin&quot;: internal forces</para>
+</listitem><listitem><para>&quot;PcFin&quot;: internal pressure for 1st fluid</para>
+</listitem><listitem><para>&quot;PnFin&quot;: internal pressure for 2nd fluid</para>
+</listitem><listitem><para>&quot;U_Fdp&quot;:</para>
+</listitem><listitem><para>&quot;PcFdp&quot;:</para>
+</listitem><listitem><para>&quot;PnFdp&quot;:</para>
+</listitem><listitem><para>&quot;U_Fdy&quot;:</para>
+</listitem><listitem><para>&quot;PcFdy&quot;:</para>
+</listitem><listitem><para>&quot;PnFdy&quot;:</para>
+</listitem></itemizedlist>
+</para>
+<para>Possible values for datatype field are &quot;X____&quot;, &quot;Xbeg_&quot;, &quot;V____&quot;, &quot;Vbeg_&quot;, &quot;Pw___&quot;, &quot;Pwbeg&quot;, &quot;Pn___&quot;, &quot;Pnbeg&quot;</para>
+<para>Python usage : vector = multiMAILx_GetBodyVector(datatype, ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>datatype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : the vector to get </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (double 2D-array) : the desired data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="265" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="265" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a7796f7f743731999a1828fe9be3bef6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_PutBodyVector</definition>
+        <argsstring>(char *cvalue1_c, int ivalue1, double *matrix_in, int dim1, int dim2)</argsstring>
+        <name>multiMAILx_PutBodyVector</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Set a vector of a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Possible values for datatype field are:<itemizedlist>
+<listitem><para>&quot;X____&quot;: cumulated displacements over time in computed configuration</para>
+</listitem><listitem><para>&quot;Xbeg_&quot;: cumulated displacements over time at beginning of time step</para>
+</listitem><listitem><para>&quot;V____&quot;: velocity in computed configuration</para>
+</listitem><listitem><para>&quot;Vbeg_&quot;: velocity at beginning of time step</para>
+</listitem><listitem><para>&quot;Pcbeg&quot;: pressure of 1st fluid at beginning of time step</para>
+</listitem><listitem><para>&quot;Pc___&quot;: pressure of 1st fluid in computed configuration</para>
+</listitem><listitem><para>&quot;Pnbeg&quot;: pressure of 2nd fluid at beginning of time step</para>
+</listitem><listitem><para>&quot;Pn___&quot;: pressure of 2nd fluid in computed configuration</para>
+</listitem></itemizedlist>
+</para>
+<para>python usage : multiMAILx_PutBodyVector(datatype, ibdyty, matrix) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">datatype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : the vector to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">matrix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the new values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="296" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="296" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a562776bcc9b8370e13b7d54a5fea6504" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ReadDrivenDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_ReadDrivenDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Read DRV_DOF.DAT. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a562776bcc9b8370e13b7d54a5fea6504" kindref="member">multiMAILx_ReadDrivenDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="306" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="306" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ac645665575415e62ca8ba5a0fb2e3537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_WriteDrivenDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_WriteDrivenDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Write DRV_DOF.OUT. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1ac645665575415e62ca8ba5a0fb2e3537" kindref="member">multiMAILx_WriteDrivenDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="316" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="316" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ad9632097cdd03f5f05181223aaf241e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ReadIniGPV</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>multiMAILx_ReadIniGPV</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read GPV file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If num &lt;= 0 : DATBOX/GPV.INI file is read</para>
+<para>Else : OUTBOX/GPV.OUT.num is read, num being the parameter used in TimeEvolution_ReadIniGPV last call</para>
+<para>python usage : multiMAILx_ReadIniGPV(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which GPV file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="338" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="338" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a796ecada6d5a5230b00b3427de8a0c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ReadIniDof</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>multiMAILx_ReadIniDof</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read DOF file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If num &lt;= 0 : DATBOX/DOF.INI file is read</para>
+<para>Else : OUTBOX/DOF.OUT.num is read, num being the parameter used in TimeEvolution_ReadIniDof last call</para>
+<para>python usage : multiMAILx_ReadIniDof(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which DOF file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="360" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="360" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a78273dae290be388b9d0142982c6909f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_WriteLastDof</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_WriteLastDof</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Write DOF.LAST file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_WriteLastDof(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to write dof if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="377" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="377" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ae24049f95c65f78c1724a9234d3cc862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_WriteOutDof</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_WriteOutDof</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Write DOF.OUT file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_WriteOutDof(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to write dof if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="394" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="394" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a0c013d2e8a1578b1315b37fb2ad467a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_LoadBehaviours</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_LoadBehaviours</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>load behaviours from bulk_behav </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a0c013d2e8a1578b1315b37fb2ad467a9" kindref="member">multiMAILx_LoadBehaviours()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="404" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="404" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ad02e02df8bfd14f37624fdb0070b9cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_LoadModels</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_LoadModels</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>load models from models </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1ad02e02df8bfd14f37624fdb0070b9cc7" kindref="member">multiMAILx_LoadModels()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="414" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="414" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a5cfc38a41c04d486ebd181f47a211ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_PushProperties</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_PushProperties</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>gives to model the couple of model,behavior used at gauss point </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a5cfc38a41c04d486ebd181f47a211ede" kindref="member">multiMAILx_PushProperties()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="424" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="424" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1aba009d73767e4e79c3c3a6c08b789fb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_IncrementStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_IncrementStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>initializes the current d.o.f and some driven d.o.f values </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1aba009d73767e4e79c3c3a6c08b789fb4" kindref="member">multiMAILx_IncrementStep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="434" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="434" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a68385af95ae67e103e6dda35b2aa83e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ComputeMass</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_ComputeMass</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>compute elementary mass and inertia of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_ComputeMass(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute mass and inertia if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="451" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="451" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ab5b57eeb384b1364d7e3599ecd33d189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ComputeBulk</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_ComputeBulk</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes elementary stiffness and viscosity matrices of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_ComputeBulk(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute stiffness and viscosity matrices if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="468" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="468" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1aed44d508417a1532c7271cb8deb22489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ComputeFext</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_ComputeFext</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>compute elementary external forces of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_ComputeFext(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute external forces if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="485" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="485" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a5474326fba89125e500386098430a9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_AssembKT</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_AssembKT</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>assemble pseudo mass matrix and apply drvdof of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_AssembKT(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to assemble pseudo mass matrix and apply drvdof if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="502" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="502" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a754eb52fbebb6d7a2b30dc6ce4d285c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_AssembRHS</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_AssembRHS</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>assembles right hand side of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_AssembRHS(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to assemble right hand side if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="519" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="519" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a9a42e500a1413aa2f5634422e89ffd93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double multiMAILx_ComputeResidueNorm</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_ComputeResidueNorm</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes the norm of the residue of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : norm = multiMAILx_ComputeResidueNorm(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute the norm of the residue if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>norm (double) : Residue Norm </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="538" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="538" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ab6de71f7262e89e9e2f1061b308ab783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ComputeFreeState</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_ComputeFreeState</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes free (of interactions) state of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_ComputeFreeState(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute free state if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="555" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="555" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ac35a9631ea005a17dd0748813886c2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ComputeDof</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_ComputeDof</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes the current d.o.f knowing all the forces/fluxses (free + contact) of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_ComputeDof(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute current d.o.f if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="572" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="572" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a61f37533698392b0f010511579cf6f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ComputeField</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_ComputeField</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes elementary fields of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_ComputeField(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute elementary fields if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="589" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="589" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a9fa39656cb5133884b569c9dce5707a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_UpdateBulk</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_UpdateBulk</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>update begin elementary fields with current elementary fields of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_UpdateBulk(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute elementary fields if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="606" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="606" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a515ed1cda2302c45d1ecc3f7654dbe62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_UpdateDof</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>multiMAILx_UpdateDof</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>update begin d.o.f. with current d.o.f. of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_UpdateDof(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to update current d.o.f if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="623" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="623" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1af88abc440689a334d37a666d8a37a3e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_GetScalarFieldRank</definition>
+        <argsstring>(int ibdyty, int blmty, char *name)</argsstring>
+        <name>multiMAILx_GetScalarFieldRank</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blmty</declname>
+          <defname>iblmty</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+          <defname>field_name</defname>
+        </param>
+        <briefdescription>
+<para>Get the rank of field of an element of a body from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : f_rank = multiMAILx_GetScalarFieldRank(ibdyty, iblmty, name) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iblmty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern element </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : name of the desired field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>f_rank (integer) : rank of the corresponding field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="644" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="644" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1af2c732ad525e616b1694f5851c545a5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_SetScalarFieldByNode</definition>
+        <argsstring>(int IdBody, int f_rank, double *rvector_in, int rlength_in)</argsstring>
+        <name>multiMAILx_SetScalarFieldByNode</name>
+        <param>
+          <type>int</type>
+          <declname>IdBody</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f_rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>Update elementary fields through a nodal external field on a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>You need to declare this field in your MODELS.DAT</para>
+<para>python usage : multiMAILx_SetScalarFieldByNode(IdBody, f_rank, f) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f_rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the field to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="666" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="666" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a90d2b8ef71269fc7905264084a399bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_SetScalarFieldByElement</definition>
+        <argsstring>(int IdBody, int f_rank, double *rvector_in, int rlength_in)</argsstring>
+        <name>multiMAILx_SetScalarFieldByElement</name>
+        <param>
+          <type>int</type>
+          <declname>IdBody</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f_rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>Update elementary scalar field through a element external field on a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Field values are stored at Gauss point, on an element all Gauss point have the element value</para>
+<para>You need to declare this field in your MODELS.DAT</para>
+<para>python usage : multiMAILx_SetScalarFieldByElement(IdBody, f_rank, f) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f_rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the field to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="690" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="690" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1abc5e8dbaad9a842ac15bc7a6ac6dd649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int multiMAILx_GetVectorFieldRank</definition>
+        <argsstring>(int ibdyty, int blmty, char *name)</argsstring>
+        <name>multiMAILx_GetVectorFieldRank</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blmty</declname>
+          <defname>iblmty</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+          <defname>field_name</defname>
+        </param>
+        <briefdescription>
+<para>Get the rank of field of an element of a body from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : f_rank = multiMAILx_GetVectorFieldRank(ibdyty, iblmty, name) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iblmty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern element </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : name of the desired vector field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>f_rank (integer) : rank of the corresponding vector field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="711" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="711" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ad523f5bb5d62e39c58305342452b68c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_SetVectorFieldByNode</definition>
+        <argsstring>(int ibdyty, int f_rank, double *matrix_in, int dim1, int dim2)</argsstring>
+        <name>multiMAILx_SetVectorFieldByNode</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f_rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Update elementary fields through a nodal external field on a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Use the form functions of the elements and input values to compute and store field values at Gauss points.</para>
+<para>You need to declare this field in your MODELS.DAT</para>
+<para>python usage : multiMAILx_SetFieldByNode(IdBody, f_rank, f) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f_rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the vector field to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the vector field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="737" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="737" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ac2eb5d81bfd92820354e235c8b735953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_SetVectorFieldByElement</definition>
+        <argsstring>(int ibdyty, int f_rank, double *matrix_in, int dim1, int dim2)</argsstring>
+        <name>multiMAILx_SetVectorFieldByElement</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f_rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Update elementary fields through a nodal external field on a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Use the form functions of the elements and input values to compute and store field values at Gauss points.</para>
+<para>You need to declare this field in your MODELS.DAT</para>
+<para>python usage : multiMAILx_SetFieldByElement(IdBody, f_rank, f) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f_rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the vector field to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the vector field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="763" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="763" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a1b7fb0e96e1d1b9cd3d51ccbb2ddc514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetConnectivity</definition>
+        <argsstring>(int idBody, int **i4_vector, int *i4_size)</argsstring>
+        <name>multiMAILx_GetConnectivity</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <briefdescription>
+<para>return connectivity of idBody elements </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : vector = multiMAILx_GetConnectivity(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (integer) : connectivity </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="781" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="781" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a3d36ce9dd324ffaa210d31f6d94357e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetCoor</definition>
+        <argsstring>(int idBody, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>multiMAILx_GetCoor</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return node coordinates of idBody </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : array = multiMAILx_GetCoor(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (double 2D-array) : coordinates </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="800" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="800" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a3a7574ca35ddf6de1992e178e44ad9db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetAll</definition>
+        <argsstring>(int idBody, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>multiMAILx_GetAll</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return mechanical data computed for idBody </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : array = multiMAILx_GetAll(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (double 2D-array) : mechanical data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="819" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="819" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a0d7d7ea838472517cfee251a5ecb034a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetElementsVolume</definition>
+        <argsstring>(int idBody, double **r8_vector, int *r8_size)</argsstring>
+        <name>multiMAILx_GetElementsVolume</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>return volume of elements </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : volumes = multiMAILx_GetElementsVolume(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>volumes[nb_ele] (double) : volume </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="837" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="837" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ac9cfd1587398f279ba4e7a75e68d94d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetElementsNeighbor</definition>
+        <argsstring>(int idBody, double tol, int max_neighbors, int **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>multiMAILx_GetElementsNeighbor</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_neighbors</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return elements in the tol-neighbor of an element of idBody </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : neighbors = multiMAILx_GetElementsNeighbor(idBody,tol,max_neighbors) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : tolerance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (double 2D-array) : neighbor[nb_ele,max_neighbors] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="857" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="857" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1afef075cabbb9a519bdd1f61d7be4fa65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetPtrElementsEnergy</definition>
+        <argsstring>(int idBody, double **pointer_out, int *length)</argsstring>
+        <name>multiMAILx_GetPtrElementsEnergy</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>return pointer on energy of elements </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : energies = multiMAILx_GetPtrElementsEnergy(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>energies[nb_ele] (double) : energy </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="875" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="875" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a853f85cfb5ea3ed61ee9e8d8fe1ddcb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ComputeElementsEnergy</definition>
+        <argsstring>(int idBody)</argsstring>
+        <name>multiMAILx_ComputeElementsEnergy</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <briefdescription>
+<para>compute energy of elements </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_ComputeElementsEnergy(idBody) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="889" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="889" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a5a30bd7497232cbea79413dc4b551375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetPtrElementsJacobian</definition>
+        <argsstring>(int idBody, double **pointer_out, int *length)</argsstring>
+        <name>multiMAILx_GetPtrElementsJacobian</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>return jacobian of elements </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : jacobians = multiMAILx_GetPtrElementsJacobian(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>jacobians[nb_ele] (double) : jacobian </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="907" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="907" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a9c421fbf25af387a795d5412f1fcb7ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_ComputeElementsJacobian</definition>
+        <argsstring>(int idBody)</argsstring>
+        <name>multiMAILx_ComputeElementsJacobian</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <briefdescription>
+<para>compute jacobian of elements </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : multiMAILx_ComputeElementsJacobian(idBody) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="921" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="921" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1adc3fc613ed7ac6fccb9c486ee3d212a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetPtrElementsVisibility</definition>
+        <argsstring>(int idBody, int **pointer_out, int *length)</argsstring>
+        <name>multiMAILx_GetPtrElementsVisibility</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>pointer_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>Get a pointer on the elements visibility vector. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : eviz = multiMAILx_GetPtrElementsVisibility(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the multiMAILx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>eviz (int array) : reference on the desired vector seen as a numpy array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="939" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="939" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1ada4dd6e3b7fdbd771eb97158f10abde1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double multiMAILx_GetDeformationEnergy</definition>
+        <argsstring>(int ivalue1, double *matrix_in, int dim1, int dim2)</argsstring>
+        <name>multiMAILx_GetDeformationEnergy</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get the deformation energy of a given displacement field. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : energy = multiMAILx_GetDeformationEnergy(id,displacement)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>displacement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double matrix) : displacement field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>energy (double) : deformation energy </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="961" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="961" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a5fad7bf422676eaf72f82833a51cce9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_GetPtrBoundaryElements</definition>
+        <argsstring>(int idBody, int **i4_vector, int *i4_size)</argsstring>
+        <name>multiMAILx_GetPtrBoundaryElements</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <briefdescription>
+<para>return boundary elements </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : vector = multiMAILx_GetPtrBoundaryElements(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (integer) : for each element =0 no boundary, otherwise gives the number of free edge/face </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="979" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="979" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__multiMAILx_8h_1a843ae2ef29d5934d2ac62c2379b965dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiMAILx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>multiMAILx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within multiMAILx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__multiMAILx_8h_1a843ae2ef29d5934d2ac62c2379b965dd" kindref="member">multiMAILx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" line="990" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h" declline="990" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_multiMAILx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_multiMAILx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="wrap__multiMAILx_8h_1ac8e295a2647c94da270775818171b3b4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ac8e295a2647c94da270775818171b3b4" kindref="member">multiMAILx_UsePicardScheme</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="wrap__multiMAILx_8h_1a0ba720b0669da6b36663678d3143cde4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a0ba720b0669da6b36663678d3143cde4" kindref="member">multiMAILx_UseNewtonScheme</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="wrap__multiMAILx_8h_1a4dd21ed863b3b3628be4bdca4e0218e8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a4dd21ed863b3b3628be4bdca4e0218e8" kindref="member">multiMAILx_WithoutRenumbering</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="wrap__multiMAILx_8h_1a2d87e639c13e841e6cf6145dd94f2c0c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a2d87e639c13e841e6cf6145dd94f2c0c" kindref="member">multiMAILx_BandStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="wrap__multiMAILx_8h_1a7e0f8cca2753caac77a8fbb91d11c297" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a7e0f8cca2753caac77a8fbb91d11c297" kindref="member">multiMAILx_SparseStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="wrap__multiMAILx_8h_1a92b4c8312e1ec10c71b4626c9416c704" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a92b4c8312e1ec10c71b4626c9416c704" kindref="member">multiMAILx_ExplodedStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="wrap__multiMAILx_8h_1a2865a977814246ace2d71407116fcb84" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a2865a977814246ace2d71407116fcb84" kindref="member">multiMAILx_DiagonalStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="wrap__multiMAILx_8h_1aaf3572f773adfb9d3c38501d42105b8e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1aaf3572f773adfb9d3c38501d42105b8e" kindref="member">multiMAILx_SkylineStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="wrap__multiMAILx_8h_1a90ee58707f63ce3e64ae6c7a7451f855" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a90ee58707f63ce3e64ae6c7a7451f855" kindref="member">multiMAILx_FullStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="wrap__multiMAILx_8h_1acd129bb2830585d7904ab45e1621faba" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1acd129bb2830585d7904ab45e1621faba" kindref="member">multiMAILx_SymmetricShape</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="wrap__multiMAILx_8h_1a9c226d45b0b7d649d1b4aca0e7ef4117" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a9c226d45b0b7d649d1b4aca0e7ef4117" kindref="member">multiMAILx_UnspecifiedShape</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="wrap__multiMAILx_8h_1af7b07f012223219d021a55d74825cb31" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1af7b07f012223219d021a55d74825cb31" kindref="member">multiMAILx_GetNb</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="wrap__multiMAILx_8h_1a6debd97f83d09a2747c67d9e80004025" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a6debd97f83d09a2747c67d9e80004025" kindref="member">multiMAILx_GetNbNodes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="wrap__multiMAILx_8h_1aff9e43088d50ad581e345e2e3a49cf2d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1aff9e43088d50ad581e345e2e3a49cf2d" kindref="member">multiMAILx_GetNbElements</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="wrap__multiMAILx_8h_1aeb0992b6d8f65a8d4b00a3844ea15a01" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1aeb0992b6d8f65a8d4b00a3844ea15a01" kindref="member">multiMAILx_IsVisible</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idbdy);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="wrap__multiMAILx_8h_1a38cc1c88aa51f62c77a98e96ae21c04b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a38cc1c88aa51f62c77a98e96ae21c04b" kindref="member">multiMAILx_GetBodyVector</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="wrap__multiMAILx_8h_1a7796f7f743731999a1828fe9be3bef6b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a7796f7f743731999a1828fe9be3bef6b" kindref="member">multiMAILx_PutBodyVector</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>matrix_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim2);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="wrap__multiMAILx_8h_1a562776bcc9b8370e13b7d54a5fea6504" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a562776bcc9b8370e13b7d54a5fea6504" kindref="member">multiMAILx_ReadDrivenDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="316" refid="wrap__multiMAILx_8h_1ac645665575415e62ca8ba5a0fb2e3537" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ac645665575415e62ca8ba5a0fb2e3537" kindref="member">multiMAILx_WriteDrivenDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="wrap__multiMAILx_8h_1ad9632097cdd03f5f05181223aaf241e8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ad9632097cdd03f5f05181223aaf241e8" kindref="member">multiMAILx_ReadIniGPV</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="wrap__multiMAILx_8h_1a796ecada6d5a5230b00b3427de8a0c38" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a796ecada6d5a5230b00b3427de8a0c38" kindref="member">multiMAILx_ReadIniDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="wrap__multiMAILx_8h_1a78273dae290be388b9d0142982c6909f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a78273dae290be388b9d0142982c6909f" kindref="member">multiMAILx_WriteLastDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="394" refid="wrap__multiMAILx_8h_1ae24049f95c65f78c1724a9234d3cc862" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ae24049f95c65f78c1724a9234d3cc862" kindref="member">multiMAILx_WriteOutDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404" refid="wrap__multiMAILx_8h_1a0c013d2e8a1578b1315b37fb2ad467a9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a0c013d2e8a1578b1315b37fb2ad467a9" kindref="member">multiMAILx_LoadBehaviours</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight></codeline>
+<codeline lineno="414" refid="wrap__multiMAILx_8h_1ad02e02df8bfd14f37624fdb0070b9cc7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ad02e02df8bfd14f37624fdb0070b9cc7" kindref="member">multiMAILx_LoadModels</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="424" refid="wrap__multiMAILx_8h_1a5cfc38a41c04d486ebd181f47a211ede" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a5cfc38a41c04d486ebd181f47a211ede" kindref="member">multiMAILx_PushProperties</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="434" refid="wrap__multiMAILx_8h_1aba009d73767e4e79c3c3a6c08b789fb4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1aba009d73767e4e79c3c3a6c08b789fb4" kindref="member">multiMAILx_IncrementStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451" refid="wrap__multiMAILx_8h_1a68385af95ae67e103e6dda35b2aa83e7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a68385af95ae67e103e6dda35b2aa83e7" kindref="member">multiMAILx_ComputeMass</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"></highlight></codeline>
+<codeline lineno="468" refid="wrap__multiMAILx_8h_1ab5b57eeb384b1364d7e3599ecd33d189" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ab5b57eeb384b1364d7e3599ecd33d189" kindref="member">multiMAILx_ComputeBulk</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight></codeline>
+<codeline lineno="485" refid="wrap__multiMAILx_8h_1aed44d508417a1532c7271cb8deb22489" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1aed44d508417a1532c7271cb8deb22489" kindref="member">multiMAILx_ComputeFext</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"></highlight></codeline>
+<codeline lineno="502" refid="wrap__multiMAILx_8h_1a5474326fba89125e500386098430a9ae" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a5474326fba89125e500386098430a9ae" kindref="member">multiMAILx_AssembKT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"></highlight></codeline>
+<codeline lineno="519" refid="wrap__multiMAILx_8h_1a754eb52fbebb6d7a2b30dc6ce4d285c1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a754eb52fbebb6d7a2b30dc6ce4d285c1" kindref="member">multiMAILx_AssembRHS</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"></highlight></codeline>
+<codeline lineno="538" refid="wrap__multiMAILx_8h_1a9a42e500a1413aa2f5634422e89ffd93" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a9a42e500a1413aa2f5634422e89ffd93" kindref="member">multiMAILx_ComputeResidueNorm</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="539"><highlight class="normal"></highlight></codeline>
+<codeline lineno="555" refid="wrap__multiMAILx_8h_1ab6de71f7262e89e9e2f1061b308ab783" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ab6de71f7262e89e9e2f1061b308ab783" kindref="member">multiMAILx_ComputeFreeState</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="556"><highlight class="normal"></highlight></codeline>
+<codeline lineno="572" refid="wrap__multiMAILx_8h_1ac35a9631ea005a17dd0748813886c2e9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ac35a9631ea005a17dd0748813886c2e9" kindref="member">multiMAILx_ComputeDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="573"><highlight class="normal"></highlight></codeline>
+<codeline lineno="589" refid="wrap__multiMAILx_8h_1a61f37533698392b0f010511579cf6f4f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a61f37533698392b0f010511579cf6f4f" kindref="member">multiMAILx_ComputeField</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="590"><highlight class="normal"></highlight></codeline>
+<codeline lineno="606" refid="wrap__multiMAILx_8h_1a9fa39656cb5133884b569c9dce5707a8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a9fa39656cb5133884b569c9dce5707a8" kindref="member">multiMAILx_UpdateBulk</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="607"><highlight class="normal"></highlight></codeline>
+<codeline lineno="623" refid="wrap__multiMAILx_8h_1a515ed1cda2302c45d1ecc3f7654dbe62" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a515ed1cda2302c45d1ecc3f7654dbe62" kindref="member">multiMAILx_UpdateDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="624"><highlight class="normal"></highlight></codeline>
+<codeline lineno="644" refid="wrap__multiMAILx_8h_1af88abc440689a334d37a666d8a37a3e0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1af88abc440689a334d37a666d8a37a3e0" kindref="member">multiMAILx_GetScalarFieldRank</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blmty,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"></highlight></codeline>
+<codeline lineno="666" refid="wrap__multiMAILx_8h_1af2c732ad525e616b1694f5851c545a5e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1af2c732ad525e616b1694f5851c545a5e" kindref="member">multiMAILx_SetScalarFieldByNode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IdBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_rank,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="667"><highlight class="normal"></highlight></codeline>
+<codeline lineno="690" refid="wrap__multiMAILx_8h_1a90d2b8ef71269fc7905264084a399bea" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a90d2b8ef71269fc7905264084a399bea" kindref="member">multiMAILx_SetScalarFieldByElement</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IdBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_rank,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="691"><highlight class="normal"></highlight></codeline>
+<codeline lineno="711" refid="wrap__multiMAILx_8h_1abc5e8dbaad9a842ac15bc7a6ac6dd649" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1abc5e8dbaad9a842ac15bc7a6ac6dd649" kindref="member">multiMAILx_GetVectorFieldRank</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blmty,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="712"><highlight class="normal"></highlight></codeline>
+<codeline lineno="737" refid="wrap__multiMAILx_8h_1ad523f5bb5d62e39c58305342452b68c4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ad523f5bb5d62e39c58305342452b68c4" kindref="member">multiMAILx_SetVectorFieldByNode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_rank,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>matrix_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim2);</highlight></codeline>
+<codeline lineno="738"><highlight class="normal"></highlight></codeline>
+<codeline lineno="763" refid="wrap__multiMAILx_8h_1ac2eb5d81bfd92820354e235c8b735953" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ac2eb5d81bfd92820354e235c8b735953" kindref="member">multiMAILx_SetVectorFieldByElement</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_rank,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>matrix_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim2);</highlight></codeline>
+<codeline lineno="764"><highlight class="normal"></highlight></codeline>
+<codeline lineno="781" refid="wrap__multiMAILx_8h_1a1b7fb0e96e1d1b9cd3d51ccbb2ddc514" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a1b7fb0e96e1d1b9cd3d51ccbb2ddc514" kindref="member">multiMAILx_GetConnectivity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>i4_size<sp/>);</highlight></codeline>
+<codeline lineno="782"><highlight class="normal"></highlight></codeline>
+<codeline lineno="800" refid="wrap__multiMAILx_8h_1a3d36ce9dd324ffaa210d31f6d94357e9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a3d36ce9dd324ffaa210d31f6d94357e9" kindref="member">multiMAILx_GetCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="801"><highlight class="normal"></highlight></codeline>
+<codeline lineno="819" refid="wrap__multiMAILx_8h_1a3a7574ca35ddf6de1992e178e44ad9db" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a3a7574ca35ddf6de1992e178e44ad9db" kindref="member">multiMAILx_GetAll</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="820"><highlight class="normal"></highlight></codeline>
+<codeline lineno="837" refid="wrap__multiMAILx_8h_1a0d7d7ea838472517cfee251a5ecb034a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a0d7d7ea838472517cfee251a5ecb034a" kindref="member">multiMAILx_GetElementsVolume</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size<sp/>);</highlight></codeline>
+<codeline lineno="838"><highlight class="normal"></highlight></codeline>
+<codeline lineno="857" refid="wrap__multiMAILx_8h_1ac9cfd1587398f279ba4e7a75e68d94d5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ac9cfd1587398f279ba4e7a75e68d94d5" kindref="member">multiMAILx_GetElementsNeighbor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>max_neighbors,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="858"><highlight class="normal"></highlight></codeline>
+<codeline lineno="875" refid="wrap__multiMAILx_8h_1afef075cabbb9a519bdd1f61d7be4fa65" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1afef075cabbb9a519bdd1f61d7be4fa65" kindref="member">multiMAILx_GetPtrElementsEnergy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>length);</highlight></codeline>
+<codeline lineno="876"><highlight class="normal"></highlight></codeline>
+<codeline lineno="889" refid="wrap__multiMAILx_8h_1a853f85cfb5ea3ed61ee9e8d8fe1ddcb0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a853f85cfb5ea3ed61ee9e8d8fe1ddcb0" kindref="member">multiMAILx_ComputeElementsEnergy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody);</highlight></codeline>
+<codeline lineno="890"><highlight class="normal"></highlight></codeline>
+<codeline lineno="907" refid="wrap__multiMAILx_8h_1a5a30bd7497232cbea79413dc4b551375" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a5a30bd7497232cbea79413dc4b551375" kindref="member">multiMAILx_GetPtrElementsJacobian</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>length);</highlight></codeline>
+<codeline lineno="908"><highlight class="normal"></highlight></codeline>
+<codeline lineno="921" refid="wrap__multiMAILx_8h_1a9c421fbf25af387a795d5412f1fcb7ca" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a9c421fbf25af387a795d5412f1fcb7ca" kindref="member">multiMAILx_ComputeElementsJacobian</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody);</highlight></codeline>
+<codeline lineno="922"><highlight class="normal"></highlight></codeline>
+<codeline lineno="939" refid="wrap__multiMAILx_8h_1adc3fc613ed7ac6fccb9c486ee3d212a4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1adc3fc613ed7ac6fccb9c486ee3d212a4" kindref="member">multiMAILx_GetPtrElementsVisibility</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>pointer_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>length);</highlight></codeline>
+<codeline lineno="940"><highlight class="normal"></highlight></codeline>
+<codeline lineno="961" refid="wrap__multiMAILx_8h_1ada4dd6e3b7fdbd771eb97158f10abde1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1ada4dd6e3b7fdbd771eb97158f10abde1" kindref="member">multiMAILx_GetDeformationEnergy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>matrix_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim2);</highlight></codeline>
+<codeline lineno="962"><highlight class="normal"></highlight></codeline>
+<codeline lineno="979" refid="wrap__multiMAILx_8h_1a5fad7bf422676eaf72f82833a51cce9b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a5fad7bf422676eaf72f82833a51cce9b" kindref="member">multiMAILx_GetPtrBoundaryElements</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>i4_size<sp/>);</highlight></codeline>
+<codeline lineno="980"><highlight class="normal"></highlight></codeline>
+<codeline lineno="981"><highlight class="normal"></highlight></codeline>
+<codeline lineno="990" refid="wrap__multiMAILx_8h_1a843ae2ef29d5934d2ac62c2379b965dd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__multiMAILx_8h_1a843ae2ef29d5934d2ac62c2379b965dd" kindref="member">multiMAILx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="991"><highlight class="normal"></highlight></codeline>
+<codeline lineno="992"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_multiMAILx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_multiMAILx.h"/>
+  </compounddef>
+</doxygen>

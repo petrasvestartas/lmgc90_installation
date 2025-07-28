@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__deposit3D_8h" kind="file" language="C++">
+    <compoundname>wrap_deposit3D.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__deposit3D_8h_1ad95ba9d6b67c97152dcfee0112168a7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void deposit3D_InContainer</definition>
+        <argsstring>(double *rvector_in, int rlength_in, int i_shape, double p1, double p2, double p3, double **r8_vector, int *r8_size, double **matrix_out, int *dim1, int *dim2, double *rvector_in2=NULL, int rlength_in2=0, double *matrix_in=NULL, int idim1=0, int idim2=0, int *ivector_in=NULL, int ilength_in=0, int with_log=0)</argsstring>
+        <name>deposit3D_InContainer</name>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i_shape</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in2</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in2</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idim1</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idim2</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>with_log</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Computes a new deposit under gravity in a container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>i_shape = 0 : box<itemizedlist>
+<listitem><para>a point (x, y, z) is in the box iff x is in [-lx/2, lx/2], y is in [-ly/2, ly/2] and z is in [0, lz] i_shape = 1 : cylinder</para>
+</listitem><listitem><para>a point (x, y, z) is in the cylinder iff x^2 + y^2 is in [0, R^2] and z is in [0, lz] i_shape = 2 : sphere</para>
+</listitem><listitem><para>a point (x, y, z) is in the sphere iff x^2 + y^2 + z^2 is in [0, R^2]</para>
+</listitem></itemizedlist>
+</para>
+<para>python call: radii, coor = deposit3D_InContaier(in_radii, shape, p1, p2, p3[, dradii, dcoor, seed, with_log]) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">in_radii</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array): given radii list (i.e. granulometry) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">shape(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of container (0-&gt;box, 1-&gt;cylinder, 2-&gt;sphere) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): box-&gt; lx, cylinder-&gt;R, sphere-&gt;R </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): box-&gt; ly, cylinder-&gt;lz, sphere-&gt;ignored </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">p3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double): box-&gt; lz, cylinder-&gt;ignored, sphere-&gt;ignored </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">dradii</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) (optional) : a list of already deposited radii </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">dcoor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) (optional) : a list of already deposited coor (must be of size [nb_dradii,3]) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer array) (optional) : an input seed to control randomness </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">with_log(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>de/activate log message </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>radii (double array): list of deposited radii coor (double array): coordinates of deposited radii (shape [nb_radii,3]) PYDOC </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_deposit3D.h" line="40" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_deposit3D.h" declline="40" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>fichier<sp/>d&apos;entête<sp/>C++<sp/>associe<sp/>au<sp/>fichier<sp/>wrap_deposit3D.f90:</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>acces<sp/>en<sp/>C++<sp/>aux<sp/>fonction<sp/>du<sp/>modules<sp/>wrap_deposit3D<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_deposit3D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_deposit3D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="wrap__deposit3D_8h_1ad95ba9d6b67c97152dcfee0112168a7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__deposit3D_8h_1ad95ba9d6b67c97152dcfee0112168a7c" kindref="member">deposit3D_InContainer</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_shape,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p3,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**r8_vector<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*r8_size,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dim2,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rvector_in2=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in2=0,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*matrix_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>idim1=0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idim2=0,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>*ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>with_log=0);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_deposit3D.h"/>
+  </compounddef>
+</doxygen>

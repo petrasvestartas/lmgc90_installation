@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__SPSPx_8h" kind="file" language="C++">
+    <compoundname>wrap_SPSPx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__SPSPx_8h_1af8fe07689fb4646d42e48bf1d98a4afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_SelectProxTactors</definition>
+        <argsstring>(int reset=0)</argsstring>
+        <name>SPSPx_SelectProxTactors</name>
+        <param>
+          <type>int</type>
+          <declname>reset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>contact detection between SPxxx and SPxxx tactors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : SPSPx_SelectProxTactors(reset=0) param[in] reset (integer) : if not 0, detection is skipped but the boxes will be computed anew at next call</para>
+<para>First recup coordinate prediction, then proceed to a box selection to found rough contact list and finally compute the final contact list. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="57" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="57" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a3c62e26758ace27ba4bc86a3f32d64e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_SmoothForceComputation</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPSPx_SmoothForceComputation</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>recup values of local contact forces of the last time step </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPSPx_8h_1a3c62e26758ace27ba4bc86a3f32d64e8" kindref="member">SPSPx_SmoothForceComputation()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="67" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="67" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1ac26da1a025290212ed18796f834af53d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_WriteLastVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPSPx_WriteLastVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write last local values of all SPSPx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPSPx_8h_1ac26da1a025290212ed18796f834af53d" kindref="member">SPSPx_WriteLastVlocRloc()</ref></para>
+<para><linebreak/>
+ the values written are relative velocity, forces and local frame<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="79" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="79" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1aee01246a330e371600c8546c0a13a241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_WriteOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPSPx_WriteOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write local values of all SPSPx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPSPx_8h_1aee01246a330e371600c8546c0a13a241" kindref="member">SPSPx_WriteOutVlocRloc()</ref></para>
+<para><linebreak/>
+ the values written are relative velocity, forces and local frame<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="91" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="91" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a9d673ea286e8cacb088e661205189c1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_DisplayOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPSPx_DisplayOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display local values of all SPSPx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPSPx_8h_1a9d673ea286e8cacb088e661205189c1b" kindref="member">SPSPx_DisplayOutVlocRloc()</ref></para>
+<para><linebreak/>
+ the values displayed are relative velocity, forces and local frame<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="103" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="103" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a55bbd25491b97d5491c317763a38536d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_DisplayProxTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPSPx_DisplayProxTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPSPx_8h_1a55bbd25491b97d5491c317763a38536d" kindref="member">SPSPx_DisplayProxTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="113" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="113" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a8bea986fa34b3d726b0fac5725c0f901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_ReadIniVlocRloc</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>SPSPx_ReadIniVlocRloc</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read VlocRloc file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If num &lt;= 0 : DATBOX/VlocRloc.INI file is read Else : OUTBOX/VlocRloc.OUT.num is read, num being the parameter used in TimeEvolution_ReadIniVlocRloc last call</para>
+<para>usage : SPSPx_ReadIniVlocRloc(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which VlocRloc file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="134" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="134" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1ae45cf0997a67f37b9068ed0ce938ccdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_SetXPeriodicCondition</definition>
+        <argsstring>(double xperiod)</argsstring>
+        <name>SPSPx_SetXPeriodicCondition</name>
+        <param>
+          <type>double</type>
+          <declname>xperiod</declname>
+        </param>
+        <briefdescription>
+<para>initialise data for simulation using periodic condition </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : SPSPx_SetXPeriodicCondition(xperiod) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">xperiod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : period on x axis </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="149" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="149" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a9698ff9a3cf4f4fd18681efeff0fb8d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_SetYPeriodicCondition</definition>
+        <argsstring>(double yperiod)</argsstring>
+        <name>SPSPx_SetYPeriodicCondition</name>
+        <param>
+          <type>double</type>
+          <declname>yperiod</declname>
+        </param>
+        <briefdescription>
+<para>initialise data for simulation using periodic condition </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : SPSPx_SetYPeriodicCondition(yperiod) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">yperiod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : period on y axis </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="164" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="164" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a4359ad839e2c72837b6e51435d4d8ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_SetNumberInterByContact</definition>
+        <argsstring>(int nb_interactions)</argsstring>
+        <name>SPSPx_SetNumberInterByContact</name>
+        <param>
+          <type>int</type>
+          <declname>nb_interactions</declname>
+        </param>
+        <briefdescription>
+<para>define the number of interaction by contact (experimental) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : SPSPx_SetNumberInterByContact(nb_interactions) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_interactions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of interactions per contact </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="179" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="179" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a7dbf75c34722f34b05a6a50486367048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_SetContactRadius</definition>
+        <argsstring>(double radius)</argsstring>
+        <name>SPSPx_SetContactRadius</name>
+        <param>
+          <type>double</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>define the contact radius (experimental) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : SPSPx_SetContactRadius(radius) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : contact radius </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="194" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="194" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a6beb7e057614a85638e8965b6e6cf43e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_FdSelectProxTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPSPx_FdSelectProxTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>contact detection between SPHER and SPHER tactors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPSPx_8h_1a6beb7e057614a85638e8965b6e6cf43e" kindref="member">SPSPx_FdSelectProxTactors()</ref></para>
+<para>First recup coordinate prediction, then proceed to a box selection to found rough contact list and finally compute the final contact list. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="207" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="207" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__SPSPx_8h_1a46a2a5547ea69904161fa00aa84241b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SPSPx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>SPSPx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within SPSPx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__SPSPx_8h_1a46a2a5547ea69904161fa00aa84241b3" kindref="member">SPSPx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" line="217" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h" declline="217" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_SPSPx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_SPSPx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="wrap__SPSPx_8h_1af8fe07689fb4646d42e48bf1d98a4afd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1af8fe07689fb4646d42e48bf1d98a4afd" kindref="member">SPSPx_SelectProxTactors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reset=0);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="wrap__SPSPx_8h_1a3c62e26758ace27ba4bc86a3f32d64e8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a3c62e26758ace27ba4bc86a3f32d64e8" kindref="member">SPSPx_SmoothForceComputation</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="wrap__SPSPx_8h_1ac26da1a025290212ed18796f834af53d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1ac26da1a025290212ed18796f834af53d" kindref="member">SPSPx_WriteLastVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="wrap__SPSPx_8h_1aee01246a330e371600c8546c0a13a241" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1aee01246a330e371600c8546c0a13a241" kindref="member">SPSPx_WriteOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="wrap__SPSPx_8h_1a9d673ea286e8cacb088e661205189c1b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a9d673ea286e8cacb088e661205189c1b" kindref="member">SPSPx_DisplayOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="wrap__SPSPx_8h_1a55bbd25491b97d5491c317763a38536d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a55bbd25491b97d5491c317763a38536d" kindref="member">SPSPx_DisplayProxTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="wrap__SPSPx_8h_1a8bea986fa34b3d726b0fac5725c0f901" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a8bea986fa34b3d726b0fac5725c0f901" kindref="member">SPSPx_ReadIniVlocRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="wrap__SPSPx_8h_1ae45cf0997a67f37b9068ed0ce938ccdb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1ae45cf0997a67f37b9068ed0ce938ccdb" kindref="member">SPSPx_SetXPeriodicCondition</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xperiod);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="wrap__SPSPx_8h_1a9698ff9a3cf4f4fd18681efeff0fb8d1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a9698ff9a3cf4f4fd18681efeff0fb8d1" kindref="member">SPSPx_SetYPeriodicCondition</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yperiod);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="wrap__SPSPx_8h_1a4359ad839e2c72837b6e51435d4d8ec7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a4359ad839e2c72837b6e51435d4d8ec7" kindref="member">SPSPx_SetNumberInterByContact</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_interactions);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="wrap__SPSPx_8h_1a7dbf75c34722f34b05a6a50486367048" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a7dbf75c34722f34b05a6a50486367048" kindref="member">SPSPx_SetContactRadius</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="wrap__SPSPx_8h_1a6beb7e057614a85638e8965b6e6cf43e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a6beb7e057614a85638e8965b6e6cf43e" kindref="member">SPSPx_FdSelectProxTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="wrap__SPSPx_8h_1a46a2a5547ea69904161fa00aa84241b3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__SPSPx_8h_1a46a2a5547ea69904161fa00aa84241b3" kindref="member">SPSPx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_SPSPx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_SPSPx.h"/>
+  </compounddef>
+</doxygen>

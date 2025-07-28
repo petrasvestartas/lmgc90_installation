@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__PLPLx_8h" kind="file" language="C++">
+    <compoundname>wrap_PLPLx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__PLPLx_8h_1a5e4b8c9cb6c0e449f0e191e9360606c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_SelectProxTactors</definition>
+        <argsstring>(int reset=0)</argsstring>
+        <name>PLPLx_SelectProxTactors</name>
+        <param>
+          <type>int</type>
+          <declname>reset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>contact detection between POLYG tactors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>First recup coordinate prediction, then proceed to a box selection to found rough contact list and finally compute the final contact list.</para>
+<para>python usage : PLPLx_SelectProxTactors(reset=0)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">reset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : if not 0, detection is skipped but the boxes will be computed anew at next call </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="57" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="57" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1ad08604035c7762cac337d2b2ffd48eb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_WriteLastVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_WriteLastVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write last local values of all PLPLx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values written are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1ad08604035c7762cac337d2b2ffd48eb2" kindref="member">PLPLx_WriteLastVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="69" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="69" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1a9e7f2e4fb0a81447a05275b60eebbe0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_WriteOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_WriteOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write local values of all PLPLx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values written are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1a9e7f2e4fb0a81447a05275b60eebbe0a" kindref="member">PLPLx_WriteOutVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="81" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="81" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1aa0929c8efb37844ed4dd26301b6bad66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_DisplayOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_DisplayOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display local values of all PLPLx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values displayed are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1aa0929c8efb37844ed4dd26301b6bad66" kindref="member">PLPLx_DisplayOutVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="93" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="93" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1acd15f8fb869adee93d2b4680a211a0d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_DisplayProxTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_DisplayProxTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1acd15f8fb869adee93d2b4680a211a0d1" kindref="member">PLPLx_DisplayProxTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="103" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="103" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1ae366734d824a84587be4ac9db68d3aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_ReadIniVlocRloc</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>PLPLx_ReadIniVlocRloc</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read VlocRloc file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>If num &lt;= 0 : DATBOX/VlocRloc.INI file is read</para>
+</listitem><listitem><para>Else : OUTBOX/VlocRloc.OUT.num is read, num being<itemizedlist>
+<listitem><para>the parameter used in TimeEvolution_ReadIniVlocRloc last call</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para>python usage : PLPLx_ReadIniVlocRloc(num=0)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which VlocRloc file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="124" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="124" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1af0371f0c670adb189d1df26c4d728447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_SetPeriodicCondition</definition>
+        <argsstring>(double period)</argsstring>
+        <name>PLPLx_SetPeriodicCondition</name>
+        <param>
+          <type>double</type>
+          <declname>period</declname>
+        </param>
+        <briefdescription>
+<para>initialize data for simulation using periodic condition </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PLPLx_SetPeriodicCondition(period) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>period</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value of the period </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="139" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="139" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1a70746eb5bb6fa183704c77e3d8576821" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_SetFrictionModel</definition>
+        <argsstring>(char *cflag)</argsstring>
+        <name>PLPLx_SetFrictionModel</name>
+        <param>
+          <type>char *</type>
+          <declname>cflag</declname>
+        </param>
+        <briefdescription>
+<para>initialize data for simulation using evolutive local friction </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PLPLx_SetFrictionModel(cflag) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cflag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char) : model to use (&apos;min&apos;, &apos;max&apos; or &apos;ave&apos;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="154" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="154" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1a0a7eb627c8bcacf8ad89043683fd2e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_SetBigPolygTolerance</definition>
+        <argsstring>(double tol)</argsstring>
+        <name>PLPLx_SetBigPolygTolerance</name>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <briefdescription>
+<para>python usage : PLPLx_SetBigPolygTolerance(tol) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>period</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value of the tolerance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="169" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="169" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1add26f7860d63ea751fa28e452eae68d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_ComputeStress</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_ComputeStress</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute stress </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1add26f7860d63ea751fa28e452eae68d8" kindref="member">PLPLx_ComputeStress()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="184" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="184" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1a273e66f11783fcadf6029ba04d74a927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_ComputeBetai</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_ComputeBetai</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute equivalent damage parameter </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1a273e66f11783fcadf6029ba04d74a927" kindref="member">PLPLx_ComputeBetai()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="199" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="199" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1a598aded496065d00055fe21e48b4fb16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_ComputeCZMEnergy</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_ComputeCZMEnergy</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>compute and decompose local contact energy with CZM law </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1a598aded496065d00055fe21e48b4fb16" kindref="member">PLPLx_ComputeCZMEnergy()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="214" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="214" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1aa7e77e50cf535b9486ab8da3a5fa829f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within PLPLx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1aa7e77e50cf535b9486ab8da3a5fa829f" kindref="member">PLPLx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="224" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="224" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1ad03e848da4be60ec63603f1b302d2b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_GetCZMEnergy</definition>
+        <argsstring>(int icdan, double *energy)</argsstring>
+        <name>PLPLx_GetCZMEnergy</name>
+        <param>
+          <type>int</type>
+          <declname>icdan</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>energy</declname>
+        </param>
+        <briefdescription>
+<para>Get the CZM energy of a given contact. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage energy = PLPLx_GetCZMEnergy(icdan) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan(int)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: index of the PLPLx contact </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>energy(double[4]) : energy value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="235" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="235" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1ac0eedb4da10b670f39778c58311d1ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_UseNcDetection</definition>
+        <argsstring>(void)</argsstring>
+        <name>PLPLx_UseNcDetection</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>chooses contact detection methode between non-convex shapes </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PLPLx_8h_1ac0eedb4da10b670f39778c58311d1ff0" kindref="member">PLPLx_UseNcDetection()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="245" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="245" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PLPLx_8h_1a5122eec2f8343be82349f37391fe5377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PLPLx_ShrinkPolygFaces</definition>
+        <argsstring>(double shrink)</argsstring>
+        <name>PLPLx_ShrinkPolygFaces</name>
+        <param>
+          <type>double</type>
+          <declname>shrink</declname>
+        </param>
+        <briefdescription>
+<para>Shrink the face of the polygon for the detection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PLPLx_ShrinkPolygFaces(shrink) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" line="260" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h" declline="260" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_PLPLx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_PLPLx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="wrap__PLPLx_8h_1a5e4b8c9cb6c0e449f0e191e9360606c0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1a5e4b8c9cb6c0e449f0e191e9360606c0" kindref="member">PLPLx_SelectProxTactors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reset=0);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="wrap__PLPLx_8h_1ad08604035c7762cac337d2b2ffd48eb2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1ad08604035c7762cac337d2b2ffd48eb2" kindref="member">PLPLx_WriteLastVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81" refid="wrap__PLPLx_8h_1a9e7f2e4fb0a81447a05275b60eebbe0a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1a9e7f2e4fb0a81447a05275b60eebbe0a" kindref="member">PLPLx_WriteOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="wrap__PLPLx_8h_1aa0929c8efb37844ed4dd26301b6bad66" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1aa0929c8efb37844ed4dd26301b6bad66" kindref="member">PLPLx_DisplayOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="wrap__PLPLx_8h_1acd15f8fb869adee93d2b4680a211a0d1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1acd15f8fb869adee93d2b4680a211a0d1" kindref="member">PLPLx_DisplayProxTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="wrap__PLPLx_8h_1ae366734d824a84587be4ac9db68d3aa4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1ae366734d824a84587be4ac9db68d3aa4" kindref="member">PLPLx_ReadIniVlocRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="wrap__PLPLx_8h_1af0371f0c670adb189d1df26c4d728447" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1af0371f0c670adb189d1df26c4d728447" kindref="member">PLPLx_SetPeriodicCondition</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>period);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="wrap__PLPLx_8h_1a70746eb5bb6fa183704c77e3d8576821" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1a70746eb5bb6fa183704c77e3d8576821" kindref="member">PLPLx_SetFrictionModel</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cflag);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="wrap__PLPLx_8h_1a0a7eb627c8bcacf8ad89043683fd2e26" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1a0a7eb627c8bcacf8ad89043683fd2e26" kindref="member">PLPLx_SetBigPolygTolerance</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="wrap__PLPLx_8h_1add26f7860d63ea751fa28e452eae68d8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1add26f7860d63ea751fa28e452eae68d8" kindref="member">PLPLx_ComputeStress</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="wrap__PLPLx_8h_1a273e66f11783fcadf6029ba04d74a927" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1a273e66f11783fcadf6029ba04d74a927" kindref="member">PLPLx_ComputeBetai</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="wrap__PLPLx_8h_1a598aded496065d00055fe21e48b4fb16" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1a598aded496065d00055fe21e48b4fb16" kindref="member">PLPLx_ComputeCZMEnergy</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="wrap__PLPLx_8h_1aa7e77e50cf535b9486ab8da3a5fa829f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1aa7e77e50cf535b9486ab8da3a5fa829f" kindref="member">PLPLx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="wrap__PLPLx_8h_1ad03e848da4be60ec63603f1b302d2b8f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1ad03e848da4be60ec63603f1b302d2b8f" kindref="member">PLPLx_GetCZMEnergy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdan,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>energy);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="wrap__PLPLx_8h_1ac0eedb4da10b670f39778c58311d1ff0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1ac0eedb4da10b670f39778c58311d1ff0" kindref="member">PLPLx_UseNcDetection</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="wrap__PLPLx_8h_1a5122eec2f8343be82349f37391fe5377" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PLPLx_8h_1a5122eec2f8343be82349f37391fe5377" kindref="member">PLPLx_ShrinkPolygFaces</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>shrink);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_PLPLx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_2D/wrap_PLPLx.h"/>
+  </compounddef>
+</doxygen>

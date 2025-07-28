@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__cut2D_8h" kind="file" language="C++">
+    <compoundname>wrap_cut2D.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__cut2D_8h_1af857937e789d0da8329ce0a0b4bc468a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cut2D_Cut</definition>
+        <argsstring>(double *rvector_in, int rlength_in, double *matrix_in, int idim1, int idim2, double *rmatrix_in, int rdim1, int rdim2, double **r8_vector, int *r8_size, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>cut2D_Cut</name>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idim2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rmatrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rdim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rdim2</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_cut2D.h" line="33" column="20" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_cut2D.h" declline="33" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>fichier<sp/>d&apos;entête<sp/>C++<sp/>associe<sp/>au<sp/>fichier<sp/>wrap_cut2D.f90:</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>acces<sp/>en<sp/>C++<sp/>aux<sp/>fonction<sp/>du<sp/>modules<sp/>wrap_cut2D<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_cut2D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_cut2D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>procedure<sp/>qui<sp/>realise<sp/>une<sp/>nouvelle<sp/>decoupe<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="wrap__cut2D_8h_1af857937e789d0da8329ce0a0b4bc468a" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cut2D_8h_1af857937e789d0da8329ce0a0b4bc468a" kindref="member">cut2D_Cut</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rvector_in<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*matrix_in<sp/><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>idim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idim2,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rmatrix_in<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>rdim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rdim2,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**r8_vector<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*r8_size,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dim1<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dim2);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/pre_tools/wrap_cut2D.h"/>
+  </compounddef>
+</doxygen>

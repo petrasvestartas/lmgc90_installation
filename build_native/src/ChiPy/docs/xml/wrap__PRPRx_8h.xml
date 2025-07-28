@@ -1,0 +1,1603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__PRPRx_8h" kind="file" language="C++">
+    <compoundname>wrap_PRPRx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a62ca1c4a8fea67644fbcea49e79e8409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SelectProxTactors</definition>
+        <argsstring>(int reset=0)</argsstring>
+        <name>PRPRx_SelectProxTactors</name>
+        <param>
+          <type>int</type>
+          <declname>reset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>contact detection between PRxxx and PRxxx tactors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>First recup coordinate prediction, then proceed to a box selection to found rough contact list and finally compute the final contact list.</para>
+<para>python usage : PRPRx_SelectProxTactors(reset=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">reset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : if not 0, detection is skipped but the boxes will be computed anew at next call </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="56" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="56" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a7af03fcec03f647f5a08f7a53395ad3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseCpCundallDetection</definition>
+        <argsstring>(int iter, double cd_shrink=0., double an_shrink=0., double delta=0.)</argsstring>
+        <name>PRPRx_UseCpCundallDetection</name>
+        <param>
+          <type>int</type>
+          <declname>iter</declname>
+          <defname>nb_iter</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>cd_shrink</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>an_shrink</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+<para>chooses the Cundall iterative detection method </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If shrink parameters are provided they may be conflicting with a call to PRPRx_ShrinkPolyrFaces function. Remind that that the shrink parameters provided here are lengths.</para>
+<para>python usage : PRPRx_UseCpCundallDetection(nb_iter, cd_shrink=0., an_shrink=0., delta=0.) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : max number of iterations </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cd_shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : shrink parameter (length) in clipper for candidate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">an_shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : shrink parameter (length) in clipper for antagonist </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : intersection simplification parameter in clipper </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="81" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="81" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a0db3620adfb7b15aa13f171df42b903d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseCpF2fExplicitDetection</definition>
+        <argsstring>(double tol, double cd_shrink=0., double an_shrink=0., double delta=0.)</argsstring>
+        <name>PRPRx_UseCpF2fExplicitDetection</name>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>cd_shrink</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>an_shrink</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+<para>chooses the face 2 face combinatory detection method </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If shrink parameters are provided they may be conflicting with a call to PRPRx_ShrinkPolyrFaces function. Remind that that the shrink parameters provided here are lengths.</para>
+<para>python usage : PRPRx_UseCpF2fExplicitDetection(tol, cd_shrink=0., an_shrink=0., delta=0.) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : tolerance on normal orientations </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cd_shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : shrink parameter (length) in clipper for candidate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">an_shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : shrink parameter (length) in clipper for antagonist </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : intersection simplification parameter in clipper </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="106" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="106" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1af3fcdecef8c173e9a7cce6ee8ac0376e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseCpF2fDetection</definition>
+        <argsstring>(double tol, int iter, double cd_shrink=0., double an_shrink=0., double delta=0.)</argsstring>
+        <name>PRPRx_UseCpF2fDetection</name>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iter</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>cd_shrink</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>an_shrink</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+<para>chooses a mix of the face 2 face and Cundall detection method </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If shrink parameters are provided they may be conflicting with a call to PRPRx_ShrinkPolyrFaces function. Remind that that the shrink parameters provided here are lengths.</para>
+<para>python usage : PRPRx_UseCpF2fDetection(tol, iter, cd_shrink=0., an_shrink=0., delta=0.) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : tolerance on normal orientations </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : max number of iterations </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cd_shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : shrink parameter (length) in clipper for candidate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">an_shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : shrink parameter (length) in clipper for antagonist </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : intersection simplification parameter in clipper </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="133" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="133" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a5458f2fac563a7e887a48e564817ec37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseNcDetection</definition>
+        <argsstring>(double gdist)</argsstring>
+        <name>PRPRx_UseNcDetection</name>
+        <param>
+          <type>double</type>
+          <declname>gdist</declname>
+        </param>
+        <briefdescription>
+<para>chooses contact detection methode between non-convex shapes </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_UseNcDetection(gdist) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">gdist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : global distance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="149" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="149" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1ac786a9d911aa9c180844daa9d37b339c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseNcF2fDetection</definition>
+        <argsstring>(double gdist, double tol)</argsstring>
+        <name>PRPRx_UseNcF2fDetection</name>
+        <param>
+          <type>double</type>
+          <declname>gdist</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <briefdescription>
+<para>chooses contact detection between between non-convex shapes using f2f strategy </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_UseNcF2fDetection(gdist,tol) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">gdist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : global distance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : tolerance on normal orientations </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="166" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="166" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a63e967039a5c34455a6af14d6d51854c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseNcF2fExplicitDetection</definition>
+        <argsstring>(double gdist, double tol)</argsstring>
+        <name>PRPRx_UseNcF2fExplicitDetection</name>
+        <param>
+          <type>double</type>
+          <declname>gdist</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <briefdescription>
+<para>chooses contact detection between between non-convex shapes using f2f strategy </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_UseNcF2fExplicitDetection(gdist,tol) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">gdist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : global distance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : tolerance on normal orientations </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="183" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="183" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a463656fdc0d1a180f0b5b17415a46747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseTrianglesIntersectionDetection</definition>
+        <argsstring>(int nb_max_pt=16)</argsstring>
+        <name>PRPRx_UseTrianglesIntersectionDetection</name>
+        <param>
+          <type>int</type>
+          <declname>nb_max_pt</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+<para>chooses contact detection finding intersection in a soup of triangles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of point provided is an internal parameter of the algorithm which control the maximum number of intersection points stored when looking for the triangles intersection before restricting it to only 4 of them. So it must be strictly superior to 4.</para>
+<para>python usage : PRPRx_UseTrianglesIntersectionDetection(nb_max_pt=16) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_max_pt(integer)</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: maximum contact points to store/check during detection </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="203" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="203" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a5ad4dbb7e75fe06d610259ed822abe4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SetF2fMinimalSurfaceSize</definition>
+        <argsstring>(double tol)</argsstring>
+        <name>PRPRx_SetF2fMinimalSurfaceSize</name>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <briefdescription>
+<para>set the minimum contact surface size with f2f algo otherwize contact is not computed </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_SetF2fMinimalSurfaceSize(tol) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : minimum surface size </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="218" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="218" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1acaa80e47cf6b02b0c97951879bb62a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseExternalDetection</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_UseExternalDetection</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>chooses external contact detection (bindings) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1acaa80e47cf6b02b0c97951879bb62a69" kindref="member">PRPRx_UseExternalDetection()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="232" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="232" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a3e6d319a4de2b1e92dc38db81d60e7d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_WriteLastVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_WriteLastVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write last local values of all PRPRx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values written are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1a3e6d319a4de2b1e92dc38db81d60e7d3" kindref="member">PRPRx_WriteLastVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="244" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="244" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1ac23c5a384ad49ae43dfa578ad3cbdaa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_WriteOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_WriteOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write local values of all PRPRx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values written are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1ac23c5a384ad49ae43dfa578ad3cbdaa7" kindref="member">PRPRx_WriteOutVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="256" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="256" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a53cd89d5334583b69e71e6edb50b7cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_DisplayOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_DisplayOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display local values of all PRPRx contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values displayed are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1a53cd89d5334583b69e71e6edb50b7cf6" kindref="member">PRPRx_DisplayOutVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="268" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="268" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a46fcddc5a3934d9c35ed4969db994522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_DisplayProxTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_DisplayProxTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1a46fcddc5a3934d9c35ed4969db994522" kindref="member">PRPRx_DisplayProxTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="278" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="278" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a5d2ac9e1b17660f8be96a987e0294bb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_ReadIniVlocRloc</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>PRPRx_ReadIniVlocRloc</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read VlocRloc file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>If num &lt;= 0 : DATBOX/VlocRloc.INI file is read</para>
+</listitem><listitem><para>Else : OUTBOX/VlocRloc.OUT.num is read, num being<itemizedlist>
+<listitem><para>the parameter used in TimeEvolution_ReadIniVlocRloc last call</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para>python usage : PRPRx_ReadIniVlocRloc(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which VlocRloc file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="298" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="298" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a458d7c99a018254dea87c66fa550571e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_ShrinkPolyrFaces</definition>
+        <argsstring>(double shrink)</argsstring>
+        <name>PRPRx_ShrinkPolyrFaces</name>
+        <param>
+          <type>double</type>
+          <declname>shrink</declname>
+        </param>
+        <briefdescription>
+<para>Shrink the face of the candidate polyhedron for the detection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>May be conflicting with the shrink parameters of the detections functions used by clipper library. The difference is that clipper use a single length for all sample, whereas this function use a scale factor to retract the vertices of the candidate polyhedron inside the the surface.</para>
+<para>python usage : PRPRx_ShrinkPolyrFaces(shrink) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : scale factor allowing to shrink candidate surface<orderedlist>
+<listitem><para>no shrink, 1. no surface </para>
+</listitem></orderedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="320" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="320" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a78d0a02629ddb39e05a55d4cbcad2f4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_LowSizeArrayPolyr</definition>
+        <argsstring>(int sfactor)</argsstring>
+        <name>PRPRx_LowSizeArrayPolyr</name>
+        <param>
+          <type>int</type>
+          <declname>sfactor</declname>
+        </param>
+        <briefdescription>
+<para>abscons parameter to manage memory allocation </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_LowSizeArrayPolyr(sfactor) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">sfactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="335" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="335" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a5097758a0755bcc9ccc69017790c722d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SaveProxTactorsToFile</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_SaveProxTactorsToFile</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write selected contacts to file </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1a5097758a0755bcc9ccc69017790c722d" kindref="member">PRPRx_SaveProxTactorsToFile()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="345" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="345" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1ae19d955e077216f77f02ebcc19816621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_LoadProxTactorsFromFile</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_LoadProxTactorsFromFile</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>load selected contact from files </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1ae19d955e077216f77f02ebcc19816621" kindref="member">PRPRx_LoadProxTactorsFromFile()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="355" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1aa0feab32ae8e564993053234ffc9deb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SetXPeriodicCondition</definition>
+        <argsstring>(double xperiod)</argsstring>
+        <name>PRPRx_SetXPeriodicCondition</name>
+        <param>
+          <type>double</type>
+          <declname>xperiod</declname>
+        </param>
+        <briefdescription>
+<para>initialise data for simulation using periodic condition </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_SetXPeriodicCondition(xperiod) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">xperiod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : periode on x axis </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="370" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="370" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a9ff619fad297289ca408232ead452daf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SetYPeriodicCondition</definition>
+        <argsstring>(double yperiod)</argsstring>
+        <name>PRPRx_SetYPeriodicCondition</name>
+        <param>
+          <type>double</type>
+          <declname>yperiod</declname>
+        </param>
+        <briefdescription>
+<para>initialise data for simulation using periodic condition </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_SetYPeriodicCondition(yperiod) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">yperiod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : period on y axis</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">yperiod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : period on y axis </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="385" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="385" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a0875dd01e203d678ddd0858095304242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_VerboseF2F</definition>
+        <argsstring>(int cd, int an)</argsstring>
+        <name>PRPRx_VerboseF2F</name>
+        <param>
+          <type>int</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>an</declname>
+        </param>
+        <briefdescription>
+<para>ask for verbose comment concerning contact detection between cd and an </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_VerboseF2F(cd,an) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : candidate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">an</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : antagoniste </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="402" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="402" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1acfa6c62b90c53038d6ac5e9be82eb600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PRPRx_GetNbF2f</definition>
+        <argsstring>()</argsstring>
+        <name>PRPRx_GetNbF2f</name>
+        <briefdescription>
+<para>Get the number of f2f structures stored This is the real size of the array, and not the number of active f2f structure. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_f2f = <ref refid="wrap__PRPRx_8h_1acfa6c62b90c53038d6ac5e9be82eb600" kindref="member">PRPRx_GetNbF2f()</ref> <simplesect kind="return"><para>nb_f2f (integer) : the size of the f2f array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="418" column="16" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="418" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a5d57872e743f884a50448e0af255729d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_GetF2f2Inters</definition>
+        <argsstring>(int **i4_vector, int *i4_size)</argsstring>
+        <name>PRPRx_GetF2f2Inters</name>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of interactions for each face-to-face structure Array of integer with number of f2f, then for each f2f, the number of interactions then the list of interaction id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : f2f_inters = <ref refid="wrap__PRPRx_8h_1a5d57872e743f884a50448e0af255729d" kindref="member">PRPRx_GetF2f2Inters()</ref> <simplesect kind="return"><para>f2f_inters (integer array) : the integer array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="436" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="436" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1af50524cf0eb9cedea9fbad941097b34a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_GetF2fOutlines</definition>
+        <argsstring>(int **i4_vector, int *i4_size, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>PRPRx_GetF2fOutlines</name>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get the connectivity of all intersection polytopes of all face2face and the corresponding coordinates. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The connectivity containes first the number of f2f, then for each, the number of polytope, then for each the number of vertices.</para>
+<para>The coordinates must be counted from this ordering...</para>
+<para>python usage : connec, points = <ref refid="wrap__PRPRx_8h_1af50524cf0eb9cedea9fbad941097b34a" kindref="member">PRPRx_GetF2fOutlines()</ref> <simplesect kind="return"><para><itemizedlist>
+<listitem><para>connec (integer array) : the connectivities</para>
+</listitem><listitem><para>points (double array) : the coordinates </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="462" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="462" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a8324d652959c49a17971f135af23ac21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_GetF2fAllIdata</definition>
+        <argsstring>(int **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>PRPRx_GetF2fAllIdata</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get topological face id of cd/an for all F2f structure. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : idata = <ref refid="wrap__PRPRx_8h_1a8324d652959c49a17971f135af23ac21" kindref="member">PRPRx_GetF2fAllIdata()</ref> <simplesect kind="return"><para><itemizedlist>
+<listitem><para>idata (integer array) : size [nb_f2fx2] with the face id </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="480" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="480" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a4588d7a14a1895ab3a07dea141730178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_GetF2fCentralKernel</definition>
+        <argsstring>(int i_f2f, double **matrix_out, int *dim1, int *dim2, double *res, int *ires)</argsstring>
+        <name>PRPRx_GetF2fCentralKernel</name>
+        <param>
+          <type>int</type>
+          <declname>i_f2f</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ires</declname>
+        </param>
+        <briefdescription>
+<para>Give the central kernel coordinates, the equivalent normal stress and if the center of pressure is inside. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : ck_coor, sn, is_in = PRPRx_GetF2fStress(i_f2f) <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="496" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="496" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a140ec17a09c68e13e1ae9630e005b49b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_GetF2fStress</definition>
+        <argsstring>(int i_f2f, double **matrix_out, int *dim1, int *dim2, int **i4_vector, int *i4_size, double **matrix_out_2, int *dim1_2, int *dim2_2, int **i4_vector_2, int *i4_size_2, double **r8_vector, int *r8_size, double *res)</argsstring>
+        <name>PRPRx_GetF2fStress</name>
+        <param>
+          <type>int</type>
+          <declname>i_f2f</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out_2</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1_2</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2_2</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector_2</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size_2</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+<para>Give the polygons of the compressed and decompressed part and linear stress repartition. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In the case when the minimization algorithm failed, the decompression value is set to -99. so that when writing the vtk files, the &apos;ids&apos; numbering is kept consistent.</para>
+<para>python usage : coorC, sizeC, coorD, sizeD, sigma, decomp = PRPRx_GetF2fStress(i_f2f) <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="523" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="523" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1af55b9f84a1a915616121b7092d2d05cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SetCundallNeighbor</definition>
+        <argsstring>(double neighbor)</argsstring>
+        <name>PRPRx_SetCundallNeighbor</name>
+        <param>
+          <type>double</type>
+          <declname>neighbor</declname>
+        </param>
+        <briefdescription>
+<para>set a neighbor distance around common plane to select projected nodes </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_SetCundallNeighbor(neighbor) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">neighbor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : ratio of a reference size </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="545" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="545" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a2330e225d09cef8570e618da29c0f55c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_CpUseOldCcpm</definition>
+        <argsstring>()</argsstring>
+        <name>PRPRx_CpUseOldCcpm</name>
+        <briefdescription>
+<para>use the old method for computing contact point position </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1a2330e225d09cef8570e618da29c0f55c" kindref="member">PRPRx_CpUseOldCcpm()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="558" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="558" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1aba577c8581e63f26a3e0944129b104d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SetReactionTrackingLength</definition>
+        <argsstring>(double length)</argsstring>
+        <name>PRPRx_SetReactionTrackingLength</name>
+        <param>
+          <type>double</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>function which makes possible to set the length of the hexaedra glyph representing the visavis reaction </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_SetReactionTrackingLength(length) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : length the hexaedra glyph </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="574" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="574" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1ae9fa9fe9fb85a57debc0d7fa471c7e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SetTolRecupRloc</definition>
+        <argsstring>(double tol)</argsstring>
+        <name>PRPRx_SetTolRecupRloc</name>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <briefdescription>
+<para>set the distance tolerance used in PRPRx_RecupRloc </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_SetTolRecupRloc(tol) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : tolerance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="589" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="589" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a7f944a04fb74d9cee86d943d403cd7ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_GetInteractionVector</definition>
+        <argsstring>(char *cvalue1, int ivalue1, double **r8_vector, int *r8_size)</argsstring>
+        <name>PRPRx_GetInteractionVector</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>Get a copy of a vector of a PRPRx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>possible values for datatype field are &quot;Coor_&quot;, &quot;N____&quot;</para>
+<para>python usage : vector = PRPRx_GetInteractionVector(datatype, icdan) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">datatype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string [5]) : the vector to get </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the PRPRx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (double array) : output vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="611" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="611" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1af92c8b6ebb63246d84dd01b9ea253c51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SetInteractionInternal</definition>
+        <argsstring>(int value1, int ivalue2, double rvalue)</argsstring>
+        <name>PRPRx_SetInteractionInternal</name>
+        <param>
+          <type>int</type>
+          <declname>value1</declname>
+          <defname>ivalue1</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue</declname>
+        </param>
+        <briefdescription>
+<para>Set a value of the internal vector of a PRPRx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : PRPRx_SetInteractionInternal(i, icdan, value) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of internal </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the PRPRx </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="630" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="630" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a62994a815d11337a38a7241eda992345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PRPRx_GetInteractionInternal</definition>
+        <argsstring>(int value1, int ivalue2)</argsstring>
+        <name>PRPRx_GetInteractionInternal</name>
+        <param>
+          <type>int</type>
+          <declname>value1</declname>
+          <defname>ivalue1</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <briefdescription>
+<para>Get a value from the internal vector of a PRPRx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : value = PRPRx_GetInteractionInternal(i, icdan) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of internal </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the PRPRx </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value to get </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="649" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="649" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a078f560d6ef61ecb3756f46ae81c6b4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_GetInteractionInternalComment</definition>
+        <argsstring>(int ivalue, char **string_out, int *string_size, int *real_size)</argsstring>
+        <name>PRPRx_GetInteractionInternalComment</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>string_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>real_size</declname>
+        </param>
+        <briefdescription>
+<para>Get internal comment of a given interaction. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : comment=PRPRx_GetInteractionInternalComment(icdan) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the PRPRx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>comment (char[100]) : the string to get </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="668" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="668" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1ab4dbc3f5f4520555ac3deb305db0aaec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_WithNodalContact</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_WithNodalContact</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use cd contact points at nodes instead at faces with NcDetection </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1ab4dbc3f5f4520555ac3deb305db0aaec" kindref="member">PRPRx_WithNodalContact()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="678" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="678" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1af9868c70041bfc210aede58b14dbdd0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_SetInternalSurface</definition>
+        <argsstring>(int value, double rvalue)</argsstring>
+        <name>PRPRx_SetInternalSurface</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+          <defname>ivalue</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue</declname>
+        </param>
+        <briefdescription>
+<para>Set the value of a surface type (point, line or surf) for wti detection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>For surface, if the value is left to 0., then the surface of the triangle is computed To select the type of surface : 1-&gt;point, 2-&gt;line, 3-&gt;surface</para>
+<para>python usage : PRPRx_SetInternalSurface(itype, value) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">itype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the type of surface to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="698" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="698" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a98702b4b0944b79b76f0cddc8778f70d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_UseStoDetection</definition>
+        <argsstring>(bool explicite, double decompression, double tol, bool kappa=0)</argsstring>
+        <name>PRPRx_UseStoDetection</name>
+        <param>
+          <type>bool</type>
+          <declname>explicite</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>decompression</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>kappa</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>chooses contact detection between between non-convex shapes using f2f strategy </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Face to face detection implemented by Stono which can mix between the standard f2f detection and the non convex one. Furthermor the decompression parameter can help with putting the contact points either near the</para>
+<para>python usage : PRPRx_UseFCDetection(explicite, decompression, tol, kappa) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">explicite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(boolean) : use explicit detection </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">decompression</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : surface decompression (value in [-1., 1.]) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : tolerance on normal orientations </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">kappa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(boolean) : compute kappas coefficient </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="723" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="723" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a7e8dfbcac6aaf6371a9b84d9e691d532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_ForceF2fDetection</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_ForceF2fDetection</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>force f2f detection method even for non-convex surfaces </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1a7e8dfbcac6aaf6371a9b84d9e691d532" kindref="member">PRPRx_ForceF2fDetection()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="733" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="733" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a63ec84cfbd4c6303b7ac013904cb836d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_ForceNcDetection</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_ForceNcDetection</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>force nc detection method even for flat surfaces </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1a63ec84cfbd4c6303b7ac013904cb836d" kindref="member">PRPRx_ForceNcDetection()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="743" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="743" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__PRPRx_8h_1a06f7f5097c631eed280ec618cf487fee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PRPRx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>PRPRx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within PRPRx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__PRPRx_8h_1a06f7f5097c631eed280ec618cf487fee" kindref="member">PRPRx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" line="753" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h" declline="753" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_PRPRx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_PRPRx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="wrap__PRPRx_8h_1a62ca1c4a8fea67644fbcea49e79e8409" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a62ca1c4a8fea67644fbcea49e79e8409" kindref="member">PRPRx_SelectProxTactors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reset=0);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="wrap__PRPRx_8h_1a7af03fcec03f647f5a08f7a53395ad3b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a7af03fcec03f647f5a08f7a53395ad3b" kindref="member">PRPRx_UseCpCundallDetection</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cd_shrink=0.,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>an_shrink=0.,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>delta=0.);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="wrap__PRPRx_8h_1a0db3620adfb7b15aa13f171df42b903d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a0db3620adfb7b15aa13f171df42b903d" kindref="member">PRPRx_UseCpF2fExplicitDetection</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cd_shrink=0.,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>an_shrink=0.,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>delta=0.);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="wrap__PRPRx_8h_1af3fcdecef8c173e9a7cce6ee8ac0376e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1af3fcdecef8c173e9a7cce6ee8ac0376e" kindref="member">PRPRx_UseCpF2fDetection</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cd_shrink=0.,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>an_shrink=0.,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>delta=0.);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="wrap__PRPRx_8h_1a5458f2fac563a7e887a48e564817ec37" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a5458f2fac563a7e887a48e564817ec37" kindref="member">PRPRx_UseNcDetection</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gdist);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="wrap__PRPRx_8h_1ac786a9d911aa9c180844daa9d37b339c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1ac786a9d911aa9c180844daa9d37b339c" kindref="member">PRPRx_UseNcF2fDetection</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gdist,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="wrap__PRPRx_8h_1a63e967039a5c34455a6af14d6d51854c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a63e967039a5c34455a6af14d6d51854c" kindref="member">PRPRx_UseNcF2fExplicitDetection</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gdist,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="wrap__PRPRx_8h_1a463656fdc0d1a180f0b5b17415a46747" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a463656fdc0d1a180f0b5b17415a46747" kindref="member">PRPRx_UseTrianglesIntersectionDetection</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_max_pt=16);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="wrap__PRPRx_8h_1a5ad4dbb7e75fe06d610259ed822abe4f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a5ad4dbb7e75fe06d610259ed822abe4f" kindref="member">PRPRx_SetF2fMinimalSurfaceSize</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="wrap__PRPRx_8h_1acaa80e47cf6b02b0c97951879bb62a69" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1acaa80e47cf6b02b0c97951879bb62a69" kindref="member">PRPRx_UseExternalDetection</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="wrap__PRPRx_8h_1a3e6d319a4de2b1e92dc38db81d60e7d3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a3e6d319a4de2b1e92dc38db81d60e7d3" kindref="member">PRPRx_WriteLastVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="wrap__PRPRx_8h_1ac23c5a384ad49ae43dfa578ad3cbdaa7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1ac23c5a384ad49ae43dfa578ad3cbdaa7" kindref="member">PRPRx_WriteOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="wrap__PRPRx_8h_1a53cd89d5334583b69e71e6edb50b7cf6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a53cd89d5334583b69e71e6edb50b7cf6" kindref="member">PRPRx_DisplayOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="wrap__PRPRx_8h_1a46fcddc5a3934d9c35ed4969db994522" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a46fcddc5a3934d9c35ed4969db994522" kindref="member">PRPRx_DisplayProxTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298" refid="wrap__PRPRx_8h_1a5d2ac9e1b17660f8be96a987e0294bb9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a5d2ac9e1b17660f8be96a987e0294bb9" kindref="member">PRPRx_ReadIniVlocRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="wrap__PRPRx_8h_1a458d7c99a018254dea87c66fa550571e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a458d7c99a018254dea87c66fa550571e" kindref="member">PRPRx_ShrinkPolyrFaces</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>shrink);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="wrap__PRPRx_8h_1a78d0a02629ddb39e05a55d4cbcad2f4c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a78d0a02629ddb39e05a55d4cbcad2f4c" kindref="member">PRPRx_LowSizeArrayPolyr</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sfactor);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="wrap__PRPRx_8h_1a5097758a0755bcc9ccc69017790c722d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a5097758a0755bcc9ccc69017790c722d" kindref="member">PRPRx_SaveProxTactorsToFile</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="wrap__PRPRx_8h_1ae19d955e077216f77f02ebcc19816621" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1ae19d955e077216f77f02ebcc19816621" kindref="member">PRPRx_LoadProxTactorsFromFile</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="wrap__PRPRx_8h_1aa0feab32ae8e564993053234ffc9deb3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1aa0feab32ae8e564993053234ffc9deb3" kindref="member">PRPRx_SetXPeriodicCondition</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xperiod);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385" refid="wrap__PRPRx_8h_1a9ff619fad297289ca408232ead452daf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a9ff619fad297289ca408232ead452daf" kindref="member">PRPRx_SetYPeriodicCondition</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yperiod);</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402" refid="wrap__PRPRx_8h_1a0875dd01e203d678ddd0858095304242" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a0875dd01e203d678ddd0858095304242" kindref="member">PRPRx_VerboseF2F</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cd,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>an);</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418" refid="wrap__PRPRx_8h_1acfa6c62b90c53038d6ac5e9be82eb600" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1acfa6c62b90c53038d6ac5e9be82eb600" kindref="member">PRPRx_GetNbF2f</ref>();</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight></codeline>
+<codeline lineno="436" refid="wrap__PRPRx_8h_1a5d57872e743f884a50448e0af255729d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a5d57872e743f884a50448e0af255729d" kindref="member">PRPRx_GetF2f2Inters</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>i4_size);</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"></highlight></codeline>
+<codeline lineno="462" refid="wrap__PRPRx_8h_1af50524cf0eb9cedea9fbad941097b34a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1af50524cf0eb9cedea9fbad941097b34a" kindref="member">PRPRx_GetF2fOutlines</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>i4_size,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"></highlight></codeline>
+<codeline lineno="480" refid="wrap__PRPRx_8h_1a8324d652959c49a17971f135af23ac21" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a8324d652959c49a17971f135af23ac21" kindref="member">PRPRx_GetF2fAllIdata</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"></highlight></codeline>
+<codeline lineno="496" refid="wrap__PRPRx_8h_1a4588d7a14a1895ab3a07dea141730178" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a4588d7a14a1895ab3a07dea141730178" kindref="member">PRPRx_GetF2fCentralKernel</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_f2f,</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2,</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>res,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ires</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"></highlight></codeline>
+<codeline lineno="523" refid="wrap__PRPRx_8h_1a140ec17a09c68e13e1ae9630e005b49b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a140ec17a09c68e13e1ae9630e005b49b" kindref="member">PRPRx_GetF2fStress</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_f2f,</highlight></codeline>
+<codeline lineno="524"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2,</highlight></codeline>
+<codeline lineno="525"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>i4_size,</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out_2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1_2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2_2,</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>i4_vector_2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>i4_size_2,</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>r8_size,</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>res</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"></highlight></codeline>
+<codeline lineno="545" refid="wrap__PRPRx_8h_1af55b9f84a1a915616121b7092d2d05cc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1af55b9f84a1a915616121b7092d2d05cc" kindref="member">PRPRx_SetCundallNeighbor</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>neighbor);</highlight></codeline>
+<codeline lineno="546"><highlight class="normal"></highlight></codeline>
+<codeline lineno="558" refid="wrap__PRPRx_8h_1a2330e225d09cef8570e618da29c0f55c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a2330e225d09cef8570e618da29c0f55c" kindref="member">PRPRx_CpUseOldCcpm</ref>();</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"></highlight></codeline>
+<codeline lineno="574" refid="wrap__PRPRx_8h_1aba577c8581e63f26a3e0944129b104d9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1aba577c8581e63f26a3e0944129b104d9" kindref="member">PRPRx_SetReactionTrackingLength</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>length);</highlight></codeline>
+<codeline lineno="575"><highlight class="normal"></highlight></codeline>
+<codeline lineno="589" refid="wrap__PRPRx_8h_1ae9fa9fe9fb85a57debc0d7fa471c7e1f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1ae9fa9fe9fb85a57debc0d7fa471c7e1f" kindref="member">PRPRx_SetTolRecupRloc</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol);</highlight></codeline>
+<codeline lineno="590"><highlight class="normal"></highlight></codeline>
+<codeline lineno="611" refid="wrap__PRPRx_8h_1a7f944a04fb74d9cee86d943d403cd7ad" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a7f944a04fb74d9cee86d943d403cd7ad" kindref="member">PRPRx_GetInteractionVector</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"></highlight></codeline>
+<codeline lineno="630" refid="wrap__PRPRx_8h_1af92c8b6ebb63246d84dd01b9ea253c51" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1af92c8b6ebb63246d84dd01b9ea253c51" kindref="member">PRPRx_SetInteractionInternal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue);</highlight></codeline>
+<codeline lineno="631"><highlight class="normal"></highlight></codeline>
+<codeline lineno="649" refid="wrap__PRPRx_8h_1a62994a815d11337a38a7241eda992345" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a62994a815d11337a38a7241eda992345" kindref="member">PRPRx_GetInteractionInternal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2);</highlight></codeline>
+<codeline lineno="650"><highlight class="normal"></highlight></codeline>
+<codeline lineno="668" refid="wrap__PRPRx_8h_1a078f560d6ef61ecb3756f46ae81c6b4a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a078f560d6ef61ecb3756f46ae81c6b4a" kindref="member">PRPRx_GetInteractionInternalComment</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>real_size);</highlight></codeline>
+<codeline lineno="669"><highlight class="normal"></highlight></codeline>
+<codeline lineno="678" refid="wrap__PRPRx_8h_1ab4dbc3f5f4520555ac3deb305db0aaec" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1ab4dbc3f5f4520555ac3deb305db0aaec" kindref="member">PRPRx_WithNodalContact</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="679"><highlight class="normal"></highlight></codeline>
+<codeline lineno="698" refid="wrap__PRPRx_8h_1af9868c70041bfc210aede58b14dbdd0f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1af9868c70041bfc210aede58b14dbdd0f" kindref="member">PRPRx_SetInternalSurface</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue);</highlight></codeline>
+<codeline lineno="699"><highlight class="normal"></highlight></codeline>
+<codeline lineno="723" refid="wrap__PRPRx_8h_1a98702b4b0944b79b76f0cddc8778f70d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a98702b4b0944b79b76f0cddc8778f70d" kindref="member">PRPRx_UseStoDetection</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>explicite,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>decompression,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>kappa=0);</highlight></codeline>
+<codeline lineno="724"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="733" refid="wrap__PRPRx_8h_1a7e8dfbcac6aaf6371a9b84d9e691d532" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a7e8dfbcac6aaf6371a9b84d9e691d532" kindref="member">PRPRx_ForceF2fDetection</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="734"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="743" refid="wrap__PRPRx_8h_1a63ec84cfbd4c6303b7ac013904cb836d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a63ec84cfbd4c6303b7ac013904cb836d" kindref="member">PRPRx_ForceNcDetection</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="744"><highlight class="normal"></highlight></codeline>
+<codeline lineno="753" refid="wrap__PRPRx_8h_1a06f7f5097c631eed280ec618cf487fee" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__PRPRx_8h_1a06f7f5097c631eed280ec618cf487fee" kindref="member">PRPRx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="754"><highlight class="normal"></highlight></codeline>
+<codeline lineno="755"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_PRPRx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_PRPRx.h"/>
+  </compounddef>
+</doxygen>

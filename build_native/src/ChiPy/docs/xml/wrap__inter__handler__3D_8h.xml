@@ -1,0 +1,904 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__inter__handler__3D_8h" kind="file" language="C++">
+    <compoundname>wrap_inter_handler_3D.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a409e4b80dd02763b666226440f9f57cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int inter_handler_3D_tgetNb</definition>
+        <argsstring>(int inter_id)</argsstring>
+        <name>inter_handler_3D_tgetNb</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <briefdescription>
+<para>return the number of interactions of the selected type stored in this data structure </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_inter = inter_handler_3D_tgetNb(inter_id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_inter (integer) : number of interaction found of selected type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="59" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="59" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1ab0ba5448813cfd3bd91ed78ade701ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int inter_handler_3D_tgetTactLawNb</definition>
+        <argsstring>(int inter_id, int icdan)</argsstring>
+        <name>inter_handler_3D_tgetTactLawNb</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icdan</declname>
+        </param>
+        <briefdescription>
+<para>return the contact law number of an interaction stored in this data structure </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : tact_law = inter_handler_3D_tgetTactLawNb(inter_id, icdan) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : index of the interaction of selected type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tact_law (integer) : contact law number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="78" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="78" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a70712e733fa74c081c36585a752a414b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_tgetIdBodies</definition>
+        <argsstring>(int inter_id, int icdan, int **i4_vector, int *i4_size)</argsstring>
+        <name>inter_handler_3D_tgetIdBodies</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icdan</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <briefdescription>
+<para>return the serial numbers of contacting objects of an interaction stored in this data structure </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : idBodies = inter_handler_3D_tgetIdBodies(inter_id, icdan) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : index of the interaction of selected type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>idBodies (integer) : array with cd and an bodies serial number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="98" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="98" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1ac3ee9d870fc720f4c19e86f2931a9acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_tgetIData</definition>
+        <argsstring>(int inter_id, int icdan, int **i4_vector, int *i4_size)</argsstring>
+        <name>inter_handler_3D_tgetIData</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icdan</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the integer data of an interaction stored in this data structure. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>idata vector holds cd body type, an body type, cd body id, an body id, cd contactor type, an contactory type, cd contactor id, an contactor id, cd subcontactor id, an subcontactor id, tact law id, status, number of internals</para>
+<para>usage : idata = inter_handler_3D_tgetIData(inter_id, icdan)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : index of the interaction of selected type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>idata (integer array) : the values array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="124" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="124" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1afa5273eea1ad25d2897327b9166a2339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_tgetRData</definition>
+        <argsstring>(int inter_id, int icdan, double **r8_vector, int *r8_size)</argsstring>
+        <name>inter_handler_3D_tgetRData</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icdan</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>return the real data associated with an interactions </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Get an output array with, in this order, : coor, t/n/suc, rlt/n/s, vlt/n/s, gapTT</para>
+<para>python usage : rdata = inter_handler_3D_tgetRData(inter_id, icdan) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : index of the interaction of selected type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>rdata (double array) : array with real data of the interaction </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="147" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="147" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1acf151b9d76c37393e03b75953fbac14f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_tsetInternal</definition>
+        <argsstring>(int inter_id, int icdan, double *rvector_in=NULL, int rlength_in=0, int index=0, double value=0.)</argsstring>
+        <name>inter_handler_3D_tsetInternal</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icdan</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+<para>Set the internal of an interaction (either the array or a single value) stored in this data structure. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Uses copy. If internal array is provided, the whole array is set. Otherwise index and value must be provided and a single value is set.<linebreak/>
+</para>
+<para>usage : inter_handler_3D_tsetInternal(inter_id, icdan, internal) or inter_handler_3D_tsetInternal(inter_id, icdan, index, value)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : index of the interaction of selected type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">internal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the new values array </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the index where to set single value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double ) : the new value to put at index </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="178" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="178" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a0419a032dd7a2df2f21044add0636f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_tgetInternal</definition>
+        <argsstring>(int inter_id, int icdan, double **r8_vector, int *r8_size)</argsstring>
+        <name>inter_handler_3D_tgetInternal</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icdan</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the internal of an interaction stored in this data structure. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : internal = inter_handler_3D_tgetInternal(inter_id, icdan)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : index of the interaction of selected type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">internal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the new values array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="200" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="200" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a510522bcc205bc68437c6e61dc38efb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int inter_handler_3D_getNbRecup</definition>
+        <argsstring>(int inter_id)</argsstring>
+        <name>inter_handler_3D_getNbRecup</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <briefdescription>
+<para>return the number of recup interactions of the selected type </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_recup = inter_handler_3D_getNbRecup(inter_id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_recup (integer) : number of interaction recup of selected type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="217" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="217" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a3498701721dad2135de1123ca190aeb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int inter_handler_3D_getNb</definition>
+        <argsstring>(int inter_id)</argsstring>
+        <name>inter_handler_3D_getNb</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <briefdescription>
+<para>return the number of interactions of the selected type stored in verlet data structure </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_inter = inter_handler_3D_getNb(inter_id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_inter (integer) : number of interaction found of selected type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="234" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="234" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1adc04a5b0237ad4ed7a306e04faba5f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_getAllTactLawNb</definition>
+        <argsstring>(int inter_id, int **i4_vector, int *i4_size)</argsstring>
+        <name>inter_handler_3D_getAllTactLawNb</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+          <defname>vector_out</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+          <defname>dim1</defname>
+        </param>
+        <briefdescription>
+<para>return the tact law number of all interactions stored in verlet data structure </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : vector = inter_handler_3D_getAllTactLawNb(inter_id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (int 1D-array) : mechanical data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="252" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="252" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1aedc9bcfc95f6a9fbc579c1fc4978c383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_getAll</definition>
+        <argsstring>(int inter_id, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>inter_handler_3D_getAll</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return coorx,coory,coorz,tx,ty,tz,nx,ny,nz,sx,sy,sz,rlt,rln,rls,vlt,vln,vls,gaptt of all &apos;verlet&apos; interactions </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : array = inter_handler_3D_getAll(inter_id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (double 2D-array) : mechanical data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="271" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="271" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a04fa9597322a507654a1e12619a3f91a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_getAllInternal</definition>
+        <argsstring>(int inter_id, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>inter_handler_3D_getAllInternal</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return contact point internal variables of all &apos;verlet&apos; interactions </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : array = <ref refid="wrap__inter__handler__3D_8h_1a04fa9597322a507654a1e12619a3f91a" kindref="member">inter_handler_3D_getAllInternal()</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (double 2D-array) : mechanical data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="290" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="290" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1ac499fa9191d3e6af2481c04499a59c1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_getAllIdata</definition>
+        <argsstring>(int inter_id, int **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>inter_handler_3D_getAllIdata</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return all integer data of all &apos;verlet&apos; interaction </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Which are in order cd body type, an body type, cd body id, an body id, cd contactor type, an contactory type, cd contactor id, an contactor id, cd subcontactor id, an subcontactor id, tact law id, status, number of internals</para>
+<para>python usage : array = inter_handler_3D_getAllIdata(inter_id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (int 2D-array) : identification data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="313" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="313" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a2b6e9f2fd4b508633d314337e445433a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int inter_handler_3D_getVerletAdjsz</definition>
+        <argsstring>(int inter_id, int icdtac)</argsstring>
+        <name>inter_handler_3D_getVerletAdjsz</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icdtac</declname>
+        </param>
+        <briefdescription>
+<para>return integer number of verlet interaction of a candidate </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : iantac = inter_handler_3D_getVerletAdjsz(inter_id, icdtac) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdtac</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : candidate contactor id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>iantac (integer) : number of verlet interactions on candidate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="332" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="332" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a628d7cd90fc69bb0d1494d660e86d45e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int inter_handler_3D_getVerletIantac</definition>
+        <argsstring>(int inter_id, int icdtac, int iadj)</argsstring>
+        <name>inter_handler_3D_getVerletIantac</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icdtac</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iadj</declname>
+        </param>
+        <briefdescription>
+<para>return integer antagonist contact of a verlet interaction </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : iantac = inter_handler_3D_getVerletIantac(inter_id, icdtac, iadj) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icdtac</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : candidate contactor id </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iadj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of adjacent of candidate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>iantac (integer) : id of antagonist contactor corresponding to verlet interaction </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="353" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="353" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a97e24a6124179ec9dd33a9e1ec912784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_computeRnod</definition>
+        <argsstring>(void)</argsstring>
+        <name>inter_handler_3D_computeRnod</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Put back the Reac value of bodies from (this) interactions. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="359" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="359" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a4a374869752eb124155162bc1f97ad67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_stockRloc</definition>
+        <argsstring>(int inter_id)</argsstring>
+        <name>inter_handler_3D_stockRloc</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <briefdescription>
+<para>stock from this to verlet </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : inter_handler_3D_stockRloc(inter_id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="374" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="374" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1ab1a7f73d865d326d80008827ebf72099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_recupRloc</definition>
+        <argsstring>(int inter_id)</argsstring>
+        <name>inter_handler_3D_recupRloc</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <briefdescription>
+<para>recup from verlet to this </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : inter_handler_3D_recupRloc(inter_id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="389" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="389" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__inter__handler__3D_8h_1a5f1b8a2221ad91bfc4730000ab9dd8ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inter_handler_3D_recupRlocByPos</definition>
+        <argsstring>(int inter_id, double rtol)</argsstring>
+        <name>inter_handler_3D_recupRlocByPos</name>
+        <param>
+          <type>int</type>
+          <declname>inter_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rtol</declname>
+        </param>
+        <briefdescription>
+<para>recup from verlet to this using position as criteria </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Only available for CSASp inter_id</para>
+<para>python usage : inter_handler_3D_recupRloc(inter_id, rtol) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : type of interaction (lmgc90 parameter) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rtol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : tolerance to decide if contact is recup </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" line="408" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h" declline="408" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_inter_handler_3D_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_inter_handler_3D_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="wrap__inter__handler__3D_8h_1a409e4b80dd02763b666226440f9f57cb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a409e4b80dd02763b666226440f9f57cb" kindref="member">inter_handler_3D_tgetNb</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="wrap__inter__handler__3D_8h_1ab0ba5448813cfd3bd91ed78ade701ad0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1ab0ba5448813cfd3bd91ed78ade701ad0" kindref="member">inter_handler_3D_tgetTactLawNb</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdan);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="wrap__inter__handler__3D_8h_1a70712e733fa74c081c36585a752a414b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a70712e733fa74c081c36585a752a414b" kindref="member">inter_handler_3D_tgetIdBodies</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdan,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>i4_size);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="wrap__inter__handler__3D_8h_1ac3ee9d870fc720f4c19e86f2931a9acb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1ac3ee9d870fc720f4c19e86f2931a9acb" kindref="member">inter_handler_3D_tgetIData</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdan,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>i4_size);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="wrap__inter__handler__3D_8h_1afa5273eea1ad25d2897327b9166a2339" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1afa5273eea1ad25d2897327b9166a2339" kindref="member">inter_handler_3D_tgetRData</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdan,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="wrap__inter__handler__3D_8h_1acf151b9d76c37393e03b75953fbac14f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1acf151b9d76c37393e03b75953fbac14f" kindref="member">inter_handler_3D_tsetInternal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdan,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in=0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index=0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value=0.);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="wrap__inter__handler__3D_8h_1a0419a032dd7a2df2f21044add0636f15" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a0419a032dd7a2df2f21044add0636f15" kindref="member">inter_handler_3D_tgetInternal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdan,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="wrap__inter__handler__3D_8h_1a510522bcc205bc68437c6e61dc38efb5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a510522bcc205bc68437c6e61dc38efb5" kindref="member">inter_handler_3D_getNbRecup</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="wrap__inter__handler__3D_8h_1a3498701721dad2135de1123ca190aeb6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a3498701721dad2135de1123ca190aeb6" kindref="member">inter_handler_3D_getNb</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="wrap__inter__handler__3D_8h_1adc04a5b0237ad4ed7a306e04faba5f48" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1adc04a5b0237ad4ed7a306e04faba5f48" kindref="member">inter_handler_3D_getAllTactLawNb</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>i4_size);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="wrap__inter__handler__3D_8h_1aedc9bcfc95f6a9fbc579c1fc4978c383" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1aedc9bcfc95f6a9fbc579c1fc4978c383" kindref="member">inter_handler_3D_getAll</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="290" refid="wrap__inter__handler__3D_8h_1a04fa9597322a507654a1e12619a3f91a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a04fa9597322a507654a1e12619a3f91a" kindref="member">inter_handler_3D_getAllInternal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="wrap__inter__handler__3D_8h_1ac499fa9191d3e6af2481c04499a59c1b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1ac499fa9191d3e6af2481c04499a59c1b" kindref="member">inter_handler_3D_getAllIdata</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="332" refid="wrap__inter__handler__3D_8h_1a2b6e9f2fd4b508633d314337e445433a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a2b6e9f2fd4b508633d314337e445433a" kindref="member">inter_handler_3D_getVerletAdjsz</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdtac);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="wrap__inter__handler__3D_8h_1a628d7cd90fc69bb0d1494d660e86d45e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a628d7cd90fc69bb0d1494d660e86d45e" kindref="member">inter_handler_3D_getVerletIantac</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icdtac,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iadj);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="wrap__inter__handler__3D_8h_1a97e24a6124179ec9dd33a9e1ec912784" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a97e24a6124179ec9dd33a9e1ec912784" kindref="member">inter_handler_3D_computeRnod</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="wrap__inter__handler__3D_8h_1a4a374869752eb124155162bc1f97ad67" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a4a374869752eb124155162bc1f97ad67" kindref="member">inter_handler_3D_stockRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389" refid="wrap__inter__handler__3D_8h_1ab1a7f73d865d326d80008827ebf72099" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1ab1a7f73d865d326d80008827ebf72099" kindref="member">inter_handler_3D_recupRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408" refid="wrap__inter__handler__3D_8h_1a5f1b8a2221ad91bfc4730000ab9dd8ef" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__inter__handler__3D_8h_1a5f1b8a2221ad91bfc4730000ab9dd8ef" kindref="member">inter_handler_3D_recupRlocByPos</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inter_id,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rtol);</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_inter_handler_3D_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_inter_handler_3D.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,2141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__therMAILx_8h" kind="file" language="C++">
+    <compoundname>wrap_therMAILx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a5e1da77d3e1ebf14b91b39a051f59aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_GetNbTherMAILx</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_GetNbTherMAILx</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of therMAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_therMAILx = <ref refid="wrap__therMAILx_8h_1a5e1da77d3e1ebf14b91b39a051f59aec" kindref="member">therMAILx_GetNbTherMAILx()</ref></para>
+<para><simplesect kind="return"><para>nb_therMAILx (integer) : number of therMAILx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="58" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="58" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a3ba27d1d34be03368fc913fe17553232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_GetNbNodes</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>therMAILx_GetNbNodes</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of nodes of a therMAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_nodes = therMAILx_GetNbNodes(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the therMAILx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_nodes (integer) : number of nodes of a therMAILx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="74" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="74" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a9b70b5eccf699109b00311ec3bafdfdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_GetNbElements</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>therMAILx_GetNbElements</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of nodes of a therMAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_nodes = therMAILx_GetNbElements(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the therMAILx </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_nodes (integer) : number of nodes of a therMAILx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="90" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="90" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a0cf427b575bcc0a3cf6fde5b4eee5d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_GetNbDofs</definition>
+        <argsstring>(int)</argsstring>
+        <name>therMAILx_GetNbDofs</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>Get the number of dofs for the therMAILX. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_dofs = <ref refid="wrap__therMAILx_8h_1a0cf427b575bcc0a3cf6fde5b4eee5d2b" kindref="member">therMAILx_GetNbDofs(int ibdyty)</ref></para>
+<para><simplesect kind="return"><para>nb_dofs (integer) : number of dofs of the body for the model </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="107" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="107" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a0a9b808a806e781722cec652264ef898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_IncrementStep</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_IncrementStep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>initializes current dof </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a0a9b808a806e781722cec652264ef898" kindref="member">therMAILx_IncrementStep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="117" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="117" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a63da2f6af80616380f01945266c8f395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ComputeConductivity</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_ComputeConductivity</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes the elementary conductivity matrices of a list of bodies </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the input list is empty, the conductivities of all bodies will be computed</para>
+<para>python usage : therMAILx_ComputeConductivity(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="136" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="136" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1ac9e62d59df04fa6c6b855bca9ef9f9a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ComputeCapacity</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_ComputeCapacity</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes the elemetary capacity matrices </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_ComputeCapacity(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="153" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="153" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1af9ada3659b39c493f14ba6339f0a32b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ComputeConvection</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_ComputeConvection</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>compute elementary convection terms </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_ComputeConvection(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="170" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="170" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a9a2cdeac0e79ce7cae82db0eef47d46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ComputeInternalFlux</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_ComputeInternalFlux</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>compute elementary internal flux </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_ComputeInternalFlux(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="187" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="187" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1ab1f19250b6ef9ee5a29fa8b0b8f3901c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ComputeExternalFlux</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_ComputeExternalFlux</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>compute elementary external flux </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_ComputeExternalFlux(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="204" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="204" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a12e6d045af2c0d9ac3fae0b0464ce4c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_AssembThermKT</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_AssembThermKT</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>assembles elementary matrices </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_AssembKT(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="221" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a1046c183b4ba4ce6bd69b0204971c395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_AssembThermRHS</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_AssembThermRHS</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>assembles elementary vectors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_AssembRHS(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="238" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="238" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a03bc1a45ee83bc4df46ffc71d45ad5da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ComputeThermDof</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_ComputeThermDof</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes current dof </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_ComputeThermDof(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="255" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="255" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a337df95bc4b3077ab6751f8760afb356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ComputeThermFields</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_ComputeThermFields</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>computes elementary fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_ComputeThermFields(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="273" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="273" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1aa78658972f148a771e81a8d57eed04b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_UpdateThermDof</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_UpdateThermDof</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>update begin dof with current dof </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_UpdateThermDof(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="291" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="291" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a1543039ac3e05d97ddcbe88a77b29a72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_UpdateThermBulk</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_UpdateThermBulk</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>update begin elementary fields with current elementary fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_UpdateThermBulk(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="309" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="309" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1aeda62dc3e8c1593e0ac734ffd76f6d04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double therMAILx_ComputeResidueNorm</definition>
+        <argsstring>(int *ivector_in=NULL, int ilength_in=0)</argsstring>
+        <name>therMAILx_ComputeResidueNorm</name>
+        <param>
+          <type>int *</type>
+          <declname>ivector_in</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ilength_in</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>compute the residue of the thermal equation </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : norm = therMAILx_ComputeResidueNorm(i_list) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(list of integer) : list of bodies to compute conductivities if omitted works on all objects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>norm (double) : value of the norm </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="328" column="21" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="328" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a4665155c795f8a45b795c2ff7d09ee4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ReadDrivenDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_ReadDrivenDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Read DRV_DOF.DAT. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a4665155c795f8a45b795c2ff7d09ee4c" kindref="member">therMAILx_ReadDrivenDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="338" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="338" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a232c6cdd65bcfd140c0cc278af763e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_WriteDrivenDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_WriteDrivenDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Write DRV_DOF.OUT. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a232c6cdd65bcfd140c0cc278af763e3d" kindref="member">therMAILx_WriteDrivenDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="348" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="348" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a15f94c5c052b5802f3956a8db346b215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_LoadModels</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_LoadModels</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>loads models frol models module </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a15f94c5c052b5802f3956a8db346b215" kindref="member">therMAILx_LoadModels()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="358" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="358" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a7f1acd3b08d95312560230163bb5e88c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_LoadBehaviours</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_LoadBehaviours</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>loads bulk behaviors parameters from bulk_behav module </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a7f1acd3b08d95312560230163bb5e88c" kindref="member">therMAILx_LoadBehaviours()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="368" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="368" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1aa3fe5a06b7f27329b008ab6cb40a738f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ReadIniDof</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>therMAILx_ReadIniDof</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read DOF file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If num &lt;= 0 : DATBOX/DOF.INI file is read Else : OUTBOX/DOF.OUT.num is read, num being the parameter used in TimeEvolution_ReadIniDof last call</para>
+<para>python usage : therMAILx_ReadIniDof(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which DOF file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="389" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="389" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a40ac2e6ca2a3688df742cf2da4d3cf22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_ReadIniGPV</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>therMAILx_ReadIniGPV</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read GPV file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If num &lt;= 0 : DATBOX/GPV.INI file is read</para>
+<para>Else : OUTBOX/GPV.OUT.num is read, num being the parameter used in TimeEvolution_ReadIniGPV last call</para>
+<para>python usage : therMAILx_ReadIniGPV(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which GPV file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="411" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="411" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a5e94aa62bb0f3e3df5ade0ffed2c8dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_WriteLastDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_WriteLastDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Write ascii DOF.LAST file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a5e94aa62bb0f3e3df5ade0ffed2c8dfc" kindref="member">therMAILx_WriteLastDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="421" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="421" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a77202b03071399804712d1eb3eb30f94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_WriteOutDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_WriteOutDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Write ascii DOF.OUT file. Can be activate only each N step. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a77202b03071399804712d1eb3eb30f94" kindref="member">therMAILx_WriteOutDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="431" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="431" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1aef5541954ca5fc3050a64e0af6a92069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_DisplayOutDof</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_DisplayOutDof</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Display body degrees of freedom. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1aef5541954ca5fc3050a64e0af6a92069" kindref="member">therMAILx_DisplayOutDof()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="441" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="441" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1aee83d57bb92c540bf95ed481925c8904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_PutBodyVector</definition>
+        <argsstring>(char *cvalue1_c, int ivalue1, double *matrix_in, int dim1, int dim2)</argsstring>
+        <name>therMAILx_PutBodyVector</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Set a vector of a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Possible values for datatype field are:<itemizedlist>
+<listitem><para>&quot;T____&quot;: Temperature in computed configuration</para>
+</listitem><listitem><para>&quot;Tbeg_&quot;: Temperature at beginning of time step</para>
+</listitem><listitem><para>&quot;Taux_&quot;: Temperature in working array</para>
+</listitem><listitem><para>&quot;Fext_&quot;: external flux</para>
+</listitem><listitem><para>&quot;Fint_&quot;: internal flux</para>
+</listitem></itemizedlist>
+</para>
+<para>Uses copy</para>
+<para>python usage : therMAILx_PutBodyVector(datatype, ibdyty, matrix) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">datatype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : the vector to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">matrix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the new values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="472" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="472" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1addb597c14c0111797415f36e7a0d3566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetBodyVector</definition>
+        <argsstring>(char *cvalue1_c, int ivalue1, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>therMAILx_GetBodyVector</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a copy of a vector of a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Possible values for datatype field are:<itemizedlist>
+<listitem><para>&quot;Coor0&quot;: reference coordinates</para>
+</listitem><listitem><para>&quot;T____&quot;: Temperature in computed configuration</para>
+</listitem><listitem><para>&quot;Tbeg_&quot;: Temperature at beginning of time step</para>
+</listitem><listitem><para>&quot;Taux_&quot;: Temperature in working array</para>
+</listitem><listitem><para>&quot;Fext_&quot;: external flux</para>
+</listitem><listitem><para>&quot;Fint_&quot;: internal flux</para>
+</listitem></itemizedlist>
+</para>
+<para>Uses copy</para>
+<para>python usage : vector = therMAILx_GetBodyVector(datatype, ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>datatype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : the vector to get </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (double 2D-array) : the desired vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="504" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="504" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a5719d5378f72b0921a2f074c8d96b7e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_GetScalarFieldRank</definition>
+        <argsstring>(int ibdyty, int blmty, char *name)</argsstring>
+        <name>therMAILx_GetScalarFieldRank</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blmty</declname>
+          <defname>iblmty</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+          <defname>field_name</defname>
+        </param>
+        <briefdescription>
+<para>Get the rank of field of an element of a body from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : f_rank = therMAILx_GetScalarFieldRank(ibdyty, iblmty, name) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iblmty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern element </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : name of the desired field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>f_rank (integer) : rank of the corresponding field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="525" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="525" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a275be2561ff875ce50a49e4a47f76b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_SetScalarFieldByNode</definition>
+        <argsstring>(int IdBody, int f_rank, double *rvector_in, int rlength_in)</argsstring>
+        <name>therMAILx_SetScalarFieldByNode</name>
+        <param>
+          <type>int</type>
+          <declname>IdBody</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f_rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>Update an external field on a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>You need to set this field in your models.dat</para>
+<para>python usage : therMAILx_SetScalarFieldByNode(IdBody, f_rank, f) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f_rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the field to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="547" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="547" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1adce2deb8bda3365fd05757188dddcd2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_SetScalarFieldByElement</definition>
+        <argsstring>(int IdBody, int f_rank, double *rvector_in, int rlength_in)</argsstring>
+        <name>therMAILx_SetScalarFieldByElement</name>
+        <param>
+          <type>int</type>
+          <declname>IdBody</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f_rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>Update elementary scalar field through a element external field on a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Field values are stored at Gauss point, on an element all Gauss point have the element value</para>
+<para>You need to declare this field in your MODELS.DAT</para>
+<para>python usage : therMAILx_SetScalarFieldByElement(IdBody, f_rank, f) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f_rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the field to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="571" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="571" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a0ee685a15ae042ede82f3748f0fac434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_GetVectorFieldRank</definition>
+        <argsstring>(int ibdyty, int blmty, char *name)</argsstring>
+        <name>therMAILx_GetVectorFieldRank</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blmty</declname>
+          <defname>iblmty</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+          <defname>field_name</defname>
+        </param>
+        <briefdescription>
+<para>Get the rank of field of an element of a body from its name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : f_rank = therMAILx_GetVectorFieldRank(ibdyty, iblmty, name) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iblmty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern element </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : name of the desired vector field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>f_rank (integer) : rank of the corresponding vector field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="592" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="592" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a13bd0078137e3e2b122b5cb85b218ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_SetVectorFieldByNode</definition>
+        <argsstring>(int ibdyty, int f_rank, double *matrix_in, int dim1, int dim2)</argsstring>
+        <name>therMAILx_SetVectorFieldByNode</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f_rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Update elementary fields through a nodal external field on a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Use the form functions of the elements and input values to compute and store field values at Gauss points.</para>
+<para>You need to declare this field in your MODELS.DAT</para>
+<para>python usage : therMAILx_SetFieldByNode(IdBody, f_rank, f) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f_rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the vector field to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the vector field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="618" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="618" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a786980ba1920eb4654dc687a12d120fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_SetVectorFieldByElement</definition>
+        <argsstring>(int ibdyty, int f_rank, double *matrix_in, int dim1, int dim2)</argsstring>
+        <name>therMAILx_SetVectorFieldByElement</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f_rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>matrix_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Update elementary fields through a nodal external field on a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Use the form functions of the elements and input values to compute and store field values at Gauss points.</para>
+<para>You need to declare this field in your MODELS.DAT</para>
+<para>python usage : therMAILx_SetFieldByElement(IdBody, f_rank, f) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f_rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the vector field to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the vector field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="644" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="644" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a7d3c2bf64f600ab0a0ae27d589ada231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_AddSource</definition>
+        <argsstring>(int ivalue1, int ivalue2)</argsstring>
+        <name>therMAILx_AddSource</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <briefdescription>
+<para>Add a volumic source into a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_AddSource(ibdyty, ifield) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ifield</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="661" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="661" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a75d9f5ece07655817feb4c6074a4cd92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_AddNodalFieldDivergence</definition>
+        <argsstring>(int ivalue1, int ivalue2)</argsstring>
+        <name>therMAILx_AddNodalFieldDivergence</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <briefdescription>
+<para>Add the divergence of a field to external flux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : therMAILx_AddNodalFieldDivergence(ibdyty, ifield) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ifield</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="678" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="678" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a5b52e15cc163c18a5c8ce8b3f27fdbc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_PushProperties</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_PushProperties</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>declares to module model the couples (model,behavior) used </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a5b52e15cc163c18a5c8ce8b3f27fdbc8" kindref="member">therMAILx_PushProperties()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="688" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="688" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a63b3e3841462a410f2397bb27d4c2bbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_WithoutRenumbering</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_WithoutRenumbering</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>skip renumbering of the unknowns using a rcc method </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a63b3e3841462a410f2397bb27d4c2bbd" kindref="member">therMAILx_WithoutRenumbering()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="698" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="698" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a849e86afb7700db73623911f9e58e220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_BandStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_BandStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use band matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a849e86afb7700db73623911f9e58e220" kindref="member">therMAILx_BandStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="708" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="708" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a924f691be0b214f6c2cfa1589ededc2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_SparseStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_SparseStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use sparse matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a924f691be0b214f6c2cfa1589ededc2a" kindref="member">therMAILx_SparseStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="718" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="718" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a4f206f9b9f02bb9ff2ac1d009aedba5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_ExplodedStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_ExplodedStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use element by element matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a4f206f9b9f02bb9ff2ac1d009aedba5e" kindref="member">therMAILx_ExplodedStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="728" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="728" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a2ea1c64b99ddca59a10f50d85cb09683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_DiagonalStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_DiagonalStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use diagonal matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a2ea1c64b99ddca59a10f50d85cb09683" kindref="member">therMAILx_DiagonalStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="738" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="738" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1ae7be9ec07a186b3befd699ef6afc8066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_SkylineStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_SkylineStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use skyline matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1ae7be9ec07a186b3befd699ef6afc8066" kindref="member">therMAILx_SkylineStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="748" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="748" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1afee0bbaff1b038fc122c75e0f0eaded6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_FullStorage</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_FullStorage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>use full matrix </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1afee0bbaff1b038fc122c75e0f0eaded6" kindref="member">therMAILx_FullStorage()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="758" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="758" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1ad6f5212aa174f1930364b8f3f61a306e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_SymmetricShape</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_SymmetricShape</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>assume matrix is symmetrical </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1ad6f5212aa174f1930364b8f3f61a306e" kindref="member">therMAILx_SymmetricShape()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="768" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="768" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1ae3351882e710b36b7c42c33ac455a7d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_UnspecifiedShape</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_UnspecifiedShape</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>does not assume any thing on matrix shape </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1ae3351882e710b36b7c42c33ac455a7d8" kindref="member">therMAILx_UnspecifiedShape()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="778" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="778" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1ae4b3e3993d510e68ffc5fc31b567d2ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetGrad</definition>
+        <argsstring>(int ivalue1, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>therMAILx_GetGrad</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a copy of a gradient of a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Python usage : grad_T = therMAILx_GetGrad(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>grad_T (double 2D-array) : the desired gradient </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="799" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="799" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a0f21bc9c3c094c7e5a50d4e2a07b10bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetFlux</definition>
+        <argsstring>(int ivalue1, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>therMAILx_GetFlux</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>Get a copy of a gradient of a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Python usage : Flux_T = therMAILx_GetFlux(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Flux_T (double array) : the desired flux </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="818" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="818" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a7029a2b00d1415b4f3af2f167155d3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_InitializeElementaryFlux</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_InitializeElementaryFlux</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>set elementary flux to 0 </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a7029a2b00d1415b4f3af2f167155d3d8" kindref="member">therMAILx_InitializeElementaryFlux()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="828" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="828" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a0646ae7804ec9f72a58fcf23eef7508e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetCoor</definition>
+        <argsstring>(int idBody, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>therMAILx_GetCoor</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return node coordinates of idBody </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : array = therMAILx_GetCoor(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (double 2D-array) : coordinates </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="847" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="847" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a13be3a00facdf77fc1bcbff93ef4c12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetConnectivity</definition>
+        <argsstring>(int idBody, int **i4_vector, int *i4_size)</argsstring>
+        <name>therMAILx_GetConnectivity</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <briefdescription>
+<para>return connectivity of idBody elements </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : vector = therMAILx_GetConnectivity(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vector (integer) : connectivity </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="865" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="865" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a8a45ff10e212ce89f33ecdd9809a3bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetAll</definition>
+        <argsstring>(int idBody, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>therMAILx_GetAll</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return mechanical data computed for idBody </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : array = therMAILx_GetAll(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (double 2D-array) : mechanical data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="884" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="884" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a73265f73fc833c7eff84f6f5675b31e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetGpCoor</definition>
+        <argsstring>(int idBody, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>therMAILx_GetGpCoor</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return Gauss points coordinates of idBody </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : array = therMAILx_GetGpCoor(idBody) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (double 2D-array) : coordinates of all Gauss points </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="903" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="903" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a003b4ef31fec7f4466fb1d7bc05d01db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetGpField</definition>
+        <argsstring>(int idBody, int idEle, int idGp, int idField, double **r8_vector, int *r8_size)</argsstring>
+        <name>therMAILx_GetGpField</name>
+        <param>
+          <type>int</type>
+          <declname>idBody</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idEle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idGp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idField</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>return field values stored at a gp </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : field = therMAILx_GetGpField(idBody,idEle,idGp,idField) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">IdEle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned element </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">IdGp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned gauss point </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">IdField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concerned field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>field (double array) : field value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="927" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="927" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1aa8cd7e699e549f99a4f76e0ec95011fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_TrialAssembThermKT</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_TrialAssembThermKT</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>[experimental] assembles elementary matrices </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a12e6d045af2c0d9ac3fae0b0464ce4c1" kindref="member">therMAILx_AssembThermKT()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="940" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="940" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a672f3c6574c3448e4ad212e07d859241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_TrialAssembThermRHS</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_TrialAssembThermRHS</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>[experimental] assembles elementary vectors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a1046c183b4ba4ce6bd69b0204971c395" kindref="member">therMAILx_AssembThermRHS()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="950" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="950" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a0ed2ae37c4bdebe8d1a80ff94ce5936d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within therMAILx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1a0ed2ae37c4bdebe8d1a80ff94ce5936d" kindref="member">therMAILx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="960" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="960" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1afe42d2381d09e5d74d79b8efb8a4b09f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_CheckProperties</definition>
+        <argsstring>(void)</argsstring>
+        <name>therMAILx_CheckProperties</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>check if model and material are matching ; set material parameter if external model </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__therMAILx_8h_1afe42d2381d09e5d74d79b8efb8a4b09f" kindref="member">therMAILx_CheckProperties()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="971" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="971" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1af7b9a78ed07525dcc11ea10af6a9fdec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void therMAILx_GetNbGpByElem</definition>
+        <argsstring>(char **string_vector, int *vector_size, int *string_size, int **i4_vector, int *i4_size)</argsstring>
+        <name>therMAILx_GetNbGpByElem</name>
+        <param>
+          <type>char **</type>
+          <declname>string_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>vector_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of finite elements for therx models and the associated number of Gauss Points. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Here memory is allocated within lmgc90 so that the pointer can be freely modified by third parties without nasty effect on lmgc90 functioning.</para>
+<para>python usage : names, nb_gps = <ref refid="wrap__therMAILx_8h_1af7b9a78ed07525dcc11ea10af6a9fdec" kindref="member">therMAILx_GetNbGpByElem()</ref> <simplesect kind="return"><para>names (string list) : list of the finite elements nb_gps (integer list): list of the number of Gauss Points </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="994" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="994" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__therMAILx_8h_1a66c0381402f5310154ea33964633e615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int therMAILx_GetNbGp</definition>
+        <argsstring>(int ibdyty, int iblmty)</argsstring>
+        <name>therMAILx_GetNbGp</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iblmty</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of Gauss points of an element of a therMAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_gp = therMAILx_GetNbElements(ibdyty, iblmty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the therMAILx </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iblmty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the element </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_gp (integer) : number of Gauss point of an element of a therMAILx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" line="1011" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h" declline="1011" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_therMAILx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_therMAILx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="wrap__therMAILx_8h_1a5e1da77d3e1ebf14b91b39a051f59aec" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a5e1da77d3e1ebf14b91b39a051f59aec" kindref="member">therMAILx_GetNbTherMAILx</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="wrap__therMAILx_8h_1a3ba27d1d34be03368fc913fe17553232" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a3ba27d1d34be03368fc913fe17553232" kindref="member">therMAILx_GetNbNodes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="wrap__therMAILx_8h_1a9b70b5eccf699109b00311ec3bafdfdf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a9b70b5eccf699109b00311ec3bafdfdf" kindref="member">therMAILx_GetNbElements</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="wrap__therMAILx_8h_1a0cf427b575bcc0a3cf6fde5b4eee5d2b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a0cf427b575bcc0a3cf6fde5b4eee5d2b" kindref="member">therMAILx_GetNbDofs</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="wrap__therMAILx_8h_1a0a9b808a806e781722cec652264ef898" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a0a9b808a806e781722cec652264ef898" kindref="member">therMAILx_IncrementStep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="wrap__therMAILx_8h_1a63da2f6af80616380f01945266c8f395" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a63da2f6af80616380f01945266c8f395" kindref="member">therMAILx_ComputeConductivity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="wrap__therMAILx_8h_1ac9e62d59df04fa6c6b855bca9ef9f9a6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1ac9e62d59df04fa6c6b855bca9ef9f9a6" kindref="member">therMAILx_ComputeCapacity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="wrap__therMAILx_8h_1af9ada3659b39c493f14ba6339f0a32b5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1af9ada3659b39c493f14ba6339f0a32b5" kindref="member">therMAILx_ComputeConvection</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="wrap__therMAILx_8h_1a9a2cdeac0e79ce7cae82db0eef47d46e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a9a2cdeac0e79ce7cae82db0eef47d46e" kindref="member">therMAILx_ComputeInternalFlux</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="wrap__therMAILx_8h_1ab1f19250b6ef9ee5a29fa8b0b8f3901c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1ab1f19250b6ef9ee5a29fa8b0b8f3901c" kindref="member">therMAILx_ComputeExternalFlux</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="wrap__therMAILx_8h_1a12e6d045af2c0d9ac3fae0b0464ce4c1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a12e6d045af2c0d9ac3fae0b0464ce4c1" kindref="member">therMAILx_AssembThermKT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="wrap__therMAILx_8h_1a1046c183b4ba4ce6bd69b0204971c395" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a1046c183b4ba4ce6bd69b0204971c395" kindref="member">therMAILx_AssembThermRHS</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="wrap__therMAILx_8h_1a03bc1a45ee83bc4df46ffc71d45ad5da" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a03bc1a45ee83bc4df46ffc71d45ad5da" kindref="member">therMAILx_ComputeThermDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="wrap__therMAILx_8h_1a337df95bc4b3077ab6751f8760afb356" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a337df95bc4b3077ab6751f8760afb356" kindref="member">therMAILx_ComputeThermFields</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291" refid="wrap__therMAILx_8h_1aa78658972f148a771e81a8d57eed04b2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1aa78658972f148a771e81a8d57eed04b2" kindref="member">therMAILx_UpdateThermDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="wrap__therMAILx_8h_1a1543039ac3e05d97ddcbe88a77b29a72" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a1543039ac3e05d97ddcbe88a77b29a72" kindref="member">therMAILx_UpdateThermBulk</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="wrap__therMAILx_8h_1aeda62dc3e8c1593e0ac734ffd76f6d04" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1aeda62dc3e8c1593e0ac734ffd76f6d04" kindref="member">therMAILx_ComputeResidueNorm</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>ivector_in=NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ilength_in=0);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="wrap__therMAILx_8h_1a4665155c795f8a45b795c2ff7d09ee4c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a4665155c795f8a45b795c2ff7d09ee4c" kindref="member">therMAILx_ReadDrivenDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="wrap__therMAILx_8h_1a232c6cdd65bcfd140c0cc278af763e3d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a232c6cdd65bcfd140c0cc278af763e3d" kindref="member">therMAILx_WriteDrivenDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="wrap__therMAILx_8h_1a15f94c5c052b5802f3956a8db346b215" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a15f94c5c052b5802f3956a8db346b215" kindref="member">therMAILx_LoadModels</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="wrap__therMAILx_8h_1a7f1acd3b08d95312560230163bb5e88c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a7f1acd3b08d95312560230163bb5e88c" kindref="member">therMAILx_LoadBehaviours</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389" refid="wrap__therMAILx_8h_1aa3fe5a06b7f27329b008ab6cb40a738f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1aa3fe5a06b7f27329b008ab6cb40a738f" kindref="member">therMAILx_ReadIniDof</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="411" refid="wrap__therMAILx_8h_1a40ac2e6ca2a3688df742cf2da4d3cf22" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a40ac2e6ca2a3688df742cf2da4d3cf22" kindref="member">therMAILx_ReadIniGPV</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="421" refid="wrap__therMAILx_8h_1a5e94aa62bb0f3e3df5ade0ffed2c8dfc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a5e94aa62bb0f3e3df5ade0ffed2c8dfc" kindref="member">therMAILx_WriteLastDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"></highlight></codeline>
+<codeline lineno="431" refid="wrap__therMAILx_8h_1a77202b03071399804712d1eb3eb30f94" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a77202b03071399804712d1eb3eb30f94" kindref="member">therMAILx_WriteOutDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"></highlight></codeline>
+<codeline lineno="441" refid="wrap__therMAILx_8h_1aef5541954ca5fc3050a64e0af6a92069" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1aef5541954ca5fc3050a64e0af6a92069" kindref="member">therMAILx_DisplayOutDof</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"></highlight></codeline>
+<codeline lineno="472" refid="wrap__therMAILx_8h_1aee83d57bb92c540bf95ed481925c8904" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1aee83d57bb92c540bf95ed481925c8904" kindref="member">therMAILx_PutBodyVector</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>matrix_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim2);</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"></highlight></codeline>
+<codeline lineno="504" refid="wrap__therMAILx_8h_1addb597c14c0111797415f36e7a0d3566" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1addb597c14c0111797415f36e7a0d3566" kindref="member">therMAILx_GetBodyVector</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="505"><highlight class="normal"></highlight></codeline>
+<codeline lineno="525" refid="wrap__therMAILx_8h_1a5719d5378f72b0921a2f074c8d96b7e1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a5719d5378f72b0921a2f074c8d96b7e1" kindref="member">therMAILx_GetScalarFieldRank</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blmty,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"></highlight></codeline>
+<codeline lineno="547" refid="wrap__therMAILx_8h_1a275be2561ff875ce50a49e4a47f76b89" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a275be2561ff875ce50a49e4a47f76b89" kindref="member">therMAILx_SetScalarFieldByNode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IdBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_rank,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"></highlight></codeline>
+<codeline lineno="571" refid="wrap__therMAILx_8h_1adce2deb8bda3365fd05757188dddcd2f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1adce2deb8bda3365fd05757188dddcd2f" kindref="member">therMAILx_SetScalarFieldByElement</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IdBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_rank,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="572"><highlight class="normal"></highlight></codeline>
+<codeline lineno="592" refid="wrap__therMAILx_8h_1a0ee685a15ae042ede82f3748f0fac434" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a0ee685a15ae042ede82f3748f0fac434" kindref="member">therMAILx_GetVectorFieldRank</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blmty,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="593"><highlight class="normal"></highlight></codeline>
+<codeline lineno="618" refid="wrap__therMAILx_8h_1a13bd0078137e3e2b122b5cb85b218ec1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a13bd0078137e3e2b122b5cb85b218ec1" kindref="member">therMAILx_SetVectorFieldByNode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_rank,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>matrix_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim2);</highlight></codeline>
+<codeline lineno="619"><highlight class="normal"></highlight></codeline>
+<codeline lineno="644" refid="wrap__therMAILx_8h_1a786980ba1920eb4654dc687a12d120fd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a786980ba1920eb4654dc687a12d120fd" kindref="member">therMAILx_SetVectorFieldByElement</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_rank,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>matrix_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim2);</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"></highlight></codeline>
+<codeline lineno="661" refid="wrap__therMAILx_8h_1a7d3c2bf64f600ab0a0ae27d589ada231" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a7d3c2bf64f600ab0a0ae27d589ada231" kindref="member">therMAILx_AddSource</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2);</highlight></codeline>
+<codeline lineno="662"><highlight class="normal"></highlight></codeline>
+<codeline lineno="678" refid="wrap__therMAILx_8h_1a75d9f5ece07655817feb4c6074a4cd92" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a75d9f5ece07655817feb4c6074a4cd92" kindref="member">therMAILx_AddNodalFieldDivergence</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2);</highlight></codeline>
+<codeline lineno="679"><highlight class="normal"></highlight></codeline>
+<codeline lineno="688" refid="wrap__therMAILx_8h_1a5b52e15cc163c18a5c8ce8b3f27fdbc8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a5b52e15cc163c18a5c8ce8b3f27fdbc8" kindref="member">therMAILx_PushProperties</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="689"><highlight class="normal"></highlight></codeline>
+<codeline lineno="698" refid="wrap__therMAILx_8h_1a63b3e3841462a410f2397bb27d4c2bbd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a63b3e3841462a410f2397bb27d4c2bbd" kindref="member">therMAILx_WithoutRenumbering</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="699"><highlight class="normal"></highlight></codeline>
+<codeline lineno="708" refid="wrap__therMAILx_8h_1a849e86afb7700db73623911f9e58e220" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a849e86afb7700db73623911f9e58e220" kindref="member">therMAILx_BandStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="709"><highlight class="normal"></highlight></codeline>
+<codeline lineno="718" refid="wrap__therMAILx_8h_1a924f691be0b214f6c2cfa1589ededc2a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a924f691be0b214f6c2cfa1589ededc2a" kindref="member">therMAILx_SparseStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="719"><highlight class="normal"></highlight></codeline>
+<codeline lineno="728" refid="wrap__therMAILx_8h_1a4f206f9b9f02bb9ff2ac1d009aedba5e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a4f206f9b9f02bb9ff2ac1d009aedba5e" kindref="member">therMAILx_ExplodedStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="729"><highlight class="normal"></highlight></codeline>
+<codeline lineno="738" refid="wrap__therMAILx_8h_1a2ea1c64b99ddca59a10f50d85cb09683" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a2ea1c64b99ddca59a10f50d85cb09683" kindref="member">therMAILx_DiagonalStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="739"><highlight class="normal"></highlight></codeline>
+<codeline lineno="748" refid="wrap__therMAILx_8h_1ae7be9ec07a186b3befd699ef6afc8066" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1ae7be9ec07a186b3befd699ef6afc8066" kindref="member">therMAILx_SkylineStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="749"><highlight class="normal"></highlight></codeline>
+<codeline lineno="758" refid="wrap__therMAILx_8h_1afee0bbaff1b038fc122c75e0f0eaded6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1afee0bbaff1b038fc122c75e0f0eaded6" kindref="member">therMAILx_FullStorage</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="759"><highlight class="normal"></highlight></codeline>
+<codeline lineno="768" refid="wrap__therMAILx_8h_1ad6f5212aa174f1930364b8f3f61a306e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1ad6f5212aa174f1930364b8f3f61a306e" kindref="member">therMAILx_SymmetricShape</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="769"><highlight class="normal"></highlight></codeline>
+<codeline lineno="778" refid="wrap__therMAILx_8h_1ae3351882e710b36b7c42c33ac455a7d8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1ae3351882e710b36b7c42c33ac455a7d8" kindref="member">therMAILx_UnspecifiedShape</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="779"><highlight class="normal"></highlight></codeline>
+<codeline lineno="780"><highlight class="normal"></highlight></codeline>
+<codeline lineno="781"><highlight class="normal"></highlight></codeline>
+<codeline lineno="799" refid="wrap__therMAILx_8h_1ae4b3e3993d510e68ffc5fc31b567d2ca" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1ae4b3e3993d510e68ffc5fc31b567d2ca" kindref="member">therMAILx_GetGrad</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="800"><highlight class="normal"></highlight></codeline>
+<codeline lineno="818" refid="wrap__therMAILx_8h_1a0f21bc9c3c094c7e5a50d4e2a07b10bd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a0f21bc9c3c094c7e5a50d4e2a07b10bd" kindref="member">therMAILx_GetFlux</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>dim2);</highlight></codeline>
+<codeline lineno="819"><highlight class="normal"></highlight></codeline>
+<codeline lineno="828" refid="wrap__therMAILx_8h_1a7029a2b00d1415b4f3af2f167155d3d8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a7029a2b00d1415b4f3af2f167155d3d8" kindref="member">therMAILx_InitializeElementaryFlux</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="829"><highlight class="normal"></highlight></codeline>
+<codeline lineno="847" refid="wrap__therMAILx_8h_1a0646ae7804ec9f72a58fcf23eef7508e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a0646ae7804ec9f72a58fcf23eef7508e" kindref="member">therMAILx_GetCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="848"><highlight class="normal"></highlight></codeline>
+<codeline lineno="865" refid="wrap__therMAILx_8h_1a13be3a00facdf77fc1bcbff93ef4c12d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a13be3a00facdf77fc1bcbff93ef4c12d" kindref="member">therMAILx_GetConnectivity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>i4_size<sp/>);</highlight></codeline>
+<codeline lineno="866"><highlight class="normal"></highlight></codeline>
+<codeline lineno="884" refid="wrap__therMAILx_8h_1a8a45ff10e212ce89f33ecdd9809a3bbc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a8a45ff10e212ce89f33ecdd9809a3bbc" kindref="member">therMAILx_GetAll</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="885"><highlight class="normal"></highlight></codeline>
+<codeline lineno="903" refid="wrap__therMAILx_8h_1a73265f73fc833c7eff84f6f5675b31e0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a73265f73fc833c7eff84f6f5675b31e0" kindref="member">therMAILx_GetGpCoor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2);</highlight></codeline>
+<codeline lineno="904"><highlight class="normal"></highlight></codeline>
+<codeline lineno="927" refid="wrap__therMAILx_8h_1a003b4ef31fec7f4466fb1d7bc05d01db" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a003b4ef31fec7f4466fb1d7bc05d01db" kindref="member">therMAILx_GetGpField</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBody,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idEle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idGp,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idField,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size<sp/>);</highlight></codeline>
+<codeline lineno="928"><highlight class="normal"></highlight></codeline>
+<codeline lineno="929"><highlight class="normal"></highlight></codeline>
+<codeline lineno="930"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>elucider<sp/>a<sp/>quoi<sp/>ca<sp/>sert<sp/>...<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="931"><highlight class="normal"></highlight></codeline>
+<codeline lineno="940" refid="wrap__therMAILx_8h_1aa8cd7e699e549f99a4f76e0ec95011fa" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1aa8cd7e699e549f99a4f76e0ec95011fa" kindref="member">therMAILx_TrialAssembThermKT</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="941"><highlight class="normal"></highlight></codeline>
+<codeline lineno="950" refid="wrap__therMAILx_8h_1a672f3c6574c3448e4ad212e07d859241" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a672f3c6574c3448e4ad212e07d859241" kindref="member">therMAILx_TrialAssembThermRHS</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="951"><highlight class="normal"></highlight></codeline>
+<codeline lineno="960" refid="wrap__therMAILx_8h_1a0ed2ae37c4bdebe8d1a80ff94ce5936d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a0ed2ae37c4bdebe8d1a80ff94ce5936d" kindref="member">therMAILx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="961"><highlight class="normal"></highlight></codeline>
+<codeline lineno="962"><highlight class="normal"></highlight></codeline>
+<codeline lineno="971" refid="wrap__therMAILx_8h_1afe42d2381d09e5d74d79b8efb8a4b09f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1afe42d2381d09e5d74d79b8efb8a4b09f" kindref="member">therMAILx_CheckProperties</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="972"><highlight class="normal"></highlight></codeline>
+<codeline lineno="994" refid="wrap__therMAILx_8h_1af7b9a78ed07525dcc11ea10af6a9fdec" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1af7b9a78ed07525dcc11ea10af6a9fdec" kindref="member">therMAILx_GetNbGpByElem</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>vector_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>i4_size);</highlight></codeline>
+<codeline lineno="995"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1011" refid="wrap__therMAILx_8h_1a66c0381402f5310154ea33964633e615" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__therMAILx_8h_1a66c0381402f5310154ea33964633e615" kindref="member">therMAILx_GetNbGp</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iblmty);</highlight></codeline>
+<codeline lineno="1012"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1013"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_therMAILx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_therMAILx.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__mp__solver_8h" kind="file" language="C++">
+    <compoundname>wrap_mp_solver.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a6de7ff5ff5d05272fc7786668870f59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_ReadMpBehaviour</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_ReadMpBehaviour</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a6de7ff5ff5d05272fc7786668870f59d" kindref="member">mp_solver_ReadMpBehaviour()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="52" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="52" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a58eac831e05e74199d34a7b2debac387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_WriteMpBehaviour</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_WriteMpBehaviour</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a58eac831e05e74199d34a7b2debac387" kindref="member">mp_solver_WriteMpBehaviour()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="62" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="62" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1ab54a204722d8bd59a26d354b65e5c927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_ReadIniMpValues</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>mp_solver_ReadIniMpValues</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read MP_VALUES file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If num &lt;= 0 : DATBOX/MP_VALUES.INI file is read Else : OUTBOX/MP_VALUES.OUT.num is read, num being the parameter used in TimeEvolution_ReadIniDof last call</para>
+<para>usage : mp_solver_ReadIniMpValues(num=0) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="82" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="82" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1ad8ebf497ff9eb1ff5ce126981b672670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_WriteOutMpValues</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_WriteOutMpValues</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1ad8ebf497ff9eb1ff5ce126981b672670" kindref="member">mp_solver_WriteOutMpValues()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="92" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="92" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a816cc559c6aa1356ddf7b601a276ed74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_WriteLastMpValues</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_WriteLastMpValues</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a816cc559c6aa1356ddf7b601a276ed74" kindref="member">mp_solver_WriteLastMpValues()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="102" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="102" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a20308ffbb30e9e6d80d252b7e7aeff8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_SolveElectro1G</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_SolveElectro1G</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a20308ffbb30e9e6d80d252b7e7aeff8a" kindref="member">mp_solver_SolveElectro1G()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="112" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="112" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a0c4e910223f66d13b15011c1a048597e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_SolveNlElectro1G</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_SolveNlElectro1G</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a0c4e910223f66d13b15011c1a048597e" kindref="member">mp_solver_SolveNlElectro1G()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="122" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="122" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a4931c7c6d0a2c5024353228ad6ace2d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_SolveThermoProblem</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_SolveThermoProblem</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a4931c7c6d0a2c5024353228ad6ace2d5" kindref="member">mp_solver_SolveThermoProblem()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="132" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="132" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a239cf94ef7a07551ba1591fa23750693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_UpdateThermoProblem</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_UpdateThermoProblem</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a239cf94ef7a07551ba1591fa23750693" kindref="member">mp_solver_UpdateThermoProblem()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="142" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="142" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a35d5cbb908794935c390f7a73eb4dcf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_RecupTemperature</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_RecupTemperature</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a35d5cbb908794935c390f7a73eb4dcf5" kindref="member">mp_solver_RecupTemperature()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="152" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="152" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1ac8ea7c2db35ff5b6b269f1a79c0bc33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_RecupPotential</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_RecupPotential</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1ac8ea7c2db35ff5b6b269f1a79c0bc33e" kindref="member">mp_solver_RecupPotential()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="162" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="162" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1ae495fb7974db49c0a4d8e2fd0908f755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_UpdateConductivity</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_UpdateConductivity</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1ae495fb7974db49c0a4d8e2fd0908f755" kindref="member">mp_solver_UpdateConductivity()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="172" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="172" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a5743a13d19a18234e069691b495e3a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_InitThermalConductivity</definition>
+        <argsstring>(void)</argsstring>
+        <name>mp_solver_InitThermalConductivity</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>python usage : <ref refid="wrap__mp__solver_8h_1a5743a13d19a18234e069691b495e3a2f" kindref="member">mp_solver_InitThermalConductivity()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="182" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="182" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a2bcdbde6794891ce6c2cb880ba37662d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_GetBrancheValues</definition>
+        <argsstring>(char *c5, int itact, double **r8_vector, int *r8_size)</argsstring>
+        <name>mp_solver_GetBrancheValues</name>
+        <param>
+          <type>char *</type>
+          <declname>c5</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>itact</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="193" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="193" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1a9da664bd1e3f924cf93bfca0a46fcbad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_PutHeatGenerationFactor</definition>
+        <argsstring>(double ivalue)</argsstring>
+        <name>mp_solver_PutHeatGenerationFactor</name>
+        <param>
+          <type>double</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>python usage : value = mp_solver_PutHeatGenerationFactor(ivalue) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="204" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="204" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__mp__solver_8h_1ac484a38eaf1ca4e8c7369dd06a968e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mp_solver_PutHeatConductionContinueFactor</definition>
+        <argsstring>(double ivalue)</argsstring>
+        <name>mp_solver_PutHeatConductionContinueFactor</name>
+        <param>
+          <type>double</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>python usage : value = mp_solver_PutHeatConductionContinueFactor(ivalue) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" line="215" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h" declline="215" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_mp_solver_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_mp_solver_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="wrap__mp__solver_8h_1a6de7ff5ff5d05272fc7786668870f59d" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a6de7ff5ff5d05272fc7786668870f59d" kindref="member">mp_solver_ReadMpBehaviour</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="wrap__mp__solver_8h_1a58eac831e05e74199d34a7b2debac387" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a58eac831e05e74199d34a7b2debac387" kindref="member">mp_solver_WriteMpBehaviour</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="wrap__mp__solver_8h_1ab54a204722d8bd59a26d354b65e5c927" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1ab54a204722d8bd59a26d354b65e5c927" kindref="member">mp_solver_ReadIniMpValues</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="wrap__mp__solver_8h_1ad8ebf497ff9eb1ff5ce126981b672670" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1ad8ebf497ff9eb1ff5ce126981b672670" kindref="member">mp_solver_WriteOutMpValues</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="wrap__mp__solver_8h_1a816cc559c6aa1356ddf7b601a276ed74" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a816cc559c6aa1356ddf7b601a276ed74" kindref="member">mp_solver_WriteLastMpValues</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="wrap__mp__solver_8h_1a20308ffbb30e9e6d80d252b7e7aeff8a" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a20308ffbb30e9e6d80d252b7e7aeff8a" kindref="member">mp_solver_SolveElectro1G</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="wrap__mp__solver_8h_1a0c4e910223f66d13b15011c1a048597e" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a0c4e910223f66d13b15011c1a048597e" kindref="member">mp_solver_SolveNlElectro1G</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="wrap__mp__solver_8h_1a4931c7c6d0a2c5024353228ad6ace2d5" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a4931c7c6d0a2c5024353228ad6ace2d5" kindref="member">mp_solver_SolveThermoProblem</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="wrap__mp__solver_8h_1a239cf94ef7a07551ba1591fa23750693" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a239cf94ef7a07551ba1591fa23750693" kindref="member">mp_solver_UpdateThermoProblem</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="wrap__mp__solver_8h_1a35d5cbb908794935c390f7a73eb4dcf5" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a35d5cbb908794935c390f7a73eb4dcf5" kindref="member">mp_solver_RecupTemperature</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="wrap__mp__solver_8h_1ac8ea7c2db35ff5b6b269f1a79c0bc33e" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1ac8ea7c2db35ff5b6b269f1a79c0bc33e" kindref="member">mp_solver_RecupPotential</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="wrap__mp__solver_8h_1ae495fb7974db49c0a4d8e2fd0908f755" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1ae495fb7974db49c0a4d8e2fd0908f755" kindref="member">mp_solver_UpdateConductivity</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="wrap__mp__solver_8h_1a5743a13d19a18234e069691b495e3a2f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a5743a13d19a18234e069691b495e3a2f" kindref="member">mp_solver_InitThermalConductivity</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="wrap__mp__solver_8h_1a2bcdbde6794891ce6c2cb880ba37662d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a2bcdbde6794891ce6c2cb880ba37662d" kindref="member">mp_solver_GetBrancheValues</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>c5,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itact,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="wrap__mp__solver_8h_1a9da664bd1e3f924cf93bfca0a46fcbad" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1a9da664bd1e3f924cf93bfca0a46fcbad" kindref="member">mp_solver_PutHeatGenerationFactor</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="wrap__mp__solver_8h_1ac484a38eaf1ca4e8c7369dd06a968e4c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__mp__solver_8h_1ac484a38eaf1ca4e8c7369dd06a968e4c" kindref="member">mp_solver_PutHeatConductionContinueFactor</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_mp_solver_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_mp_solver.h"/>
+  </compounddef>
+</doxygen>

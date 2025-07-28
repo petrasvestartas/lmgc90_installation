@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__CSxxx_8h" kind="file" language="C++">
+    <compoundname>wrap_CSxxx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a3711de206fa58d0bccc8b2878d122c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSxxx_LoadTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSxxx_LoadTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Load CSxxx from MAILx and Initialize existing_entities. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSxxx_8h_1a3711de206fa58d0bccc8b2878d122c9d" kindref="member">CSxxx_LoadTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="52" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="52" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a3171f57f3c5bbdd57f1417978314210a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSxxx_PushPreconNodes</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSxxx_PushPreconNodes</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>set CSxxx supporting nodes as precon </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSxxx_8h_1a3171f57f3c5bbdd57f1417978314210a" kindref="member">CSxxx_PushPreconNodes()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="62" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="62" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1ab3f856067a819654c7c474009beb4a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSxxx_FlipOrientation</definition>
+        <argsstring>(int ibdyty)</argsstring>
+        <name>CSxxx_FlipOrientation</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <briefdescription>
+<para>Flip normal of all CSxxx of a given MAILx body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : CSxxx_FlipOrientation(ibdyty) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of desired body </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="77" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="77" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a4aebb0d0461783b6f656b1d1e8e1d8ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSxxx_FlipOrientationOnePatch</definition>
+        <argsstring>(int ibdyty, int icspxx)</argsstring>
+        <name>CSxxx_FlipOrientationOnePatch</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>icspxx</declname>
+        </param>
+        <briefdescription>
+<para>Flip normal of CSxxx belonging to given patch of a given MAILx body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : CSxxx_FlipOrientationOnePatch(ibdyty,icspxx) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of desired body </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icspxx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of desired patch </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="94" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="94" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a1230aaade270916741532de40781305c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSxxx_SetShrink</definition>
+        <argsstring>(double shrink)</argsstring>
+        <name>CSxxx_SetShrink</name>
+        <param>
+          <type>double</type>
+          <declname>shrink</declname>
+        </param>
+        <briefdescription>
+<para>shrink position of nodes in CSxxx contactors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : CSxxx_SetShrink(shrink) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">shrink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : shrink value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="109" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="109" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a42ff9c4cdf71ef2db0313c75bac5cd73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSxxx_SetQuadrature</definition>
+        <argsstring>(int ivalue)</argsstring>
+        <name>CSxxx_SetQuadrature</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <briefdescription>
+<para>Set the contact quadrature rule of a CSxxx face. OBSOLETE FUNCTION !!!! To remove in the future. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : CSxxx_SetQuadrature(ivalue) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : degree on CSxxx contactor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="125" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="125" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a1c538ebc564621f0ad1683a9fac80d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSxxx_AddReac</definition>
+        <argsstring>(char *cvalue1_c, int ivalue, double *rvector_in, int rlength_in)</argsstring>
+        <name>CSxxx_AddReac</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1_c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>Apply an external reaction on a CSxxx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : CSxxx_AddReac(datatype, iCSxxx, reac) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">datatype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string of size 5) : the vector to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iCSxxx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the CSpxx </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">reac</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the value to add </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="143" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="143" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a93fa8507720944d71fe5bb24088f010a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSpxx_ApplySurfaceLoad</definition>
+        <argsstring>(int ivalue, double *rvector_in, int rlength_in)</argsstring>
+        <name>CSpxx_ApplySurfaceLoad</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="160" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="160" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1aa4c20e0838d5f62432a6a4f662ea8e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSpxx_ApplyPressure</definition>
+        <argsstring>(int ivalue, double rvalue)</argsstring>
+        <name>CSpxx_ApplyPressure</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rvalue</declname>
+        </param>
+        <briefdescription>
+<para>Apply an external pressure on a CSpxx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : CSpxx_ApplyPressure(ivalue,rvalue) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ivalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the CSpxx </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : pressure </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="177" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="177" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1abf20f13d7be76261c2e2bdf9689a2e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CSxxx_GetNbCSxxx</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSxxx_GetNbCSxxx</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of CSxxx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>usage : nb_CSxxx = <ref refid="wrap__CSxxx_8h_1abf20f13d7be76261c2e2bdf9689a2e7b" kindref="member">CSxxx_GetNbCSxxx()</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nb_CSxxx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of CSxxx in container </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="192" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="192" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a56d019482c42305d772cde175d73662d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSpxx_GetAllConnec</definition>
+        <argsstring>(int **i4_vector, int *i4_size)</argsstring>
+        <name>CSpxx_GetAllConnec</name>
+        <param>
+          <type>int **</type>
+          <declname>i4_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_size</declname>
+        </param>
+        <briefdescription>
+<para>return connectivity of all CS in a single vector using gloab node numbering of mecaMAILx </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : connec = CSxxx_getAllConnec() <simplesect kind="return"><para>connec (integer 1D-array) : connectiviy of CSxxx elements </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="208" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="208" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1a7feacefb8a79f59fb5ceb51dbdf82704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSpxx_GetAllData</definition>
+        <argsstring>(int **i4_matrix, int *i4_dim1, int *i4_dim2, double **matrix_out, int *dim1, int *dim2)</argsstring>
+        <name>CSpxx_GetAllData</name>
+        <param>
+          <type>int **</type>
+          <declname>i4_matrix</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>i4_dim2</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>matrix_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim1</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dim2</declname>
+        </param>
+        <briefdescription>
+<para>return integer (ibdyty, itacty, i_as) and real data (normal) of all CSxxx </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : idata, rdata = CSxxx_getAllData() <simplesect kind="return"><para>idata (integer 2D-array) : integer data array </para>
+</simplesect>
+<simplesect kind="return"><para>rdata (real 2D-array) : real data array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="229" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="229" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSxxx_8h_1acab6d6907b9f9d16e21d329aedcdb449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSxxx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSxxx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within CSxxx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSxxx_8h_1acab6d6907b9f9d16e21d329aedcdb449" kindref="member">CSxxx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" line="240" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h" declline="240" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_CSxxx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_CSxxx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52" refid="wrap__CSxxx_8h_1a3711de206fa58d0bccc8b2878d122c9d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a3711de206fa58d0bccc8b2878d122c9d" kindref="member">CSxxx_LoadTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="wrap__CSxxx_8h_1a3171f57f3c5bbdd57f1417978314210a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a3171f57f3c5bbdd57f1417978314210a" kindref="member">CSxxx_PushPreconNodes</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="wrap__CSxxx_8h_1ab3f856067a819654c7c474009beb4a70" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1ab3f856067a819654c7c474009beb4a70" kindref="member">CSxxx_FlipOrientation</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="wrap__CSxxx_8h_1a4aebb0d0461783b6f656b1d1e8e1d8ec" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a4aebb0d0461783b6f656b1d1e8e1d8ec" kindref="member">CSxxx_FlipOrientationOnePatch</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>icspxx);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="wrap__CSxxx_8h_1a1230aaade270916741532de40781305c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a1230aaade270916741532de40781305c" kindref="member">CSxxx_SetShrink</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>shrink);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="wrap__CSxxx_8h_1a42ff9c4cdf71ef2db0313c75bac5cd73" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a42ff9c4cdf71ef2db0313c75bac5cd73" kindref="member">CSxxx_SetQuadrature</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="wrap__CSxxx_8h_1a1c538ebc564621f0ad1683a9fac80d67" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a1c538ebc564621f0ad1683a9fac80d67" kindref="member">CSxxx_AddReac</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="wrap__CSxxx_8h_1a93fa8507720944d71fe5bb24088f010a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a93fa8507720944d71fe5bb24088f010a" kindref="member">CSpxx_ApplySurfaceLoad</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="wrap__CSxxx_8h_1aa4c20e0838d5f62432a6a4f662ea8e96" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1aa4c20e0838d5f62432a6a4f662ea8e96" kindref="member">CSpxx_ApplyPressure</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rvalue);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="wrap__CSxxx_8h_1abf20f13d7be76261c2e2bdf9689a2e7b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1abf20f13d7be76261c2e2bdf9689a2e7b" kindref="member">CSxxx_GetNbCSxxx</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="wrap__CSxxx_8h_1a56d019482c42305d772cde175d73662d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a56d019482c42305d772cde175d73662d" kindref="member">CSpxx_GetAllConnec</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>i4_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>i4_size);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="wrap__CSxxx_8h_1a7feacefb8a79f59fb5ceb51dbdf82704" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1a7feacefb8a79f59fb5ceb51dbdf82704" kindref="member">CSpxx_GetAllData</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/>i4_matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>i4_dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>i4_dim2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>**<sp/>matrix_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>dim2<sp/>);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="wrap__CSxxx_8h_1acab6d6907b9f9d16e21d329aedcdb449" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSxxx_8h_1acab6d6907b9f9d16e21d329aedcdb449" kindref="member">CSxxx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_CSxxx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_CSxxx.h"/>
+  </compounddef>
+</doxygen>

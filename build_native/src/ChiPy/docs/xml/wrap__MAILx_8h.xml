@@ -1,0 +1,645 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__MAILx_8h" kind="file" language="C++">
+    <compoundname>wrap_MAILx.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__MAILx_8h_1a18f6c2e9c30d8e3ced4ea41a11629a27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_ReadBodies</definition>
+        <argsstring>(char const *version=&quot;&quot;)</argsstring>
+        <name>MAILx_ReadBodies</name>
+        <param>
+          <type>char const *</type>
+          <declname>version</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>read MAILx from DATBOX/BODIES.DAT </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input string is of form vX.Y where X is major version number and Y is minor one. <linebreak/>
+ If not specified, last available version is used.</para>
+<para>python usage : MAILx_ReadBodies(version)</para>
+<para>param[in] version (string) : file format version to use </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="62" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="62" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1acfccf8c4b21890c604eec084a895ac9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_WriteBodies</definition>
+        <argsstring>(char const *version=&quot;&quot;)</argsstring>
+        <name>MAILx_WriteBodies</name>
+        <param>
+          <type>char const *</type>
+          <declname>version</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>write MAILx to OUTBOX/BODIES.OUT </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input string is of form vX.Y where X is major version number and Y is minor one. <linebreak/>
+ If not specified, last available version is used.</para>
+<para>python usage : MAILx_WriteBodies(version)</para>
+<para>param[in] version (string) : file format version to use </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="81" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="81" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a64e0e07b8197df00be35d8242559c088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_WriteLastGPV</definition>
+        <argsstring>(void)</argsstring>
+        <name>MAILx_WriteLastGPV</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write OUTBOX/GPV.LAST </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__MAILx_8h_1a64e0e07b8197df00be35d8242559c088" kindref="member">MAILx_WriteLastGPV()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="91" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="91" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a2362d3bcba6555f0c3fbff30349c87e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_WriteOutGPV</definition>
+        <argsstring>(void)</argsstring>
+        <name>MAILx_WriteOutGPV</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write OUTBOX/GPV.OUT.x </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__MAILx_8h_1a2362d3bcba6555f0c3fbff30349c87e7" kindref="member">MAILx_WriteOutGPV()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="101" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="101" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a201152fed5ccaee0f011d623489ca18c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_DisplayOutGPV</definition>
+        <argsstring>(void)</argsstring>
+        <name>MAILx_DisplayOutGPV</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display GPV values </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__MAILx_8h_1a201152fed5ccaee0f011d623489ca18c" kindref="member">MAILx_DisplayOutGPV()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="111" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="111" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a722c4ca7e6a6296a1d08af335b5be0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_AddDof2InBodies</definition>
+        <argsstring>(void)</argsstring>
+        <name>MAILx_AddDof2InBodies</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>set cooref = cooref + X </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__MAILx_8h_1a722c4ca7e6a6296a1d08af335b5be0c7" kindref="member">MAILx_AddDof2InBodies()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="121" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="121" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a143333401639858cc397c7f8c4640907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MAILx_GetNbMAILx</definition>
+        <argsstring>(void)</argsstring>
+        <name>MAILx_GetNbMAILx</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Get the number of MAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_MAILx = GetNbMAILx()</para>
+<para><simplesect kind="return"><para>nb_MAILx (integer) : number of MAILx </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="137" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="137" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1aae1a272412abbd7718a4c008e2504c7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MAILx_GetNbCell</definition>
+        <argsstring>(int IdBody)</argsstring>
+        <name>MAILx_GetNbCell</name>
+        <param>
+          <type>int</type>
+          <declname>IdBody</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of Cells of a given MAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_MAILx = GetNbCell(IdBody)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_cell (integer) : number of cell </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="156" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="156" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a0b3ea088d1b600aa41c8becaaf62be33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_SetCoorRef</definition>
+        <argsstring>(int IdBody, double *rvector_in, int rlength_in)</argsstring>
+        <name>MAILx_SetCoorRef</name>
+        <param>
+          <type>int</type>
+          <declname>IdBody</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>set reference coordinates on a given body </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MAILx_SetCoorRef(IdBody, f, length)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">IdBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : id of the concern body</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : value of the vitesse</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : length of vector </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="178" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="178" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a93832f732d41dcc10254f6bda7e54bd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double MAILx_GetCoordNodty</definition>
+        <argsstring>(int ivalue1, int ivalue2, int)</argsstring>
+        <name>MAILx_GetCoordNodty</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>Get one coordinate of a node of a body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : x = <ref refid="wrap__MAILx_8h_1a93832f732d41dcc10254f6bda7e54bd8" kindref="member">MAILx_GetCoordNodty(int ibdty,int inodty,int icomp)</ref></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">inodty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the node</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">icomp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the component</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>x (double) : coordinate of node </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="204" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="204" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a0f3ea65f7954f90f177a6545a9e24ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_GetCoordsNodty</definition>
+        <argsstring>(int ivalue1, int ivalue2, double *rvector_out, int rlength_out)</argsstring>
+        <name>MAILx_GetCoordsNodty</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ivalue2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_out</declname>
+        </param>
+        <briefdescription>
+<para>Get the coordinates of a node of a body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : x = MAILx_GetCoordsNodty(int ibdty, int inodty, int length)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of considered body</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">inodty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the node</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : the number of component</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>x (double array) : the desired vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="230" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="230" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1acb095e93c712d8c49fddfe08ad0947ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MAILx_GetNbNodes</definition>
+        <argsstring>(int)</argsstring>
+        <name>MAILx_GetNbNodes</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>Get the number of nodes of a given MAILx. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_nodes = MAILx_GetNbNodes(ibdyty)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : body id</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nb_nodes (integer) : number of nodes of the body </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="250" column="16" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="250" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a60f9cc17febb3ca58485b9f13e0d13db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_InitNodalFields</definition>
+        <argsstring>(int ibdyty, int nb_fields)</argsstring>
+        <name>MAILx_InitNodalFields</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_fields</declname>
+        </param>
+        <briefdescription>
+<para>Set the number of nodal_fields for a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MAILx_InitNodalFields(ibdyty,nb_nodal_fields)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : body id </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nb_nodal_fields</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of nodal fields required </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="269" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="269" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1a270a9b63be72292bc474ccf06696ebc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_InitNodalField</definition>
+        <argsstring>(int ibdyty, char *name, int rank, int sz)</argsstring>
+        <name>MAILx_InitNodalField</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rank</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sz</declname>
+        </param>
+        <briefdescription>
+<para>Set name and size of a nodal_field of a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MAILx_InitNodalField(ibdyty,name,rank,sz)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : body id </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : field name </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : field rank </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : size of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="292" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="292" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1af530c86cf39f94e318458ed0792e1d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_SetNodalField</definition>
+        <argsstring>(int ibdyty, int rank, double *rvector_in, int rlength_in)</argsstring>
+        <name>MAILx_SetNodalField</name>
+        <param>
+          <type>int</type>
+          <declname>ibdyty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rank</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>Set a nodal_field of a given body. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : MAILx_SetNodalField(ibdyty,rank,field)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ibdyty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : body id </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : field rank </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double vector) : field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="314" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="314" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__MAILx_8h_1ac17785ae3e17c08672357906d973b836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAILx_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>MAILx_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within MAILx module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__MAILx_8h_1ac17785ae3e17c08672357906d973b836" kindref="member">MAILx_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" line="324" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h" declline="324" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois<sp/>or<sp/>Remy<sp/>Mozul.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>remy.mozul@umontpellier.fr</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_MAILx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_MAILx_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="wrap__MAILx_8h_1a18f6c2e9c30d8e3ced4ea41a11629a27" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a18f6c2e9c30d8e3ced4ea41a11629a27" kindref="member">MAILx_ReadBodies</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<sp/>version<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="wrap__MAILx_8h_1acfccf8c4b21890c604eec084a895ac9a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1acfccf8c4b21890c604eec084a895ac9a" kindref="member">MAILx_WriteBodies</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<sp/>version<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="wrap__MAILx_8h_1a64e0e07b8197df00be35d8242559c088" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a64e0e07b8197df00be35d8242559c088" kindref="member">MAILx_WriteLastGPV</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="wrap__MAILx_8h_1a2362d3bcba6555f0c3fbff30349c87e7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a2362d3bcba6555f0c3fbff30349c87e7" kindref="member">MAILx_WriteOutGPV</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="wrap__MAILx_8h_1a201152fed5ccaee0f011d623489ca18c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a201152fed5ccaee0f011d623489ca18c" kindref="member">MAILx_DisplayOutGPV</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="wrap__MAILx_8h_1a722c4ca7e6a6296a1d08af335b5be0c7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a722c4ca7e6a6296a1d08af335b5be0c7" kindref="member">MAILx_AddDof2InBodies</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="137" refid="wrap__MAILx_8h_1a143333401639858cc397c7f8c4640907" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a143333401639858cc397c7f8c4640907" kindref="member">MAILx_GetNbMAILx</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="156" refid="wrap__MAILx_8h_1aae1a272412abbd7718a4c008e2504c7f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1aae1a272412abbd7718a4c008e2504c7f" kindref="member">MAILx_GetNbCell</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IdBody);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="wrap__MAILx_8h_1a0b3ea088d1b600aa41c8becaaf62be33" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a0b3ea088d1b600aa41c8becaaf62be33" kindref="member">MAILx_SetCoorRef</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IdBody,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="wrap__MAILx_8h_1a93832f732d41dcc10254f6bda7e54bd8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a93832f732d41dcc10254f6bda7e54bd8" kindref="member">MAILx_GetCoordNodty</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2<sp/>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="wrap__MAILx_8h_1a0f3ea65f7954f90f177a6545a9e24ed9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a0f3ea65f7954f90f177a6545a9e24ed9" kindref="member">MAILx_GetCoordsNodty</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_out);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="wrap__MAILx_8h_1acb095e93c712d8c49fddfe08ad0947ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1acb095e93c712d8c49fddfe08ad0947ff" kindref="member">MAILx_GetNbNodes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="wrap__MAILx_8h_1a60f9cc17febb3ca58485b9f13e0d13db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a60f9cc17febb3ca58485b9f13e0d13db" kindref="member">MAILx_InitNodalFields</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_fields);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="wrap__MAILx_8h_1a270a9b63be72292bc474ccf06696ebc2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1a270a9b63be72292bc474ccf06696ebc2" kindref="member">MAILx_InitNodalField</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rank,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sz);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="wrap__MAILx_8h_1af530c86cf39f94e318458ed0792e1d9e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1af530c86cf39f94e318458ed0792e1d9e" kindref="member">MAILx_SetNodalField</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibdyty,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rank,<sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324" refid="wrap__MAILx_8h_1ac17785ae3e17c08672357906d973b836" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__MAILx_8h_1ac17785ae3e17c08672357906d973b836" kindref="member">MAILx_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_MAILx_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/mailx/wrap_MAILx.h"/>
+  </compounddef>
+</doxygen>

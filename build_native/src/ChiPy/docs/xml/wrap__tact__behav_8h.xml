@@ -1,0 +1,896 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__tact__behav_8h" kind="file" language="C++">
+    <compoundname>wrap_tact_behav.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__tact__behav_8h_1aa6f3f9df414e8eaab1a7eea19dfd87af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_OpenBehavContainer</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_OpenBehavContainer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>open the container (access as a linked list) in order to add/remove objects </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1aa6f3f9df414e8eaab1a7eea19dfd87af" kindref="member">tact_behav_OpenBehavContainer()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="53" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="53" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a1b16c159bd71ad4cb9c418ca29134e65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_CloseBehavContainer</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_CloseBehavContainer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>close the container (access as an array) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : tact_behav_TactBehavContainer() </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="63" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="63" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1af0ef5222978408a4833bd522dccef2d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_OpenSeeContainer</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_OpenSeeContainer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>open the container (access as a linked list) in order to add/remove objects </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1af0ef5222978408a4833bd522dccef2d3" kindref="member">tact_behav_OpenSeeContainer()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="73" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="73" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1afd3b57fb44f2a33326044f880fafab27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_CloseSeeContainer</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_CloseSeeContainer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>close the container (access as an array) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1afd3b57fb44f2a33326044f880fafab27" kindref="member">tact_behav_CloseSeeContainer()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="83" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="83" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a64a62ca0055c95134354070e030ede95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_FillContainersFromFile</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_FillContainersFromFile</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>read DATBOX/TACT_BEHAV.DAT and fill the containers (see and tact) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1a64a62ca0055c95134354070e030ede95" kindref="member">tact_behav_FillContainersFromFile()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="93" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="93" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a807a977a768be80fa19e7f1816e25ccd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_AddToSeeContainer</definition>
+        <argsstring>(char *c_cdbdy, char *c_cdtac, char *c_cdcol, char *c_behav, char *c_anbdy, char *c_antac, char *c_ancol, double c_alert, double c_global_alert)</argsstring>
+        <name>tact_behav_AddToSeeContainer</name>
+        <param>
+          <type>char *</type>
+          <declname>c_cdbdy</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>c_cdtac</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>c_cdcol</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>c_behav</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>c_anbdy</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>c_antac</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>c_ancol</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c_alert</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c_global_alert</declname>
+        </param>
+        <briefdescription>
+<para>add a see table to the container </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : tact_behav_AddToSeeContainer(cdbdy,cdtac,cdcol,behav,anbdy,antac,ancol,alert,global_alert) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="106" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="106" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1aca2840b971011fe41e8718d590b9f1ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_ReadBehaviours</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_ReadBehaviours</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>open + fill + close </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1aca2840b971011fe41e8718d590b9f1ed" kindref="member">tact_behav_ReadBehaviours()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="119" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="119" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1af66341bed9d515cdc5ae509cd458f0a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_CollectOutTactBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_CollectOutTactBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>old fashion read from OUTBOX/TACT_BEHAV.OUT </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1af66341bed9d515cdc5ae509cd458f0a5" kindref="member">tact_behav_CollectOutTactBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="129" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="129" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a1f27278c2d42155095685b1a19eb3cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_WriteBehaviours</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_WriteBehaviours</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write (replace) tact and see to OUTBOX/TACT_BEHAV.OUT </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1a1f27278c2d42155095685b1a19eb3cc1" kindref="member">tact_behav_WriteBehaviours()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="139" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="139" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a822dcd5fb03235a986cb7a855680d539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_AppendOutTactBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_AppendOutTactBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write (append) tact and see to OUTBOX/TACT_BEHAV.OUT </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1a822dcd5fb03235a986cb7a855680d539" kindref="member">tact_behav_AppendOutTactBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="149" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="149" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a78bef0e6e760d5732220cc012d2d8ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_RebuildInTactBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_RebuildInTactBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write (replace) tact and see to DATBOX/TACT_BEHAV.DAT </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1a78bef0e6e760d5732220cc012d2d8ef9" kindref="member">tact_behav_RebuildInTactBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="159" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="159" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1ab91ec92792fc822ed8190a465854c481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_CleanOutTactBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_CleanOutTactBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>erase OUTBOX/TACT_BEHAV.OUT </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1ab91ec92792fc822ed8190a465854c481" kindref="member">tact_behav_CleanOutTactBehav()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="169" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="169" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1ade54c92ae6751ad031a7f52431ae6d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tact_behav_GetNbTactBehav</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_GetNbTactBehav</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>get the number of tact laws </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : nb_tact_behav = <ref refid="wrap__tact__behav_8h_1ade54c92ae6751ad031a7f52431ae6d4d" kindref="member">tact_behav_GetNbTactBehav()</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">nb_tact_behav</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of contact behaviour in lmgc90 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="184" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="184" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1afd6ab677b7f2d09c057992aae8418cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_GetTactBehav</definition>
+        <argsstring>(int i_tb, char **string_out, int *string_size, int *real_size, char **c5, double **r8_vector, int *r8_size)</argsstring>
+        <name>tact_behav_GetTactBehav</name>
+        <param>
+          <type>int</type>
+          <declname>i_tb</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>string_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>real_size</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>c5</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>r8_vector</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>r8_size</declname>
+        </param>
+        <briefdescription>
+<para>get information related to a given tact law </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : [lawty, behav, param] = tact_behav_GetTactBehav(i_tb) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_tb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank (in the contact laws list) of the desired tact_behav </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">lawty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : type of the contact law </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">behav</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(string) : name of the contact law </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real vector) : parameters of the law </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="208" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="208" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1af6852c93bb191abd5c5591e2d2be54d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_GetInternalComment</definition>
+        <argsstring>(int ivalue, char **string_out, int *string_size, int *real_size)</argsstring>
+        <name>tact_behav_GetInternalComment</name>
+        <param>
+          <type>int</type>
+          <declname>ivalue</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>string_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>real_size</declname>
+        </param>
+        <briefdescription>
+<para>Get internal variables comment of a given interaction law. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : comment = tact_behav_GetInternalComment(ilaw) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ilaw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the interaction law </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>comment (char[100]) : the string to get </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="227" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="227" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a8593c0ad7a23bc6438051e378d308512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_SetCZMwithInitialFriction</definition>
+        <argsstring>(double pow=0.)</argsstring>
+        <name>tact_behav_SetCZMwithInitialFriction</name>
+        <param>
+          <type>double</type>
+          <declname>pow</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+<para>define the way friction evolve with damage: =0. constant value, (1. - beta)**pow otherwize </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : tact_behav_SetCZMwithInitialFriction(pow) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : parameter of power law evlution for friction mu(beta)=mu_s*(1-beta)**pow </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="239" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="239" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1ae7e9ef2c5f54e6963d8bef0b0a465cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_initFrictionEvolution</definition>
+        <argsstring>()</argsstring>
+        <name>tact_behav_initFrictionEvolution</name>
+        <briefdescription>
+<para>[experimental] read a friction time evolution map </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1ae7e9ef2c5f54e6963d8bef0b0a465cd4" kindref="member">tact_behav_initFrictionEvolution()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="250" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="250" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1aeea05131c0c33bb76d04b9efb9462fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_setRandomFriction</definition>
+        <argsstring>(double r8)</argsstring>
+        <name>tact_behav_setRandomFriction</name>
+        <param>
+          <type>double</type>
+          <declname>r8</declname>
+        </param>
+        <briefdescription>
+<para>Active variation of local friction. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : tact_behav_setRandomFriction(r8) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="261" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="261" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1ad9f3b15861bb1ea2b746e9c893c128a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tact_behav_GetTactBehavRankFromName</definition>
+        <argsstring>(char *cvalue1)</argsstring>
+        <name>tact_behav_GetTactBehavRankFromName</name>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+        </param>
+        <briefdescription>
+<para>get the rank (in the list of tact laws) of a tact behav law </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : rank = tact_behav_GetTactBehavRankFromName(c5) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="272" column="16" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="272" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1aa56b411657cdd6c4961d5e6faa2c854b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tact_behav_GetParamRankFromName</definition>
+        <argsstring>(int i_tact, char *cvalue1)</argsstring>
+        <name>tact_behav_GetParamRankFromName</name>
+        <param>
+          <type>int</type>
+          <declname>i_tact</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>cvalue1</declname>
+        </param>
+        <briefdescription>
+<para>get the rank of a param for a given tact behav law </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : rank = tact_behav_GetParamRankFromName(i_tact,c5) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="283" column="16" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="283" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a39592eca315a759d386e41dee3a91c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double tact_behav_GetParam</definition>
+        <argsstring>(int i_tact, int i_param)</argsstring>
+        <name>tact_behav_GetParam</name>
+        <param>
+          <type>int</type>
+          <declname>i_tact</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i_param</declname>
+        </param>
+        <briefdescription>
+<para>get the value of a parameter </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : param = tact_behav_GetParam(i_tact,i_param) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_tact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the interaction law </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">i_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the parameter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real ) : value of the parameter </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="297" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="297" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1ad70744fe0b2688eee2f43a00ef36d12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_SetParam</definition>
+        <argsstring>(int i_tact, int i_param, double r8)</argsstring>
+        <name>tact_behav_SetParam</name>
+        <param>
+          <type>int</type>
+          <declname>i_tact</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i_param</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>r8</declname>
+        </param>
+        <briefdescription>
+<para>set the value ... </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : tact_behav_SetParam(i_tact, i_param, param) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i_tact</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the interaction law </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">i_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the parameter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real ) : value of the parameter </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="312" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="312" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a9eb7dd0273ec6f5b2d5642a76cfd9be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_GetLawInternalComment</definition>
+        <argsstring>(char *name, char **string_out, int *string_size, int *real_size)</argsstring>
+        <name>tact_behav_GetLawInternalComment</name>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>string_out</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>string_size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>real_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="331" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="331" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1aa75dc0d0f7b3ec32ec146c2f184726d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_SetRNcap</definition>
+        <argsstring>(double r8)</argsstring>
+        <name>tact_behav_SetRNcap</name>
+        <param>
+          <type>double</type>
+          <declname>r8</declname>
+        </param>
+        <briefdescription>
+<para>set a maximal compression value </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : tact_behav_SetRNcap(param) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="377" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="377" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a39e74df1e1316dd9bf79133ea9e8553c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_SetDilatancyParameters</definition>
+        <argsstring>(double fric, double height)</argsstring>
+        <name>tact_behav_SetDilatancyParameters</name>
+        <param>
+          <type>double</type>
+          <declname>fric</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>set dilatancy parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : tact_behav_SetDilatancyParameters(fric,height) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="388" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="388" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a8ada76232b8db8816af2a47ae810ea57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_SetPressureParameters</definition>
+        <argsstring>(int ibehav, int flag, double *rvector_in, int rlength_in)</argsstring>
+        <name>tact_behav_SetPressureParameters</name>
+        <param>
+          <type>int</type>
+          <declname>ibehav</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>rvector_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rlength_in</declname>
+        </param>
+        <briefdescription>
+<para>set pressure parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ibehav</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : rank of the tact behav </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : kind of build-in pressure law (0 no pressure, 1: time dependent, 2: linearly progressive since crack starts, 3: exponentially progressive since crack starts, 4: external) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double array) : the new value of the params [p0,dp,tau,alpha]</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+python usage : tact_behav_SetPressureParameters(ibehav,flag,params) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="403" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="403" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__tact__behav_8h_1a446661936454e838c1ee018c3350c733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tact_behav_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>tact_behav_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within tact_behav module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__tact__behav_8h_1a446661936454e838c1ee018c3350c733" kindref="member">tact_behav_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" line="413" column="17" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h" declline="413" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*==========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_tact_behav_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_tact_behav_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="wrap__tact__behav_8h_1aa6f3f9df414e8eaab1a7eea19dfd87af" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1aa6f3f9df414e8eaab1a7eea19dfd87af" kindref="member">tact_behav_OpenBehavContainer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="wrap__tact__behav_8h_1a1b16c159bd71ad4cb9c418ca29134e65" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a1b16c159bd71ad4cb9c418ca29134e65" kindref="member">tact_behav_CloseBehavContainer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="wrap__tact__behav_8h_1af0ef5222978408a4833bd522dccef2d3" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1af0ef5222978408a4833bd522dccef2d3" kindref="member">tact_behav_OpenSeeContainer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="wrap__tact__behav_8h_1afd3b57fb44f2a33326044f880fafab27" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1afd3b57fb44f2a33326044f880fafab27" kindref="member">tact_behav_CloseSeeContainer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="wrap__tact__behav_8h_1a64a62ca0055c95134354070e030ede95" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a64a62ca0055c95134354070e030ede95" kindref="member">tact_behav_FillContainersFromFile</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="wrap__tact__behav_8h_1a807a977a768be80fa19e7f1816e25ccd" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a807a977a768be80fa19e7f1816e25ccd" kindref="member">tact_behav_AddToSeeContainer</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>c_cdbdy,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>c_cdtac,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>c_cdcol,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>c_behav,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>c_anbdy,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>c_antac,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>c_ancol,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c_alert,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c_global_alert);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="wrap__tact__behav_8h_1aca2840b971011fe41e8718d590b9f1ed" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1aca2840b971011fe41e8718d590b9f1ed" kindref="member">tact_behav_ReadBehaviours</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="wrap__tact__behav_8h_1af66341bed9d515cdc5ae509cd458f0a5" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1af66341bed9d515cdc5ae509cd458f0a5" kindref="member">tact_behav_CollectOutTactBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="wrap__tact__behav_8h_1a1f27278c2d42155095685b1a19eb3cc1" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a1f27278c2d42155095685b1a19eb3cc1" kindref="member">tact_behav_WriteBehaviours</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="wrap__tact__behav_8h_1a822dcd5fb03235a986cb7a855680d539" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a822dcd5fb03235a986cb7a855680d539" kindref="member">tact_behav_AppendOutTactBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="wrap__tact__behav_8h_1a78bef0e6e760d5732220cc012d2d8ef9" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a78bef0e6e760d5732220cc012d2d8ef9" kindref="member">tact_behav_RebuildInTactBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="wrap__tact__behav_8h_1ab91ec92792fc822ed8190a465854c481" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1ab91ec92792fc822ed8190a465854c481" kindref="member">tact_behav_CleanOutTactBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="wrap__tact__behav_8h_1ade54c92ae6751ad031a7f52431ae6d4d" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1ade54c92ae6751ad031a7f52431ae6d4d" kindref="member">tact_behav_GetNbTactBehav</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="wrap__tact__behav_8h_1afd6ab677b7f2d09c057992aae8418cb2" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1afd6ab677b7f2d09c057992aae8418cb2" kindref="member">tact_behav_GetTactBehav</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_tb,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>real_size,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>c5,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">**<sp/>r8_vector,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>r8_size);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="wrap__tact__behav_8h_1af6852c93bb191abd5c5591e2d2be54d0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1af6852c93bb191abd5c5591e2d2be54d0" kindref="member">tact_behav_GetInternalComment</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ivalue,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>real_size);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="wrap__tact__behav_8h_1a8593c0ad7a23bc6438051e378d308512" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a8593c0ad7a23bc6438051e378d308512" kindref="member">tact_behav_SetCZMwithInitialFriction</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pow<sp/>=<sp/>0.);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="wrap__tact__behav_8h_1ae7e9ef2c5f54e6963d8bef0b0a465cd4" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1ae7e9ef2c5f54e6963d8bef0b0a465cd4" kindref="member">tact_behav_initFrictionEvolution</ref>();</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="wrap__tact__behav_8h_1aeea05131c0c33bb76d04b9efb9462fd1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1aeea05131c0c33bb76d04b9efb9462fd1" kindref="member">tact_behav_setRandomFriction</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r8);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="wrap__tact__behav_8h_1ad9f3b15861bb1ea2b746e9c893c128a0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1ad9f3b15861bb1ea2b746e9c893c128a0" kindref="member">tact_behav_GetTactBehavRankFromName</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="wrap__tact__behav_8h_1aa56b411657cdd6c4961d5e6faa2c854b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1aa56b411657cdd6c4961d5e6faa2c854b" kindref="member">tact_behav_GetParamRankFromName</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_tact,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cvalue1);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="wrap__tact__behav_8h_1a39592eca315a759d386e41dee3a91c74" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a39592eca315a759d386e41dee3a91c74" kindref="member">tact_behav_GetParam</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_tact,<sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_param);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="wrap__tact__behav_8h_1ad70744fe0b2688eee2f43a00ef36d12f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1ad70744fe0b2688eee2f43a00ef36d12f" kindref="member">tact_behav_SetParam</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_tact,<sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i_param,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r8);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="wrap__tact__behav_8h_1a9eb7dd0273ec6f5b2d5642a76cfd9be1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a9eb7dd0273ec6f5b2d5642a76cfd9be1" kindref="member">tact_behav_GetLawInternalComment</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>name,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>string_out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>string_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>real_size);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>fd<sp/>obsolete<sp/>law<sp/>are<sp/>now<sp/>managing<sp/>mixity<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/><sp/>2019-02-07<sp/>keep<sp/>intentionally<sp/>this<sp/>here<sp/>for<sp/>the<sp/>moment<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>/\**<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@fn<sp/>void<sp/>tact_behav_SetG1overG2(double<sp/>r8<sp/>)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@brief<sp/>set<sp/>the<sp/>value<sp/>GI/GII<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>PYDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>python<sp/>usage<sp/>:<sp/>tact_behav_SetG1overG2(param)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*\/<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>void<sp/>tact_behav_SetG1overG2(double<sp/>r8);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>/\**<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@fn<sp/>void<sp/>tact_behav_SetS1overS2(double<sp/>r8<sp/>)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@brief<sp/>set<sp/>the<sp/>value<sp/>SI/SII<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>PYDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>python<sp/>usage<sp/>:<sp/>tact_behav_SetS1overS2(param)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*\/<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>void<sp/>tact_behav_SetS1overS2(double<sp/>r8);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>/\**<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@fn<sp/>void<sp/>tact_behav_SetD1overD2(double<sp/>r8<sp/>)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@brief<sp/>set<sp/>the<sp/>value<sp/>DI/DII<sp/>for<sp/>Tvergaard<sp/>-<sp/>Hutchinson<sp/>trapezoidal<sp/>law<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@cond<sp/>PYDOC<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>python<sp/>usage<sp/>:<sp/>tact_behav_SetD1overD2(param)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>@endcond<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>*\/<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>void<sp/>tact_behav_SetD1overD2(double<sp/>r8);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="wrap__tact__behav_8h_1aa75dc0d0f7b3ec32ec146c2f184726d0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1aa75dc0d0f7b3ec32ec146c2f184726d0" kindref="member">tact_behav_SetRNcap</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r8);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="wrap__tact__behav_8h_1a39e74df1e1316dd9bf79133ea9e8553c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a39e74df1e1316dd9bf79133ea9e8553c" kindref="member">tact_behav_SetDilatancyParameters</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fric,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="403" refid="wrap__tact__behav_8h_1a8ada76232b8db8816af2a47ae810ea57" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a8ada76232b8db8816af2a47ae810ea57" kindref="member">tact_behav_SetPressureParameters</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ibehav,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flag,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>rvector_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rlength_in);</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413" refid="wrap__tact__behav_8h_1a446661936454e838c1ee018c3350c733" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__tact__behav_8h_1a446661936454e838c1ee018c3350c733" kindref="member">tact_behav_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_tact_behav_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/shared/wrap_tact_behav.h"/>
+  </compounddef>
+</doxygen>

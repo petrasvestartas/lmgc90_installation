@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__CSASp_8h" kind="file" language="C++">
+    <compoundname>wrap_CSASp.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__CSASp_8h_1aa434b00a82fde1a5b84b516fa56845df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_SelectProxTactors</definition>
+        <argsstring>(int reset=0, int use_external=0)</argsstring>
+        <name>CSASp_SelectProxTactors</name>
+        <param>
+          <type>int</type>
+          <declname>reset</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>use_external</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>contact detection between CSxxx and ASpxx tactors </para>
+        </briefdescription>
+        <detaileddescription>
+<para>First recup coordinate prediction, then proceed to a box selection to found rough contact list and finally compute the final contact list.</para>
+<para>If reset not equal to 0, the initialization flag is reset and detection skipped</para>
+<para>python usage : CSASp_SelectProxTactors(reset=0,use_external=0)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">reset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : if not 0, detection is skipped but the boxes will be computed anew at next call </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">use_external</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : if not 0, external detection is used </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="60" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="60" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1a9e9000dbfb41225878b9ce5cb80d1e2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_WriteLastVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_WriteLastVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write last local values of all CSASp contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values written are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__CSASp_8h_1a9e9000dbfb41225878b9ce5cb80d1e2e" kindref="member">CSASp_WriteLastVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="72" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="72" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1af5b529bb4f42c31dc9be76eaa6236f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_WriteOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_WriteOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>write local values of all CSASp contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values written are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__CSASp_8h_1af5b529bb4f42c31dc9be76eaa6236f89" kindref="member">CSASp_WriteOutVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="84" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="84" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1a74ab7fffa6fc7d7b8de2c61b66004b4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_DisplayOutVlocRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_DisplayOutVlocRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display local values of all CSASp contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The values displayed are relative velocity, forces and local frame</para>
+<para>python usage : <ref refid="wrap__CSASp_8h_1a74ab7fffa6fc7d7b8de2c61b66004b4d" kindref="member">CSASp_DisplayOutVlocRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="96" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="96" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1ac37d93e97530b33d02ea795d472b97d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_DisplayProxTactors</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_DisplayProxTactors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>display contacts </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSASp_8h_1ac37d93e97530b33d02ea795d472b97d2" kindref="member">CSASp_DisplayProxTactors()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="106" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="106" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1a3b96b81c0553d1dbc5693bcaf37a9444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_ReadIniVlocRloc</definition>
+        <argsstring>(int num=0)</argsstring>
+        <name>CSASp_ReadIniVlocRloc</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Read VlocRloc file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>If num &lt;= 0 : DATBOX/VlocRloc.INI file is read</para>
+</listitem><listitem><para>Else : OUTBOX/VlocRloc.OUT.num is read, num being +the parameter used in TimeEvolution_ReadIniVlocRloc last call</para>
+</listitem></itemizedlist>
+</para>
+<para>usage : CSASp_ReadIniVlocRloc(num=0)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : which VlocRloc file to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="127" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="127" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1a286b52547e125743da2639598518f81c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_SkipAutoContact</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_SkipAutoContact</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>avoid CSxxx/ASpxx contact detection when they belong to the same entity </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSASp_8h_1a286b52547e125743da2639598518f81c" kindref="member">CSASp_SkipAutoContact()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="138" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="138" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1a93a94f3fec3766f5cf5f775b1d04b84c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_SetNonSymmetricDetection</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_SetNonSymmetricDetection</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>this function allows non symetric detection i.e. only one interaction is kept when two bodies with candidate and antagonist contactors see each other </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSASp_8h_1a93a94f3fec3766f5cf5f775b1d04b84c" kindref="member">CSASp_SetNonSymmetricDetection()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="150" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="150" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1a4961740bb2fbeec25c758bf091dc7094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_Trim</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_Trim</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>trim contact (only contact within surface - not with extremities) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSASp_8h_1a4961740bb2fbeec25c758bf091dc7094" kindref="member">CSASp_Trim()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="160" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="160" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1a172f2ee6f98e7acc43c8395532d995f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_SetTrimAngle</definition>
+        <argsstring>(double angle)</argsstring>
+        <name>CSASp_SetTrimAngle</name>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+<para>set the trim angle (only contact within surface - not with extremities) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : CSASp_SetTrimAngle(angle) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(real) : angle in degree - default 87 deg </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="171" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="171" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1ae609d6f6ddefedf226543a7b241854b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_AddReac</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_AddReac</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>add contact force to body Reac </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSASp_8h_1ae609d6f6ddefedf226543a7b241854b1" kindref="member">CSASp_AddReac()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="181" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="181" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1af096b10ee60d0a2f1ed29db1bd20d354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_AssumeOldFiles</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_AssumeOldFiles</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>to read file with the CSpxx rank instead of CSxxx one </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSASp_8h_1af096b10ee60d0a2f1ed29db1bd20d354" kindref="member">CSASp_AssumeOldFiles()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="191" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="191" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__CSASp_8h_1a187828e00e7c14b14c011dfdc906ade0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSASp_CleanMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>CSASp_CleanMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Free all memory allocated within CSASp module. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : <ref refid="wrap__CSASp_8h_1a187828e00e7c14b14c011dfdc906ade0" kindref="member">CSASp_CleanMemory()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" line="201" column="19" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h" declline="201" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_CSASp_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_CSASp_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="wrap__CSASp_8h_1aa434b00a82fde1a5b84b516fa56845df" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1aa434b00a82fde1a5b84b516fa56845df" kindref="member">CSASp_SelectProxTactors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reset=0,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>use_external=0);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="wrap__CSASp_8h_1a9e9000dbfb41225878b9ce5cb80d1e2e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1a9e9000dbfb41225878b9ce5cb80d1e2e" kindref="member">CSASp_WriteLastVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="wrap__CSASp_8h_1af5b529bb4f42c31dc9be76eaa6236f89" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1af5b529bb4f42c31dc9be76eaa6236f89" kindref="member">CSASp_WriteOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="wrap__CSASp_8h_1a74ab7fffa6fc7d7b8de2c61b66004b4d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1a74ab7fffa6fc7d7b8de2c61b66004b4d" kindref="member">CSASp_DisplayOutVlocRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="wrap__CSASp_8h_1ac37d93e97530b33d02ea795d472b97d2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1ac37d93e97530b33d02ea795d472b97d2" kindref="member">CSASp_DisplayProxTactors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="wrap__CSASp_8h_1a3b96b81c0553d1dbc5693bcaf37a9444" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1a3b96b81c0553d1dbc5693bcaf37a9444" kindref="member">CSASp_ReadIniVlocRloc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num=0);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="wrap__CSASp_8h_1a286b52547e125743da2639598518f81c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1a286b52547e125743da2639598518f81c" kindref="member">CSASp_SkipAutoContact</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="wrap__CSASp_8h_1a93a94f3fec3766f5cf5f775b1d04b84c" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1a93a94f3fec3766f5cf5f775b1d04b84c" kindref="member">CSASp_SetNonSymmetricDetection</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="wrap__CSASp_8h_1a4961740bb2fbeec25c758bf091dc7094" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1a4961740bb2fbeec25c758bf091dc7094" kindref="member">CSASp_Trim</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="wrap__CSASp_8h_1a172f2ee6f98e7acc43c8395532d995f1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1a172f2ee6f98e7acc43c8395532d995f1" kindref="member">CSASp_SetTrimAngle</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>angle);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="wrap__CSASp_8h_1ae609d6f6ddefedf226543a7b241854b1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1ae609d6f6ddefedf226543a7b241854b1" kindref="member">CSASp_AddReac</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="wrap__CSASp_8h_1af096b10ee60d0a2f1ed29db1bd20d354" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1af096b10ee60d0a2f1ed29db1bd20d354" kindref="member">CSASp_AssumeOldFiles</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="wrap__CSASp_8h_1a187828e00e7c14b14c011dfdc906ade0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__CSASp_8h_1a187828e00e7c14b14c011dfdc906ade0" kindref="member">CSASp_CleanMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_CSASp_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/contact_3D/wrap_CSASp.h"/>
+  </compounddef>
+</doxygen>

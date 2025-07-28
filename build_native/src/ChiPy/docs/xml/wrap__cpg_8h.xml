@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="wrap__cpg_8h" kind="file" language="C++">
+    <compoundname>wrap_cpg.h</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="wrap__cpg_8h_1aff118a5fcc36b5a38cf102d79935566d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_ExIter</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_ExIter</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Execute one CPG iteration over the contact loop. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg_8h_1aff118a5fcc36b5a38cf102d79935566d" kindref="member">cpg_ExIter()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="53" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="53" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1a1399d4a64031504f3b2f549f08609982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_AfterIterCheck</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_AfterIterCheck</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Control CPG convergence. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg_8h_1a1399d4a64031504f3b2f549f08609982" kindref="member">cpg_AfterIterCheck()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="63" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="63" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1aa95bd08743f70c70f53e6a717d0c1862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_ExPost</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_ExPost</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Transfer local solution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg_8h_1aa95bd08743f70c70f53e6a717d0c1862" kindref="member">cpg_ExPost()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="73" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="73" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1afac158c34aa9e469e207d1b8e85dd4ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_ExPrep</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_ExPrep</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>prepare the matrix and the RHS of the contact problem </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg_8h_1afac158c34aa9e469e207d1b8e85dd4ee" kindref="member">cpg_ExPrep()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="83" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="83" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1ac25abae1ff43ac786fc58d70be44f5cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_ScaleRloc</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_ScaleRloc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>scale all local contact forces of a factor equal to 0.9 &lt; f &lt; 1.1 </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg_8h_1ac25abae1ff43ac786fc58d70be44f5cf" kindref="member">cpg_ScaleRloc()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="93" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="93" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1a1547b8ef082a55b66610dcc21306d274" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_SetDiagonalPrecond</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_SetDiagonalPrecond</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>active diagonal preconditioner </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg_8h_1a1547b8ef082a55b66610dcc21306d274" kindref="member">cpg_SetDiagonalPrecond()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="103" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="103" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1ac19c9e40da74782ef06eeb4e9a2e1653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_SetFrictionless</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_SetFrictionless</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>active frictionless solver </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg_8h_1ac19c9e40da74782ef06eeb4e9a2e1653" kindref="member">cpg_SetFrictionless()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="113" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="113" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1acb0fbd0a17fdaa20dcfcb7eed97d6656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_SetNoConjugaison</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_SetNoConjugaison</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>desactive conjugaison </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage <ref refid="wrap__cpg_8h_1acb0fbd0a17fdaa20dcfcb7eed97d6656" kindref="member">cpg_SetNoConjugaison()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="123" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="123" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1a28b69332dcf977219b1d105eb272561e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_SetCheckType</definition>
+        <argsstring>(char *checktype_c, double tol)</argsstring>
+        <name>cpg_SetCheckType</name>
+        <param>
+          <type>char *</type>
+          <declname>checktype_c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <briefdescription>
+<para>define numerical convergence of the NLGS algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage cpg_SetCheckType(checktype, tol) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">chekctype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char[5]) : type of convergence check </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : norm tolerance</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<linebreak/>
+ convergence check keywords:<linebreak/>
+ Quad : quadratic norm (faulty contacts are redeemed by accurate contacts; laxist norm)<linebreak/>
+ Maxm : maximum norm (faulty contacts must comply; severe norm)<linebreak/>
+ QM/16 : maximum of Quad and Maxm/16 norms (a compromise). For large dense collections Quad ranges usually around 1/16 Maxm<linebreak/>
+ where Quad,Maxm,QM/16 are keywords for the check test, and the following real number is the tolerance value.<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="149" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="149" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1a5905e168265843c02ed3bc8e018e8e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_NormCheck</definition>
+        <argsstring>(void)</argsstring>
+        <name>cpg_NormCheck</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Active one step norm evolution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : cpg_norm_check() </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="159" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="159" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="wrap__cpg_8h_1a1fee5e5b37ac05e311fd24c0b958b9d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cpg_ExSolver</definition>
+        <argsstring>(char *checktype_c, double tol, int nb_iter_check, int nb_block_iter)</argsstring>
+        <name>cpg_ExSolver</name>
+        <param>
+          <type>char *</type>
+          <declname>checktype_c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_iter_check</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nb_block_iter</declname>
+        </param>
+        <briefdescription>
+<para>Solve fully the local contact problem. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>python usage : cpg_ExSolver(checktype, tol, nb_iter_check, nb_block_iter) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">checktype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(char[5]) c : convergentce test keyword </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) : tolerance value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_iter_check</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of iteration between convergence test </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nb_block_iter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(integer) : number of block iterations </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" line="180" column="18" declfile="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h" declline="180" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*==========================================================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2000-2025<sp/>CNRS-UM.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>a<sp/>software<sp/>(LMGC90)<sp/>which<sp/>is<sp/>a<sp/>computer<sp/>program<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>which<sp/>purpose<sp/>is<sp/>to<sp/>modelize<sp/>interaction<sp/>problems<sp/>(contact,<sp/>multi-Physics,etc).</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>governed<sp/>by<sp/>the<sp/>CeCILL<sp/>license<sp/>under<sp/>French<sp/>law<sp/>and</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>abiding<sp/>by<sp/>the<sp/>rules<sp/>of<sp/>distribution<sp/>of<sp/>free<sp/>software.<sp/><sp/>You<sp/>can<sp/><sp/>use,<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>modify<sp/>and/<sp/>or<sp/>redistribute<sp/>the<sp/>software<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>CeCILL</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>license<sp/>as<sp/>circulated<sp/>by<sp/>CEA,<sp/>CNRS<sp/>and<sp/>INRIA<sp/>at<sp/>the<sp/>following<sp/>URL</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>&quot;http://www.cecill.info&quot;.<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>As<sp/>a<sp/>counterpart<sp/>to<sp/>the<sp/>access<sp/>to<sp/>the<sp/>source<sp/>code<sp/>and<sp/><sp/>rights<sp/>to<sp/>copy,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>modify<sp/>and<sp/>redistribute<sp/>granted<sp/>by<sp/>the<sp/>license,<sp/>users<sp/>are<sp/>provided<sp/>only</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>with<sp/>a<sp/>limited<sp/>warranty<sp/><sp/>and<sp/>the<sp/>software&apos;s<sp/>author,<sp/><sp/>the<sp/>holder<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>economic<sp/>rights,<sp/><sp/>and<sp/>the<sp/>successive<sp/>licensors<sp/><sp/>have<sp/>only<sp/><sp/>limited</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>liability.<sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>In<sp/>this<sp/>respect,<sp/>the<sp/>user&apos;s<sp/>attention<sp/>is<sp/>drawn<sp/>to<sp/>the<sp/>risks<sp/>associated</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>with<sp/>loading,<sp/><sp/>using,<sp/><sp/>modifying<sp/>and/or<sp/>developing<sp/>or<sp/>reproducing<sp/>the</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>software<sp/>by<sp/>the<sp/>user<sp/>in<sp/>light<sp/>of<sp/>its<sp/>specific<sp/>status<sp/>of<sp/>free<sp/>software,</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>that<sp/>may<sp/>mean<sp/><sp/>that<sp/>it<sp/>is<sp/>complicated<sp/>to<sp/>manipulate,<sp/><sp/>and<sp/><sp/>that<sp/><sp/>also</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>therefore<sp/>means<sp/><sp/>that<sp/>it<sp/>is<sp/>reserved<sp/>for<sp/>developers<sp/><sp/>and<sp/><sp/>experienced</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>professionals<sp/>having<sp/>in-depth<sp/>computer<sp/>knowledge.<sp/>Users<sp/>are<sp/>therefore</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>encouraged<sp/>to<sp/>load<sp/>and<sp/>test<sp/>the<sp/>software&apos;s<sp/>suitability<sp/>as<sp/>regards<sp/>their</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>requirements<sp/>in<sp/>conditions<sp/>enabling<sp/>the<sp/>security<sp/>of<sp/>their<sp/>systems<sp/>and/or<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>data<sp/>to<sp/>be<sp/>ensured<sp/>and,<sp/><sp/>more<sp/>generally,<sp/>to<sp/>use<sp/>and<sp/>operate<sp/>it<sp/>in<sp/>the<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>same<sp/>conditions<sp/>as<sp/>regards<sp/>security.<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>The<sp/>fact<sp/>that<sp/>you<sp/>are<sp/>presently<sp/>reading<sp/>this<sp/>means<sp/>that<sp/>you<sp/>have<sp/>had</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>knowledge<sp/>of<sp/>the<sp/>CeCILL<sp/>license<sp/>and<sp/>that<sp/>you<sp/>accept<sp/>its<sp/>terms.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>To<sp/>report<sp/>bugs,<sp/>suggest<sp/>enhancements,<sp/>etc.<sp/>to<sp/>the<sp/>Authors,<sp/>contact</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>Frederic<sp/>Dubois.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>frederic.dubois@umontpellier.fr</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>wrap_cpg_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>wrap_cpg_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="wrap__cpg_8h_1aff118a5fcc36b5a38cf102d79935566d" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1aff118a5fcc36b5a38cf102d79935566d" kindref="member">cpg_ExIter</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="wrap__cpg_8h_1a1399d4a64031504f3b2f549f08609982" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1a1399d4a64031504f3b2f549f08609982" kindref="member">cpg_AfterIterCheck</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="wrap__cpg_8h_1aa95bd08743f70c70f53e6a717d0c1862" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1aa95bd08743f70c70f53e6a717d0c1862" kindref="member">cpg_ExPost</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="wrap__cpg_8h_1afac158c34aa9e469e207d1b8e85dd4ee" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1afac158c34aa9e469e207d1b8e85dd4ee" kindref="member">cpg_ExPrep</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="wrap__cpg_8h_1ac25abae1ff43ac786fc58d70be44f5cf" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1ac25abae1ff43ac786fc58d70be44f5cf" kindref="member">cpg_ScaleRloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="wrap__cpg_8h_1a1547b8ef082a55b66610dcc21306d274" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1a1547b8ef082a55b66610dcc21306d274" kindref="member">cpg_SetDiagonalPrecond</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="wrap__cpg_8h_1ac19c9e40da74782ef06eeb4e9a2e1653" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1ac19c9e40da74782ef06eeb4e9a2e1653" kindref="member">cpg_SetFrictionless</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="wrap__cpg_8h_1acb0fbd0a17fdaa20dcfcb7eed97d6656" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1acb0fbd0a17fdaa20dcfcb7eed97d6656" kindref="member">cpg_SetNoConjugaison</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="wrap__cpg_8h_1a28b69332dcf977219b1d105eb272561e" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1a28b69332dcf977219b1d105eb272561e" kindref="member">cpg_SetCheckType</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>checktype_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="wrap__cpg_8h_1a5905e168265843c02ed3bc8e018e8e24" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1a5905e168265843c02ed3bc8e018e8e24" kindref="member">cpg_NormCheck</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="wrap__cpg_8h_1a1fee5e5b37ac05e311fd24c0b958b9d0" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="wrap__cpg_8h_1a1fee5e5b37ac05e311fd24c0b958b9d0" kindref="member">cpg_ExSolver</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>checktype_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_iter_check,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb_block_iter);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>wrap_cpg_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/petras/brg/2_code/lmgc90_installation/src/ChiPy/kernel/wrap_cpg.h"/>
+  </compounddef>
+</doxygen>

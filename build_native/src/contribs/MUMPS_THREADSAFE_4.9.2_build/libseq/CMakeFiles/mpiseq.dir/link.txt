@@ -1,0 +1,1 @@
+/opt/homebrew/bin/gfortran-14  -fPIC -O3 -fallow-argument-mismatch -O3 -dynamiclib -Wl,-headerpad_max_install_names -o ../lib/libmpiseq.dylib -install_name /Users/petras/brg/2_code/lmgc90_installation/build_native/src/contribs/MUMPS_THREADSAFE_4.9.2_build/lib/libmpiseq.dylib CMakeFiles/mpiseq.dir/elapse.c.o CMakeFiles/mpiseq.dir/mpic.c.o CMakeFiles/mpiseq.dir/mpi.f.o
