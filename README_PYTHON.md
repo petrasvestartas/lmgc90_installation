@@ -1,6 +1,6 @@
 # Installation of LMGC90
 
-## 🎉 BREAKTHROUGH: Native ARM64 Solution for macOS Apple Silicon
+## BREAKTHROUGH: Native ARM64 Solution for macOS Apple Silicon
 
 **Problem**: Segmentation fault when importing `pylmgc90` on macOS Apple Silicon (M1/M2/M3)
 **Solution**: Use native Homebrew ARM64 toolchain instead of conda
